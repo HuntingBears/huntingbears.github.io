@@ -1,0 +1,73 @@
+---
+layout: none
+---
+==================================================================
+https://keybase.io/luisalejandro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://huntingbears.com.ve
+  * I am luisalejandro (https://keybase.io/luisalejandro) on keybase.
+  * I have a public key with fingerprint ED51 8FE7 4107 715D 0464  8366 F614 5A95 E78D AA2E
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "ed518fe74107715d04648366f6145a95e78daa2e",
+            "host": "keybase.io",
+            "key_id": "F6145A95E78DAA2E",
+            "uid": "116a56faddbd2cc3752b861d8c856d00",
+            "username": "luisalejandro"
+        },
+        "service": {
+            "hostname": "huntingbears.com.ve",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1397162065,
+    "expire_in": 157680000,
+    "prev": "ae817b666f5acf2b74d2b87056360074d5435279564d95233c90147bffcd2545",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMT4TSRq6vPeVXqMpw/8TWIIdmcIrFZKyk+pVLKqVspOBVNpmXnpqUUF
+RZl5JUpWSqkppoYWaanmJoYG5uaGpikGJmYmFsZmZmlmhiamiZamqeYWKYmJRqlK
+OkoZ+cUgHUBjkhKLU/Uy84FiQE58ZgpQ1A2k3tHS1NXcwsXR0cgVKFcKljA0NEs0
+NUtLTElJSjFKTjY2NzVKsjAzTLFItjA1SzEwACksTi3KS8xNBarOKc0sTsxJzUrM
+SynKV6rVUQJKlWUmp4IcDrIfqiyjNK8E6I2k1MSiYr3k/Fy9MpADC4ryS/KT83NA
+CkpKCqxA+ksqC0AaylOT4qFGxSdl5qUANQM1lKUWFWfm5ylZGQJVJpdkgsw2NLY0
+NzQzMjAz1VFKrSjILEqNzwSpMDU3szAAApA1qWVAIxNTLQzNk8yAQWWamJxmlGRu
+kgL0mbmBqZmxmYEBkGdqYmxqZG5pamaSYmlqZGycbGlgaGKelJaWnGJkamKqBPJc
+YV6+khXQppLEdKCRxZnpeYklpUWpSrWdTDIsDIxMDGysTKBYZODiFIDFbaEq//+Q
+16ze1y903NV4+f67sLrvm89rhO1LVAp1Gpofsm/99n6N5/UixWaD1095bufMtpw0
+b1GsUckhP6cPgm/X5BjscWzN1XjTlsO/Si9PkLHb6lmX0Ix/el+n5oiYrCmTPeyv
+tyrxgZnMlPWqYRo9k5JcdY/xTVG8vDHH1PyyZp/vz/KbTJ5vpn4pZrg9SdBd+7t8
+TtMFdvWQ/6lNLROUJt4ylPz1ceac5f/M5OcH1pfU6/Zb3btqu5dn2dE4Z8atUU2b
+m19oWGUq3Vsuxno9gbUv5/bhZfz7lXMK/rvtn3Ez14VfUL3+2OYrhdJP3/ltnVsS
+Xl57SZUzhzOrISvPqae1S9jVyepSaE7f0fi5Si59DJbVhTltdiWe38888dxcm1DI
++Gb2XJaVLMabT63ZZ+Dq/TH854azMrfVY5Qcg3Itb5xJf/7jKWP/0qI1Z1aLpQTE
+bNvfYc/FzrlX3K/49MqZNV1TDnRNDPovd8w7w1y8IdQ26KyOpsSiR0tWnkwIDpHQ
+W3T2ye+7s8OT5ONiFFKrYyf3JgRdN+lhWW/l9rT7hY6NYfeW32e+yXnMfTn/xP5b
++lbVS85q7vu17WqWwobUx0tnvhL+d7AhZO2B+qmrWV9HnrxYvft63Aunxzuvq2QX
+Leo/9UNO4HuFBHM0O2vYUWnNE41eX1RjD0v8j67Z2lTIvWHihe0+lxL7Lfa+8Q3P
+uftmT7bWe88PAA==
+=ceiT
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/luisalejandro
+
+==================================================================

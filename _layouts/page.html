@@ -1,0 +1,12 @@
+{% include header.html %}
+                <main id="content" class="page" role="main" itemprop="mainContentOfPage">
+                    <article class="post" id="post-{{ page.wordpress_id }}">
+                        <header class="header">
+                            <h2><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title='Enlace Permanente a "{{ page.title }}"'>{{ page.title }}</a></h2>
+                        </header>
+                        <div class="text">
+{{ content }}
+                        </div>
+                    </article>
+                </main>
+{% include footer.html %}

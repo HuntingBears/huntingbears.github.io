@@ -1,0 +1,25 @@
+{% include header.html %}
+{% include sidebar.html %}
+                <main id="content" role="main" itemprop="mainContentOfPage">
+                    <article class="post">
+                        <header class="header">
+                            <h2><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title='{{ page.title }}'>{{ page.title }}</a></h2>
+                        </header>
+                        <div class="text">
+                            {% for post in site.posts %}
+                            {% assign nyear = '' %}
+                            {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+                            {% if post.next %}
+                            {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+                            {% endif %}
+                            {% if year != nyear %}
+                            <h3>{{ post.date | date: '%Y' }}</h3>
+                            {% endif %}
+                            <ul>
+                                <li>{{ post.date | date: '%b' }} &dash; <a href="{{ site.url }}{{ post.url }}" id="post-{{ post.wordpress_id }}">{{ post.title }}</a></li>
+                            </ul>
+                            {% endfor %}
+                        </div>
+                    </article>
+                </main>
+{% include footer.html %}

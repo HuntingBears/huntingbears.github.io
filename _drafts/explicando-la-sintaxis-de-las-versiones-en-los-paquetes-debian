@@ -1,0 +1,62 @@
+.categories [u'Sin categor\xeda']
+.dateCreated 20120806T16:31:40
+.date_modified 20120806T16:31:40
+.date_modified_gmt 20120806T21:01:40
+.link http://www.huntingbears.com.ve/?p=2039
+.mt_allow_comments 1
+.mt_allow_pings 1
+.mt_excerpt 
+.mt_keywords 
+.permaLink http://www.huntingbears.com.ve/?p=2039
+.post_status draft
+.postid 2039
+.title Explicando la sintaxis de las versiones en los paquetes Debian
+.userid 1
+.wp_author_display_name Luis Alejandro
+.wp_author_id 1
+.wp_more_text 
+.wp_password 
+.wp_post_format standard
+.wp_post_thumbnail 
+.wp_slug 
+Versión
+
+El número de versión de un paquete. El formato es: [epoch:]upstream_version[-debian_revision]
+
+Los tres componentes aquí son:
+
+epoch
+
+    Esta es una sola (generalmente pequeñas) entero sin signo. Se puede omitirse, en el que cero caso se supone. Si se omite entonces la upstream_version no puede contener dos puntos.
+
+    Se proporciona para permitir que los errores en los números de versión de las versiones anteriores de un paquete, y también la versión anterior de un paquete, los esquemas de numeración, que se dejó atrás.
+
+upstream_version
+
+    Esta es la parte principal del número de versión. Por lo general, el número de versión de la original ("aguas arriba") del paquete de la que ha sido el archivo. Deb hecho, si esto es aplicable. Por lo general, esto será en el mismo formato que la especificada por el autor original (s), sin embargo, puede ser necesario volver a formatear para ajustarse al formato del sistema de gestión de paquetes y el esquema de comparación.
+
+    El comportamiento de la comparación del sistema de gestión de paquetes con respecto a la upstream_version se describe a continuación. La parte upstream_version del número de versión es obligatorio.
+
+    El upstream_version puede contener caracteres alfanuméricos [36] y los personajes. + -: ~ (Punto y aparte, además, guión, dos puntos, la tilde) y debe comenzar con un dígito. Si no hay DEBIAN_REVISION entonces guiones no se permite, si no hay época entonces dos puntos no están permitidos.
+
+DEBIAN_REVISION
+
+    Esta parte del número de versión especifica la versión del paquete Debian basado en la versión corriente arriba. No puede contener caracteres alfanuméricos y el + caracteres. ~ (Más, punto, tilde) y se compara en la misma forma que la upstream_version es.
+
+    Es opcional, si no está presente, entonces el upstream_version no puede contener un guión. Este formato representa el caso en que se escribió una pieza de software específicamente para ser un paquete de Debian, donde la fuente de paquetes de Debian siempre debe ser idéntica a la fuente prístina y por lo tanto ningún indicio de la revisión es necesaria.
+
+    Es convencional para reiniciar el DEBIAN_REVISION en 1 cada vez que se aumentó la upstream_version.
+
+    El sistema de gestión de paquetes se romperá el número de versión, aparte en el último guión de la cadena (si lo hay) para determinar la upstream_version y DEBIAN_REVISION. La ausencia de un DEBIAN_REVISION es equivalente a una DEBIAN_REVISION de 0.
+
+Cuando se comparan dos números de versión, en primer lugar la época de cada uno se comparan, entonces la época de upstream_version si es igual, y luego, si DEBIAN_REVISION upstream_version también es igual. época se compara numéricamente. El upstream_version y partes DEBIAN_REVISION se comparan por el sistema de gestión de paquetes utilizando el siguiente algoritmo:
+
+Las cadenas se comparan de izquierda a derecha.
+
+En primer lugar la parte inicial de cada cadena que consiste enteramente de caracteres no-digitales se determina. Estas dos partes (una de las cuales puede estar vacía) se comparan léxicamente. Si se encuentra una diferencia que sea devuelto. La comparación léxica es una comparación de los valores ASCII modificado de modo que todas las letras ordenar antes que todos los no letras y de modo que un tipo de tilde antes de nada, incluso al final de una parte. Por ejemplo, las siguientes partes están ordenados antes de la última:. ~ ~ ~ ~ A, ~, la parte vacía, un [37]
+
+Entonces la parte inicial del resto de cada cadena que consiste enteramente de caracteres dígitos se determina. Los valores numéricos de estas dos partes se comparan, y cualquier diferencia detectada se obtiene como resultado de la comparación. Para estos propósitos una cadena vacía (que sólo puede ocurrir en el extremo de una o ambas cadenas de versión en comparación siendo) que cuenta como cero.
+
+Estos dos pasos (la comparación y la eliminación de iniciales que no sean dígitos iniciales de cuerdas y cadenas de dígitos) se repiten hasta que se detecte una diferencia o de ambas cadenas han sido agotadas.
+
+Tenga en cuenta que el propósito de las épocas es que nos permita dejar atrás los errores en la numeración de versiones, y para hacer frente a situaciones en las que la versión de cambios en el esquema de numeración. No se pretende hacer frente a los números de versión que contiene una cadena de letras que el sistema de gestión de paquetes no se puede interpretar (como alfa o pre-), o con los ordenamientos tontas. [38]

@@ -1,0 +1,182 @@
+.categories [u'Sin categor\xeda']
+.dateCreated 20120806T16:31:39
+.date_modified 20120806T16:31:39
+.date_modified_gmt 20120806T21:01:39
+.link http://www.huntingbears.com.ve/?p=1901
+.mt_allow_comments 1
+.mt_allow_pings 1
+.mt_excerpt 
+.mt_keywords 
+.permaLink http://www.huntingbears.com.ve/?p=1901
+.post_status draft
+.postid 1901
+.title La estructura de directorios del sistema de archivos Linux, explicada
+.userid 1
+.wp_author_display_name Luis Alejandro
+.wp_author_id 1
+.wp_more_text 
+.wp_password 
+.wp_post_format standard
+.wp_post_thumbnail 
+.wp_slug 
+The majority of these directories exist in all UNIX operating systems and are generally used in much the same way; however, the descriptions here are those used specifically for the FHS, and are not considered authoritative for platforms other than Linux.
+<table>
+<tbody>
+<tr>
+<td>Carpeta</td>
+<td>Descripción</td>
+</tr>
+<tr>
+<td>/</td>
+<td><em>Primary hierarchy</em> root and root directory of the entire file system hierarchy.</td>
+</tr>
+<tr>
+<td><tt>/bin/</tt></td>
+<td>Essential command binaries that need to be available in single user mode; for all users, <em>e.g.</em>, cat, ls, cp.</td>
+</tr>
+<tr>
+<td><tt>/boot/</tt></td>
+<td><span class="mw-redirect">Boot loader</span> files, <em>e.g.</em>, <span class="mw-redirect">kernels</span>, initrd; often a separate partition<sup id="cite_ref-22" class="reference"><span>[</span>23<span>]</span></sup></td>
+</tr>
+<tr>
+<td><tt>/dev/</tt></td>
+<td>Essential devices, <em>e.g.</em>, <tt>/dev/null</tt>.</td>
+</tr>
+<tr>
+<td><tt>/etc/</tt></td>
+<td>Host-specific system-wide configuration filesThere has been controversy over the meaning of the name itself. In early versions of the UNIX Implementation Document from Bell labs, /etc is referred to as the <em>etcetera directory</em>,<sup id="cite_ref-23" class="reference"><span>[</span>24<span>]</span></sup> as this directory historically held everything that did not belong elsewhere (however, the FHS restricts /etc to static configuration files and may not contain binaries).<sup id="cite_ref-24" class="reference"><span>[</span>25<span>]</span></sup> Since the publication of early documentation, the directory name has been re-designated in various ways. Recent interpretations include Backronyms such as "Editable Text Configuration" or "Extended Tool Chest".<sup id="cite_ref-25" class="reference"><span>[</span>26<span>]</span></sup></td>
+</tr>
+<tr>
+<td><dl><dd><tt>/etc/opt/</tt></dd></dl></td>
+<td>Configuration files for <tt>/opt/</tt>.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/etc/X11/</tt></dd></dl></td>
+<td>Configuration files for the X Window System, version 11.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/etc/sgml/</tt></dd></dl></td>
+<td>Configuration files for <span class="mw-redirect">SGML</span>.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/etc/xml/</tt></dd></dl></td>
+<td>Configuration files for XML.</td>
+</tr>
+<tr>
+<td><tt>/home/</tt></td>
+<td>Users' home directories, containing saved files, personal settings, etc.; often a separate partition.</td>
+</tr>
+<tr>
+<td><tt>/lib/</tt></td>
+<td><span class="mw-redirect">Libraries</span> essential for the <span class="mw-redirect">binaries</span> in <tt>/bin/</tt> and <tt>/sbin/</tt>.</td>
+</tr>
+<tr>
+<td><tt>/media/</tt></td>
+<td>Mount points for removable media such as CD-ROMs (appeared in FHS-2.3).</td>
+</tr>
+<tr>
+<td><tt>/mnt/</tt></td>
+<td>Temporarily mounted filesystems.</td>
+</tr>
+<tr>
+<td><tt>/opt/</tt></td>
+<td>Optional application software packages.<sup id="cite_ref-26" class="reference"><span>[</span>27<span>]</span></sup></td>
+</tr>
+<tr>
+<td><tt>/proc/</tt></td>
+<td>Virtual filesystem documenting <span class="mw-redirect">kernel</span> and process status as text files, <em>e.g.</em>, uptime, network. In Linux, corresponds to a Procfs mount.</td>
+</tr>
+<tr>
+<td><tt>/root/</tt></td>
+<td>Home directory for the root user.</td>
+</tr>
+<tr>
+<td><tt>/sbin/</tt></td>
+<td>Essential system binaries, <em>e.g.</em>, init, ip, mount.</td>
+</tr>
+<tr>
+<td><tt>/srv/</tt></td>
+<td>Site-specific data which is served by the system.</td>
+</tr>
+<tr>
+<td><tt>/tmp/</tt></td>
+<td>Temporary files (see also <tt>/var/tmp</tt>). Often not preserved between system reboots.</td>
+</tr>
+<tr>
+<td><tt>/usr/</tt></td>
+<td><em>Secondary hierarchy</em> for read-only user data; contains the majority of (multi-)user utilities and applications.<sup id="cite_ref-27" class="reference"><span>[</span>28<span>]</span></sup></td>
+</tr>
+<tr>
+<td><dl><dd><tt>/usr/bin/</tt></dd></dl></td>
+<td>Non-essential command binaries (not needed in single user mode); for all users.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/usr/include/</tt></dd></dl></td>
+<td>Standard include files.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/usr/lib/</tt></dd></dl></td>
+<td><span class="mw-redirect">Libraries</span> for the <span class="mw-redirect">binaries</span> in <tt>/usr/bin/</tt> and <tt>/usr/sbin/</tt>.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/usr/sbin/</tt></dd></dl></td>
+<td>Non-essential system binaries, <em>e.g.</em>, <span class="mw-redirect">daemons</span> for various <span class="mw-redirect">network-services</span>.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/usr/share/</tt></dd></dl></td>
+<td>Architecture-independent (shared) data.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/usr/src/</tt></dd></dl></td>
+<td>Source code, <em>e.g.</em>, the kernel source code with its header files.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/usr/X11R6/</tt></dd></dl></td>
+<td>X Window System, Version 11, Release 6.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/usr/local/</tt></dd></dl></td>
+<td><em>Tertiary hierarchy</em> for local data, specific to this host. Typically has further subdirectories, <em>e.g.</em>, <tt>bin/</tt>, <tt>lib/</tt>, <tt>share/</tt>.<sup id="cite_ref-28" class="reference"><span>[</span>29<span>]</span></sup></td>
+</tr>
+<tr>
+<td><tt>/var/</tt></td>
+<td>Variable files—files whose content is expected to continually change during normal operation of the system—such as logs, spool files, and temporary e-mail files. Sometimes a separate partition.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/var/cache/</tt></dd></dl></td>
+<td>Application cache data. Such data is locally generated as a result of time-consuming I/O or calculation. The application must be able to regenerate or restore the data. The cached files can be deleted without data loss</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/var/lib/</tt></dd></dl></td>
+<td>State information. Persistent data modified by programs as they run, <em>e.g.</em>, databases, packaging system metadata, etc.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/var/lock/</tt></dd></dl></td>
+<td>Lock files. Files keeping track of resources currently in use.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/var/log/</tt></dd></dl></td>
+<td>Log files. Various logs.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/var/mail/</tt></dd></dl></td>
+<td>Users' <span class="mw-redirect">mailboxes</span>.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/var/run/</tt></dd></dl></td>
+<td>Information about the running system since last boot, <em>e.g.</em>, currently logged-in users and running <span class="mw-redirect">daemons</span>.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/var/spool/</tt></dd></dl></td>
+<td>Spool for tasks waiting to be processed, <em>e.g.</em>, print queues and unread mail.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/var/spool/mail/</tt></dd></dl></td>
+<td><span class="mw-redirect">Deprecated</span> location for users' mailboxes.</td>
+</tr>
+<tr>
+<td><dl><dd><tt>/var/tmp/</tt></dd></dl></td>
+<td>Temporary files to be preserved between reboots.</td>
+</tr>
+</tbody>
+</table>

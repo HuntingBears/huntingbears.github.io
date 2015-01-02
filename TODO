@@ -1,0 +1,57 @@
+TAREAS PENDIENTES
+
+- Lanzamiento:
+    - Redactar un artículo.
+    - Recolectar todos los emails y mandarles un correo de invitación.
+
+- Completar artículos incompletos.
+- Arreglar Tablas.
+
+- Traducir portafolio y acerca.
+- Hacer un nuevo portafolio.
+- Colocar los statics en un subdominio y las imágenes en otro.
+- Configurar cloudflare.
+- Hacer script de carga de las galerías.
+- Renombrar las imágenes para mejorar seo.
+- [LISTO] Estudiar la posición y número de ads.
+- Completar Roles.
+- Ver sin estilos ni javascript.
+- [LISTO] implementar opensearch
+- Completar Schemas
+- Links without title, images without alt.
+- Change code for gists
+- POner contenido relevante en Portafolio y Acerca (monetizar).
+- Colocar imágenes a cargar directamente de nuevo.
+- Reemplazar Font Awesome por sprites.
+- [LISTO] Reemplazar Raleway por Open Sans Light
+- Hacer funcionar en ie6/7/8
+- Evitar escribir directamente en ciclos de jquery.
+
+
+
+Internet explorer 7:
+- No background color
+- No fontawesome
+- No border-radious
+- No background cover
+- No svg banner
+- Nav del footer descuadrado
+- Disqus
+- Botones de navegación descuadrados
+- bullets
+
+POSTS PENDIENTES
+
+- Wine en Canaima.
+- Descargar drivers Canaima.
+- Migrando de Wordpress a Jekyll
+- Cómo crear una presencia en las redes sociales.
+- Cómo emprender en el exterior.
+- Cómo crear un usuario nuevo en Canaima.
+- Usando OpenShift como herramienta para el Community Management
+- Obtén el control de tu presencia en internet con Google Analytics
+
+URGENTE
+- El artículo de la GUI de CS no lo pude hacer porque no tenía internet para hacer la demostración.
+- El artículo de los pasos de Canaima Semilla no lo pude hacer porque no tenía internet para hacer pull.
+- El artículo del análisis de Canaima Semilla no lo pude hacer porque no tenía internet para investigar syslinux, vmlinuz e initrd.

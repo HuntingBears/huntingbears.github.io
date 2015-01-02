@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>{{ site.name | xml_escape }}</title>
+        <description>{{ site.description_es | xml_escape }}</description>
+        <link>{{ site.url }}</link>
+        <atom:link href="{{ site.url }}/feed/" rel="self" type="application/rss+xml" />
+        <language>es-ve</language>
+        <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+        <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+        {% for post in site.posts offset: 0 limit: 25 %}
+        {% for post_cat in post.categories %}
+        {% capture category_slug %}{{ post_cat | append: '' | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | uri_escape }}{% endcapture %}
+        {% if category_slug == page.category_name %}
+        <item>
+            <title>{{ post.title | xml_escape }}</title>
+            <description>
+                {{ post.content | xml_escape }}
+            </description>
+            <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+            <link>{{ site.url }}{{ post.url }}</link>
+            <guid>{{ site.url }}{{ post.url }}</guid>
+        </item>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+    </channel>
+</rss>

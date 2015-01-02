@@ -1,0 +1,23 @@
+---
+author: martinezfaneyth
+categories: ['Software Libre', 'Aplicaciones']
+date: 2014-10-18 19:51:06-0430
+description: ''
+image: ''
+language: es
+layout: post
+slug: usando-telegram-y-whatsapp-desde-la-comodidad-de-tu-escritorio-con-pidgin
+tags: ['mensajería', 'im', 'pidgin']
+title: 'Usando Telegram y WhatsApp desde la comodidad de tu escritorio con Pidgin'
+wordpress_id: 4313
+---
+
+Últimamente estoy muy paranóico. La última de las paranoias que adquirí es tratar de utilizar una sóla aplicación de mensajería instantánea para todos los servicios que utilizo regularmente. Facebook, Google Hangouts, WhatsApp, IRC, Y ahora Telegram, son algunas de las redes sociales con las que me comunico. Me resulta realmente molesto tener que iniciar y revisar una aplicación por cada una, y además tener que ocupar memoria RAM adicional.
+
+Es por ello que decidí centralizar las aplicaciones a través de Pidgin. Si bien Pidgin ofrece soporte nativo a una gran cantidad de redes, aún le falta compatibilidad con Telegram y Whatsapp. Sin embargo, a través de plugins, otras personas han podido adaptar los protocolos de comunicación para hacerlos funcionar con Pidgin.
+
+A continuación explico cómo habilitar cada uno.
+
+Telegram
+
+Telegram es una aplicación de mensajería instantánea pensada para smartphones (Android, iOS, Windows Phone, etc), en donde tu identidad está asociada a tu número de teléfono. Sin embargo, también existen clientes para usar la aplicación en el escritorio de tu computadora personal.

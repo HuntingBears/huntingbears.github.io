@@ -1,0 +1,24 @@
+.categories [u'Sin categor\xeda']
+.dateCreated 20130516T20:16:16
+.date_modified 20130516T20:16:16
+.date_modified_gmt 20130517T00:46:16
+.link http://www.huntingbears.com.ve/?p=4096
+.mt_allow_comments 1
+.mt_allow_pings 1
+.mt_excerpt 
+.mt_keywords 
+.permaLink http://www.huntingbears.com.ve/?p=4096
+.post_status draft
+.postid 4096
+.title Tip: Cómo grabar una imagen ISO en un CD o DVD con wodim
+.userid 1
+.wp_author_display_name Luis Alejandro
+.wp_author_id 1
+.wp_more_text 
+.wp_password 
+.wp_post_format standard
+.wp_post_thumbnail 
+.wp_slug 
+Muchos usuarios GNU/Linux estamos acostumbrados a grabar CDs o DVDs a través de una interfaz gráfica. Siendo desarrollador de software, incluso, no conocía de alguna aplicación de consola que asistiera en la grabación de discos ópticos. Así fue hasta que conocí wodim.
+
+Wodim es relativamente sencillo de utilizar. El primer dato que debemos saber es la dirección física del dispositivo óptico donde deseamos grabar la ISO.

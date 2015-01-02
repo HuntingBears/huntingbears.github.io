@@ -1,0 +1,43 @@
+---
+author: martinezfaneyth
+categories: []
+date: 2014-04-15 20:44:27-0430
+description: ''
+image: ''
+language: es
+layout: post
+slug: como-convertirse-en-debian-developer-y-no-morir-en-el-intento
+tags: []
+title: ¿Cómo convertirse en Debian Developer? (y no morir en el intento)
+wordpress_id: 4313
+---
+
+Ser Debian Developer puede llevarte unos cuantos trasnochos.
+
+Antes de que comencemos, debo advertirte que no es un procedimiento sencillo ni mucho menos rápido: se requiere mucha paciencia. Es importante que sepas que el convertirse en <em>Debian Developer</em> no es como ganarse un premio para exhibirlo en un estante y nunca volver a acordarse de él (o acordarse de vez en cuando, mientras se hace la limpieza de la casa): ser Debian Developer implica asumir una serie de responsabilidades y tomar varias decisiones que probablemente impactarán directamente en el Sistema Operativo Libre más importante de ésta época; es decir, lo más importante de todo es que quieres colaborar.
+<h3>Los deberes y los derechos</h3>
+Ser un Debian Developer significa que debes:
+<ul>
+    <li>Ser mantenedor oficial (<em>Debian Maintainer</em>) de uno o varios paquetes en cualquiera de las ramas de desarrollo (experimental, unstable, testing y stable). Un mantenedor de un paquete es el responsable de acondicionar un determinado software (quizás no asociado con Debian) para que sea utilizable dentro de la distribución (esto es, que pueda ser instalado y desinstalado de forma transparente y sin problemas), además de adecuarlo a las políticas internas de la distribución y algunos otros detalles técnicos, legales y (quizás) estéticos.</li>
+    <li>Estar en constante comunicación con los desarrolladores del software del cual eres mantenedor en Debian. Cualquier modificación que necesites hacer, es mejor que la canalices con ellos para evitar retrabajar cada vez que salga una nueva versión.</li>
+    <li>Asegurar que los paquetes bajo tu responsabilidad siguen un flujo adecuado dentro del ciclo de desarrollo. Normalmente como Debian Developer, la mayoría de tus aportes estarán centralizados en el repositorio inestable (unstable, de nombre fijo "Sid"), acá irán todas las revisiones que hagas. Sin embargo, también es tu responsabilidad asegurarte de que tu paquete sea seleccionado para ser incluído en las revisiones periódicas del repositorio de pruebas (testing, conocida para el momento como "Wheezy"), lo que involucra una estrecha comunicación con el equipo que hace los lanzamientos de las nuevas versiones de la distribución para hacer las mejoras o correcciones que ellos te recomienden. Por último, y aunque no es aconsejado, si alguno de tus paquetes en la rama estable (stable, conocida para el momento como "Squeeze") contiene un bug que compromete la seguridad del sistema, estás en la obligación de corregirlo y subir una versión actualizada.</li>
+    <li>Prestar especial atención a los bugs severos y graves en tus paquetes para corregirlos lo más pronto que puedas.</li>
+    <li>Mantener tu información pública personal y tus llaves actualizadas y disponibles.</li>
+</ul>
+Como Debian Developer tienes el privilegio de:
+<ul>
+    <li>Pertenecer oficialmente al Proyecto Debian.</li>
+    <li>Tomar cualquier decisión sobre cualquier aspecto relacionado con sus responsabilidades.</li>
+    <li>Asumir y/o liberar responsabilidades según consideres.</li>
+    <li>Proponer y Votar Resoluciones Generales del Proyecto.</li>
+    <li>Ocupar el cargo de Líder del Proyecto.</li>
+    <li>Recibir patrocinio o financiamiento para participar en actividades relacionadas con el Proyecto Debian (por ejemplo el debconf).</li>
+    <li>Irte de vacaciones sin ningún tipo de penalización.</li>
+    <li>Elegir Líderes de Proyecto (en conjunto con los demás Debian Developers).</li>
+    <li>Enmendar la Constitución Debian (en conjunto con los demás Debian Developers).</li>
+    <li>Revocar decisiones tomadas por el Líder de Proyecto o el Comité Técnico (en conjunto con los demás Debian Developers).</li>
+    <li>¡Alardear con tus amigos echándoles en cara lo cool que es que tengas una cuenta de correo tunombre@debian.org!</li>
+</ul>
+De las capacidades técnicas
+
+De las habilidades sociales
