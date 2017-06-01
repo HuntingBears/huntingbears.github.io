@@ -1,88 +1,76 @@
 {% include header.html %}
 {% include sidebar.html %}
-                <main id="content" role="main" itemprop="mainContentOfPage" itemscope="" itemtype="http://schema.org/Blog">
-                    <article class="post" id="post-{{ page.wordpress_id }}" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+                <main id="content" role="main">
+                    <article class="post" id="post-{{ page.article_id }}" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+                        <meta itemprop="image" content="{{ page.image }}" />
                         {% capture escaped_name %}{{ site.app_name | append: page.url | url_escape | cgi_escape }}{% endcapture %}
                         {% capture escaped_uri %}{{ site.url | append: page.url | url_escape | cgi_escape }}{% endcapture %}
                         {% capture escaped_image %}{{ page.image | append: '' | url_escape | cgi_escape }}{% endcapture %}
                         {% capture escaped_description %}{{ page.description | append: '' | url_escape | cgi_escape }}{% endcapture %}
                         {% capture escaped_title %}{{ page.title | append: '' | url_escape | cgi_escape }}{% endcapture %}
-                        {% if page.language == 'es' %}
-                        {% capture escaped_title_twitter %}{{ page.title | prepend: 'Leyendo "' | append: '"' | url_escape | cgi_escape }}{% endcapture %}
-                        {% else %}
+                        {% capture processed_date %}{{ page.date | date: "%B %-d, %Y" }}{% endcapture %}
                         {% capture escaped_title_twitter %}{{ page.title | prepend: 'Reading "' | append: '"' | url_escape | cgi_escape }}{% endcapture %}
-                        {% endif %}
                         <header class="header">
-                            {% if page.language == 'es' %}
-                            <h2><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title='Enlace Permanente a "{{ page.title }}"' itemprop="url"><span itemprop="name headline">{{ page.title }}</span></a></h2>
-                            {% else %}
-                            <h2><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title='Permanent link to "{{ page.title }}"' itemprop="url"><span itemprop="name headline">{{ page.title }}</span></a></h2>
-                            {% endif %}
+                            <h2>
+                                <a href="{{ site.url }}{{ page.url }}" rel="bookmark" title='Permanent link to "{{ page.title }}"' itemprop="url">
+                                    <span itemprop="headline">
+                                        {{ page.title }}
+                                    </span>
+                                </a>
+                            </h2>
                         </header>
                         <ul class="social">
                             <li class="description" itemprop="description">{{ page.description }}</li>
                             <li class="description">
-                                {% if page.language == 'es' %}
-                                por <a href="{{ site.url }}/acerca/" title="Acerca del autor" itemprop="author">{{ site.author.first_name }}</a>, <time class="datetime" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_xmlschema }}</time>, en {% for category in page.categories %}{% capture cat_slug %}{{ category | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | replace: '/', '' | uri_escape }}{% endcapture %}<a href="{{ site.url }}/cat/{{ cat_slug }}/" title='Ver todos los artículos listados bajo la categoría "{{ category }}"' rel="tag">{{ category }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.
-                                {% else %}
-                                por <a href="{{ site.url }}/about/" title="About the author" itemprop="author">{{ site.author.first_name }}</a>, <time class="datetime" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_xmlschema }}</time>, in {% for category in page.categories %}{% capture cat_slug %}{{ category | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | replace: '/', '' | uri_escape }}{% endcapture %}<a href="{{ site.url }}/cat/{{ cat_slug }}/" title='List all posts under the category "{{ category }}"' rel="tag">{{ category }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.
-                                {% endif %}
+                                by <a href="{{ site.url }}/about/" title="About the author" itemprop="author">{{ site.author.first_name }}</a>, on <time class="datetime" datetime="{{ page.date | date_to_xmlschema }}">{{ processed_date }}</time>, in {% for category in page.categories %}{% capture cat_slug %}{{ category | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | replace: '/', '' | uri_escape }}{% endcapture %}<a href="{{ site.url }}/cat/{{ cat_slug }}/" title='List all posts under the category "{{ category }}"' rel="tag">{{ category }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.
                             </li>
                             <li class="compartidos">
-                                <span class="n_compartidos" data-ident="{{ page.wordpress_id }}">0</span>
-                                {% if page.language == 'es' %}
-                                <span class="t_compartidos">Compartidos</span>
-                                {% else %}
+                                <span class="n_compartidos" data-ident="{{ page.article_id }}">0</span>
                                 <span class="t_compartidos">Shares</span>
-                                {% endif %}
                             </li>
                             <li class="comentarios">
-                                <span class="n_comentarios" data-ident="{{ page.wordpress_id }}">0</span>
-                                {% if page.language == 'es' %}
-                                <span class="t_comentarios">Comentarios</span>
-                                {% else %}
+                                <span class="n_comentarios" data-ident="{{ page.article_id }}">0</span>
                                 <span class="t_comentarios">Comments</span>
-                                {% endif %}
                             </li>
                             <li class="espacio"></li>
                             <li class="twitter">
                                 <a href="http://twitter.com/intent/tweet?counturl={{ escaped_uri }}&amp;lang=es&amp;text={{ escaped_title_twitter }}&amp;url={{ escaped_uri }}&amp;via={{ site.blog.twitter }}&amp;related={{ site.author.twitter }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                    <span class="fa fa-twitter"></span>
+                                    <span class="sprite"></span>
                                     <span class="hide">Twitter</span>
                                 </a>
                             </li>
                             <li class="facebook">
                                 <a href="http://facebook.com/sharer/sharer.php?u={{ escaped_uri }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                    <span class="fa fa-facebook"></span>
+                                    <span class="sprite"></span>
                                     <span class="hide">Facebook</span>
                                 </a>
                             </li>
                             <li class="googleplus">
                                 <a href="http://plus.google.com/share?url={{ escaped_uri }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                    <span class="fa fa-google-plus"></span>
+                                    <span class="sprite"></span>
                                     <span class="hide">Google+</span>
                                 </a>
                             </li>
                             <li class="pinterest">
                                 <a href="http://pinterest.com/pin/create/button/?url={{ escaped_uri }}&amp;media={{ escaped_image }}&amp;description={{ escaped_description }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                    <span class="fa fa-pinterest"></span>
+                                    <span class="sprite"></span>
                                     <span class="hide">Pinterest</span>
                                 </a>
                             </li>
                             <li class="tumblr">
                                 <a href="http://www.tumblr.com/share/link?url={{ escaped_uri }}&amp;name={{ escaped_title }}&amp;description={{ escaped_description }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                    <span class="fa fa-tumblr"></span>
+                                    <span class="sprite"></span>
                                     <span class="hide">Tumblr</span>
                                 </a>
                             </li>
                             <li class="linkedin">
                                 <a href="http://linkedin.com/shareArticle?mini=true&amp;url={{ escaped_uri }}&amp;title={{ escaped_title }}&amp;summary={{ escaped_description }}&amp;source={{ escaped_name }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                    <span class="fa fa-linkedin"></span>
+                                    <span class="sprite"></span>
                                     <span class="hide">LinkedIn</span>
                                 </a>
                             </li>
                         </ul>
-                        <div class="text" itemprop="text articleBody">
+                        <div class="text" itemprop="articleBody">
                             <span class="figure figure-100" data-figure-src="{{ page.image }}" data-figure-href="{{ page.image }}"></span>
                             <div class="ad_post">
                                 <ins class="adsbygoogle" data-ad-client="ca-pub-6592430305679345" data-ad-slot="3629923149" data-ad-format="rectangle"></ins>
@@ -107,38 +95,24 @@
                         </ul>
                     </div>
                     <div class="meta">
-                        <ul class="relatedposts" data-ident="{{ page.wordpress_id }}"></ul>
+                        <ul id="relatedposts" data-ident="{{ page.article_id }}"></ul>
                     </div>
                     <nav class="pagination">
-                        <span>
+                        <span class="left">
                             {% if page.previous.url %}
-                            {% if page.language == 'es' %}
-                            <a href="{{ site.url }}{{ page.previous.url }}" title="Página anterior">
-                                <span class="fa fa-chevron-left"></span>
-                                <span class="hide">Twitter</span>
-                            </a>
-                            {% else %}
                             <a href="{{ site.url }}{{ page.previous.url }}" title="Previous page">
-                                <span class="fa fa-chevron-left"></span>
+                                <span class="sprite"></span>
                                 <span class="hide">Twitter</span>
                             </a>
-                            {% endif %}
                             {% endif %}
                         </span>
                         <span class="spacer">&nbsp;</span>
-                        <span>
+                        <span class="right">
                             {% if page.next.url %}
-                            {% if page.language == 'es' %}
-                            <a href="{{ site.url }}{{ page.next.url }}" title="Página siguiente">
-                                <span class="fa fa-chevron-right"></span>
-                                <span class="hide">Twitter</span>
-                            </a>
-                            {% else %}
                             <a href="{{ site.url }}{{ page.next.url }}" title="Next page">
-                                <span class="fa fa-chevron-right"></span>
+                                <span class="sprite"></span>
                                 <span class="hide">Twitter</span>
                             </a>
-                            {% endif %}
                             {% endif %}
                         </span>
                     </nav>

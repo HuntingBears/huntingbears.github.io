@@ -109,7 +109,7 @@
             var cara_link = banner.rect(219.24995, 257.03845).attr({'x': 605.76764, 'y': 45.461548, 'id': 'cara_link'});
 
             cara_link.linkTo(function(link){
-                link.to('{{ site.url }}/acerca/').attr({'id': null});
+                link.to('{{ site.url }}/about/').attr({'id': null});
             });
 
             cara_link.mouseover(function(){
@@ -207,7 +207,7 @@
             var notas_link_1 = banner.rect(142.45332, 126.37452).attr({'x': 433.37363, 'y': 170.36934, 'id': 'notas_link_1'});
 
             notas_link_1.linkTo(function(link){
-                link.to('{{ site.url }}/radiohead/').attr({'id': null});
+                link.to('{{ site.url }}/cat/radiohead/').attr({'id': null});
             });
 
             notas_link_1.mouseover(function(){
@@ -309,7 +309,7 @@
             var bolso_link = banner.rect(194.2431, 118.45594).attr({'x': 1184.0116, 'y': 183.97879, 'id': 'bolso_link'});
 
             bolso_link.linkTo(function(link){
-                link.to('{{ site.url }}/portafolio/').attr({'id': null});
+                link.to('{{ site.url }}/portfolio/').attr({'id': null});
             });
 
             bolso_link.mouseover(function(){
@@ -369,4 +369,4 @@
             });
         }
     });
-}(window.jQuery || window.Zepto));
+}(window.jQuery));

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-03-21 16:17:10-04:30
 layout: post
 slug: cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0
 title: 'Cunaguaro y Guácharo: Nuevas aplicaciones para Canaima GNU/Linux 3.0'
-wordpress_id: 912
+article_id: 912
 categories:
 - Canaima
 - Noticias
@@ -14,7 +13,7 @@ tags:
 - canaima gnu linux
 - cunaguaro
 - guacharo
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/912/4145644672e31bb49903f16b865f11a1.jpg
+image: http://huntingbears.com.ve/static/img/posts/912/cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0__1.jpg
 description: Cunaguaro y Guácharo son el nuevo navegador web y cliente de correo de Canaima 3.0
 ---
 
@@ -22,7 +21,7 @@ En la nueva versión de Canaima 3.0 se incluye un nuevo Navegador Web llamado Cu
 
 |||
 |---|---|
-|<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/912/cf7c1311bb0766ac7e1e2824d98b1de5.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/912/cf7c1311bb0766ac7e1e2824d98b1de5.jpg"></span>|<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/912/cd25d1f9da12e703ac00537d0c19beb1.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/912/cd25d1f9da12e703ac00537d0c19beb1.jpg"></span>|
+|<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/912/cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/912/cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0__2.jpg"></span>|<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/912/cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0__4.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/912/cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0__4.jpg"></span>|
 
 Cunaguaro y Guácharo son paquetes derivados de Iceweasel y Icedove respectivamente. Éstos dos últimos son el navegador web y cliente de correo principales de Debian GNU/Linux, la distribución en la que se basa Canaima.
 
@@ -37,8 +36,6 @@ Cunaguaro y Guácharo son paquetes derivados de Iceweasel y Icedove respectivame
 * Añadido el Plugin "[Hide MenuBar](http://addons.mozilla.org/en-us/firefox/addon/hidemenubar/)", el cual remueve la barra de Menú para ofrecer mayor espacio de visualización, pero se muestra si presionas la tecla ALT.
 * Agregada funcionalidad de búsqueda en tres ámbitos de la Plataforma Canaima: El portal principal, las listas y la wiki.
 * Imagen y nombres más ajustados a la identidad venezolana.
-
-<!-- more -->
 
 ### La razón detrás del cambio
 

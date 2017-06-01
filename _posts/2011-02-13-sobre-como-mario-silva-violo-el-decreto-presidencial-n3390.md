@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-02-13 23:18:33-04:30
 layout: post
 slug: sobre-como-mario-silva-violo-el-decreto-presidencial-n3390
 title: Sobre cómo Mario Silva violó el Decreto Presidencial N°3390
-wordpress_id: 687
+article_id: 687
 categories:
 - Opinión
 - Política
@@ -14,7 +13,7 @@ tags:
 - la hojilla
 - mario silva
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/687/8453f904b9f0bac21cb23421175ff689.jpg
+image: http://huntingbears.com.ve/static/img/posts/687/sobre-como-mario-silva-violo-el-decreto-presidencial-n3390__1.jpg
 description: Mario Silva recomienda usar Microsoft Windows en televisión pública.
 ---
 

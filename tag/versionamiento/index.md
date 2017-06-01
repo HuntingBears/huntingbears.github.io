@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [versionamiento]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [versionamiento] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: versionamiento
-title: !!python/unicode 'Etiqueta [versionamiento]'
+slug: versionamiento
+title: '[versionamiento] Tag'
 ---

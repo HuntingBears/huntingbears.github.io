@@ -1,7 +1,8 @@
 ---
-category_name: diseno-grafico
-description: Lista de artículos bajo la categoría [Diseno Grafico]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [diseño gráfico] category.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: category
-title: Categoría [Diseno Grafico]
+slug: diseno-grafico
+title: '[diseño gráfico] Category'
 ---

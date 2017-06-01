@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-03-10 15:18:08-04:30
 layout: post
 slug: el-oraculo-git-del-desarrollador
 title: El oráculo git del desarrollador
-wordpress_id: 1865
+article_id: 1865
 categories:
 - Canaima
 - Debian
@@ -15,7 +14,7 @@ tags:
 - comandos
 - git
 - glosario
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1865/be3bf5f84de7cc5da1b44d070fd7c15e.jpg
+image: http://huntingbears.com.ve/static/img/posts/1865/el-oraculo-git-del-desarrollador__1.jpg
 description: Presentamos una lista de comandos de git que pueden ser útiles en diversos casos.
 ---
 
@@ -44,8 +43,6 @@ git config --global color.branch auto
 `GIT_AUTHOR_NAME`, `GIT_COMMITTER_NAME`: Variables de entorno para modificar el nombre completo del committer (sobreescribe la configuración especificada a través de `git config`).
 
 `GIT_AUTHOR_EMAIL`, `GIT_COMMITTER_EMAIL`: Variables de entorno para modificar el correo del committer (sobreescribe la configuración especificada a través de `git config`).
-
-<!-- more -->
 
 ### Inicializar repositorio
 

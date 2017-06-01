@@ -14,6 +14,7 @@ pre {
     padding: 0 1%;
     border-radius: 5px;
     background-color: rgb(230, 230, 211);
+    overflow: auto;
 }
 
 code {
@@ -34,8 +35,6 @@ pre > code {
     text-shadow: 0 1px 0 rgb(255, 255, 255);
     background-color: transparent;
     border-radius: 0;
-    white-space: pre-wrap;
-    word-break: break-word;
 }
 
 /* Comment */
@@ -52,12 +51,12 @@ pre > code > .err {
 
 /* Keyword */
 pre > code > .k {
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Operator */
 pre > code > .o {
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Comment.Multiline */
@@ -69,7 +68,7 @@ pre > code > .cm {
 /* Comment.Preproc */
 pre > code > .cp {
     color: rgb(153, 153, 153);
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Comment.Single */
@@ -81,7 +80,7 @@ pre > code > .c1 {
 /* Comment.Special */
 pre > code > .cs {
     color: rgb(153, 153, 153);
-    font-weight: 900;
+    font-weight: 400;
     font-style: italic;
 }
 
@@ -136,7 +135,7 @@ pre > code > .gp {
 
 /* Generic.Strong */
 pre > code > .gs {
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Generic.Subheading */
@@ -151,28 +150,28 @@ pre > code > .gt {
 
 /* Keyword.Constant */
 pre > code > .kc {
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Keyword.Declaration */
 pre > code > .kd {
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Keyword.Pseudo */
 pre > code > .kp {
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Keyword.Reserved */
 pre > code > .kr {
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Keyword.Type */
 pre > code > .kt {
     color: rgb(68, 85, 136);
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Literal.Number */
@@ -198,7 +197,7 @@ pre > code > .nb {
 /* Name.Class */
 pre > code > .nc {
     color: rgb(68, 85, 136);
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Name.Constant */
@@ -214,13 +213,13 @@ pre > code > .ni {
 /* Name.Exception */
 pre > code > .ne {
     color: rgb(153, 0, 0);
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Name.Function */
 pre > code > .nf {
     color: rgb(153, 0, 0);
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Name.Namespace */
@@ -240,7 +239,7 @@ pre > code > .nv {
 
 /* Operator.Word */
 pre > code > .ow {
-    font-weight: 900;
+    font-weight: 400;
 }
 
 /* Text.Whitespace */

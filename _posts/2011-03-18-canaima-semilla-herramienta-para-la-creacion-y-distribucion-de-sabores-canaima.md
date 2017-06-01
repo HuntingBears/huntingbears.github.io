@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-03-18 19:58:34-04:30
 layout: post
 slug: canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima
 title: 'Canaima Semilla: Herramienta para la creación y distribución de Sabores Canaima'
-wordpress_id: 814
+article_id: 814
 categories:
 - Canaima
 - Desarrollo
@@ -14,7 +13,7 @@ tags:
 - canaima gnu linux
 - canaima semilla
 - creación distribución
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/814/3baf3a6c49e610d9677b68b20b1068e2.jpg
+image: http://huntingbears.com.ve/static/img/posts/814/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima__1.jpg
 description: Canaima Semilla es una herramienta para generar distribuciones derivadas de Canaima.
 ---
 
@@ -33,8 +32,6 @@ Canaima Semilla es una aplicación diseñada para facilitar a individuales, cole
 * **Canaima Colibrí**: Sabor destinado a optimizar el rendimiento del sistema en computadoras de baja capacidad.
 
 Mediante una serie de pasos, podrás crear una imagen instalable de los sabores antes mencionados, o si lo prefieres, crear tu propio Sabor Canaima.
-
-<!-- more -->
 
 ### Instalación
 
@@ -126,11 +123,11 @@ Un perfil está compuesto de varios archivos con nombres específicos colocados 
         * Ejemplo: `IMG_DEBIAN_INSTALLER_GTK="profile"`
 2. (_Opcional_) Una imagen PNG llamada "syslinux.png" de una dimensión no mayor a 1024x768 pixeles, la cuál servirá de fondo en el menú de inicio del Medio Vivo.
 
-<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/wp-content/uploads/2011/03/syslinux-canaima-semilla.png" data-figure-href="http://huntingbears.com.ve/wp-content/uploads/2011/03/syslinux-canaima-semilla.png"></span>
+<span class="figure figure-100" data-figure-src="{{ site.url }}/wp-content/uploads/2011/03/syslinux-canaima-semilla.png" data-figure-href="{{ site.url }}/wp-content/uploads/2011/03/syslinux-canaima-semilla.png"></span>
 
 3. (_Opcional_) Una imagen PNG llamada "banner-instalador.png" de una dimensión exacta de 800x75 pixeles, la cuál será el banner del dialogo del instalador del Medio Vivo.
 
-<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/wp-content/uploads/2011/03/instalador-canaima-semilla-645x483.png" data-figure-href="http://huntingbears.com.ve/wp-content/uploads/2011/03/instalador-canaima-semilla-645x483.png"></span>
+<span class="figure figure-100" data-figure-src="{{ site.url }}/wp-content/uploads/2011/03/instalador-canaima-semilla-645x483.png" data-figure-href="{{ site.url }}/wp-content/uploads/2011/03/instalador-canaima-semilla-645x483.png"></span>
 
 4. (_Opcional_) Un archivo de configuración GTKRC llamado "gtkrc-instalador", el cuál albergará los parámetros GTK para modificar la apariencia del instalador. Ver el sabor de ejemplo.
 

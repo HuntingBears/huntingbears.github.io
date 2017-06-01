@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [mandamientos]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [mandamientos] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: mandamientos
-title: !!python/unicode 'Etiqueta [mandamientos]'
+slug: mandamientos
+title: '[mandamientos] Tag'
 ---

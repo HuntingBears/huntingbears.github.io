@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-05-21 16:44:45-04:30
 layout: post
 slug: como-solucionar-una-corrupcion-del-disco-en-canaima-3-0debian-6-0-run-fsck-manually
 title: Cómo solucionar una corrupción del Disco en Canaima 3.0/Debian 6.0 (Run fsck manually)
-wordpress_id: 1146
+article_id: 1146
 categories:
 - Canaima
 - Educativo
@@ -14,7 +13,7 @@ tags:
 - canaima gnu linux
 - disco corrupto
 - run fsck manually
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1146/c9cbddb283d7b980f8042863e72b6ee5.jpg
+image: http://huntingbears.com.ve/static/img/posts/1146/como-solucionar-una-corrupcion-del-disco-en-canaima-3-0debian-6-0-run-fsck-manually__1.jpg
 description: A veces, cuando un disco duro no finaliza sesión apropiadamente, algunos datos se corrompen momentáneamente. Aquí se explica como resolver esta falla.
 ---
 
@@ -22,11 +21,9 @@ De vez en cuando, especialmente luego de una variación brusca en la alimentaci�
 
 Entonces, usualmente obtenemos una pantalla parecida a la que mostramos más abajo, que no nos permite acceder al sistema.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1146/0ae824a5ff34f481a0636106309c2694.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1146/c9cbddb283d7b980f8042863e72b6ee5.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1146/como-solucionar-una-corrupcion-del-disco-en-canaima-3-0debian-6-0-run-fsck-manually__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1146/como-solucionar-una-corrupcion-del-disco-en-canaima-3-0debian-6-0-run-fsck-manually__1.jpg"></span>
 
 (Captura de pantalla cortesía de los usuarios Felipe y Johan en los comentarios, gracias)
-
-<!-- more -->
 
 Si prestamos atención, en la imagen de arriba observaremos lo siguiente:
 

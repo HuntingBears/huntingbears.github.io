@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-08-18 12:35:06-04:30
 layout: post
 slug: nos-vemos-en-el-7mo-dia-debian-caracas
 title: Nos vemos en el 7mo Día Debian Caracas
-wordpress_id: 1864
+article_id: 1864
 categories:
 - Canaima
 - Debian
@@ -15,7 +14,7 @@ tags:
 - canaima gnu linux
 - debian day
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1864/0c34aceed6b341f463a638fedd2e0828.jpg
+image: http://huntingbears.com.ve/static/img/posts/1864/nos-vemos-en-el-7mo-dia-debian-caracas__1.jpg
 description: El día debian es un evento para difundir las bondades del Software Libre.
 ---
 

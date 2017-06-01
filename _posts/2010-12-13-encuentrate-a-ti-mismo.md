@@ -1,18 +1,17 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-12-13 19:13:54-04:30
 layout: post
 slug: encuentrate-a-ti-mismo
 title: ¡Encuéntrate a ti mismo!
-wordpress_id: 485
+article_id: 485
 categories:
 - Reflexión
 tags:
 - autoayuda
 - encontrarse
 - reflexión
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/485/8378f109fee6d303292a419663f49b9f.jpg
+image: http://huntingbears.com.ve/static/img/posts/485/encuentrate-a-ti-mismo__1.jpg
 description: Esta es una reflexión acerca del rumbo que tomamos en nuestras vidas.
 ---
 
@@ -23,8 +22,6 @@ Es útil que sepan que esa persona había tomado, no hacía demasiado tiempo, un
 De todos modos, alguien le dijo algo que no se esperaba: "Por fin tendrás la oportunidad de encontrarte a ti misma", a lo que ella respondió: "¿Qué me quiere decir con eso?" "¿Es que alguna vez me he perdido?" Entonces me pregunté: ¿Y yo cómo se lo explico? ¿Cómo hago que entienda?
 
 Intenté explicárselo como la vida me enseñó.
-
-<!-- more -->
 
 * Te encuentras cuando eres dueño de tus decisiones y de tus actos por encima de cualquier chantaje emocional de medio pelo.
 * Te encuentras cuando dejas de acomplejarte de ti mismo y dejas de dar explicaciones por cada paso que das.

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-05-05 22:35:26-04:30
 layout: post
 slug: lanzamiento-de-canaima-gnulinux-3-0-como-estable
 title: ¡Lanzamiento de Canaima GNU/Linux 3.0 como estable!
-wordpress_id: 987
+article_id: 987
 categories:
 - Canaima
 - Noticias
@@ -14,14 +13,162 @@ tags:
 - canaima gnu linux
 - estable
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/987/5eb50122ca52082442b5e0f1f95f10b8.jpg
+image: http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__1.jpg
 description: Canaima GNU/Linux 3.0 fué lanzado en la Torre el Chorro este 5 de Mayo
 ---
 
-El día de hoy, se realizó en la terraza de la Torre El Chorro (Sede del Ministerio de Ciencia, Tecnología e Industrias Intermedias), el lanzamiento oficial de la versión estable de Canaima GNU/Linux 3.0. Como les he comentado en [artículos anteriores](http://huntingbears.com.ve/como-instalar-la-version-en-desarrollo-de-canaima-gnulinux-3-0.html), ésta nueva versión de Canaima tiene un gran número de beneficios que facilitan la apropiación social del conocimiento, además de aprovechar mucho mejor los recursos de tu sistema comparado con otros sistemas operativos.
+El día de hoy, se realizó en la terraza de la Torre El Chorro (Sede del Ministerio de Ciencia, Tecnología e Industrias Intermedias), el lanzamiento oficial de la versión estable de Canaima GNU/Linux 3.0. Como les he comentado en [artículos anteriores]({{ site.url }}/como-instalar-la-version-en-desarrollo-de-canaima-gnulinux-3-0.html), ésta nueva versión de Canaima tiene un gran número de beneficios que facilitan la apropiación social del conocimiento, además de aprovechar mucho mejor los recursos de tu sistema comparado con otros sistemas operativos.
 
 Se realizó una rueda de prensa, que podemos resumir en el siguiente video, y las fotos que presento a continuación:
 
 <span class="youtube" data-youtube-id="_CD1gXIUyN8"></span>
 
-<span class="picasa" data-picasa-id="5773727261261490481"><ul class="picasa-album"><li class="picasa-image"><a class="picasa-image-large" title="5690753563_c807c83675_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/3fc01db14869f15ad2387d09fdf5c4ea.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/1376284548d1b55d38776a59b2907774.jpg" alt="5690753563_c807c83675_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5690756099_a40d3d62a8_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/bf75e473036131f82fefd2a5a20dbd76.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/459525260c4f6676a6cd868cbdad3101.jpg" alt="5690756099_a40d3d62a8_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5690759769_ea5d5c0571_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/fd3a850b8c4be3c0787dda7c5f8b31ea.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/f2999247e5d258090bec6cba847d27c1.jpg" alt="5690759769_ea5d5c0571_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5690778035_84a080deac_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/35d97224eb1a4e3c42da8721b9083188.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/c3f26667817cbf9fde7f1e3c9f26dae5.jpg" alt="5690778035_84a080deac_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5690780805_30a8d59d10_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/27ceffdd1d289ebdce8d123d34ba5070.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/52e195bd719e8f05563b4771e46af040.jpg" alt="5690780805_30a8d59d10_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5690785857_dbaea6c066_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/3b9d376ee5f32c766b9585003335ed5c.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/27a4835b0fcecf74a52ce16cac070870.jpg" alt="5690785857_dbaea6c066_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5690788059_1bac6b6778_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/3843727ce2c2a1a6a3fd397c5fda5df1.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/efc153b8b5468d50f1bec40f06933d2b.jpg" alt="5690788059_1bac6b6778_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5690790779_173aace268_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/90d4ec82bc73f5a8773f1b5b746df640.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/fb3ece20fd45b8c80ad3ab26f71d2e3f.jpg" alt="5690790779_173aace268_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5690795147_63db6f6fd6_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/d8f89405972eb0bc6c2fc90475a979e8.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/33d08e2f58b97409e75bced2fbcbac27.jpg" alt="5690795147_63db6f6fd6_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5690797359_10c5c594e0_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/750f29c6d1fadd03644b31fb3f497a7c.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/54206173d397adb8af84ad5c48eedf8c.jpg" alt="5690797359_10c5c594e0_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5690799387_3ed01018cb_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/3b690af5f155beb19c7a60c0b8c42f76.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/c013583c9aab7f22e5a2951eff7c9937.jpg" alt="5690799387_3ed01018cb_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5690801221_b6e2869012_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/d924598712bb80b5dbfc3b342c6eb9af.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/125820d053ba7724df8496000e13cc15.jpg" alt="5690801221_b6e2869012_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5691331458_87de1f6a0e_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/4ddc16494c6c863bb44182f4fab0c2d4.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/28e40eb9c7e61265096f5b4d21e6e8b1.jpg" alt="5691331458_87de1f6a0e_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5691335296_f5a40fc932_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/ea4e868af78ce1c240ea36594cf7d8c2.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/a84c2d5a5b0054d108f3872ff1833359.jpg" alt="5691335296_f5a40fc932_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5691337624_a928115437_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/0bc625a5842a979f4ab84cc55b2f24e0.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/549c036f8c882f206b0754d6fb2f9326.jpg" alt="5691337624_a928115437_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5691339762_3ecafb4d48_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/067d2d0010e320d2c1940e7ba2bb084a.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/d831267b60f2782ae4570467506fa09e.jpg" alt="5691339762_3ecafb4d48_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5691342228_3a412043f7_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/80870d182efefbfba293d5e7180b74f2.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/39e9afb1b6bc1ce46622edc8a7b89f81.jpg" alt="5691342228_3a412043f7_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5691347188_702c0a5cfd_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/1b10a8ef354051eb9991066285b9fa8d.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/d0f35a6ae475fdde85fca203248b9d1f.jpg" alt="5691347188_702c0a5cfd_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5691349352_b44e2d42a3_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/ecad79ab8e4c1ed0aadb6f6e9ed5b507.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/f1e476d16e5e8d4da05f2923ffc93a54.jpg" alt="5691349352_b44e2d42a3_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5691356874_1d8e482ec1_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/dd8d3ad10b6d683aff026df43c89ce2f.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/eeb38b54d17eb918e4030e1ca11f70e4.jpg" alt="5691356874_1d8e482ec1_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5691366466_e39bcc555f_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/31e9aebaf5c7bf9a859a9d48b04fb5a4.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/3f0b522717122c79a3cce6277ad465af.jpg" alt="5691366466_e39bcc555f_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5691373728_c100e04848_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/58645349b101a8b80ea440e3565d83c1.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/fa12265d45a76dcc60ef6bee91c92f08.jpg" alt="5691373728_c100e04848_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="5691375016_3a5b3b6c37_o.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/ff83024454a3aefee218b95a2aa044b1.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/9d8d26443e642cfbb7b76b14912b029f.jpg" alt="5691375016_3a5b3b6c37_o.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Canaima-040.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/4617481567a05aaf45e4e88a125a017b.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/8916db75e304ec722f26aae822fe7eef.jpg" alt="Canaima-040.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="dsc_0769.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/09f83d3921b5fe9ad1e23d1dc031c7b0.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/cb26bfde7835ab2b55b398b371c4cb4d.jpg" alt="dsc_0769.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="dsc_0794.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/34425b4946c83538e78b7b2af081c0aa.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/3d4d75058d43a4eb4979917f872a1864.jpg" alt="dsc_0794.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="dsc_0795.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/86a0062c16165bf905aa1981fabb060b.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/1751d685e1fc30abf54e818ea52dde0a.jpg" alt="dsc_0795.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="luis.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/5eb50122ca52082442b5e0f1f95f10b8.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/4f0de8339ac23d0c4c2f580f2aebd8bf.jpg" alt="luis.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="vtv-20110505_10-28-56-097_0002.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/a9f37735b0fedaa79beb17db57e9a112.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/987/cacb14f43516c57b7448b82db8c3501e.jpg" alt="vtv-20110505_10-28-56-097_0002.jpg"></a></li></ul></span>
+<div class="picasa">
+    <ul class="picasa-album">
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__2.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__3.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__4.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__5.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__6.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__7.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__8.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__9.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__10.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__11.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__12.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__13.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__14.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__15.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__16.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__17.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__18.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__19.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__20.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__21.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__22.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__23.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__24.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__25.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__26.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__27.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__28.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__29.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__30.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__31.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__32.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__33.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__34.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__35.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__36.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__37.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__38.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__39.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__40.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__41.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__42.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__43.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__44.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__45.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__46.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__47.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__48.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__49.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__50.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__51.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__52.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__53.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__54.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__55.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__1.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__57.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__58.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__59.jpg" />
+            </a>
+        </li>
+    </ul>
+</div>

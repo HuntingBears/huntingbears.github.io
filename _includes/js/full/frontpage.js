@@ -22,27 +22,15 @@ if(page_layout == 'frontpage'){
             });
 
             $('.n_compartidos').each(function(index, element){
-
                 var self = $(element);
-
-                for(i in posts_index){
-                    if(i == self.attr('data-ident')){
-                        self.text(posts_index[i]['share_count']);
-                    }
-                }
+                self.text(posts_index[self.attr('data-ident')]['share_count']);
             });
 
             $('.n_comentarios').each(function(index, element){
-
                 var self = $(element);
-
-                for(i in posts_index){
-                    if(i == self.attr('data-ident')){
-                        self.text(posts_index[i]['comment_count']);
-                    }
-                }
+                self.text(posts_index[self.attr('data-ident')]['comment_count']);
             });
 
         });
-    }(window.jQuery || window.Zepto));
+    }(window.jQuery));
 }

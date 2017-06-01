@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2013-05-15 22:02:51-04:30
 layout: post
 slug: canaima-4-0-un-cambio-de-paradigma-en-el-escritorio
 title: 'Canaima 4.0: Un cambio de paradigma en el escritorio'
-wordpress_id: 4091
+article_id: 4091
 categories:
 - Canaima
 - Desarrollo
@@ -14,7 +13,7 @@ tags:
 - alfa
 - Canaima
 - desarrollo
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/4091/72d96323f9b3d79559254e42cd2beb35.jpg
+image: http://huntingbears.com.ve/static/img/posts/4091/canaima-4-0-un-cambio-de-paradigma-en-el-escritorio__1.jpg
 description: Canaima 4.0 es una versión que promete revolucionar el escritorio del usuario tal como lo conocemos.
 ---
 
@@ -25,8 +24,6 @@ Luego de transcurrido el primer trimestre del ciclo de desarrollo, y con un avan
 **Canaima 4.0** es una versión que promete revolucionar el escritorio del usuario tal como lo conocemos. El cambio de paradigma de los dispositivos computacionales hacia formatos cada vez más pequeños y portables, además de la masificación de tecnologías táctiles, de reconocimiento de voz y la necesidad de que los sistemas operativos lleguen cada vez a más personas de diversas edades y culturas, hacen necesario un estudio profundo en los conceptos de interacción humano-computador, usabilidad y funcionalidad.
 
 Es precisamente por eso que esta versión mayor de la Metadistribución **pone el acento en el usuario y sus necesidades**. Se han planificado laboratorios de usabilidad móviles, como por ejemplo, [el realizado en la Universidad Marítima del Caribe (Catia La Mar, Edo. Vargas) el 25 de abril](http://cnti.gob.ve/index.php?option=com_content&view=article&id=3074). Allí se recolectaron las opiniones e impresiones de los usuarios acerca del uso y exploración de diversos ambientes de escritorio. Los resultados están siendo tabulados y analizados cuidadosamente para retroalimentar las siguientes fases del proceso de desarrollo.
-
-<!-- more -->
 
 Canaima 4.0 (alfa1) se hace público al usuario luego del [lanzamiento estable de la versión 7.0 de su Metadistribución madre Debian](http://www.debian.org/News/2013/20130504.es.html), el pasado 4 de Mayo. El equipo de desarrollo de Canaima ha seleccionado e incorporado un importante grupo de aplicaciones y componentes para poder brindar una mejor experiencia de usuario y funcionalidades novedosas. Entre ellas podemos mencionar:
 

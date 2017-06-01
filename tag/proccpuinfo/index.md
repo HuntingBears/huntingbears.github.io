@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [/proc/cpuinfo]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [/proc/cpuinfo] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: proccpuinfo
-title: !!python/unicode 'Etiqueta [/proc/cpuinfo]'
+slug: proccpuinfo
+title: '[/proc/cpuinfo] Tag'
 ---

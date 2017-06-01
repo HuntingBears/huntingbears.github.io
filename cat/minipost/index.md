@@ -1,7 +1,8 @@
 ---
-category_name: minipost
-description: Lista de artículos bajo la categoría [Minipost]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [minipost] category.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: category
-title: Categoría [Minipost]
+slug: minipost
+title: '[minipost] Category'
 ---

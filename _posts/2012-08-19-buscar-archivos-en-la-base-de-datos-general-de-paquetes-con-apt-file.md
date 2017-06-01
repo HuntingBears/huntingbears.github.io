@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-08-19 02:38:29-04:30
 layout: post
 slug: buscar-archivos-en-la-base-de-datos-general-de-paquetes-con-apt-file
 title: Buscar archivos en la base de datos general de paquetes con apt-file
-wordpress_id: 2186
+article_id: 2186
 categories:
 - Canaima
 - Debian
@@ -15,15 +14,13 @@ tags:
 - apt-file
 - archivos
 - paquetes
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2186/2feeffbcb82704fff0bf9127572e7e4d.jpg
+image: http://huntingbears.com.ve/static/img/posts/2186/buscar-archivos-en-la-base-de-datos-general-de-paquetes-con-apt-file__1.jpg
 description: apt-file permite realizar búsquedas dentro de los archivos contenidos en el sistema de paquetes de Debian.
 ---
 
 Muchas veces ocurre en las distribuciones derivadas de Debian que encontramos errores en diversos archivos importantes, o por alguna razón debemos prestar especial atención a un archivo en particular. El ejemplo más recurrente se presenta cuando dañamos un archivo y deseamos restaurarlo a su estado original (siempre guarden una copia antes de hacer cambios). Lo ideal sería reinstalar el paquete que coloca ese archivo para poder restaurar el original y asegurarse de la ejecución de cualquier otro procedimiento necesario para el correcto funcionamiento.
 
 Pero, ¿Cómo sabemos a cuál paquete pertenece el archivo en cuestión?. _apt-file_ es una herramienta que permite buscar dentro del índice de archivos de cada paquete existente en los repositorios configurados para tu sistema operativo, es decir, los que se encuentran en el archivo `/etc/apt/sources.list`. Su comportamiento es muy parecido al de `dpkg -S [PATRÓN]`, con la diferencia de que este último busca solamente dentro de los paquetes instalados en el sistema.
-
-<!-- more -->
 
 ### Instalación y configuración
 

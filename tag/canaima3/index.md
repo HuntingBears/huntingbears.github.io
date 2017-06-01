@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [canaima3]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [canaima3] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: canaima3
-title: !!python/unicode 'Etiqueta [canaima3]'
+slug: canaima3
+title: '[canaima3] Tag'
 ---

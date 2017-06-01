@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [radiohead venezuela]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [radiohead venezuela] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: radiohead-venezuela
-title: !!python/unicode 'Etiqueta [radiohead venezuela]'
+slug: radiohead-venezuela
+title: '[radiohead venezuela] Tag'
 ---

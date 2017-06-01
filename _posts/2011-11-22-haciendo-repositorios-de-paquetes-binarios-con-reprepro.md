@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-11-22 21:41:50-04:30
 layout: post
 slug: haciendo-repositorios-de-paquetes-binarios-con-reprepro
 title: Haciendo repositorios de paquetes binarios con reprepro
-wordpress_id: 2037
+article_id: 2037
 categories:
 - Canaima
 - Debian
@@ -15,15 +14,13 @@ tags:
 - canaima gnu linux
 - repositorios
 - reprepro
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2037/939b94309b9de518a524a860b277a2cb.jpg
+image: http://huntingbears.com.ve/static/img/posts/2037/haciendo-repositorios-de-paquetes-binarios-con-reprepro__1.jpg
 description: Reprepro es una herramienta que permite generar repositorios de paquetes de forma local.
 ---
 
-Normalmente, dentro de los procesos involucrados en la creación de sabores o distribuciones derivadas de Canaima (o Debian) necesitamos utilizar paquetes que no se encuentran en repositorios públicos de Debian, Ubuntu u otra distribución porque generalmente son paquetes de [autoría propia](http://huntingbears.com.ve/creando-un-metapaquete-a-la-canaima-con-canaima-desarrollador.html), diseñados a nuestras necesidades.
+Normalmente, dentro de los procesos involucrados en la creación de sabores o distribuciones derivadas de Canaima (o Debian) necesitamos utilizar paquetes que no se encuentran en repositorios públicos de Debian, Ubuntu u otra distribución porque generalmente son paquetes de [autoría propia]({{ site.url }}/creando-un-metapaquete-a-la-canaima-con-canaima-desarrollador.html), diseñados a nuestras necesidades.
 
-En ese sentido, es buena idea hacer un repositorio local para guardar esos paquetes y así agilizar un poco más los procesos de desarrollo y pruebas de software. Además, si tienes la oportunidad de hacerlo público a través de un servidor web, podrías distribuir tus paquetes a otras personas o incluso [hacer](http://huntingbears.com.ve/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima.html) un [sabor Canaima](http://huntingbears.com.ve/7-dia-debian-creando-tu-propia-distribucion-a-partir-de-canaima-semilla.html).
-
-<!-- more -->
+En ese sentido, es buena idea hacer un repositorio local para guardar esos paquetes y así agilizar un poco más los procesos de desarrollo y pruebas de software. Además, si tienes la oportunidad de hacerlo público a través de un servidor web, podrías distribuir tus paquetes a otras personas o incluso [hacer]({{ site.url }}/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima.html) un [sabor Canaima]({{ site.url }}/7-dia-debian-creando-tu-propia-distribucion-a-partir-de-canaima-semilla.html).
 
 Primeramente necesitas instalar algunas aplicaciones. En una terminal de root (Aplicaciones > Accesorios > Terminal de Root) escribe el siguiente comando:
 
@@ -55,7 +52,7 @@ Acá vas a llenar el archivo con los siguientes datos:
 * **Description**: Descripción de la distribución.
 * **Architectures**: Arquitecturas soportadas por la distribución o sabor.
 * **Components**: Componentes o secciones en las que se divide el repositorio (p. ej: `main`, `contrib`, `non-free`).
-* **SignWith**: Código de la [Llave pública GPG](http://huntingbears.com.ve/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg.html) o correo asociado con que se firma el repositorio.
+* **SignWith**: Código de la [Llave pública GPG]({{ site.url }}/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg.html) o correo asociado con que se firma el repositorio.
 * **DebIndices**: Tipos de Índices a generar.
 
 Debes agregar un bloque de éstos por cada estado de desarrollo de la distribución. Por ejemplo, el archivo `conf/distributions` del repositorio de Canaima para 3.0 es el siguiente:

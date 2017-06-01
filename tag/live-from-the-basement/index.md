@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [live from the basement]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [live from the basement] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: live-from-the-basement
-title: !!python/unicode 'Etiqueta [live from the basement]'
+slug: live-from-the-basement
+title: '[live from the basement] Tag'
 ---

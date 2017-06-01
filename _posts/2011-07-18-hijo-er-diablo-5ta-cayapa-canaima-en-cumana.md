@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-07-18 15:01:38-04:30
 layout: post
 slug: hijo-er-diablo-5ta-cayapa-canaima-en-cumana
 title: '¡Hijo er Diablo! 5ta Cayapa Canaima en Cumaná'
-wordpress_id: 1302
+article_id: 1302
 categories:
 - Canaima
 - Eventos
@@ -14,7 +13,7 @@ tags:
 - canaima gnu linux
 - cayapa canaima
 - cumana
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1302/52cd300a6db86881c31cd5a491eae24d.jpg
+image: http://huntingbears.com.ve/static/img/posts/1302/hijo-er-diablo-5ta-cayapa-canaima-en-cumana__1.jpg
 description: La 5ta Cayapa Canaima se realizará en Cumaná para que la Comunidad participe en la mejora de Canaima.
 ---
 
@@ -22,11 +21,9 @@ La [Cayapa Canaima](http://cayapa.canaima.softwarelibre.gob.ve/) es un evento se
 
 Es por ello que, la cayapa es el espacio propicio para discutir temas medulares de la Comunidad Canaima, hacer jornadas de desarrollo colaborativo intensivo, entre muchas otras actividades.
 
-En ese sentido, la 5ta Cayapa Canaima viene a ser una actividad predominantemente técnica, con miras a consolidar la forma en que el grupo de personas que le da vida al Proyecto pueden contribuir en las diversas áreas que lo conforman. Aportaremos ideas a [Canaima Semilla](http://huntingbears.com.ve/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima.html), una herramienta para la creación de sabores; conversaremos acerca de las normas de participación en la Plataforma Colaborativa; delimitaremos el rol de un [Desarrollador Canaima](http://huntingbears.com.ve/describiendo-el-ciclo-de-desarrollo-de-canaima-gnulinux.html); organizaremos y asumiremos tareas en el desarrollo de la próxima versión de Canaima, entre otras actividades que puedes apreciar más abajo.
+En ese sentido, la 5ta Cayapa Canaima viene a ser una actividad predominantemente técnica, con miras a consolidar la forma en que el grupo de personas que le da vida al Proyecto pueden contribuir en las diversas áreas que lo conforman. Aportaremos ideas a [Canaima Semilla]({{ site.url }}/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima.html), una herramienta para la creación de sabores; conversaremos acerca de las normas de participación en la Plataforma Colaborativa; delimitaremos el rol de un [Desarrollador Canaima]({{ site.url }}/describiendo-el-ciclo-de-desarrollo-de-canaima-gnulinux.html); organizaremos y asumiremos tareas en el desarrollo de la próxima versión de Canaima, entre otras actividades que puedes apreciar más abajo.
 
-<!-- more -->
-
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1302/e70e3e4e4a6c6397b5b3a9d51dd47ba0.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1302/a744681ce65563c05507f3ae447aab71.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1302/hijo-er-diablo-5ta-cayapa-canaima-en-cumana__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1302/hijo-er-diablo-5ta-cayapa-canaima-en-cumana__3.jpg"></span>
 
 La comunidad está reunida para asistir a uno de los eventos de Software Libre más importantes del país, y están preparados para venir desde todos los rincones de la patria. Si estás en Cumaná durante los días **20, 21 y 22 de Julio**, acércate al [Hotel Minerva](http://maps.google.com/maps?ll=10.476787,-64.179782&spn=0.001424,0.008841&t=u&z=18&key=ABQIAAAAQqSIovB9EfXh72TB8kDpjxR_wena9kPy_A6wCQ67N-sVGkOLHRRWEgZunwUbUj2wOG1kBKufYRE55Q&mapclient=jsapi&oi=map_misc&ct=api_logo) y encontrarás a un grupo de aficionados del Software Libre echando código hasta por la nariz.
 

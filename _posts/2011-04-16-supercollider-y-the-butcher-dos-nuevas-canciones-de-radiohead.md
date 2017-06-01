@@ -1,18 +1,17 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-04-16 15:36:04-04:30
 layout: post
 slug: supercollider-y-the-butcher-dos-nuevas-canciones-de-radiohead
 title: 'Supercollider y The Butcher: Dos nuevas canciones de Radiohead'
-wordpress_id: 585
+article_id: 585
 categories:
 - Radiohead
 tags:
 - Radiohead
 - supercollider
 - the butcher
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/585/837906299222e69f1e87462fc227e4b3.jpg
+image: http://huntingbears.com.ve/static/img/posts/585/supercollider-y-the-butcher-dos-nuevas-canciones-de-radiohead__1.jpg
 description: Super Collider y The Butcher son dos nuevas canciones de Radiohead.
 ---
 

@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [0AD]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [0ad] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: 0ad
-title: !!python/unicode 'Etiqueta [0AD]'
+slug: 0ad
+title: '[0ad] Tag'
 ---

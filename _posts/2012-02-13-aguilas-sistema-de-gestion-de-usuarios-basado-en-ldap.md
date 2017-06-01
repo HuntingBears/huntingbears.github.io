@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-02-13 19:41:57-04:30
 layout: post
 slug: aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap
 title: 'AGUILAS: Sistema de gestión de usuarios basado en LDAP'
-wordpress_id: 2069
+article_id: 2069
 categories:
 - Canaima
 - Desarrollo
@@ -14,7 +13,7 @@ tags:
 - autenticacion
 - LDAP
 - usuarios
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/ec67988cfe4ad7612efe82ebff4d40cb.jpg
+image: http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__1.jpg
 description: Águilas es un sistema de gestión de usuariows basado en LDAP y desarrollado en PHP.
 ---
 
@@ -22,7 +21,7 @@ Los Administradores de Plataforma tienen un problema recurrente cada vez que les
 
 Para solventar este problema se han desarrollado extensiones y plugins para las principales aplicaciones web como MediaWiki, Plone, Wordpress, Drupal, TRAC, entre otros, que permiten sustituir su propio sistema de autenticación por uno externo basado en LDAP o <del>Active Directory</del>. Lamentablemente, la mayoría de estas extensiones adolecen de la flexibilidad y funcionalidad que un Administrador de Plataforma necesita para gestionar eficientemente los usuarios de sus aplicaciones. Incluso, la mayoría tiene graves problemas con los formatos de lectura y escritura de entradas, sin mencionar que no existe un esquema común entre las mencionadas extensiones, requiriendo un trabajo adicional de adecuación para que todas las aplicaciones hablen el mismo idioma. No existe, hasta ahora, una solución integral y directa al problema.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/81ecf8094a78a2eddc7337b87e8ce74f.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/7905d177503e0c0ccf87019b7ef24bbf.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__3.jpg"></span>
 
 Es por eso que hoy quiero presentarles la primera versión estable de **Aguilas** (1.0.1), una aplicación en la que [he venido trabajando](http://registro.canaima.softwarelibre.gob.ve) para solventar el problema de gestión de usuarios en la Plataforma Tecnológica del [Proyecto Canaima](http://canaima.softwarelibre.gob.ve). **Aguilas** es una "_Aplicación para la Gestión de Usuarios con Interfaz para LDAP Amigable y_ Segura" que está escrita en PHP, basada en los principios de simplicidad, usabilidad, y elegancia.
 
@@ -39,8 +38,6 @@ Con Aguilas tus usuarios serán capaces de:
 * Buscar usuarios dentro de la base de datos.
 
 ¿Te interesa? ¡Sigue leyendo!
-
-<!-- more -->
 
 Aguilas está desarrollado bajo los principios y valores éticos del Software Libre. El código fuente está licenciado bajo GPL-3, es decir, es público para que lo uses, distribuyas, estudies y modifiques. El Proyecto Aguilas está disponible desde [Gitorious](http://gitorious.org/huntingbears/aguilas), [Github](http://github.com/HuntingBears/aguilas) y [Google Code](http://code.google.com/p/aguilas), desde donde puedes encontrar aún más información.
 
@@ -69,7 +66,7 @@ Si estás utilizando Debian o alguna distribución derivada como Canaima o Ubunt
 aptitude install apache2 php5 php5-gd php5-ldap php5-mcrypt php5-mysql php5-suhosin php5-cli que bash gettext python-sphinx icoutils python-docutils libmagickcore-extra imagemagick apache2 mysql-server postfix slapd
 {% endhighlight %}
 
-Si deseas encontrar mayor información acerca de como configurar Postfix (MTA), puedes echar un vistazo [aquí](http://huntingbears.com.ve/utilizando-postfix-para-enviar-correos-a-traves-de-gmail.html).
+Si deseas encontrar mayor información acerca de como configurar Postfix (MTA), puedes echar un vistazo [aquí]({{ site.url }}/utilizando-postfix-para-enviar-correos-a-traves-de-gmail.html).
 
 Una vez satisfechas las dependencias, Aguilas se puede instalar de varias formas.
 
@@ -142,4 +139,37 @@ Si necesitas ayuda, puedes recurrir a alguno de los siguientes medios:
 
 ### Capturas de Pantalla
 
-<span class="picasa" data-picasa-id="5773391289296475377"><ul class="picasa-album"><li class="picasa-image"><a class="picasa-image-large" title="Pantallazo-de-2012-02-13-180107-e1329173673551.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/542de513fcfec421e4538bf2f3deb74e.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/af467843eeae6103940242df43553283.jpg" alt="Pantallazo-de-2012-02-13-180107-e1329173673551.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Pantallazo-de-2012-02-13-180119-e1329173643532.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/5a00b470f8637ac959bc725b9627e9d1.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/6f0e3664ead60a094550fdf2434011e2.jpg" alt="Pantallazo-de-2012-02-13-180119-e1329173643532.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Pantallazo-de-2012-02-13-180227-e1329173596114.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/8077b118a40df17a4af440710524de34.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/261b361bfe447b904cf44a81f2233162.jpg" alt="Pantallazo-de-2012-02-13-180227-e1329173596114.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Pantallazo-de-2012-02-13-180237-e1329173567632.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/81974836a00efd0e7860ae314e18ef9d.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/24f437ff8a2870226d38fb77498a9bef.jpg" alt="Pantallazo-de-2012-02-13-180237-e1329173567632.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="aguilasbanner.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/ec67988cfe4ad7612efe82ebff4d40cb.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/540099d2258d53374e39cc2a2e45cc7c.jpg" alt="aguilasbanner.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="diagraguilas.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/7905d177503e0c0ccf87019b7ef24bbf.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2069/c3a34e15f7933104a2af9877936d8a0a.jpg" alt="diagraguilas.png"></a></li></ul></span>
+<div class="picasa">
+    <ul class="picasa-album">
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__4.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__5.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__6.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__7.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__8.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__9.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__10.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__11.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__1.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__13.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__3.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__15.jpg" />
+            </a>
+        </li>
+    </ul>
+</div>

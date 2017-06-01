@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-10-24 04:56:00-04:30
 layout: post
 slug: empaquetando-un-kernel-vainilla-para-canaima-debian-o-ubuntu
 title: Empaquetando un Kernel Vainilla para Canaima, Debian o Ubuntu
-wordpress_id: 371
+article_id: 371
 categories:
 - Desarrollo
 - Software Libre
@@ -13,7 +12,7 @@ tags:
 - empaquetar
 - kernel vainilla
 - make-kpkg
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/371/bc267f57e7ce36041d0dc244ef4a9491.jpg
+image: http://huntingbears.com.ve/static/img/posts/371/empaquetando-un-kernel-vainilla-para-canaima-debian-o-ubuntu__1.jpg
 description: El kernel Linux es el principal componente del sistema operativo. Aprende a generar uno actualizado para tu distribución con este artículo.
 ---
 
@@ -28,8 +27,6 @@ Primeramente, ubicamos y descargamos el código fuente de la versión del kernel
 [http://kernel.org/](http://kernel.org)
 
 Ésta página contiene los kernels Linux desarrollados por Linus Torvalds y su equipo a través del tiempo. Comúnmente se les denominan "Kernels Vainilla".
-
-<!-- more -->
 
 Antes de continuar, instalemos las herramientas que necesitaremos para éste procedimiento. para ello, ejecutemos con permisos de superusuario la siguiente línea en consola:
 

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-11-12 14:30:38-04:30
 layout: post
 slug: creando-una-barra-de-desplazamiento-atractiva-con-python-cairo
 title: Creando una barra de desplazamiento atractiva con python-cairo
-wordpress_id: 2729
+article_id: 2729
 categories:
 - Desarrollo
 - Software Libre
@@ -14,7 +13,7 @@ tags:
 - barra de desplazamiento
 - cairo
 - python
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2729/e9a69876e60ae0bc7e24374bc64f90f3.jpg
+image: http://huntingbears.com.ve/static/img/posts/2729/creando-una-barra-de-desplazamiento-atractiva-con-python-cairo__1.jpg
 description: Python Cairo es una librería que permite hacer dibujos en Python.
 ---
 
@@ -23,8 +22,6 @@ Otra de las investigaciones que realicé en el marco de las mejoras al instalado
 Cairo es una librería de renderizado de vectores que permite la creación de gráficos a través de objetos python que luego pueden ser renderizados en ventanas, botones, tablas o casi cualquier otro widget GTK. Incluso, es posible renderizar los gráficos en archivos de imagen PNG.
 
 En esta oportunidad explicaré como realizar una barra de desplazamiento animada que permita obtener la posición del cursor dentro de un rango de valores. Opcionalmente, la barra de desplazamiento puede estar dividida en varios sectores o partes. La explicación de la creación de este widget se hará por partes, comenzando desde los elementos básicos, hasta armar el script python completo al final del artículo. Es decir, si quieres ahorrarte la explicación, puedes adelantarte hasta el final.
-
-<!-- more -->
 
 ### Instalación de herramientas
 
@@ -36,7 +33,7 @@ aptitude install python-gtk2 python-cairo
 
 ### Lienzo de trabajo
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2729/5c363bc77df5eeff4a73078415f2b40f.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2729/5c363bc77df5eeff4a73078415f2b40f.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2729/creando-una-barra-de-desplazamiento-atractiva-con-python-cairo__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2729/creando-una-barra-de-desplazamiento-atractiva-con-python-cairo__2.jpg"></span>
 
 Lo primero que haremos será construir nuestro lienzo de trabajo. El lienzo no es más que una ventana GTK que nos permitirá visualizar los dibujos que vamos realizando. Los comentarios dentro del código irán describiendo cada una de las líneas.
 
@@ -197,7 +194,7 @@ Bloque N°4: Asignación del gradiente según nombre del color.
 
 ### Dibujando rectángulos de bordes redondeados
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2729/31b54ef9a4ff315ec27f4c6acf092141.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2729/31b54ef9a4ff315ec27f4c6acf092141.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2729/creando-una-barra-de-desplazamiento-atractiva-con-python-cairo__4.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2729/creando-una-barra-de-desplazamiento-atractiva-con-python-cairo__4.jpg"></span>
 
 Los rectángulos de bordes redondeados nos ayudarán a dibujar nuestra barra de desplazamiento. `rectangulo_red` es una función que construye un rectángulo redondeado con un fondo en gradiente. Acepta los siguientes parámetros: `cr` corresponde a una sesión cairo abierta (lo explicaremos maś adelante), `area` son las coordenadas de las dimensiones del rectángulo, `r` es el radio de los arcos redondeados del rectángulo y `clr` es el nombre del color de fondo con el que colorearemos el rectángulo. Mayor explicación en los comentarios del código.
 
@@ -387,7 +384,7 @@ Bloque N°7: Llamado de la ventana y conexión de eventos con funciones.
 
 ### Resultados
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2729/31b54ef9a4ff315ec27f4c6acf092141.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2729/31b54ef9a4ff315ec27f4c6acf092141.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2729/creando-una-barra-de-desplazamiento-atractiva-con-python-cairo__4.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2729/creando-una-barra-de-desplazamiento-atractiva-con-python-cairo__4.jpg"></span>
 
 <span class="youtube" data-youtube-id="-2qPYvDH4yw"></span>
 

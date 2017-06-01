@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-12-18 23:10:15-04:30
 layout: post
 slug: utilizando-postfix-para-enviar-correos-a-traves-de-gmail
 title: Utilizando postfix para enviar correos a través de GMail
-wordpress_id: 1900
+article_id: 1900
 categories:
 - Canaima
 - Debian
@@ -15,7 +14,7 @@ tags:
 - gmail
 - postfix
 - relayhost
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1900/611c240cfadeb522fe977748214ef4fd.jpg
+image: http://huntingbears.com.ve/static/img/posts/1900/utilizando-postfix-para-enviar-correos-a-traves-de-gmail__1.jpg
 description: Si no tienes un servicio privado de envío de correos, puedes utilizar postfix y GMail para lograr el mismo cometido.
 ---
 
@@ -28,8 +27,6 @@ Para poder enviar correo utilizando el servidor SMTP de GMail (`smtp.gmail.com`)
 1. Un certificado autenticado por una autoridad certificadora válida para GMail.
 2. Una cuenta de correo GMail.
 3. Un MTA local.
-
-<!-- more -->
 
 ### Instalación
 

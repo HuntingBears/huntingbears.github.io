@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-05-20 21:25:13-04:30
 layout: post
 slug: tutorial-como-actualizar-a-canaima-3-0-desde-canaima-2-1
 title: 'Tutorial: Cómo actualizar a Canaima 3.0 desde Canaima 2.1'
-wordpress_id: 1131
+article_id: 1131
 categories:
 - Canaima
 - Desarrollo
@@ -14,7 +13,7 @@ tags:
 - 2.1 a 3.0
 - actualizar canaima
 - tutorial
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1131/adb06e32ce0723bba683b1dadbb1cf04.jpg
+image: http://huntingbears.com.ve/static/img/posts/1131/tutorial-como-actualizar-a-canaima-3-0-desde-canaima-2-1__1.jpg
 description: La actualización de Canaima 2.1 a Canaima 3.0 no es trivial. Aquí te lo explicamos.
 ---
 
@@ -28,8 +27,6 @@ Es importante que sepas que éste es un procedimiento intermedio - avanzado que 
 * Tener 3GB de espacio libre en disco.
 * Tener Canaima 2.1.
 * Tener de 1 a 2 horas de tiempo libre.
-
-<!-- more -->
 
 ### Fase 1: Preparación de Canaima 2.1
 

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-04-03 02:51:18-04:30
 layout: post
 slug: sobre-el-porque-canaima-gnulinux-no-deberia-tener-el-logo-hecho-en-socialismo
 title: Sobre el por qué Canaima GNU/Linux no debería tener el logo "Hecho en Socialismo"
-wordpress_id: 917
+article_id: 917
 categories:
 - Canaima
 - Opinión
@@ -13,7 +12,7 @@ tags:
 - canaima gnu linux
 - logo
 - socialismo
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/917/346565d3a61ec830a0cc0893056edb9a.jpg
+image: http://huntingbears.com.ve/static/img/posts/917/sobre-el-porque-canaima-gnulinux-no-deberia-tener-el-logo-hecho-en-socialismo__1.jpg
 description: Mi opinión personal acerca de la discusión sobre la inclusión del logo "Hecho en Socialismo" en Canaima.
 ---
 
@@ -34,8 +33,6 @@ Matices más, matices menos, y un poco más adaptado a la realidad venezolana, e
 En ese sentido, sabemos esto: el estado se ha apropiado de algunos medios de producción, y ha impulsado la propiedad comunitaria de los mismos a través de empresas socialistas  y consejos comunales. Sin embargo, también sabemos que eso representa una reducida porción de todos los medios de producción y que la mayoría sigue estando en manos de empresas que poco les interesa lo que al pueblo pobre le pase.
 
 ¿Estamos en Socialismo? Este brevísimo análisis nos da indicios de que no hemos llegado allí todavía.
-
-<!-- more -->
 
 ### ¿Socialismo en Canaima GNU/Linux?
 

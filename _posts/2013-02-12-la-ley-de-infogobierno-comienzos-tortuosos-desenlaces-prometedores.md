@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2013-02-12 02:50:44-04:30
 layout: post
 slug: la-ley-de-infogobierno-comienzos-tortuosos-desenlaces-prometedores
 title: 'La Ley de Infogobierno: comienzos tortuosos, desenlaces prometedores'
-wordpress_id: 2870
+article_id: 2870
 categories:
 - Política
 - Software Libre
@@ -13,7 +12,7 @@ tags:
 - asamblea nacional
 - ley infogobierno
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2870/be4e4ff9809e813cfe226eb302d52783.jpg
+image: http://huntingbears.com.ve/static/img/posts/2870/la-ley-de-infogobierno-comienzos-tortuosos-desenlaces-prometedores__1.jpg
 description: La Ley de Infogobierno regulará el acceso a la información de los ciudadanos a través de los medios electrónicos del estado.
 ---
 
@@ -21,7 +20,7 @@ Bastante se ha hablado acerca de la Ley de Infogobierno y su tortuosa historia e
 
 ### El episodio Tascón (2006)
 
-<img class="alignright" alt="{{ page.title }}" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2870/00ec83f962ef7b6ba7563ec2ed996fba.jpg" />
+<img class="alignright" alt="{{ page.title }}" src="http://huntingbears.com.ve/static/img/posts/2870/la-ley-de-infogobierno-comienzos-tortuosos-desenlaces-prometedores__2.jpg" />
 
 La **Ley de Infogobierno** es un Proyecto de Ley que tuvo su motivación en la creación de un marco jurídico que regulará el acceso a la información de los ciudadanos a través de los medios electrónicos del estado. Era de esperarse, que la ley fundamentara sus aspectos operativos en los preceptos del Software Libre y los estándares abiertos. Sin embargo, **la discusión tuvo varios matices agrios e inesperados**.
 
@@ -35,11 +34,9 @@ Estas reuniones llegaron a pocos consensos, principalmente por la insistencia de
 
 La Ley salió de la subcomisión con un contenido a favor del Software Privativo y la neutralidad tecnológica, cosa que molestó mucho a la Comunidad de Software Libre. Afortunadamente, en la discusión de la plenaria de diputados, la aprobación de la ley se estancó, lográndose sancionar tan solo 6 artículos. **La Ley no sería tomada en cuenta de nuevo hasta dentro de 6 años**.
 
-<!-- more -->
-
 ### El episodio Leomagno (2012)
 
-<img class="alignleft" alt="{{ page.title }}" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2870/0fd282be54fbee2bf72f3e92791c9677.jpg" />
+<img class="alignleft" alt="{{ page.title }}" src="http://huntingbears.com.ve/static/img/posts/2870/la-ley-de-infogobierno-comienzos-tortuosos-desenlaces-prometedores__3.jpg" />
 
 6 años después, las cosas han cambiado radicalmente: para empezar, el Diputado Luis Tascón falleció luego de luchar contra una terrible enfermedad; la presidencia de la Comisión de Ciencia y Tecnología está en manos del **Diputado Leomagno Flores** (AD); por otro lado, el Software Libre ha venido recibiendo un sostenido apoyo del estado, generando experiencias prácticas y casos de éxito en la Administración Pública; además, existe una distribución nacional llamada "Canaima", apoyada en estrategias de masificación de las TIL a través de proyectos como "Canaima Educativo" y el "Plan Internet Equipado".
 

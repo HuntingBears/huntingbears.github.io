@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-02-20 06:01:46-04:30
 layout: post
 slug: dancing-thom-la-revolucion-en-internet-del-video-lotus-flower
 title: 'Dancing Thom: La revolución en internet del video "Lotus Flower"'
-wordpress_id: 711
+article_id: 711
 categories:
 - Humor
 - Radiohead
@@ -14,7 +13,7 @@ tags:
 - dancing thom
 - lotus flower
 - thom yorke
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/711/fa97f668f9c9ad08380e08e4571bf747.jpg
+image: http://huntingbears.com.ve/static/img/posts/711/dancing-thom-la-revolucion-en-internet-del-video-lotus-flower__1.jpg
 description: Lotus Flower se ha convertido en un meme de internet que ha revolucionado las redes sociales.
 ---
 
@@ -23,8 +22,6 @@ El estreno mundial del video "Lotus Flower" del último álbum de Radiohead ha c
 ### El video original
 
 <span class="youtube" data-youtube-id="cfOa1a8hYP8"></span>
-
-<!-- more -->
 
 ### Incoherencia
 

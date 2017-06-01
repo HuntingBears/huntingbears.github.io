@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.language }}" xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#{% if page.layout == 'post' or page.layout == 'page' %} article: http://ogp.me/ns/article#{% endif %} dcterms: http://purl.org/dc/terms/#">
-    <head>{% capture head_title %}{% case page.layout %}{% when 'frontpage' %}{% if page.language == 'es' %}{{ site.name }} // {{ site.title_es }}{% else %}{{ site.name }} // {{ site.title_en }}{% endif %}{% else %}{{ site.name }} // {{ page.title }}{% endcase %}{% endcapture %}{% capture head_description %}{% case page.layout %}{% when 'frontpage' %}{% if page.language == 'es' %}{{ site.description_es }}{% else %}{{ site.description_en }}{% endif %}{% else %}{{ page.description }}{% endcase %}{% endcapture %}{% capture head_keywords %}{% for category in page.categories %}{{ category }}, {% endfor %}{% for tag in page.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}{% capture head_url %}{% case page.layout %}{% when 'frontpage' %}{% if paginator.previous_page %}{{ site.url }}/page/{{ paginator.page }}/{% else %}{{ site.url }}{% endif %}{% else %}{{ site.url }}{{ page.url }}{% endcase %}{% endcapture %}{% capture head_robots %}{% case page.layout %}{% when 'frontpage' %}{% if paginator.previous_page %}noindex, follow, noodp, noydir{% else %}index, follow, noodp, noydir{% endif %}{% when 'post' %}index, follow, noodp, noydir{% when 'page' %}index, follow, noodp, noydir{% else %}noindex, follow, noodp, noydir{% endcase %}{% endcapture %}{% capture head_og_type %}{% case page.layout %}{% when 'frontpage' %}{% if paginator.page == 1 %}website{% endif %}{% when 'post' %}article{% when 'page' %}article{% endcase %}{% endcapture %}{% capture head_prev %}{% case page.layout %}{% when 'frontpage' %}{% if paginator.previous_page %}{% if paginator.previous_page == 1 %}{{ site.url }}{% else %}{{ site.url }}/page/{{ paginator.previous_page }}/{% endif %}{% endif %}{% when 'post' %}{% if page.previous.url %}{{ site.url }}{{ page.previous.url }}{% endif %}{% endcase %}{% endcapture %}{% capture head_next %}{% case page.layout %}{% when 'frontpage' %}{% if paginator.next_page %}{{ site.url }}/page/{{ paginator.next_page }}/{% endif %}{% when 'post' %}{% if page.next.url %}{{ site.url }}{{ page.next.url }}{% endif %}{% endcase %}{% endcapture %}
-
+    <head>
+    {% capture head_title %}{% case page.layout %}{% when 'frontpage' %}{{ site.title }}{% else %}{{ page.title }}{% endcase %}{% endcapture %}{% capture head_description %}{% case page.layout %}{% when 'frontpage' %}{{ site.description }}{% else %}{{ page.description }}{% endcase %}{% endcapture %}{% capture head_keywords %}{% for category in page.categories %}{{ category }}, {% endfor %}{% for tag in page.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}{% capture head_url %}{% case page.layout %}{% when 'frontpage' %}{% if paginator.previous_page %}{{ site.url }}/page/{{ paginator.page }}/{% else %}{{ site.url }}{% endif %}{% else %}{{ site.url }}{{ page.url }}{% endcase %}{% endcapture %}{% capture head_robots %}{% case page.layout %}{% when 'frontpage' %}{% if paginator.previous_page %}noindex, follow, noodp, noydir{% else %}index, follow, noodp, noydir{% endif %}{% when 'post' %}index, follow, noodp, noydir{% when 'page' %}index, follow, noodp, noydir{% else %}noindex, follow, noodp, noydir{% endcase %}{% endcapture %}{% capture head_og_type %}{% case page.layout %}{% when 'frontpage' %}{% if paginator.page == 1 %}website{% endif %}{% when 'post' %}article{% when 'page' %}article{% endcase %}{% endcapture %}{% capture head_prev %}{% case page.layout %}{% when 'frontpage' %}{% if paginator.previous_page %}{% if paginator.previous_page == 1 %}{{ site.url }}{% else %}{{ site.url }}/page/{{ paginator.previous_page }}/{% endif %}{% endif %}{% when 'post' %}{% if page.previous.url %}{{ site.url }}{{ page.previous.url }}{% endif %}{% endcase %}{% endcapture %}{% capture head_next %}{% case page.layout %}{% when 'frontpage' %}{% if paginator.next_page %}{{ site.url }}/page/{{ paginator.next_page }}/{% endif %}{% when 'post' %}{% if page.next.url %}{{ site.url }}{{ page.next.url }}{% endif %}{% endcase %}{% endcapture %}
         <!-- Page Information -->
         <title>{{ head_title }}</title>
         <meta charset="utf-8" />
@@ -21,7 +21,9 @@
                         __/ |                                  __/ |
                        |___/                                  |___/
 
-        {% if page.language == 'es' %}Estas no son las fuentes que estás buscando.{% else %}These are not the sources you are looking for.{% endif %}
+        These are not the sources you are looking for
+
+        (These are)
         http://github.com/LuisAlejandro/luisalejandro.github.io
 
         -->
@@ -31,23 +33,27 @@
         <meta name="dcterms.description" content="{{ head_description }}" />
         <meta name="dcterms.language" content="{{ page.language }}" />
         <meta name="dcterms.type" content="{{ page.layout }}" />
-        <meta name="dcterms.identifier" content="{{ page.wordpress_id }}" />
+        <meta name="dcterms.identifier" content="{{ page.article_id }}" />
         <meta name="dcterms.source" content="{{ head_url }}" />
         <meta name="dcterms.publisher" content="huntingbears" />
 
         <!-- Open Graph, Facebook, Twitter & Google+ Social Tags  -->
-        <link rel="author" href="https://plus.google.com/112394891396118123263" />
-        <link rel="publisher" href="https://plus.google.com/112134881161123650096" />
-        {% if head_og_type == 'article' or head_og_type == 'website' %}<meta property="og:type" content="{{ head_og_type }}" />
+        {% if head_og_type == 'article' or head_og_type == 'website' %}
+        <meta property="og:type" content="{{ head_og_type }}" />
         <meta property="og:site_name" content="{{ site.name }}" />
-        <meta property="og:url" content="{{ head_url }}"/>
+        <meta property="og:url" content="{{ head_url }}" />
         <meta property="og:title" content="{{ head_title }}" />
         <meta property="og:description" content="{{ head_description }}" />
         <meta property="og:image" content="{{ page.image }}" />
-        <meta property="og:locale" content="{{ page.language }}" />
-        <meta property="fb:admins" content="870375116" />
-        <meta property="fb:profile_id" content="870375116" />
-        <meta property="fb:app_id" content="409501159152943" />
+        <meta property="og:locale" content="en_US" />
+        {% if head_og_type == 'article' %}
+        <meta property="article:author" content="870375116" />
+        <meta property="article:publisher" content="156686441067299" />
+        <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+        <meta property="article:section" content="{{ page.categories | first }}" />
+        {% for tag in page.tags %}<meta property="article:tag" content="{{ tag }}" />
+        {% endfor %}
+        {% endif %}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="{{ head_url }}" />
         <meta name="twitter:title" content="{{ head_title }}" />
@@ -55,12 +61,12 @@
         <meta name="twitter:image:src" content="{{ page.image }}" />
         <meta name="twitter:site" content="@{{ site.blog.twitter }}" />
         <meta name="twitter:creator" content="@{{ site.author.twitter }}" />
-        {% if head_og_type == 'article' %}<meta property="article:author" content="870375116" />
-        <meta property="article:publisher" content="156686441067299" />
-        <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
-        <meta property="article:section" content="{{ page.categories | first }}" />
-{% for tag in page.tags %}        <meta property="article:tag" content="{{ tag }}" />
-{% endfor %}{% endif %}{% endif %}
+        <meta property="fb:admins" content="870375116" />
+        <meta property="fb:profile_id" content="870375116" />
+        <meta property="fb:app_id" content="409501159152943" />
+        {% endif %}
+        <link rel="author" href="https://plus.google.com/112394891396118123263" />
+        <link rel="publisher" href="https://plus.google.com/112134881161123650096" />
 
         <!-- Prev & Next -->
         <link rel="canonical" href="{{ head_url }}" />
@@ -68,26 +74,18 @@
         {% if head_prev != '' %}<link rel="prev" href="{{ head_prev }}" />{% endif %}
 
         <!-- Alternate presentations -->
-        <link rel="search" type="application/opensearchdescription+xml" href="http://blog-luisalejandro.rhcloud.com/static/opensearch.xml" title="{{ site.app_name }}" />
+        <link rel="search" type="application/opensearchdescription+xml" href="{{ site.url }}/static/opensearch.xml" title="{{ site.app_name }}" />
         <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/{{ site.blog.feed }}" title="{{ site.app_name }}" />
-        {% if page.layout == 'frontpage' %}{% if page.language == 'es' %}<link rel="alternate" href="{{ site.url }}/en/" hreflang="en" />
-        {% else %}<link rel="alternate" href="{{ site.url }}/es/" hreflang="es" />{% endif %}{% endif %}
 
         <!-- DNS Prefetch -->
-        <link rel="dns-prefetch" href="http://python-luisalejandro.rhcloud.com" />
-        <link rel="dns-prefetch" href="http://www.gstatic.com" />
-        <link rel="dns-prefetch" href="http://fonts.gstatic.com" />
-        <link rel="dns-prefetch" href="http://fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="http://accounts.google.com" />
-        <link rel="dns-prefetch" href="http://ssl.google-analytics.com" />
-        <link rel="dns-prefetch" href="http://www.google-analytics.com" />
-        <link rel="dns-prefetch" href="http://googleads.g.doubleclick.net" />
-        <link rel="dns-prefetch" href="http://pagead2.googlesyndication.com" />
-        <link rel="dns-prefetch" href="http://disqus.com" />
-        <link rel="dns-prefetch" href="http://a.disquscdn.com" />
-        <link rel="dns-prefetch" href="http://huntingbears.disqus.com" />
-        <link rel="dns-prefetch" href="http://glitter-services.disqus.com" />
-        <link rel="dns-prefetch" href="http://cdnjs.cloudflare.com" />
+        <link rel="dns-prefetch" href="//huntingbears.com.ve" />
+        <link rel="dns-prefetch" href="//disqus.com" />
+        <link rel="dns-prefetch" href="//huntingbears.disqus.com" />
+        <link rel="dns-prefetch" href="//referrer.disqus.com" />
+        <link rel="dns-prefetch" href="//a.disquscdn.com" />
+        <link rel="dns-prefetch" href="//google-analytics.com" />
+        <link rel="dns-prefetch" href="//www.google-analytics.com" />
+        <link rel="dns-prefetch" href="//ssl.google-analytics.com" />
 
         <!-- Browser & OS Layout -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
@@ -97,75 +95,53 @@
         <meta name="msapplication-starturl" content="{{ site.url }}" />
         <meta name="msapplication-tooltip" content="{{ site.app_name }}" />
         <meta name="msapplication-window" content="width=1024;height=768" />
-        <meta name="msapplication-task" content="name={{ site.app_name }};action-uri={{ site.url }};icon-uri=http://blog-luisalejandro.rhcloud.com/static/img/site/favicon.ico" />
-        <meta name="msapplication-TileImage" content="http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-144x144.png" />
+        <meta name="msapplication-task" content="name={{ site.app_name }};action-uri={{ site.url }};icon-uri={{ site.url }}/static/img/site/favicon.ico" />
+        <meta name="msapplication-TileImage" content="{{ site.url }}/static/img/site/mstile-144x144.png" />
         <meta name="msapplication-TileColor" content="#FFFFFF" />
 
         <!-- Icons & Logos -->
-        <link rel="icon" type="image/x-icon" href="http://blog-luisalejandro.rhcloud.com/static/img/site/favicon.ico" />
-        <link rel="shortcut icon" type="image/x-icon" href="http://blog-luisalejandro.rhcloud.com/static/img/site/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="196x196" href="http://blog-luisalejandro.rhcloud.com/static/img/site/favicon-196x196.png" />
-        <link rel="icon" type="image/png" sizes="160x160" href="http://blog-luisalejandro.rhcloud.com/static/img/site/favicon-160x160.png" />
-        <link rel="icon" type="image/png" sizes="96x96" href="http://blog-luisalejandro.rhcloud.com/static/img/site/favicon-96x96.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="http://blog-luisalejandro.rhcloud.com/static/img/site/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="http://blog-luisalejandro.rhcloud.com/static/img/site/favicon-16x16.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="http://blog-luisalejandro.rhcloud.com/static/img/site/apple-touch-icon-152x152.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="http://blog-luisalejandro.rhcloud.com/static/img/site/apple-touch-icon-144x144.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="http://blog-luisalejandro.rhcloud.com/static/img/site/apple-touch-icon-114x114.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="http://blog-luisalejandro.rhcloud.com/static/img/site/apple-touch-icon-120x120.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="http://blog-luisalejandro.rhcloud.com/static/img/site/apple-touch-icon-76x76.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="http://blog-luisalejandro.rhcloud.com/static/img/site/apple-touch-icon-72x72.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="http://blog-luisalejandro.rhcloud.com/static/img/site/apple-touch-icon-60x60.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="http://blog-luisalejandro.rhcloud.com/static/img/site/apple-touch-icon-57x57.png" />
-        <meta name="msapplication-square70x70logo" content="http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-70x70.png" />
-        <meta name="msapplication-square150x150logo" content="http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-150x150.png" />
-        <meta name="msapplication-square310x310logo" content="http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png" />
-        <meta name="msapplication-wide310x150logo" content="http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x150.png" />
+        <link rel="icon" type="image/x-icon" href="{{ site.url }}/static/img/site/favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/static/img/site/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="196x196" href="{{ site.url }}/static/img/site/favicon-196x196.png" />
+        <link rel="icon" type="image/png" sizes="160x160" href="{{ site.url }}/static/img/site/favicon-160x160.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="{{ site.url }}/static/img/site/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/static/img/site/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/static/img/site/favicon-16x16.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="{{ site.url }}/static/img/site/apple-touch-icon-152x152.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="{{ site.url }}/static/img/site/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="{{ site.url }}/static/img/site/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="{{ site.url }}/static/img/site/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="{{ site.url }}/static/img/site/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="{{ site.url }}/static/img/site/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="{{ site.url }}/static/img/site/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="{{ site.url }}/static/img/site/apple-touch-icon-57x57.png" />
+        <meta name="msapplication-square70x70logo" content="{{ site.url }}/static/img/site/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="{{ site.url }}/static/img/site/mstile-150x150.png" />
+        <meta name="msapplication-square310x310logo" content="{{ site.url }}/static/img/site/mstile-310x310.png" />
+        <meta name="msapplication-wide310x150logo" content="{{ site.url }}/static/img/site/mstile-310x150.png" />
 
-        <!-- Styles -->
-        <style type="text/css">
-            #container {
-                display: none;
-            }
-        </style>
-
-        <!-- Scripts -->
-        <script async type="text/javascript" src="http://blog-luisalejandro.rhcloud.com/static/js/loader.min.js"></script>
+        <!-- Styles & Scripts -->
+        <style type="text/css">#container{display: none}{% if page.layout == 'frontpage' %}{% for post in paginator.posts %}#post-{{ post.article_id }}>.data{background-image: url('{{ post.image }}')}{% endfor %}{% endif %}</style>
+        <script async type="text/javascript" src="{{ site.url }}/static/js/loader.min.js"></script>
     </head>
-    <body itemscope="" itemtype="http://schema.org/WebPage">
+    <body itemscope="" itemtype="http://schema.org/Blog">
         <meta itemprop="name" content="{{ site.name }}" />
-        <meta itemprop="url" content="{{ head_url }}"/>
+        <meta itemprop="url" content="{{ head_url }}" />
         <meta itemprop="headline" content="{{ head_title }}" />
         <meta itemprop="description about" content="{{ head_description }}" />
-        <meta itemprop="keywords" content="{{ head_keywords }}"/>
-        <meta itemprop="primaryImageOfPage" content="{{ page.image }}" />
+        <meta itemprop="keywords" content="{{ head_keywords }}" />
+        <meta itemprop="image" content="{{ page.image }}" />
         <meta itemprop="inLanguage" content="{{ page.language }}" />
         <div id="container">
             <header>
                 <div id="logo">
-                    {% if page.language == 'es' %}
                     <a href="{{ site.url }}" title="{{ site.app_name }}">
                         <span class="hide">{{ site.name }}</span>
                     </a>
-                    {% else %}
-                    <a href="{{ site.url }}/en/" title="{{ site.app_name }}">
-                        <span class="hide">{{ site.name }}</span>
-                    </a>
-                    {% endif %}
                 </div>
                 <div id="heading">
                     <h1 class="title">{{ site.name }}</h1>
-                    {% if page.language == 'es' %}
-                    <span class="subtitle">{{ site.description_es }}</span>
-                    <span class="author">
-                        por
-                        <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-                            <span itemprop="name">{{ site.author.name }}</span>
-                            <meta itemprop="url" content="https://plus.google.com/112394891396118123263" />
-                        </span>
-                    </span>
-                    {% else %}
-                    <span class="subtitle">{{ site.description_en }}</span>
+                    <span class="subtitle">{{ site.description }}</span>
                     <span class="author">
                         by
                         <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -173,21 +149,57 @@
                             <meta itemprop="url" content="https://plus.google.com/112394891396118123263" />
                         </span>
                     </span>
-                    {% endif %}
                 </div>
                 <nav role="navigation">
                     <ul role="menubar">
-                        {% if page.language == 'es' %}
-                        <li class="portafolio" role="menuitem"><a href="{{ site.url }}/portafolio/" title="Ver todos los proyectos personales de {{ site.author.name }}" itemprop="significantLink"><span>Portafolio</span></a></li><li class="acerca" role="menuitem"><a href="{{ site.url }}/acerca/" title="Acerca de {{ site.author.name }}" itemprop="significantLink"><span>Acerca</span></a></li><li class="twitter" role="menuitem"><a href="http://twitter.com/{{ site.blog.twitter }}" title="Perfil de Twitter (abre nueva ventana)" target="_blank" itemprop="significantLink"><span class="fa fa-twitter"></span><span class="hide">Twitter</span></a></li><li class="facebook" role="menuitem"><a href="http://facebook.com/{{ site.blog.facebook }}" title="Perfil de Facebook (abre nueva ventana)" target="_blank" itemprop="significantLink"><span class="fa fa-facebook"></span><span class="hide">Facebook</span></a></li><li class="googleplus" role="menuitem"><a href="http://plus.google.com/+{{ site.blog.googleplus }}" title="Perfil de Google+ (abre nueva ventana)" target="_blank" itemprop="significantLink"><span class="fa fa-google-plus"></span><span class="hide">Google+</span></a></li><li class="rss" role="menuitem"><a href="http://feeds.feedburner.com/{{ site.blog.feed }}" title="Lee nuestro RSS en tu lector de sindicación preferido (abre nueva ventana)" target="_blank" itemprop="significantLink"><span class="fa fa-rss"></span><span class="hide">RSS</span></a></li><li class="search" role="menuitem"><a href="#" title="Search"><span class="fa fa-search"></span><span class="hide">Search</span></a></li>
-                        {% else %}
-                        <li class="portafolio" role="menuitem"><a href="{{ site.url }}/portfolio/" title="See all the work of {{ site.author.name }} (opens new window)" target="_blank" itemprop="significantLink"><span>Portfolio</span></a></li><li class="acerca" role="menuitem"><a href="{{ site.url }}/about/" title="About {{ site.author.name }} (opens new window)" target="_blank" itemprop="significantLink"><span>About</span></a></li><li class="twitter" role="menuitem"><a href="http://twitter.com/{{ site.blog.twitter }}" title="Twitter Profile (opens new window)" target="_blank" itemprop="significantLink"><span class="fa fa-twitter"></span><span class="hide">Twitter</span></a></li><li class="facebook" role="menuitem"><a href="http://facebook.com/{{ site.blog.facebook }}" title="Facebook Profile (opens new window)" target="_blank" itemprop="significantLink"><span class="fa fa-facebook"></span><span class="hide">Facebook</span></a></li><li class="googleplus" role="menuitem"><a href="http://plus.google.com/+{{ site.blog.googleplus }}" title="Google+ Profile (opens new window)" target="_blank" itemprop="significantLink"><span class="fa fa-google-plus"></span><span class="hide">Google+</span></a></li><li class="rss" role="menuitem"><a href="http://feeds.feedburner.com/{{ site.blog.feed }}" title="Read our RSS in your favorite feed reader (opens new window)" target="_blank" itemprop="significantLink"><span class="fa fa-rss"></span><span class="hide">RSS</span></a></li><li class="search" role="menuitem"><a href="#" title="Search" itemprop="significantLink"><span class="fa fa-search"></span><span class="hide">Search</span></a></li>
-                        {% endif %}
+                        <li class="portafolio" role="menuitem">
+                            <a href="{{ site.url }}/portfolio/" title="See all the work of {{ site.author.name }} (opens new window)" target="_blank">
+                                <span class="sprite"></span>
+                                <span class="hide">Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="acerca" role="menuitem">
+                            <a href="{{ site.url }}/about/" title="About {{ site.author.name }} (opens new window)" target="_blank">
+                                <span class="sprite"></span>
+                                <span class="hide">About</span>
+                            </a>
+                        </li>
+                        <li class="twitter" role="menuitem">
+                            <a href="http://twitter.com/{{ site.blog.twitter }}" title="Twitter Profile (opens new window)" target="_blank">
+                                <span class="sprite"></span>
+                                <span class="hide">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="facebook" role="menuitem">
+                            <a href="http://facebook.com/{{ site.blog.facebook }}" title="Facebook Profile (opens new window)" target="_blank">
+                                <span class="sprite"></span>
+                                <span class="hide">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="googleplus" role="menuitem">
+                            <a href="http://plus.google.com/+{{ site.blog.googleplus }}" title="Google+ Profile (opens new window)" target="_blank">
+                                <span class="sprite"></span>
+                                <span class="hide">Google+</span>
+                            </a>
+                        </li>
+                        <li class="rss" role="menuitem">
+                            <a href="http://feeds.feedburner.com/{{ site.blog.feed }}" title="Read our RSS in your favorite feed reader (opens new window)" target="_blank">
+                                <span class="sprite"></span>
+                                <span class="hide">RSS</span>
+                            </a>
+                        </li>
+                        <li class="search" role="menuitem">
+                            <a href="#" title="Search">
+                                <span class="sprite"></span>
+                                <span class="hide">Search</span>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </header>
             <div id="searchbar">
-                <label for="searchinput">Buscar</label>
-                <input type="text" id="searchinput" name="searchinput" placeholder="Buscar" autocomplete="off" />
+                <label for="searchinput">Search</label>
+                <input type="text" id="searchinput" name="searchinput" placeholder="Search" autocomplete="off" />
                 <div id="search_results">
                     <ul id="search_results_body"></ul>
                 </div>

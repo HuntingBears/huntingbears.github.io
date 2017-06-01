@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-09-30 00:51:01-04:30
 layout: post
 slug: en-un-viernes-la-historia-de-radiohead-documental
 title: 'En un viernes: La historia de Radiohead [DOCUMENTAL]'
-wordpress_id: 271
+article_id: 271
 categories:
 - Radiohead
 - Video
@@ -13,7 +12,7 @@ tags:
 - documental
 - Radiohead
 - Video
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/271/971bab57d9e3d870380e5258011f3786.jpg
+image: http://huntingbears.com.ve/static/img/posts/271/en-un-viernes-la-historia-de-radiohead-documental__1.jpg
 description: Un documental chileno acerca de Radiohead al estilo E! True Hollywood Story.
 ---
 
@@ -28,8 +27,6 @@ Para ser sincero con ustedes, la serie de reacciones que tuve con el documental 
 5. Al terminar el documental: Ok, hay que ser justos, me dijeron varias cosas que no sabía. Lo publicaré y que la gente vea si es ridículo o no.
 
 Así que como ven, casi que no llega hasta aquí. Pero ahí lo tienen, son 10 capítulos, (espero) que lo disfruten!
-
-<!-- more -->
 
 <span class="youtube" data-youtube-id="8Lx0c6LaxzQ"></span>
 <span class="youtube" data-youtube-id="bWKkWIbR5vU"></span>

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-05-21 23:57:39-04:30
 layout: post
 slug: como-instalar-canaima-3-0-desde-una-memoria-usb
 title: Como instalar Canaima 3.0 desde una Memoria USB
-wordpress_id: 1135
+article_id: 1135
 categories:
 - Canaima
 - Educativo
@@ -14,7 +13,7 @@ tags:
 - canaima gnu linux
 - grabar ISO en USB
 - instalar desde pen drive
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1135/5fcb502607a1464343aa38691ed2a97a.jpg
+image: http://huntingbears.com.ve/static/img/posts/1135/como-instalar-canaima-3-0-desde-una-memoria-usb__1.jpg
 description: Puedes instalar Canaima 3.0 desde una memoria USB, Aquí te explicamos como.
 ---
 
@@ -24,13 +23,11 @@ Debes tener a la mano un pen-drive con capacidad igual o mayor a 1 GB (la imagen
 
 Lo primero que haremos es conocer la ruta del dispositivo USB, que usualmente es algo como `/dev/sdX`, en donde X es una letra del abecedario (en minúscula y usualmente entre a y f). Para ello, echémosle un vistazo a nuestro(s) disco(s) duro(s) utilizando el programa gparted (Sistema > Administración > Gparted), por ejemplo, como yo tengo uno solo, al pulsar la lista desplegable de la esquina superior derecha aparece sólo /dev/sda.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1135/5fcb502607a1464343aa38691ed2a97a.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1135/351f27168cd292c185585adbd59e0696.jpg"></span>
-
-<!-- more -->
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1135/como-instalar-canaima-3-0-desde-una-memoria-usb__1.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1135/como-instalar-canaima-3-0-desde-una-memoria-usb__3.jpg"></span>
 
 La idea es que al enchufar el pen-drive, notemos cuál es el nuevo dispositivo existente. Enchufemos el pen-drive, presionemos CTRL+R (para actualizar los dispositivos) y nos daremos cuenta que hay un nuevo dispositivo, en mi caso es `/dev/sdb`.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1135/3e3abaadcda126145b0b556997749ef9.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1135/e9c3e759d7e8fbe479320347e4f0f284.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1135/como-instalar-canaima-3-0-desde-una-memoria-usb__4.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1135/como-instalar-canaima-3-0-desde-una-memoria-usb__5.jpg"></span>
 
 Bien, ahora procedemos a escribir el siguiente comando en una consola con permisos de root (Aplicaciones > Accesorios > Terminal de Root):
 

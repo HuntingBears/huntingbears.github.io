@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-07-10 01:53:05-04:30
 layout: post
 slug: the-king-of-limbs-live-from-the-basement
 title: 'The King of Limbs: Live From The Basement'
-wordpress_id: 1588
+article_id: 1588
 categories:
 - Radiohead
 - Video
@@ -13,7 +12,7 @@ tags:
 - live from the basement
 - Radiohead
 - the king of limbs
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1588/837906299222e69f1e87462fc227e4b3.jpg
+image: http://huntingbears.com.ve/static/img/posts/1588/the-king-of-limbs-live-from-the-basement__1.jpg
 description: Show en vivo "Desde el sótano" de Radiohead.
 ---
 

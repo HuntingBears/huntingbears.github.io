@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-09-27 18:55:13-04:30
 layout: post
 slug: recopilacion-de-conciertos-de-radiohead-hd
 title: 'Recopilación de Conciertos de Radiohead [HD]'
-wordpress_id: 243
+article_id: 243
 categories:
 - Radiohead
 - Video
@@ -13,7 +12,7 @@ tags:
 - high definition
 - Radiohead
 - Video
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/243/086ac2b95cd30fbb05d0aeac818a56c6.jpg
+image: http://huntingbears.com.ve/static/img/posts/243/recopilacion-de-conciertos-de-radiohead-hd__1.jpg
 description: Esta es una recopilación de conciertos de Radiohead en alta definición.
 ---
 
@@ -26,8 +25,6 @@ Se provee el link de descarga en formato HD, a través de YouTube y gracias a la
 <span class="youtube" data-youtube-id="5DvM4GObIN4"></span>
 
 [Descarga el video a tu computador](http://www.keepvid.com/?url=http://www.youtube.com/watch?v=5DvM4GObIN4)
-
-<!-- more -->
 
 ### Reading Festival (2009)
 

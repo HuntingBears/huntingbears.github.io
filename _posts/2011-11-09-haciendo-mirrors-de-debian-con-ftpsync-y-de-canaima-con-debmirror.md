@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-11-09 23:12:34-04:30
 layout: post
 slug: haciendo-mirrors-de-debian-con-ftpsync-y-de-canaima-con-debmirror
 title: Haciendo mirrors de Debian con ftpsync y de Canaima con debmirror
-wordpress_id: 2041
+article_id: 2041
 categories:
 - Canaima
 - Debian
@@ -15,15 +14,13 @@ tags:
 - debmirror
 - ftpsync
 - mirror
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2041/939b94309b9de518a524a860b277a2cb.jpg
+image: http://huntingbears.com.ve/static/img/posts/2041/haciendo-mirrors-de-debian-con-ftpsync-y-de-canaima-con-debmirror__1.jpg
 description: Hacer mirrors locales de rus distribuciones favoritas permite agilizar los procesos de desarrollo, entre otros beneficios.
 ---
 
 Muchas veces se hace útil tener una copia idéntica ([mirror](http://www.debian.org/mirror/)) del repositorio de paquetes [Debian](ftp://ftp.us.debian.org/debian/) y [Canaima](http://repositorio.canaima.softwarelibre.gob.ve/) en tu computadora: Acelera la instalación de paquetes, la creación de imágenes con canaima-semilla y permite tener un ambiente pruebas en caso de que manejes un repositorio en ambientes de producción.
 
 Hacerlo no es tan difícil y requiere muy poca atención luego de realizado el procedimiento. Eso sí, el tiempo que utilizaremos inicialmente dependerá de tu velocidad de conexión. Podrás elegir cuales arquitecturas replicar y decidir si incluir las fuentes de los paquetes o no.
-
-<!-- more -->
 
 ### Mirror Debian
 

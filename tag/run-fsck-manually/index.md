@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [run fsck manually]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [run fsck manually] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: run-fsck-manually
-title: !!python/unicode 'Etiqueta [run fsck manually]'
+slug: run-fsck-manually
+title: '[run fsck manually] Tag'
 ---

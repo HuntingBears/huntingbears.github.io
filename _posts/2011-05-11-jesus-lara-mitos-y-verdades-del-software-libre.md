@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-05-11 18:56:29-04:30
 layout: post
 slug: jesus-lara-mitos-y-verdades-del-software-libre
 title: 'Jesús Lara: Mitos y verdades del Software Libre'
-wordpress_id: 1069
+article_id: 1069
 categories:
 - Educativo
 - Software Libre
@@ -13,7 +12,7 @@ tags:
 - phenobarbital
 - ponencia
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1069/7a47398627bbb559fb1d94d45a0efd04.jpg
+image: http://huntingbears.com.ve/static/img/posts/1069/jesus-lara-mitos-y-verdades-del-software-libre__1.jpg
 description: Jesús Lara desentraña los Mitos y verdades del Software Libre con su forma particular.
 ---
 

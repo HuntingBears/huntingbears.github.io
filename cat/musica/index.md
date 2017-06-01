@@ -1,7 +1,8 @@
 ---
-category_name: musica
-description: Lista de artículos bajo la categoría [Musica]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [música] category.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: category
-title: Categoría [Musica]
+slug: musica
+title: '[música] Category'
 ---

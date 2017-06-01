@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-02-24 23:42:25-04:30
 layout: post
 slug: canaima-una-distribucion-con-sabor-venezolano
 title: 'Canaima: una distribución con sabor venezolano'
-wordpress_id: 91
+article_id: 91
 categories:
 - Canaima
 - Software Libre
@@ -13,7 +12,7 @@ tags:
 - canaima gnu linux
 - distribución
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/91/53cd35387c4f0c8e285bb13ade2c38d5.jpg
+image: http://huntingbears.com.ve/static/img/posts/91/canaima-una-distribucion-con-sabor-venezolano__1.jpg
 description: Canaima es una distribución GNU/Linux hecha en Venezuela.
 ---
 
@@ -24,8 +23,6 @@ Como consecuencia directa del decreto presidencial 3390, se establece (más no o
 En efecto, el [CNTI](http://www.cnti.gob.ve/) fue la institución encargada de apoyar el lanzamiento de la primera versión de Canaima GNU/Linux, a principios del año 2008, como una solución propia destinada a ser implementada en toda la Administración Pública Nacional para dar cumplimiento al decreto.
 
 El CNTI también impulsó la creación de una comunidad de usuarios y desarrolladores alrededor de la distribución del estado venezolano, lo que con el tiempo significó la mejora de muchos de sus componentes fundamentales, además de muchos otros beneficios. Como resultado de ésta dinámica, el estado dejó de ser el protagonista del proyecto para pasar a ser facilitador, dejando el papel protagónico a la comunidad de usuarios.
-
-<!-- more -->
 
 ### ¿Que es Canaima GNU/Linux?
 

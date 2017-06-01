@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-05-26 02:01:02-04:30
 layout: post
 slug: aun-mas-fondos-de-pantalla-para-canaima-3-0
 title: Aún más fondos de pantalla para Canaima 3.0
-wordpress_id: 1153
+article_id: 1153
 categories:
 - Canaima
 - Diseño Gráfico
@@ -14,7 +13,7 @@ tags:
 - canaima gnu linux
 - fondos de pantalla
 - wallpapers
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1153/4145644672e31bb49903f16b865f11a1.jpg
+image: http://huntingbears.com.ve/static/img/posts/1153/aun-mas-fondos-de-pantalla-para-canaima-3-0__1.jpg
 description: Más fondos de pantalla para Canaima GNU/Linux 3.0.
 ---
 

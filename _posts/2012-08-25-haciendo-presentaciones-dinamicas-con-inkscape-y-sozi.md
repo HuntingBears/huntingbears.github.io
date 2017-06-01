@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-08-25 19:48:35-04:30
 layout: post
 slug: haciendo-presentaciones-dinamicas-con-inkscape-y-sozi
 title: Haciendo presentaciones dinámicas con Inkscape y Sozi
-wordpress_id: 2223
+article_id: 2223
 categories:
 - Diseño Gráfico
 - Software Libre
@@ -14,11 +13,11 @@ tags:
 - inkscape
 - presentaciones
 - sozi
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2223/1accecdd5fcddad1f0a102776351acca.jpg
+image: http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__1.jpg
 description: Sozi es una herramienta que permite realizar presentaciones basadas en el format SVG.
 ---
 
-Este 24 de agosto [me tocó realizar la ponencia](http://huntingbears.com.ve/desarrollando-con-ayuda-de-git-fudcon-valencia.html) que propuse para el FUDCon Valencia. Decidí hacer algo diferente a mis tradicionales láminas de Impress/ODP, aprovechando la aparición de herramientas más versátiles y modernas.
+Este 24 de agosto [me tocó realizar la ponencia]({{ site.url }}/desarrollando-con-ayuda-de-git-fudcon-valencia.html) que propuse para el FUDCon Valencia. Decidí hacer algo diferente a mis tradicionales láminas de Impress/ODP, aprovechando la aparición de herramientas más versátiles y modernas.
 
 _Sozi_ es un plugin hecho en python para el editor de gráficos vectoriales Inkscape. Posibilita la realización de transiciones dinámicas entre varios objetos dentro de un gráfico vectorial, lo que permite al diseñador a hacer presentaciones verdaderamente impresionantes, a través de casi cualquier conjunto de dibujos o formas.
 
@@ -46,37 +45,35 @@ unzip sozi-release-12.05-08120927.zip
 cp sozi* /usr/share/inkscape/extensions/
 {% endhighlight %}
 
-<!-- more -->
-
 ### Comenzando a crear
 
 Bien, ejecutemos Inkscape (Menú > Aplicaciones > Gráficos > Inkscape) y comencemos haciendo 5 formas genéricas que nos servirán como "láminas" para la presentación. En inkscape, podemos hacer diferentes formas por defecto como estrellas, círculos, cuadrados, o simplemente podemos hacer nuestra propia forma si tenemos un poco de experiencia modificando gráficos vectoriales. Por ahora, les dejo esta forma que se ve más abajo para que la puedan utilizar. Cada imagen tiene un enlace a su código fuente SVG, pero la idea es que ustedes lo hagan en sus casas a manera de práctica.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2223/6662857f0a75d50309b2a179a35d90e7.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2223/6662857f0a75d50309b2a179a35d90e7.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__2.jpg"></span>
 
 [Código fuente SVG para ser abierto con inkscape (botón derecho, guardar como)](http://dl.dropboxusercontent.com/u/16329841/forma.svg).
 
 Ahora, replicamos la forma otras 4 veces (seleccionar, CTRL+C, CTRL-V) y cambiamos colores (seleccionar, hacer click en la barra de colores inferior para cada forma). Debe quedar algo parecido a la imagen inferior.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2223/0b18a0d30d5dcb21cf5aa70498f41b3a.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2223/0b18a0d30d5dcb21cf5aa70498f41b3a.jpg"></span>.
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__4.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__4.jpg"></span>.
 
 [Código fuente SVG para ser abierto con inkscape (botón derecho, guardar como)](http://dl.dropboxusercontent.com/u/16329841/formavarios.svg)
 
 Una vez que tenemos las "láminas" de nuestra presentación, procedemos a llenar cada una con el contenido (imágenes, texto, gráficos, etc.). Para este ejemplo simplemente las enumeraremos.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2223/4419c1ca8acd3829591726253b6417b9.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2223/4419c1ca8acd3829591726253b6417b9.jpg"></span>.
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__6.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__6.jpg"></span>.
 
 [Código fuente SVG para ser abierto con inkscape (botón derecho, guardar como)](http://dl.dropboxusercontent.com/u/16329841/formavariosnumeros.svg).
 
 Aquí es donde entra en escena Sozi. Cada lámina debemos encerrarla en un cuadrado, para ello debemos seleccionar la herramienta de rectángulos (a la izquierda) y seleccionar el candado para que el tamaño cambie proporcionalmente. Además, cada cuadrado debe tener solamente el contorno sin el relleno. Los cuadrados establecerán los límites de cada lámina y serán los que Sozi utilizará para computar las transiciones.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2223/1accecdd5fcddad1f0a102776351acca.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2223/1accecdd5fcddad1f0a102776351acca.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__1.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__1.jpg"></span>
 
 [Código fuente SVG para ser abierto con inkscape (botón derecho, guardar como)](http://dl.dropboxusercontent.com/u/16329841/formavariosnumeroscuadros.svg).
 
 Seguidamente, seleccionamos el cuadrado que encierra la forma que utilizaremos como primera diapositiva y hacemos click en la opción "Sozi" del menú Extensiones. Aparecerá un cuadro como el que se refleja en la captura de pantalla inferior, en donde debemos presionar el boton que tiene forma de + para agregar una diapositiva asociada al cuadrado que seleccionamos.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2223/7e2ced8b80a903f35875f1c4522f809b.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2223/7e2ced8b80a903f35875f1c4522f809b.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__10.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__10.jpg"></span>
 
 En el mismo cuadro, existen diversas opciones para configurar otros aspectos de la diapositiva y su transición hacia la siguiente:
 
@@ -92,4 +89,4 @@ Luego de aplicar los cambios, debemos realizar este procedimiento con cada diapo
 
 Finalmente guardamos, abrimos la presentación con nuestro navegador preferido y deberíamos obtener algo parecido a lo que tenemos acá debajo.
 
-<iframe src="http://dl.dropboxusercontent.com/u/16329841/formavariosnumeroscuadrosfinal.svg"></iframe>
+<iframe class="svgviewer" src="http://dl.dropboxusercontent.com/u/16329841/formavariosnumeroscuadrosfinal.svg"></iframe>

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2013-12-10 18:16:38-04:30
 layout: post
 slug: ya-puedes-probar-la-primera-version-alfa-de-tribus
 title: Ya puedes probar la primera versión alfa de Tribus
-wordpress_id: 4312
+article_id: 4312
 categories:
 - Canaima
 - Desarrollo
@@ -14,11 +13,11 @@ tags:
 - desarrollo
 - red social
 - tribus
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/ef0bfdd4d9aa2f64c65c795a0572b274.jpg
+image: http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__1.jpg
 description: Tribus es una red social para la gestión de Comunidades de Software Libre.
 ---
 
-Luego de 6 meses de trabajo, el equipo de desarrollo de Canaima GNU/Linux se complace en publicar la primera versión alfa de Tribus (0.1~a1). Tribus es nuestra apuesta por conectar a todos los colaboradores que deseen aportar sus contribuciones en algunas de las múltiples áreas de trabajo de la Metadistribución Canaima GNU/Linux. Es también, además, un sistema que nos permitirá automatizar muchas tareas repetitivas o predecibles que forman parte del proceso productivo de las Comunidades de Software Libre. Si quieres conocer más acerca de Tribus, puedes leer un [artículo anterior](http://huntingbears.com.ve/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima.html).
+Luego de 6 meses de trabajo, el equipo de desarrollo de Canaima GNU/Linux se complace en publicar la primera versión alfa de Tribus (0.1~a1). Tribus es nuestra apuesta por conectar a todos los colaboradores que deseen aportar sus contribuciones en algunas de las múltiples áreas de trabajo de la Metadistribución Canaima GNU/Linux. Es también, además, un sistema que nos permitirá automatizar muchas tareas repetitivas o predecibles que forman parte del proceso productivo de las Comunidades de Software Libre. Si quieres conocer más acerca de Tribus, puedes leer un [artículo anterior]({{ site.url }}/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima.html).
 
 Durante el desarrollo de Tribus participaron 4 desarrolladores del CNTI pertenecientes a la Oficina de Operaciones Canaima, y 2 miembros de la Comunidad Canaima, con [diferentes asignaciones y actividades](http://github.com/CanaimaGNULinux/tribus/graphs/contributors). Utilizamos diferentes tecnologías libres como Python/Django, AngularJS, PostgreSQL, MongoDB, Redis, OpenLDAP, HTML5/CSS3, entre otros, para poner en marcha [la planificación de esta versión](http://github.com/CanaimaGNULinux/tribus/issues/milestones) (`0.1~a1`), la cual contiene las siguientes características:
 
@@ -28,7 +27,70 @@ Durante el desarrollo de Tribus participaron 4 desarrolladores del CNTI pertenec
 * **Sistema de Perfiles de Paquetes:** muestra un perfil descriptivo (o ficha técnica) de cada uno de los paquetes que se encuentran en los repositorios de Canaima.
 * **Sistema de Búsqueda:** permite buscar diversos tipos de elementos que se almacenan en Tribus, hasta ahora, usuarios y paquetes.
 
-<span class="picasa" data-picasa-id="5955814600498523857"><ul class="picasa-album"><li class="picasa-image"><a class="picasa-image-large" title=" - 2013-12-07_15.52.13.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/17568f4d1b982af1d4717600efb00a63.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/87d1bc78e80d3b2b8fabcc1b6d8ae4e4.jpg" alt=" - 2013-12-07_15.52.13.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title=" - 2013-12-07_15.53.19.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/1dc5fe730a58521e8a6d857fc2dfbac7.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/d6f6d8d5a9e7e3102f93b8b099286d98.jpg" alt=" - 2013-12-07_15.53.19.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="canaima-caribay-guiones - 2013-12-07_15.24.11.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/7e34bc6ceba66df2c40a86ed0c2d47e4.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/7cd7a28d3486b19f3c04a354146f523c.jpg" alt="canaima-caribay-guiones - 2013-12-07_15.24.11.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="canaima-escritorio-gnome - 2013-12-07_15.17.41.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/c469598759dc233c8211f1d0f76f66e2.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/1a9cf4b229ca38f9c125361942e9bcfb.jpg" alt="canaima-escritorio-gnome - 2013-12-07_15.17.41.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-12-10 11:37:45.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/40a5c33008ef87626450ef8bb71c7759.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/cdf51ad3a78467142f6df3cc31c018ca.jpg" alt="Captura de pantalla de 2013-12-10 11:37:45.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Dashboard - 2013-12-07_15.52.03.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/3d801bf2be89d16047e7cf35d0673ac1.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/f568c648ce60f9412c6d39d0b3290dfd.jpg" alt="Dashboard - 2013-12-07_15.52.03.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Perfil - 2013-12-07_15.50.24.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/d4d9d17a8f6b01a756f4ef846e4df95b.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/f0b1578d4c5f6fd7dd6981938e967322.jpg" alt="Perfil - 2013-12-07_15.50.24.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Perfil - 2013-12-07_15.51.04.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/c518f897e1821f4c2d736e8c43ae9ffa.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/186a26ebbabf5f3772e1c0e38c48bf6d.jpg" alt="Perfil - 2013-12-07_15.51.04.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Perfil - 2013-12-07_15.51.16.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/c6de8867d8d40fc7a1fa3554eea9a82a.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/4da2d62f6c8f5583912ee0e8d8aaaa90.jpg" alt="Perfil - 2013-12-07_15.51.16.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="software-center - 2013-12-07_15.29.45.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/d3bbfd27ebb0214eaef0f8669e8c3640.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/695f14fcf9f7c8349d40b695874f9c59.jpg" alt="software-center - 2013-12-07_15.29.45.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="turpial - 2013-12-07_15.24.45.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/16084852a94aec5987ee9e151ce89497.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/0b5ff13b5416a3446d869d4b7006ca06.jpg" alt="turpial - 2013-12-07_15.24.45.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="¡Únete a la Tribu! - 2013-12-07_15.53.53.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/73fa2ce7247d38fe923fa3fd62e444f8.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4312/7d67f0505efffd08df46fade31488cf7.jpg" alt="¡Únete a la Tribu! - 2013-12-07_15.53.53.png"></a></li></ul></span>
+<div class="picasa">
+    <ul class="picasa-album">
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__2.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__3.jpg">
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__4.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__5.jpg">
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__6.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__7.jpg">
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__8.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__9.jpg">
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__10.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__11.jpg">
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__12.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__13.jpg">
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__14.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__15.jpg">
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__16.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__17.jpg">
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__18.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__19.jpg">
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__20.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__21.jpg">
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__22.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__23.jpg">
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__24.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__25.jpg">
+            </a>
+        </li>
+    </ul>
+</div>
 
 Durante los próximos meses estaremos desarrollando la versión 0.2~a1, en donde seguiremos agregando funcionalidades que permitirán seguir mejorando el proceso productivo de la Comunidad Canaima, y por ende, de la Metadistribución Canaima GNU/Linux. Si deseas colaborar en el desarrollo de Tribus, puedes encontrar mayor información en [la documentación](http://tribus.readthedocs.org/).
 

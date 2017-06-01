@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [the king of limbs]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [the king of limbs] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: the-king-of-limbs
-title: !!python/unicode 'Etiqueta [the king of limbs]'
+slug: the-king-of-limbs
+title: '[the king of limbs] Tag'
 ---

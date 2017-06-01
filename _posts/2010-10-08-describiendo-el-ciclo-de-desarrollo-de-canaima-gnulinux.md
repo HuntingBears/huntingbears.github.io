@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-10-08 09:47:27-04:30
 layout: post
 slug: describiendo-el-ciclo-de-desarrollo-de-canaima-gnulinux
 title: Describiendo el ciclo de desarrollo de Canaima GNU/Linux
-wordpress_id: 301
+article_id: 301
 categories:
 - Canaima
 - Desarrollo
@@ -13,7 +12,7 @@ tags:
 - Canaima
 - ciclo
 - desarrollo
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/301/7bdf95f6a84d6c752d96a888d2c5eaeb.jpg
+image: http://huntingbears.com.ve/static/img/posts/301/describiendo-el-ciclo-de-desarrollo-de-canaima-gnulinux__1.jpg
 description: El ciclo de desarrollo de Canaima GNU/Linux permite definir un flujo de trabajo para los integrantes del proyecto.
 ---
 
@@ -25,9 +24,7 @@ Sin embargo, la popularidad no lo es todo. Detrás de Canaima GNU/Linux existe u
 
 En ese sentido, podemos decir que básicamente el ciclo de desarrollo de Canaima sigue un flujo natural de los acontecimientos tal cual se reseñan en el esquema adjunto:
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/301/5eba3bde322356ddc8c6d2774d57194b.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/301/7bdf95f6a84d6c752d96a888d2c5eaeb.jpg"></span>
-
-<!-- more -->
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/301/describiendo-el-ciclo-de-desarrollo-de-canaima-gnulinux__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/301/describiendo-el-ciclo-de-desarrollo-de-canaima-gnulinux__1.jpg"></span>
 
 ### ¿Quienes son los actores?
 
@@ -39,7 +36,7 @@ En teoría, una versión de Canaima es publicada cada ~6 meses en sincronía con
 
 La primera meta es realizar un producto. ¿Quien puede realizar un producto para Canaima GNU/Linux? Cualquiera puede hacerlo, sin embargo te recomendamos ciertas cosas que te ayudarán a hacerlo con mayor calidad y eficiencia:
 
-1. Léete la [guía de empaquetamiento con git-buildpackage](http://huntingbears.com.ve/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu.html).
+1. Léete la [guía de empaquetamiento con git-buildpackage]({{ site.url }}/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu.html).
 2. Participa en la lista de correo [desarrolladores](http://listas.canaima.softwarelibre.gob.ve/cgi-bin/mailman/listinfo/desarrolladores), [discusión](http://listas.canaima.softwarelibre.gob.ve/cgi-bin/mailman/listinfo/discusion) y [soporte](http://listas.canaima.softwarelibre.gob.ve/cgi-bin/mailman/listinfo/soporte).
 3. Usa Canaima para todo.
 4. Infórmate acerca de las conclusiones a las que se llegaron en la última [Cayapa](http://cayapa.canaima.softwarelibre.gob.ve).
@@ -50,11 +47,11 @@ Es importante añadir tu proyecto en el Mapa de ruta de la próxima versión de 
 
 ### Etapas de Desarrollo
 
-Las etapas de desarrollo iniciales de un producto son locales e involucran casi cualquier elemento que al desarrollador se le ocurra, en fin, es producto de un proceso creativo que en mi opinión se acerca mucho al arte. Cuando tu proyecto tenga una estructura más o menos definida, es hora de [versionarlo con git](http://huntingbears.com.ve/guia-basica-de-desarrollo-con-git.html) e ir publicando tu código; en ésta etapa entra en juego [forja.softwarelibre.gob.ve](http://forja.softwarelibre.gob.ve).
+Las etapas de desarrollo iniciales de un producto son locales e involucran casi cualquier elemento que al desarrollador se le ocurra, en fin, es producto de un proceso creativo que en mi opinión se acerca mucho al arte. Cuando tu proyecto tenga una estructura más o menos definida, es hora de [versionarlo con git]({{ site.url }}/guia-basica-de-desarrollo-con-git.html) e ir publicando tu código; en ésta etapa entra en juego [forja.softwarelibre.gob.ve](http://forja.softwarelibre.gob.ve).
 
 "La forja" es un espacio público donde puedes alojar proyectos de software libre de una forma práctica y gratuita, bajo la plataforma de Canaima GNU/Linux y usando un repositorio git. [Crea un proyecto](http://forja.softwarelibre.gob.ve/) y ve publicando tu código ahí.
 
-A medida que vas madurando y depurando tu código, es buena idea ir también trabajando en la [debianización](http://huntingbears.com.ve/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu.html) del paquete fuente para finalmente generar el paquete binario con [git-buildpackage](http://huntingbears.com.ve/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu.html).  Haz sucesivas pruebas de empaquetado con tu proyecto, y cuando llegues a un nivel en donde sea usable, puedes solicitar a través de la lista de correo [desarrolladores@canaima.softwarelibre.gob.ve](http://listas.canaima.softwarelibre.gob.ve/cgi-bin/mailman/listinfo/desarrolladores) permisos suficientes en los servidores de la Plataforma Canaima para subir tus paquetes a la rama de desarrollo. En tu solicitud debes incluir:
+A medida que vas madurando y depurando tu código, es buena idea ir también trabajando en la [debianización]({{ site.url }}/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu.html) del paquete fuente para finalmente generar el paquete binario con [git-buildpackage]({{ site.url }}/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu.html).  Haz sucesivas pruebas de empaquetado con tu proyecto, y cuando llegues a un nivel en donde sea usable, puedes solicitar a través de la lista de correo [desarrolladores@canaima.softwarelibre.gob.ve](http://listas.canaima.softwarelibre.gob.ve/cgi-bin/mailman/listinfo/desarrolladores) permisos suficientes en los servidores de la Plataforma Canaima para subir tus paquetes a la rama de desarrollo. En tu solicitud debes incluir:
 
 1. Nombre del Paquete (Completo).
 2. Descripción de su utilidad.
@@ -72,6 +69,6 @@ Cuando sientas que haz llegado a una versión estable de tu paquete, es hora de 
 4. Dirección del código fuente.
 5. Direccción del paquete .deb tal cual va a ser incluído en los repositorios.
 
-Finalmente, cuando todos los objetivos establecidos en el mapa de ruta se hayan cumplido, todos los paquetes de la rama pruebas serán pasados a estable, generando así una nueva versión de Canaima. Los medios vivos instalables serán generados a través de [canaima-semilla](http://huntingbears.com.ve/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima.html).
+Finalmente, cuando todos los objetivos establecidos en el mapa de ruta se hayan cumplido, todos los paquetes de la rama pruebas serán pasados a estable, generando así una nueva versión de Canaima. Los medios vivos instalables serán generados a través de [canaima-semilla]({{ site.url }}/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima.html).
 
 ¡Happy Programming!

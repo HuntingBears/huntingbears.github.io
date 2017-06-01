@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-11-27 01:08:32-04:30
 layout: post
 slug: trabajando-con-submodulos-en-git
 title: Trabajando con submódulos en git
-wordpress_id: 1905
+article_id: 1905
 categories:
 - Canaima
 - Debian
@@ -15,15 +14,15 @@ tags:
 - desarrollo
 - git
 - submódulos
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1905/606029e5648bf68576fb16f4b3913812.jpg
+image: http://huntingbears.com.ve/static/img/posts/1905/trabajando-con-submodulos-en-git__1.jpg
 description: Los submódulos en git permiten dividir o combinar un proyecto en varios repositorios separados.
 ---
 
 Este artículo contiene información avanzada relacionada con el desarrollo bajo versionamiento git. Si deseas ampliar tus conocimientos antes de continuar, puedes leer los siguientes artículos:
 
-* [Guía de desarrollo básico con git](http://huntingbears.com.ve/guia-basica-de-desarrollo-con-git.html).
-* [Guía de desarrollo avanzado con git](http://huntingbears.com.ve/guia-avanzada-de-desarrollo-con-git.html).
-* [El oráculo git del desarrollador](http://huntingbears.com.ve/el-oraculo-git-del-desarrollador.html).
+* [Guía de desarrollo básico con git]({{ site.url }}/guia-basica-de-desarrollo-con-git.html).
+* [Guía de desarrollo avanzado con git]({{ site.url }}/guia-avanzada-de-desarrollo-con-git.html).
+* [El oráculo git del desarrollador]({{ site.url }}/el-oraculo-git-del-desarrollador.html).
 
 Los submódulos en git permiten insertar uno o más repositorios externos dentro de otro repositorio. Es decir, permiten manejar uno o varios subproyectos dentro de un gran proyecto versionado con git. Esta característica puede ser útil, por ejemplo, para referenciar archivos que estén en proyectos complementarios, pero administrados por diferentes grupos o personas.
 
@@ -43,8 +42,6 @@ cd aguilas
 {% endhighlight %}
 
 Aguilas contiene dos submódulos: el wiki para github y el wiki para google code. Estas características nos permitirán ilustrar mas adelante algunas funcionalidades de los submódulos.
-
-<!-- more -->
 
 ### Agregar un submódulo
 

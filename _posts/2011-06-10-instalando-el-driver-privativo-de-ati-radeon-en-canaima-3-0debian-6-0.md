@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-06-10 15:07:24-04:30
 layout: post
 slug: instalando-el-driver-privativo-de-ati-radeon-en-canaima-3-0debian-6-0
 title: Instalando el driver privativo de ATI Radeon en Canaima 3.0/Debian 6.0
-wordpress_id: 1349
+article_id: 1349
 categories:
 - Canaima
 - Software Libre
@@ -14,7 +13,7 @@ tags:
 - canaima gnu linux
 - driver ATI
 - tutorial
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1349/fb773a83c494c36eea43a14e734435af.jpg
+image: http://huntingbears.com.ve/static/img/posts/1349/instalando-el-driver-privativo-de-ati-radeon-en-canaima-3-0debian-6-0__1.jpg
 description: Esta guía permite instalar el driver privativo de ATI.
 ---
 
@@ -29,8 +28,6 @@ description: Esta guía permite instalar el driver privativo de ATI.
 Bueno, este error ocurre cuando posees una tarjeta ATI Radeon, y no has instalado el driver privativo fglrx. Lamentablemente, todavía no hemos podido desarrollar un driver libre para sistemas GNU/Linux (recuerden que como los fabricantes no liberan el código fuente, los desarrolladores GNU/Linux deben utilizar ingeniería inversa para hacer los drivers, lo cual es muy engorroso).
 
 Si no te importa perder un poco del control de tu computadora instalando drivers que no sabes lo que tienen por dentro pero que hacen funcionar el hardware, entonces ésta guía es para ti.
-
-<!-- more -->
 
 1. Primero averiguemos cuál es la arquitectura bajo la cual está corriendo tu sistema operativo GNU/Linux con el siguiente comando en consola de root (Aplicaciones > Accesorios > Terminal de Root).
 

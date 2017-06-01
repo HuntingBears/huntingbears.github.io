@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2013-09-11 16:00:28-04:30
 layout: post
 slug: una-pequena-rutina-para-relacionar-locales-con-paquetes-de-idiomas
 title: Una pequeña rutina para relacionar locales con paquetes de idiomas
-wordpress_id: 4088
+article_id: 4088
 categories:
 - Canaima
 - Desarrollo
@@ -14,7 +13,7 @@ tags:
 - i18n
 - internationalization
 - locales
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/4088/3882d947af2674811118c1ed32578224.jpg
+image: http://huntingbears.com.ve/static/img/posts/4088/una-pequena-rutina-para-relacionar-locales-con-paquetes-de-idiomas__1.jpg
 description: La idea de este script es generar una base de datos que asocie los códigos de locales con los paquetes de traducciones.
 ---
 
@@ -28,8 +27,6 @@ La internacionalización de una distribución es diferente del concepto tradicio
 La idea de este script es generar una _base de datos_ (en forma de diccionario de python) que asocie los códigos de _locales_ (lenguajes), con los paquetes de traducciones de una serie de aplicaciones conocidas y presentes en Canaima.
 
 Algunos se preguntarán, ¿Por qué no se utilizan los paquetes de internacionalización de Debian?, la respuesta es que **están incompletos**. Si bien existen los paquetes de tareas que traducen al español y otros lenguajes comunes, los cuales agrupan los paquetes de traducciones para páginas de manual, diccionarios, entre otros, existen casos en los cuales no existen paquetes de tareas para un lenguaje poco común.
-
-<!-- more -->
 
 ### ¿Cómo funciona?
 

@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [ricardo menendez]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [ricardo menendez] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: ricardo-menendez
-title: !!python/unicode 'Etiqueta [ricardo menendez]'
+slug: ricardo-menendez
+title: '[ricardo menendez] Tag'
 ---

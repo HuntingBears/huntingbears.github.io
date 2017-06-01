@@ -39,33 +39,22 @@ if(page_layout == 'post'){
                 ga('send', 'social', 'LinkedIn', 'Share', disqus_url);
             });
 
-            $('.n_compartidos').each(function(index, element){
-
+            $('.figure').each(function(index, element){
                 var self = $(element);
-
-                for(i in posts_index){
-                    if(i == self.attr('data-ident')){
-                        self.text(posts_index[i]['share_count']);
-                    }
-                }
-            });
-
-            $('.n_comentarios').each(function(index, element){
-
-                var self = $(element);
-
-                for(i in posts_index){
-                    if(i == self.attr('data-ident')){
-                        self.text(posts_index[i]['comment_count']);
-                    }
-                }
+                var figure_link = $('<a />', {'href': self.attr('data-figure-href'), 'title': page_description});
+                var figure_container = $('<figure />', {'class': 'figure-container'});
+                var figure_image = $('<img />', {'class': 'image', 'alt': page_description, 'src': self.attr('data-figure-src')});
+                var figure_caption = $('<caption />', {'class': 'caption'}).text(page_description);
+                figure_container.append(figure_image);
+                figure_container.append(figure_caption);
+                figure_link.append(figure_container);
+                self.append(figure_link);
             });
 
             $('.youtube').each(function(index, element){
                 var self = $(element);
                 var youtube_api_end = 'https://www.youtube.com/embed/'+self.attr('data-youtube-id');
-                var youtube_api_param = $.param({'html5': 1,
-                                                 'rel': 0,
+                var youtube_api_param = $.param({'rel': 0,
                                                  'showinfo': 0,
                                                  'theme': 'light',
                                                  'iv_load_policy': 3,
@@ -94,73 +83,67 @@ if(page_layout == 'post'){
                                              'frameborder': 0}));
             });
 
-            $('.figure').each(function(index, element){
-                var self = $(element);
-                var figure_link = $('<a />', {'href': self.attr('data-figure-href'), 'title': page_description});
-                var figure_container = $('<figure />', {'class': 'figure-container'});
-                var figure_image = $('<img />', {'class': 'image', 'alt': page_description, 'src': self.attr('data-figure-src')});
-                var figure_caption = $('<caption />', {'class': 'caption'}).text(page_description);
-                figure_container.append(figure_image);
-                figure_container.append(figure_caption);
-                figure_link.append(figure_container);
-                self.append(figure_link);
-            });
+            var n_compartidos = $('.n_compartidos');
+            var n_comentarios = $('.n_comentarios');
 
-            $('.relatedposts').each(function(index, element){
+            n_compartidos.first().text(posts_index[n_compartidos.attr('data-ident')]['share_count']);
+            n_comentarios.first().text(posts_index[n_comentarios.attr('data-ident')]['comment_count']);
 
-                var self = $(element);
-                var related_posts_list = [];
-                var post_keywords = posts_index[self.attr('data-ident')]['keywords'].split(', ');
+            var related_posts_html = [];
+            var related_posts_list = [];
+            var relatedposts = $('#relatedposts');
+            var post_keywords = posts_index[relatedposts.attr('data-ident')]['keywords'].split(', ');
 
-                for(i in posts_index){
-                    for(j in post_keywords){
-                        var needle = post_keywords[j].toString().toLowerCase();
-                        var haystack = posts_index[i]['keywords'].toString().toLowerCase();
-                        if(haystack.indexOf(needle) >= 0 && related_posts_list.indexOf(i) == -1){
-                            related_posts_list.push(i);
-                        }
+            for(i in posts_index){
+                for(j in post_keywords){
+                    var needle = post_keywords[j].toString().toLowerCase();
+                    var haystack = posts_index[i]['keywords'].toString().toLowerCase();
+                    if(haystack.indexOf(needle) >= 0 && related_posts_list.indexOf(i) == -1){
+                        related_posts_list.push(i);
                     }
                 }
+            }
 
-                var shuffled_posts = shuffleArray(related_posts_list).slice(0, 4);
+            var shuffled_posts = shuffleArray(related_posts_list).slice(0, 4);
 
-                for(var k = 0; k < shuffled_posts.length; k++){
-                    self.append('<li><a href="'+posts_index[shuffled_posts[k]].url+'" title="'+posts_index[shuffled_posts[k]].description+'" rel="bookmark"><span class="thumbnail" style="background-image: url('+posts_index[shuffled_posts[k]].image+');"></span><span class="title">'+posts_index[shuffled_posts[k]].title+'</span></a></li>');
-                }
-            });
+            for(var k = 0; k < shuffled_posts.length; k++){
+                related_posts_html.push('<li><a href="'+posts_index[shuffled_posts[k]].url+'" title="'+posts_index[shuffled_posts[k]].description+'" rel="bookmark"><span class="thumbnail" style="background-image: url('+posts_index[shuffled_posts[k]].image+');"></span><span class="title">'+posts_index[shuffled_posts[k]].title+'</span></a></li>');
+            }
 
-            $(window).on('load', function(){
-
-                $('a[href]').filter(function(index){
-                    return /\.(jpg|png|jpeg|gif|svg)$/i.test(this.href);
-                }).each(function(index, element){
-                    var self = $(element);
-
-                    self.on('click', function(event){
-                        event.preventDefault();
-                        $('#modal').css({'background-image': "url('"+self.attr('href')+"')"});
-                        $('#modal-container').css({'display': 'block'});
-                    });
-
-                    $('#modal-close').on('click', function(event){
-                        event.preventDefault();
-                        $('#modal-container').css({'display': 'none'});
-                    });
-
-                    $('#modal-overlay').on('click', function(event){
-                        event.preventDefault();
-                        $('#modal-container').css({'display': 'none'});
-                    });
-
-                    $('#modal-vertical-offset').on('click', function(event){
-                        event.preventDefault();
-                        $('#modal-container').css({'display': 'none'});
-                    });
-                });
-
-            });
+            relatedposts.html(related_posts_html.join(''));
 
         });
-    }(window.jQuery || window.Zepto));
+    }(window.jQuery));
+
+    $(window).on('load', function(){
+
+        $('a[href]').filter(function(index){
+            return /\.(jpg|png|jpeg|gif|svg)$/i.test(this.href);
+        }).each(function(index, element){
+            var self = $(element);
+
+            self.on('click', function(event){
+                event.preventDefault();
+                $('#modal').css({'background-image': "url('"+self.attr('href')+"')"});
+                $('#modal-container').css({'display': 'block'});
+            });
+
+            $('#modal-close').on('click', function(event){
+                event.preventDefault();
+                $('#modal-container').css({'display': 'none'});
+            });
+
+            $('#modal-overlay').on('click', function(event){
+                event.preventDefault();
+                $('#modal-container').css({'display': 'none'});
+            });
+
+            $('#modal-vertical-offset').on('click', function(event){
+                event.preventDefault();
+                $('#modal-container').css({'display': 'none'});
+            });
+        });
+
+    });
 
 }

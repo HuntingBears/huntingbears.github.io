@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [musicbrainz picard]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [musicbrainz picard] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: musicbrainz-picard
-title: !!python/unicode 'Etiqueta [musicbrainz picard]'
+slug: musicbrainz-picard
+title: '[musicbrainz picard] Tag'
 ---

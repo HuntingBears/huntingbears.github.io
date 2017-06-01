@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-07-28 13:59:20-04:30
 layout: post
 slug: asistente-de-actualizacion-de-canaima-2-1-a-canaima-3-0
 title: Asistente de Actualización de Canaima 2.1 a Canaima 3.0
-wordpress_id: 1663
+article_id: 1663
 categories:
 - Canaima
 - Desarrollo
@@ -14,7 +13,7 @@ tags:
 - asistente actualizacion
 - canaima gnu linux
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1663/08a53d9799575eb498fa24d49ba81286.jpg
+image: http://huntingbears.com.ve/static/img/posts/1663/asistente-de-actualizacion-de-canaima-2-1-a-canaima-3-0__1.jpg
 description: El equipode desarrollo de Canaima GNU/Linux ha desarrollado un asistente para la actualización de Canaima 2.1 a Canaima 3.0.
 ---
 
@@ -24,9 +23,9 @@ Si estás leyendo éste mensaje mientras usas Canaima 2.1, podrás darte cuenta 
 
 Luego de 2 horas (aprox.), podrás disfrutar de Canaima 3.0.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1663/0cc673f95f703b659df9c700f0f26f6f.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1663/df59d3740147fc622416e32cb661c552.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1663/asistente-de-actualizacion-de-canaima-2-1-a-canaima-3-0__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1663/asistente-de-actualizacion-de-canaima-2-1-a-canaima-3-0__3.jpg"></span>
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1663/24291231002d0985ddf2340f7bf4e79b.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1663/523f4f2ce18db677c2e94b6432b83b8b.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1663/asistente-de-actualizacion-de-canaima-2-1-a-canaima-3-0__4.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1663/asistente-de-actualizacion-de-canaima-2-1-a-canaima-3-0__5.jpg"></span>
 
 Debes tomar algunas precauciones adicionales:
 

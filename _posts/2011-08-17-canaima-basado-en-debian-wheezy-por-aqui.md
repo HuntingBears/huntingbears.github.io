@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-08-17 18:40:02-04:30
 layout: post
 slug: canaima-basado-en-debian-wheezy-por-aqui
 title: ¿Canaima basado en Debian Wheezy? ¡Por aquí!
-wordpress_id: 1820
+article_id: 1820
 categories:
 - Canaima
 - Desarrollo
@@ -14,7 +13,7 @@ tags:
 - canaima 4.0
 - debian wheezy
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1820/af8e6fb94cdfa1870bfa3a722440078d.jpg
+image: http://huntingbears.com.ve/static/img/posts/1820/canaima-basado-en-debian-wheezy-por-aqui__1.jpg
 description: Acá te explicamos como construir un Canaima basado en la versión en pruebas de Debian.
 ---
 
@@ -26,17 +25,15 @@ Las versiones mayores de Canaima (2.0, 3.0, 4.0, ...) vienen sincronizadas con l
 
 Aunque en el ciclo de desarrollo actual, la próxima versión de Canaima es la 3.1, - con muchas mejoras que iremos viendo conforme se avanza el desarrollo -, nada nos impide experimentar un poco con el próximo ciclo de desarrollo.
 
-<!-- more -->
-
 ### Instalando Debian Wheezy
 
 Lo primero que haremos es bajarnos una ISO de Debian Wheezy (una daily build). No necesitaremos mucho, sólo la base, así que descargaremos la "netinstall", que pesa ~200MB.
 
 * [Descargar netinstall para 64bits](http://cdimage.debian.org/cdimage/archive/7.2.0/amd64/iso-cd/debian-7.2.0-amd64-netinst.iso).
 * [Descargar netinstall para 32bits](http://cdimage.debian.org/cdimage/archive/7.2.0/amd64/iso-cd/debian-7.2.0-amd64-netinst.iso).
-* [No sé si mi computadora es 32Bits o 64Bits](http://huntingbears.com.ve/tip-como-identificar-si-un-procesador-soporta-64bits.html)
+* [No sé si mi computadora es 32Bits o 64Bits]({{ site.url }}/tip-como-identificar-si-un-procesador-soporta-64bits.html)
 
-Una vez descargada, quémala en un CD o DVD con tu programa favorito (yo uso brasero) o, si quieres, también [puedes usar un pendrive](http://huntingbears.com.ve/tip-como-identificar-la-ruta-al-disco-usb-que-acabas-de-conectar.html).
+Una vez descargada, quémala en un CD o DVD con tu programa favorito (yo uso brasero) o, si quieres, también [puedes usar un pendrive]({{ site.url }}/tip-como-identificar-la-ruta-al-disco-usb-que-acabas-de-conectar.html).
 
 Inserta el medio de almacenamiento que hayas elegido y reinicia la computadora para que inicie a través de allí (tal vez necesites modificar el orden de arranque de los dispositivos en la BIOS).
 

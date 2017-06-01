@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-08-19 17:24:17-04:30
 layout: post
 slug: haciendo-resumenes-curriculares-profesionales-con-latex
 title: Haciendo resúmenes curriculares profesionales con LaTeX
-wordpress_id: 2222
+article_id: 2222
 categories:
 - Software Libre
 - Tutoriales
@@ -13,7 +12,7 @@ tags:
 - curriculum
 - latex
 - vitae
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2222/347be2d4fb8d04d0b87a6b90531d4aa5.jpg
+image: http://huntingbears.com.ve/static/img/posts/2222/haciendo-resumenes-curriculares-profesionales-con-latex__1.jpg
 description: Aprende a hacer resúmenes curriculares únicos con LaTeX.
 ---
 
@@ -33,9 +32,7 @@ Necesitamos un editor de texto como vim, nano o gedit para editar nuestro archiv
 
 Por otro lado, una herramienta que puede resultar útil es esta [hoja de trucos o _cheat sheet_](http://dl.dropboxusercontent.com/u/16329841/latexsheet.pdf) que permite hacer consultas rápidas acerca de comandos específicos, sacándonos de dudas cuando estemos estancados.
 
-También es útil leer [este artículo](http://huntingbears.com.ve/buscar-archivos-en-la-base-de-datos-general-de-paquetes-con-apt-file.html) acerca de la herramienta `apt-file`, que nos permitirá buscar paquetes LaTeX dentro de los repositorios de paquetes.
-
-<!-- more -->
+También es útil leer [este artículo]({{ site.url }}/buscar-archivos-en-la-base-de-datos-general-de-paquetes-con-apt-file.html) acerca de la herramienta `apt-file`, que nos permitirá buscar paquetes LaTeX dentro de los repositorios de paquetes.
 
 ### Nociones básicas
 
@@ -102,7 +99,7 @@ end{cv}
 end{document}
 {% endhighlight %}
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2222/db02c92e0d7cf51011501b996a37e485.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2222/db02c92e0d7cf51011501b996a37e485.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2222/haciendo-resumenes-curriculares-profesionales-con-latex__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2222/haciendo-resumenes-curriculares-profesionales-con-latex__2.jpg"></span>
 
 Como se nota, los caracteres especiales tienen un tratamiento particular en LaTeX. Estaremos usando por ejemplo: á (`'a`), é (`'e`), í (`'i`), ó (`'o`), ú (`'u`), ñ (`~n`) y ~ (`$sim$`).
 
@@ -147,7 +144,7 @@ Acá podemos notar varias cosas:
 
 Bien, finalmente insertamos una fotografía pertinente con la etiqueta `includegraphics{curriculumvitae.jpg}`, en donde `curriculumvitae.jpg` es la ruta relativa a la foto. Por supuesto, dentro de un bloque `minipage` al 30% del ancho de línea como dijimos antes, quedando esta sección completa de la siguiente forma:
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2222/ed77cf7da54dee157aac327b44b17d26.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2222/ed77cf7da54dee157aac327b44b17d26.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2222/haciendo-resumenes-curriculares-profesionales-con-latex__4.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2222/haciendo-resumenes-curriculares-profesionales-con-latex__4.jpg"></span>
 
 {% highlight latex %}
 begin{minipage}{.7linewidth}
@@ -175,7 +172,7 @@ Para este caso, tenemos una situación particular: los títulos dentro de la eti
 
 Por ejemplo:
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2222/e1f61d1ad74aa6eb80c1e267fa44ba65.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2222/e1f61d1ad74aa6eb80c1e267fa44ba65.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2222/haciendo-resumenes-curriculares-profesionales-con-latex__6.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2222/haciendo-resumenes-curriculares-profesionales-con-latex__6.jpg"></span>
 
 {% highlight latex %}
 begin{cvlist}{Experiencia laboral}

@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [aguila no caza mosca]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [aguila no caza mosca] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: aguila-no-caza-mosca
-title: !!python/unicode 'Etiqueta [aguila no caza mosca]'
+slug: aguila-no-caza-mosca
+title: '[aguila no caza mosca] Tag'
 ---

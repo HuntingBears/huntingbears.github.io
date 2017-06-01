@@ -1,22 +1,21 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-01-31 05:24:21-04:30
 layout: page
 slug: acerca
 title: Acerca
-wordpress_id: 2
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 2
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 description: About.
 ---
 
-<span class="figure figure-40" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2/d0f775037c4aecb096102cf8d75925f3.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2/10f49172dcc4450195095a0efc63b285.jpg"></span>
+<span class="figure figure-40" data-figure-src="http://huntingbears.com.ve/static/img/posts/2/acerca__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2/acerca__3.jpg"></span>
 
 Hola, mi nombre es **Luis Alejandro Martínez Faneyth**. Nací en Caracas por allá en el año 1986 cuando esos peinados extravagantes estaban de moda (yo no me salvé de eso) y cuando esas baterías electrónicas ochentosas estaban comenzando a morir (gracias a Dios).
 
 Aunque crecí en una familia humilde, mi papá y mi mamá se esforzaron por darme siempre lo mejor que pudieron; tanto así, que mi primer gran regalo de niño fué una computadora **Intel 386**, con su impresora a matriz de puntos y todo. Mis trasnochos comenzaron, tratando de escribir cosas en **WordStar**, dibujando en **Harvard Graphics** y jugando **Príncipe de Persia para MS-DOS**. Esa sería la semilla que definiría la evolución de mis gustos.
 
-<span class="figure figure-40" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2/cc586accfede9aa0ed7a63b94823aa6b.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2/ef5de73af84f54ccd671ea2cfbea5c9c.jpg"></span>
+<span class="figure figure-40" data-figure-src="http://huntingbears.com.ve/static/img/posts/2/acerca__4.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2/acerca__5.jpg"></span>
 
 Conocí el software libre de manos de un amigo en la universidad que me ayudó a instalar una distribución **SUSE**, la cual, desinstalé apenas se fué porque no me gustó: yo quería mi guindos de nuevo. Sin embargo, comencé a investigar acerca de Linux en general, y cada vez que aprendía una cosa nueva, más me interesaba. Pasé días leyendo, hasta que decidí instalar **Ubuntu** por allá en el 2004 y con él me quedé hasta que en algún momento de mi carrera universitaria necesité simuladores electrónicos, quemadores de **PIC**, compiladores de **PASCAL**, entre otras cosas que para ese entonces no eran "un tiro al piso" en Linux. Momentáneamente, necesité de guindos para poder hacer mis tareas (con un buen fondo musical de **Radiohead**).
 

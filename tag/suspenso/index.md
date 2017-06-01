@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [suspenso]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [suspenso] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: suspenso
-title: !!python/unicode 'Etiqueta [suspenso]'
+slug: suspenso
+title: '[suspenso] Tag'
 ---

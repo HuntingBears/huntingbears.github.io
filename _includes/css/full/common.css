@@ -26,7 +26,6 @@
     width: 98%;
     margin: 10px 0 5px 0;
     padding: 5px 1%;
-    font-weight: 300;
     font-size: 2.5em;
     line-height: 50px;
     color: rgb(153, 153, 153);
@@ -74,7 +73,6 @@
     vertical-align: top;
     width: 100%;
     font-size: 1.8em;
-    font-weight: 300;
     line-height: 1em;
 }
 
@@ -83,7 +81,6 @@
     vertical-align: top;
     width: 100%;
     font-size: 1em;
-    font-weight: 300;
     line-height: 1em;
 }
 
@@ -107,44 +104,64 @@
     height: 105px;
 }
 
-#content > .pagination > span {
+#content > .pagination > .left,
+#content > .pagination > .right {
     float: left;
-    margin: 15px 0px;
+    margin: 15px 0;
     width: 20%;
 }
 
-#content > .pagination > span.spacer {
+#content > .pagination > .spacer {
+    float: left;
+    margin: 15px 0;
     width: 60%;
 }
 
-#content > .pagination > span > a {
-    display: inline-block;
-    vertical-align: top;
+#content > .pagination > .left > a,
+#content > .pagination > .right > a {
+    float: left;
     height: 70px;
     width: 100%;
     margin: 5px 0;
     padding: 0 0 5px 0;
-    line-height: 70px;
-    font-size: 1.5em;
-    font-weight: 300;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
     box-shadow: 0 -6px 0 rgba(255, 255, 255, 0.2) inset, 0 -5px 0 rgba(0, 0, 0, 0.1) inset, -1px 0 0 rgba(0, 0, 0, 0.06) inset, 1px 1px 0 rgba(0, 0, 0, 0.06) inset;
-    color: rgb(255, 255, 255);
     border-radius: 5px;
     background-color: rgb(193, 190, 182);
     background-image: radial-gradient(ellipse closest-side at 50% 50%, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.0));
     transition: background-color 0.4s linear;
 }
 
-#content > .pagination > span > a:hover {
+#content > .pagination > .left > a:active,
+#content > .pagination > .right > a:active {
+    box-shadow: 0 -70px 0 rgba(0, 0, 0, 0.06) inset;
+}
+
+#content > .pagination > .left > a:hover,
+#content > .pagination > .right > a:hover {
     background-color: rgb(153, 150, 145);
 }
 
-#content > .pagination > span > a > .hide {
+#content > .pagination > .left > a > .hide,
+#content > .pagination > .right > a > .hide {
     display: none;
+}
+
+#content > .pagination > .left > a > .sprite,
+#content > .pagination > .right > a > .sprite {
+    display: block;
+    width: 40px;
+    height: 30px;
+    margin: 20px auto;
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.svg');
+    background-repeat: no-repeat;
+}
+
+#content > .pagination > .left > a > .sprite {
+    background-position: -500px -30px;
+}
+
+#content > .pagination > .right > a > .sprite {
+    background-position: -540px -30px;
 }
 
 /*-- Footer [home, single]------------------------------------------------*/
@@ -157,7 +174,6 @@
     margin: 150px 0 0 0;
     padding: 0 1% 100px 1%;
     font-size: 1.4em;
-    font-weight: 300;
     line-height: 1.2em;
     color: rgb(0, 0, 0);
     border-radius: 5px 5px 0 0;
@@ -187,8 +203,7 @@
 }
 
 #container > footer > nav > ul > li > a {
-    display: inline-block;
-    vertical-align: top;
+    float: left;
     width: 100%;
     padding: 10px 0;
     line-height: 1em;
@@ -208,27 +223,42 @@
 #container > footer > .license > .icon,
 #container > footer > .info > .icon {
     float: left;
-    text-align: center;
-    padding: 5px 1%;
+    width: 15%;
+    padding: 0;
     margin: 0;
-    width: 13%;
-    font-size: 4em;
-    line-height: 0.7em;
-    color: rgb(194, 190, 178);
+}
+
+#container > footer > .license > .icon > .sprite,
+#container > footer > .info > .icon > .sprite {
+    display: block;
+    width: 140px;
+    margin: 0 auto;
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.svg');
+    background-repeat: no-repeat;
+}
+
+#container > footer > .info > .icon > .sprite {
+    height: 100px;
+    background-position: -560px -225px;
+}
+
+#container > footer > .license > .icon > .sprite {
+    height: 140px;
+    background-position: -560px -325px;
 }
 
 #container > footer > .license > .text,
 #container > footer > .info > .text {
     float: left;
-    text-align: justify;
-    padding: 5px 1%;
-    margin: 0;
     width: 83%;
+    padding: 0 1%;
+    margin: 0;
+    text-align: justify;
 }
 
 #container > footer > .license > .text > a,
 #container > footer > .info > .text > a {
-    font-weight: 900;
+    font-weight: 400;
     color: rgb(0, 0, 0);
 }
 

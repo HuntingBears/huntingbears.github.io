@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-10-04 21:42:53-04:30
 layout: post
 slug: guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu
 title: Guía de empaquetamiento con git-buildpackage para Canaima, Debian o Ubuntu
-wordpress_id: 261
+article_id: 261
 categories:
 - Desarrollo
 - Software Libre
@@ -13,7 +12,7 @@ tags:
 - desarrollo
 - empaquetamiento
 - git-buidpackage
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/261/6aef055f0aaeeef03358a7e94f662747.jpg
+image: http://huntingbears.com.ve/static/img/posts/261/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu__1.jpg
 description: Con esta guía podrás entender los elementos básicos para producir paquetes compatibles con Canaima, Debian o Ubuntu.
 ---
 
@@ -22,13 +21,11 @@ description: Con esta guía podrás entender los elementos básicos para produci
 
 <!-- @TODO@ -->
 
-En ésta oportunidad y continuando mi [empeño](http://huntingbears.com.ve/guia-basica-de-desarrollo-con-git.html) en promover el uso de [git](http://es.wikipedia.org/wiki/Git), les enseñaré cómo hacer paquetes de software para cualquier distribución basada en Debian (como Canaima o Ubuntu) a partir de un paquete fuente de una aplicación determinada, utilizando una metodología de empaquetamiento basada en `git-buildpackage`. Ésta metodología involucra, como eje fundamental, el sistema de versionamiento git fusionado con la metodología de [empaquetamiento debian debhelper](http://cdbs-doc.duckcorp.org/en/cdbs-doc.xhtml), permitiéndole al desarrollador mantener el [flujo de trabajo](http://blog-luisalejandro.rhcloud.com/static/img/posts/261/6aef055f0aaeeef03358a7e94f662747.jpg) estándar en proyectos de Software Libre, usando una sola herramienta.
+En ésta oportunidad y continuando mi [empeño]({{ site.url }}/guia-basica-de-desarrollo-con-git.html) en promover el uso de [git](http://es.wikipedia.org/wiki/Git), les enseñaré cómo hacer paquetes de software para cualquier distribución basada en Debian (como Canaima o Ubuntu) a partir de un paquete fuente de una aplicación determinada, utilizando una metodología de empaquetamiento basada en `git-buildpackage`. Ésta metodología involucra, como eje fundamental, el sistema de versionamiento git fusionado con la metodología de [empaquetamiento debian debhelper](http://cdbs-doc.duckcorp.org/en/cdbs-doc.xhtml), permitiéndole al desarrollador mantener el [flujo de trabajo](http://huntingbears.com.ve/static/img/posts/261/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu__1.jpg) estándar en proyectos de Software Libre, usando una sola herramienta.
 
 ### Términos Fundamentales
 
 Para comenzar, primero debemos revisar algunos conceptos que nos ayudarán a desenvolvernos mejor en el ambiente de desarrollo que necesitaremos. Éstos términos serán descritos de forma que cualquiera lo pueda entender, puesto que es la introducción de éste post y a medida que vayas leyendo, el nivel de dificultad irá aumentando. Sin embargo, sólo se escribirá lo necesario para que empaquetes, es decir, nada faltará ni nada sobrará.
-
-<!-- more -->
 
 Un **Paquete Fuente** (comúnmente de extensión .tar.gz) es un paquete comprimido que contiene los archivos fuente de un determinado software. Éstos pueden ser por sí mismos los archivos ejecutables (binarios, scripts, entre otros) o, pueden ser los archivos a través de los cuales se generan los ejecutables mediante de un proceso de compilación que depende directamente del lenguaje en que está escrito el software. Para que éstos archivos ejecutables (y demás archivos de contenido y configuración) sean reconocidos por el Sistema de Gestión de Paquetes de Debian, y gocen del beneficio que esto representa (tanto para el desarrollador como para el Sistema operativo), éstos deben ser agrupados y distribuidos a los usuarios en paquetes binarios (.deb).
 
@@ -79,7 +76,7 @@ Seguidamente obtengamos el código fuente de la aplicación a empaquetar, cosa q
 
 Luego de aplicado alguno de los métodos previos, tendremos una carpeta llamada "canaima-semilla", conteniendo nuestro código fuente. Es una buena práctica renombar en ésta etapa la carpeta para que cumpla con el siguiente formato: `[Paquete]-[Versión]+[Revisión]`, para evitarnos problemas más adelante. En el caso de nuestro ejemplo quedaría: `canaima-semilla-1.5+3`.
 
-Por supuesto, si se está empezando a escribir el programa desde cero, los métodos anteriores no son válidos, ya que ya tendríamos las fuentes en nuestro computador. En ese caso, simplemente posicionate en la carpeta raíz de tu proyecto y haz [tu primera versión con git](http://huntingbears.com.ve/guia-basica-de-desarrollo-con-git.html).
+Por supuesto, si se está empezando a escribir el programa desde cero, los métodos anteriores no son válidos, ya que ya tendríamos las fuentes en nuestro computador. En ese caso, simplemente posicionate en la carpeta raíz de tu proyecto y haz [tu primera versión con git]({{ site.url }}/guia-basica-de-desarrollo-con-git.html).
 
 ### Debianizando el código fuente
 

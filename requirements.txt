@@ -1,0 +1,5 @@
+pyyaml
+wand
+cssmin
+slimit
+ply==3.4

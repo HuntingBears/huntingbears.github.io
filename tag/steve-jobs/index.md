@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [steve jobs]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [steve jobs] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: steve-jobs
-title: !!python/unicode 'Etiqueta [steve jobs]'
+slug: steve-jobs
+title: '[steve jobs] Tag'
 ---

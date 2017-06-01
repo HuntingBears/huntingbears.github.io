@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-07-20 03:21:22-04:30
 layout: post
 slug: 5ta-cayapa-canaima-exitos-totales
 title: '5ta Cayapa Canaima: Éxitos ... ¡Totales!'
-wordpress_id: 1733
+article_id: 1733
 categories:
 - Canaima
 - Noticias
@@ -14,15 +13,15 @@ tags:
 - canaima gnu linux
 - cayapa canaima
 - cumana
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1733/84104314d029ea00dff7a86f38508e9f.jpg
+image: http://huntingbears.com.ve/static/img/posts/1733/5ta-cayapa-canaima-exitos-totales__1.jpg
 description: La 5ta Cayapa Canaima se celebró en Cumaná con una participación masiva de la comunidad.
 ---
 
 Según muchos de los asistentes, ésta ha sido la mejor Cayapa Canaima de todas, en todos los sentidos. Comparto la opinión.
 
-La [5ta Cayapa Canaima](http://huntingbears.com.ve/hijo-er-diablo-5ta-cayapa-canaima-en-cumana.html) reunió a un total de 60 miembros activos de la Comunidad Canaima en el Hotel Minerva (Cumaná - Edo. Sucre) para discutir y desarrollar soluciones a problemas existentes en los ámbitos social y/o tecnológicos de la Metadistribución Canaima GNU/Linux.
+La [5ta Cayapa Canaima]({{ site.url }}/hijo-er-diablo-5ta-cayapa-canaima-en-cumana.html) reunió a un total de 60 miembros activos de la Comunidad Canaima en el Hotel Minerva (Cumaná - Edo. Sucre) para discutir y desarrollar soluciones a problemas existentes en los ámbitos social y/o tecnológicos de la Metadistribución Canaima GNU/Linux.
 
-Se conformaron un total de [10 Mesas de Trabajo](http://blog-luisalejandro.rhcloud.com/static/img/posts/1733/84104314d029ea00dff7a86f38508e9f.jpg) que estuvieron reunidas durante 3 días, en donde algunas jornadas de trabajo superaron las 15 horas.
+Se conformaron un total de [10 Mesas de Trabajo](http://huntingbears.com.ve/static/img/posts/1733/5ta-cayapa-canaima-exitos-totales__1.jpg) que estuvieron reunidas durante 3 días, en donde algunas jornadas de trabajo superaron las 15 horas.
 
 Los resultados se pueden resumir de la siguiente forma:
 
@@ -35,8 +34,6 @@ Los resultados se pueden resumir de la siguiente forma:
 7. **Canaima Educativo**: Estudio de la aplicación Casabe para la creación de juegos didácticos, planificación para incluir a canaima educativo en el ciclo de desarrollo de la Metadistribución.
 8. **Proyecto Cóndor**: Sistema para la organización y cronometrización de las tareas para medir la efectividad del Proyecto.
 9. **Canaima Accesibilidad**: Coordinación de actividades de capacitación entre el [CNTI](http://www.cnti.gob.ve/), [CONAPDIS](http://www.conapdis.gob.ve/) y [Un Mundo Accesible](http://mundoaccesible.org.ve/).
-
-<!-- more -->
 
 ### Reportaje de Venezolana de TV
 

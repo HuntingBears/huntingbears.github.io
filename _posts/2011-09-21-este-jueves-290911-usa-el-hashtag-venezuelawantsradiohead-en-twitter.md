@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-09-21 22:43:23-04:30
 layout: post
 slug: este-jueves-290911-usa-el-hashtag-venezuelawantsradiohead-en-twitter
 title: 'Este Jueves 29/09/11, usa el hashtag #VenezuelaWantsRadiohead en twitter'
-wordpress_id: 1898
+article_id: 1898
 categories:
 - Eventos
 - Música
@@ -14,7 +13,7 @@ tags:
 - radiohead venezuela
 - radioheadvzla
 - venezuelawantsradiohead
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1898/541c40b280c1fe78d2fb465dfa826567.jpg
+image: http://huntingbears.com.ve/static/img/posts/1898/este-jueves-290911-usa-el-hashtag-venezuelawantsradiohead-en-twitter__1.jpg
 description: Ayúdanos a promocionar un concierto de Radiohead en Venezuela.
 ---
 
@@ -28,11 +27,11 @@ Lo único que debes hacer es escribir la palabra "#VenezuelaWantsRadiohead" en u
 
 Puedes acompañar tu tweet con alguna de estas imágenes:
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1898/283dd73860aa2c72c3ce364c8b14a395.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1898/541c40b280c1fe78d2fb465dfa826567.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1898/este-jueves-290911-usa-el-hashtag-venezuelawantsradiohead-en-twitter__5.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1898/este-jueves-290911-usa-el-hashtag-venezuelawantsradiohead-en-twitter__1.jpg"></span>
 
-[Grande (click derecho, guardar como)](http://blog-luisalejandro.rhcloud.com/static/img/posts/1898/541c40b280c1fe78d2fb465dfa826567.jpg).
+[Grande (click derecho, guardar como)](http://huntingbears.com.ve/static/img/posts/1898/este-jueves-290911-usa-el-hashtag-venezuelawantsradiohead-en-twitter__1.jpg).
 
 |||
 |:---:|:---:|
-|<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1898/ddab90adb1ef590324d6baa7fc1211a7.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1898/d32256c6fa48c089a636689eb9063f9d.jpg"></span>|
-|[Grande (click derecho, guardar como)](http://blog-luisalejandro.rhcloud.com/static/img/posts/1898/d7556b4ef1d6711425d675f9db196904.jpg).|[Grande (click derecho, guardar como)](http://blog-luisalejandro.rhcloud.com/static/img/posts/1898/d32256c6fa48c089a636689eb9063f9d.jpg).|
+|<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1898/este-jueves-290911-usa-el-hashtag-venezuelawantsradiohead-en-twitter__7.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1898/este-jueves-290911-usa-el-hashtag-venezuelawantsradiohead-en-twitter__3.jpg"></span>|
+|[Grande (click derecho, guardar como)](http://huntingbears.com.ve/static/img/posts/1898/este-jueves-290911-usa-el-hashtag-venezuelawantsradiohead-en-twitter__2.jpg).|[Grande (click derecho, guardar como)](http://huntingbears.com.ve/static/img/posts/1898/este-jueves-290911-usa-el-hashtag-venezuelawantsradiohead-en-twitter__3.jpg).|

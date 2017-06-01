@@ -5,103 +5,54 @@
                     </div>
                     <ul>
                         <li class="coffee">
-                            {% if page.language == 'es' %}
-                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=B8LPXHQY8QE8Y" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                ¡Cómprame un Café!
-                            </a>
-                            {% else %}
-                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick2153189944&amp;hosted_button_id=B8LPXHQY8QE8Y" title="(opens new window)" target="_blank" rel="nofollow">
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=B8LPXHQY8QE8Y" title="(opens new window)" target="_blank" rel="nofollow">
                                 Buy me a Coffee!
                             </a>
-                            {% endif %}
                         </li>
                         <li class="simple">
                             <form id="feedburner_form" action="http://feedburner.google.com/fb/a/mailverify" method="post">
-                                {% if page.language == 'es' %}
-                                <label for="feedburner_mail">Correo electrónico</label>
-                                <input type="text" id="feedburner_mail" name="email" placeholder="Correo electrónico" />
-                                <input type="submit" id="feedburner_button" value="Suscribir" />
-                                <input type="hidden" id="feedburner_uri" name="uri" value="BlogHuntingBears" />
-                                <input type="hidden" id="feedburner_loc" name="loc" value="es_ES" />
-                                <span>Al presionar "Suscribir", podrás recibir un boletín con todos los artículos escritos durante el día, directamente en la bandeja de tu correo electrónico.</span>
-                                {% else %}
                                 <label for="feedburner_mail">E-mail</label>
                                 <input type="text" id="feedburner_mail" name="email" placeholder="E-mail" />
                                 <input type="submit" id="feedburner_button" value="Suscribe" />
                                 <input type="hidden" id="feedburner_uri" name="uri" value="BlogHuntingBears" />
                                 <input type="hidden" id="feedburner_loc" name="loc" value="en_US" />
                                 <span>By pressing "Suscribe", you will be able to recieve a bulletin containing all the articles of the day, directly to your e-mail inbox.</span>
-                                {% endif %}
                             </form>
-                        </li>
-                        <li class="language">
-                            <span class="fa fa-globe"></span>
-                            {% if page.language == 'es' %}
-                            <a href="{{ site.url }}/en/">
-                                English version
-                            </a>
-                            {% else %}
-                            <a href="{{ site.url }}">
-                                Versión en Español
-                            </a>
-                            {% endif %}
                         </li>
                         {% if page.layout == 'post' %}
                         <li class="list">
-                            {% if page.language == 'es' %}
-                            <h3>Ultimos Artículos</h3>
-                            <ul>
-                                {% for last_post in site.posts offset: 0 limit: 10 %}
-                                <li><a href="{{ site.url }}{{ last_post.url }}" title='Enlace permanente a "{{ last_post.title }}"'>{{ last_post.title }}</a></li>
-                                {% endfor %}
-                            </ul>
-                            {% else %}
                             <h3>Last Posts</h3>
                             <ul>
                                 {% for last_post in site.posts offset: 0 limit: 10 %}
-                                <li><a href="{{ site.url }}{{ last_post.url }}" title='Permanent link to "{{ last_post.title }}"'>{{ last_post.title }}</a></li>
+                                <li>
+                                    <a href="{{ site.url }}{{ last_post.url }}" title='Permanent link to "{{ last_post.title }}"'>
+                                        {{ last_post.title }}
+                                    </a>
+                                </li>
                                 {% endfor %}
                             </ul>
-                            {% endif %}
-                        </li>
-                        <li class="list">
-                            {% if page.language == 'es' %}
-                            <h3>Artículos Populares</h3>
-                            {% else %}
-                            <h3>Popular Posts</h3>
-                            {% endif %}
-                            <ul class="poparts"></ul>
                         </li>
                         {% else %}
                         <li class="list">
-                            {% if page.language == 'es' %}
-                            <h3>Artículos Populares</h3>
-                            {% else %}
-                            <h3>Popular Posts</h3>
-                            {% endif %}
-                            <ul class="poparts"></ul>
-                        </li>
-                        <li class="list">
-                            {% if page.language == 'es' %}
-                            <h3>Últimos Comentarios</h3>
-                            {% else %}
                             <h3>Last Comments</h3>
-                            {% endif %}
-                            <ul class="lastcomms"></ul>
+                            <ul id="lastcomms"></ul>
                         </li>
                         {% endif %}
+                        <li class="list">
+                            <h3>Popular Posts</h3>
+                            <ul id="poparts"></ul>
+                        </li>
                         <li class="tags">
-                            {% if page.language == 'es' %}
-                            <h3>Nube de Categorías</h3>
-                            {% else %}
                             <h3>Category Cloud</h3>
-                            {% endif %}
                             <ul>
-                                {% if page.language == 'es' %}
-                                {% for side_cat in site.categories %}{% capture side_cat_slug %}{{ side_cat | first | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | uri_escape }}{% endcapture %}<li><a href="{{ site.url }}/cat/{{ side_cat_slug }}/" title='Ver todos los artículos listados bajo la categoría "{{ side_cat | first }}".' rel="tag">{{ side_cat | first }}</a></li>{% endfor %}
-                                {% else %}
-                                {% for side_cat in site.categories %}{% capture side_cat_slug %}{{ side_cat | first | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | uri_escape }}{% endcapture %}<li><a href="{{ site.url }}/cat/{{ side_cat_slug }}/" title='List all posts under the category "{{ side_cat | first }}".' rel="tag">{{ side_cat | first }}</a></li>{% endfor %}
-                                {% endif %}
+                                {% for side_cat in site.categories %}
+                                {% capture side_cat_slug %}{{ side_cat | first | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | uri_escape }}{% endcapture %}
+                                <li>
+                                    <a href="{{ site.url }}/cat/{{ side_cat_slug }}/" title='List all posts under the category "{{ side_cat | first }}".' rel="tag">
+                                        {{ side_cat | first }}
+                                    </a>
+                                </li>
+                                {% endfor %}
                             </ul>
                         </li>
                     </ul>

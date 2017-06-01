@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-08-14 22:10:38-04:30
 layout: post
 slug: tip-como-identificar-la-ruta-al-disco-usb-que-acabas-de-conectar
 title: 'Tip: Cómo identificar la ruta al Disco USB que acabas de conectar'
-wordpress_id: 1823
+article_id: 1823
 categories:
 - Minipost
 - Software Libre
@@ -14,7 +13,7 @@ tags:
 - disco usb
 - Software Libre
 - tips
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1823/ad2580ce1e4b0e2030caa8b38a8bf54c.jpg
+image: http://huntingbears.com.ve/static/img/posts/1823/tip-como-identificar-la-ruta-al-disco-usb-que-acabas-de-conectar__1.jpg
 description: Acá te enseñamos como identificar la ruta en el sistema de un Disco USB.
 ---
 

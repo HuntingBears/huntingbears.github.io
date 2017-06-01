@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-08-22 00:06:17-04:30
 layout: post
 slug: nos-vemos-en-el-fudcon-valencia
 title: Nos vemos en el FUDCon Valencia
-wordpress_id: 2679
+article_id: 2679
 categories:
 - Desarrollo
 - Eventos
@@ -14,7 +13,7 @@ tags:
 - fedora
 - fudcon
 - git
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2679/52b713e006d616e26791c122eee35fe4.jpg
+image: http://huntingbears.com.ve/static/img/posts/2679/nos-vemos-en-el-fudcon-valencia__1.jpg
 description: El FUDCon Valencia es del 23 al 25 de Agosto en la Universidad José Antonio Páez.
 ---
 

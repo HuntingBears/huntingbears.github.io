@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-02-26 20:19:58-04:30
 layout: post
 slug: plan-para-traer-a-radiohead-a-venezuela-en-el-2011
 title: Plan para traer a Radiohead a Venezuela
-wordpress_id: 100
+article_id: 100
 categories:
 - Eventos
 - Radiohead
@@ -13,7 +12,7 @@ tags:
 - concierto
 - Radiohead
 - venezuela
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/100/153ff891195a7a7e7ac6b2110db4432e.jpg
+image: http://huntingbears.com.ve/static/img/posts/100/plan-para-traer-a-radiohead-a-venezuela-en-el-2011__1.jpg
 description: Esta es una Campaña para traer al grupo de rock británico Radiohead a Venezuela.
 ---
 
@@ -23,11 +22,9 @@ Es muy probable que éste nuevo disco esté listo para finales de éste año 201
 
 En ese sentido, Hunting Bears se complace en anunciar una **campaña nacional a gran escala**, destinada a atraer a las grandes empresas del entretenimiento venezolano y convencerlas de que **traer a Radiohead al país es un gran negocio**.
 
-<!-- more -->
-
 Para lograr ésto, hemos implementado una petición en línea, dado que los compañeros de la petición original del 2009 se han ido fuera de línea. En ésta petición, debes introducir nombre, apellidos, correo electrónico y cédula de identidad venezolana; éstos dos últimos elementos se incluyen con la intención de asegurar la legalidad de la consulta. **Tus datos personales no serán publicados**, sólo serán utilizados para **comprobar que no hayas firmado más de una vez** y tu cédula será utilizada para **comparar con la base de datos** del [Consejo Nacional Electoral](http://www.cne.gob.ve) y así comprobar que realmente eres tú el que firma.
 
-[Puedes firmar haciendo click aquí](http://huntingbears.com.ve/desarrollos/petit-chon/)
+[Puedes firmar haciendo click aquí]({{ site.url }}/desarrollos/petit-chon/)
 
 Paralelamente, estaremos haciendo contactos en la ciudad de Caracas para comenzar una campaña publicitaria en torno a la petición. Con el tiempo definiremos el alcance de la campaña, pero por ahora está contemplada una fuerte ofensiva web.
 

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2013-09-09 19:10:10-04:30
 layout: post
 slug: haciendo-busquedas-de-paquetes-con-ayuda-de-patrones-de-aptitude
 title: Haciendo búsquedas de paquetes con ayuda de patrones de aptitude
-wordpress_id: 4087
+article_id: 4087
 categories:
 - Debian
 - Software Libre
@@ -14,7 +13,7 @@ tags:
 - aptitude
 - patterns
 - search
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/4087/3b1e58941a008647bede01ade386a732.jpg
+image: http://huntingbears.com.ve/static/img/posts/4087/haciendo-busquedas-de-paquetes-con-ayuda-de-patrones-de-aptitude__1.jpg
 description: Utiliza patrones de búsqueda en aptitude para encontrar las cosas que buscas más rápido.
 ---
 
@@ -24,15 +23,13 @@ Si tienes Debian, Canaima o Ubuntu, ¿Alguna vez haz tenido la oportunidad de li
 
 Normalmente buscamos en la base de datos con `aptitude search [paquete]`, sin embargo, existen formas de ser más específicos con los términos de búsqueda. Por ejemplo, supongamos que queremos buscar todos los paquetes que comiencen con la palabra google. En ese caso, haríamos `aptitude search google` y tendríamos un resultado así:
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4087/05f5009344c45fb32369b6fae3a78623.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4087/05f5009344c45fb32369b6fae3a78623.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/4087/haciendo-busquedas-de-paquetes-con-ayuda-de-patrones-de-aptitude__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/4087/haciendo-busquedas-de-paquetes-con-ayuda-de-patrones-de-aptitude__2.jpg"></span>
 
 Como observamos, existen algunos resultados que no necesariamente coinciden con lo que queríamos buscar, puesto que también existen paquetes que contienen la palabra _google_ en el medio de la palabra, por ejemplo. Veamos que sucede su utilizamos el patrón de búsqueda por nombre de paquete `~n` y agregamos la expresión regular `^` al principio de _google_, indicando que queremos listar todos los paquetes que comiencen por _google_, de la siguiente forma: `aptitude search ~n^google`.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4087/4bb4cbf00b5d59ccb83f600478a70d57.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4087/4bb4cbf00b5d59ccb83f600478a70d57.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/4087/haciendo-busquedas-de-paquetes-con-ayuda-de-patrones-de-aptitude__4.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/4087/haciendo-busquedas-de-paquetes-con-ayuda-de-patrones-de-aptitude__4.jpg"></span>
 
 Como vemos, el resultado es más corto y preciso que el anterior.
-
-<!-- more -->
 
 Existen muchos patrones de búsqueda que son útiles en nuestra búsqueda de paquetes; por ejemplo, búsqueda por descripción, por versión, por mantenedor, por repositorio, entre otros. Más abajo tenemos una tabla con todos los patrones disponibles:
 

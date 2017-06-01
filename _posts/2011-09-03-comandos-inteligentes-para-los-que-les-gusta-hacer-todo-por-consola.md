@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-09-03 22:25:39-04:30
 layout: post
 slug: comandos-inteligentes-para-los-que-les-gusta-hacer-todo-por-consola
 title: Comandos inteligentes para los que les gusta hacer todo por consola
-wordpress_id: 1908
+article_id: 1908
 categories:
 - Educativo
 - Minipost
@@ -15,7 +14,7 @@ tags:
 - bash
 - consola
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1908/3b1e58941a008647bede01ade386a732.jpg
+image: http://huntingbears.com.ve/static/img/posts/1908/comandos-inteligentes-para-los-que-les-gusta-hacer-todo-por-consola__1.jpg
 description: Muchas veces nos gustaría tener comandos a la mano para hacer algún tipo de procesamiento de información.
 ---
 

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2013-09-08 20:30:25-04:30
 layout: post
 slug: tip-como-se-hace-una-jaula-chroot-de-canaima-4-0-desde-debian
 title: 'Tip: ¿Cómo se hace una jaula (chroot) de Canaima 4.0 desde Debian?'
-wordpress_id: 4194
+article_id: 4194
 categories:
 - Canaima
 - Software Libre
@@ -14,7 +13,7 @@ tags:
 - Canaima
 - chroot
 - debootstrap
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/4194/80ea0450f8764fbcfb31915d9d0678f5.jpg
+image: http://huntingbears.com.ve/static/img/posts/4194/tip-como-se-hace-una-jaula-chroot-de-canaima-4-0-desde-debian__1.jpg
 description: Hacer una jaula te permitirá trabajar con Canaima 4.0 incluso desde otro Sistema Operativo de otra versión.
 ---
 

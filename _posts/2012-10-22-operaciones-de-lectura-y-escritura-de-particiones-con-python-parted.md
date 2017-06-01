@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-10-22 16:28:46-04:30
 layout: post
 slug: operaciones-de-lectura-y-escritura-de-particiones-con-python-parted
 title: Operaciones de lectura y escritura de particiones con python-parted
-wordpress_id: 2727
+article_id: 2727
 categories:
 - Desarrollo
 - Estudios
@@ -14,7 +13,7 @@ tags:
 - parted
 - pyparted
 - python
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2727/442b8d9a8a2eb7b959c01dd85b89548c.jpg
+image: http://huntingbears.com.ve/static/img/posts/2727/operaciones-de-lectura-y-escritura-de-particiones-con-python-parted__1.jpg
 description: Parted es una librería que permite editar las particiones de un disco. Aquí te enseñamos como hacerlo en python.
 ---
 

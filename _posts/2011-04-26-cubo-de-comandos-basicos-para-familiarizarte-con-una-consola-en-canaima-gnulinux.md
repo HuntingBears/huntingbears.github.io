@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-04-26 22:47:37-04:30
 layout: post
 slug: cubo-de-comandos-basicos-para-familiarizarte-con-una-consola-en-canaima-gnulinux
 title: Cubo de comandos básicos para familiarizarte con una consola en Canaima GNU/Linux
-wordpress_id: 953
+article_id: 953
 categories:
 - Canaima
 - Software Libre
@@ -13,7 +12,7 @@ tags:
 - canaima gnu linux
 - cheat sheet
 - cubo de comandos
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/953/b3e0106aeccdec3c002a40ccd0eb1daf.jpg
+image: http://huntingbears.com.ve/static/img/posts/953/cubo-de-comandos-basicos-para-familiarizarte-con-una-consola-en-canaima-gnulinux__2.jpg
 description: Este cubo de comandos te permitirá memorizar los diferentes comandos que puedes utilizar en consola.
 ---
 
@@ -23,11 +22,11 @@ Basándome en el trabajo previo de [Carolina Flores](http://piensalibre.net/tics
 
 Más abajo puedes descargar el archivo fuente SVG y versiones PNG y PDF.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/953/101baaa823a959eb184facc3982fd831.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/953/101baaa823a959eb184facc3982fd831.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/953/cubo-de-comandos-basicos-para-familiarizarte-con-una-consola-en-canaima-gnulinux__3.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/953/cubo-de-comandos-basicos-para-familiarizarte-con-una-consola-en-canaima-gnulinux__3.jpg"></span>
 
 Haz click derecho en el enlace y selecciona la opción "Guardar enlace como".
 
-[Descargar Versión Grande en PNG](http://blog-luisalejandro.rhcloud.com/static/img/posts/953/8817447f3d2c64d70b68cb1155642666.jpg)
+[Descargar Versión Grande en PNG](http://huntingbears.com.ve/static/img/posts/953/cubo-de-comandos-basicos-para-familiarizarte-con-una-consola-en-canaima-gnulinux__1.jpg)
 
 [Descargar Código Fuente SVG](http://dl.dropboxusercontent.com/u/16329841/canaima-cubo.svg)
 

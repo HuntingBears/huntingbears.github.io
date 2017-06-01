@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-10-10 16:17:11-04:30
 layout: post
 slug: 10-formas-para-evitar-generar-una-novela-en-las-listas-de-canaima-humor
 title: 10 formas para evitar generar una novela en las listas de Canaima [HUMOR]
-wordpress_id: 2012
+article_id: 2012
 categories:
 - Canaima
 - Humor
@@ -14,7 +13,7 @@ tags:
 - listas canaima
 - novela
 - troll
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2012/bbc2c5967f1e2fef7e92857c32c1020d.jpg
+image: http://huntingbears.com.ve/static/img/posts/2012/10-formas-para-evitar-generar-una-novela-en-las-listas-de-canaima-humor__1.jpg
 description: La Comunidad Canaima está llena de personajes pintorescos que te harán pasar un mal rato si no tienes cuidado. Acá te dejamos una guía básica.
 ---
 

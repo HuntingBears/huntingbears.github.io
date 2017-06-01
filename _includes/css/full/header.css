@@ -71,6 +71,7 @@ form {
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
+    font-weight: 300;
     line-height: 1em;
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -78,6 +79,7 @@ body {
 
 input {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 h1,
@@ -85,8 +87,8 @@ h2,
 h3,
 h4 {
     line-height: 1em;
-    font-weight: 300;
     text-align: left;
+    font-weight: 300;
 }
 
 h1 {
@@ -126,16 +128,17 @@ h4 {
 #container > header > #logo {
     float: left;
     width: 7%;
-    height: 70px;
-    padding: 5px 0;
-    background: url('http://blog-luisalejandro.rhcloud.com/static/img/site/sprite.svg') 10px 5px no-repeat;
 }
 
 #container > header > #logo > a {
-    display: inline-block;
+    display: block;
     vertical-align: top;
-    width: 100%;
+    width: 70px;
     height: 70px;
+    margin: 5px auto;
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.svg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }
 
 #container > header > #logo > a > .hide {
@@ -161,7 +164,6 @@ h4 {
     vertical-align: top;
     width: 100%;
     color: rgb(68, 68, 68);
-    font-weight: 300;
     font-size: 1em;
     line-height: 1.2em;
 }
@@ -179,8 +181,6 @@ h4 {
 
 #container > header > nav > ul > li {
     float: left;
-    height: 100%;
-    text-align: center;
     margin: 0 1% 0 0;
 }
 
@@ -192,41 +192,20 @@ h4 {
     width: 21%;
 }
 
-#container > header > nav > ul > li.twitter {
-    width: 8%;
-}
-
-#container > header > nav > ul > li.facebook {
-    width: 8%;
-}
-
-#container > header > nav > ul > li.googleplus {
-    width: 8%;
-}
-
-#container > header > nav > ul > li.rss {
-    width: 8%;
-}
-
+#container > header > nav > ul > li.twitter,
+#container > header > nav > ul > li.facebook,
+#container > header > nav > ul > li.googleplus,
+#container > header > nav > ul > li.rss,
 #container > header > nav > ul > li.search {
     width: 8%;
 }
 
 #container > header > nav > ul > li > a {
-    display: inline-block;
-    vertical-align: top;
-    line-height: 70px;
+    float: left;
     height: 70px;
     width: 100%;
     margin: 5px 0;
-    font-size: 1.8em;
-    font-weight: 300;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
     box-shadow: 0 -6px 0 rgba(255, 255, 255, 0.2) inset, 0 -5px 0 rgba(0, 0, 0, 0.1) inset, -1px 0 0 rgba(0, 0, 0, 0.06) inset, 1px 1px 0 rgba(0, 0, 0, 0.06) inset;
-    color: rgb(255, 255, 255);
     border-radius: 5px;
     background-color: rgb(193, 190, 182);
     background-image: radial-gradient(ellipse closest-side at 50% 50%, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.0));
@@ -235,13 +214,6 @@ h4 {
 
 #container > header > nav > ul > li > a > .hide {
     display: none;
-}
-
-#container > header > nav > ul > li.portafolio > a,
-#container > header > nav > ul > li.acerca > a {
-    font-weight: 900;
-    font-size: 1.5em;
-    letter-spacing: 1px;
 }
 
 #container > header > nav > ul > li > a:active {
@@ -274,4 +246,56 @@ h4 {
 
 #container > header > nav > ul > li.search > a:hover {
     background-color: rgb(153, 150, 145);
+}
+
+#container > header > nav > ul > li.portafolio > a > .sprite,
+#container > header > nav > ul > li.acerca > a > .sprite,
+#container > header > nav > ul > li.twitter > a > .sprite,
+#container > header > nav > ul > li.facebook > a > .sprite,
+#container > header > nav > ul > li.googleplus > a > .sprite,
+#container > header > nav > ul > li.rss > a > .sprite,
+#container > header > nav > ul > li.search > a > .sprite {
+    display: block;
+    height: 30px;
+    margin: 20px auto;
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.svg');
+    background-repeat: no-repeat;
+}
+
+#container > header > nav > ul > li.portafolio > a > .sprite {
+    width: 170px;
+    background-position: -70px 0;
+}
+
+#container > header > nav > ul > li.acerca > a > .sprite {
+    width: 110px;
+    background-position: -70px -30px;
+}
+
+#container > header > nav > ul > li.twitter > a > .sprite,
+#container > header > nav > ul > li.facebook > a > .sprite,
+#container > header > nav > ul > li.googleplus > a > .sprite,
+#container > header > nav > ul > li.rss > a > .sprite,
+#container > header > nav > ul > li.search > a > .sprite {
+    width: 40px;
+}
+
+#container > header > nav > ul > li.twitter > a > .sprite {
+    background-position: -500px 0;
+}
+
+#container > header > nav > ul > li.facebook > a > .sprite {
+    background-position: -540px 0;
+}
+
+#container > header > nav > ul > li.googleplus > a > .sprite {
+    background-position: -580px 0;
+}
+
+#container > header > nav > ul > li.rss > a > .sprite {
+    background-position: -620px 0;
+}
+
+#container > header > nav > ul > li.search > a > .sprite {
+    background-position: -660px 0;
 }

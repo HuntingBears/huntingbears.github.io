@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2013-05-19 01:22:00-04:30
 layout: post
 slug: gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0
 title: 'Gnamon: un tema de Gnome Shell con aires de Cinnamon para Canaima 4.0'
-wordpress_id: 4103
+article_id: 4103
 categories:
 - Canaima
 - Diseño Gráfico
@@ -14,7 +13,7 @@ tags:
 - cinnamon
 - gnamon
 - gnome shell
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/5cce5591824e51b9412e8ed3d5220c22.jpg
+image: http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__1.jpg
 description: Gnamon es un conjunto de temas y extensiones para Gnome Shell.
 ---
 
@@ -26,11 +25,117 @@ En una jugada que yo calificaría como _oportunista_, la distribución [Linux Mi
 
 Lo cierto es que las derivaciones en el software libre **no son bien vistas**. Cinnamon es, aunque muy vistoso, una pieza de software que no le llega ni a los talones a Gnome Shell. Cosas muy útiles como la accesibilidad, las extensiones, y el código en general, simplemente están rotas en Cinnamon.
 
-<!-- more -->
-
 Es por ello que, en Canaima decidimos aventurarnos en tratar de combinar la robustez de Gnome con la funcionalidad y vistosidad de Cinammon, para crear algo a lo que llamamos **Gnamon**. Gnamon es un compendio de temas para GTK2/GTK3, Shell, Metacity, íconos y cursores, con un conjunto de extensiones cuidadosamente seleccionadas. Gnamon está desarrollado para Gnome Shell 3.4, así que si utilizas Debian Wheezy podrás instalarlo. También es el tema que viene por defecto en Canaima 4.0.
 
-<span class="picasa" data-picasa-id="5879403525161513217"><ul class="picasa-album"><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-14 14_35_17.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/ee1374ae4622527af334b25bc95886cc.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/0e5d772f9f951ef127c722bdcae7ec4b.jpg" alt="Captura de pantalla de 2013-05-14 14_35_17.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-14 14_35_42.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/72d96323f9b3d79559254e42cd2beb35.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/a896c756cb2c3902c4f93b98c5937194.jpg" alt="Captura de pantalla de 2013-05-14 14_35_42.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-14 14_36_09.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/c407ec9e959d8fc87b212c40d13c9880.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/4221df4144c9a750742bd6f47b50a07e.jpg" alt="Captura de pantalla de 2013-05-14 14_36_09.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-14 14_41_00.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/0a875f82c301a9835fcfaeb739929e4c.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/5912e936956499d27c051c11100e5a9d.jpg" alt="Captura de pantalla de 2013-05-14 14_41_00.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-14 15_01_28.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/de68c595f3af1a7737e8542abc2c7c81.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/0cb10059873698e094baf91c6332c94d.jpg" alt="Captura de pantalla de 2013-05-14 15_01_28.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-14 15_15_48.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/d901258d8da05d24d83009449579fed1.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/f834390089304e04f68c8da9e5ff4904.jpg" alt="Captura de pantalla de 2013-05-14 15_15_48.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-14 15_16_47.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/b0ee71ae33264c0eaf2b0189c4714172.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/81b03b519c96f4191fce848e92e80571.jpg" alt="Captura de pantalla de 2013-05-14 15_16_47.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-14 15_17_06.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/e46300d8367a8c059526b1c5e3bc1331.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/8db812c4b402b7d07976df0da1ff2f3c.jpg" alt="Captura de pantalla de 2013-05-14 15_17_06.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-15 15_54_31.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/809d5dabf616b0212b60f43a4dd7154f.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/383225541669d2b086f4277ece18fa3c.jpg" alt="Captura de pantalla de 2013-05-15 15_54_31.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-15 15_55_47.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/2a3bc644b7d34f81b382fae07c9fb1e2.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/6b9f056c87be99105ab781d1c16fa3fb.jpg" alt="Captura de pantalla de 2013-05-15 15_55_47.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-15 15_56_51.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/ce9732d85b8c2d9c285f43a10f482534.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/87a84d3b0719289a6bf9490714420485.jpg" alt="Captura de pantalla de 2013-05-15 15_56_51.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-15 15_59_18.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/a0da1463508056444460b8715a5b2e5d.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/13f002e32a96eb53d9a4b9eaa30558c1.jpg" alt="Captura de pantalla de 2013-05-15 15_59_18.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-15 16_00_11.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/439be8e12bd9dc2cc7f5b9fe7d5da7ce.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/338bf56a7da794cf7db9115342843ea5.jpg" alt="Captura de pantalla de 2013-05-15 16_00_11.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-15 16_01_10.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/53980d79b2203021f60d5d6fb183a905.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/5f8b7b60a1035407897fc9f2cdd8c77a.jpg" alt="Captura de pantalla de 2013-05-15 16_01_10.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-15 16_01_28.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/086042d47f8b482d277d6f1e653a5ac8.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/d0bffd36e3b07cbd3b291aeb9c027776.jpg" alt="Captura de pantalla de 2013-05-15 16_01_28.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-15 16_03_15.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/8681e5e1ec5dc656cb3d2f699a8c4051.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/17c5f0c95231ac4f15bb86f233c3cc6a.jpg" alt="Captura de pantalla de 2013-05-15 16_03_15.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-15 16_06_22.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/cdad929cb47f70bc27a62c64571aa1c1.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/5c98eb1ac8045f922bdb99f4dc642c84.jpg" alt="Captura de pantalla de 2013-05-15 16_06_22.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-15 16_37_14.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/5cce5591824e51b9412e8ed3d5220c22.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/e8ac0963ed74fb4faa0727f5e674e861.jpg" alt="Captura de pantalla de 2013-05-15 16_37_14.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-15 16_40_11.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/23c5acba76db8271aad2bc33cad34134.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/8ca96435dc12ca815cf4a4e5764315f5.jpg" alt="Captura de pantalla de 2013-05-15 16_40_11.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura de pantalla de 2013-05-18 19:27:17.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/471f3e529dba7b1a08e29701eda0d6bb.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/b8e9cdfa31119cf881744ed80249be6f.jpg" alt="Captura de pantalla de 2013-05-18 19:27:17.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura-de-pantalla-de-2013-05-18-170507.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/09f9077bccad231f2f4f2893ae6ff514.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/b8f8aaa463ab632f125d3b26c76bead6.jpg" alt="Captura-de-pantalla-de-2013-05-18-170507.png"></a></li></ul></span>
+<div class="picasa">
+    <ul class="picasa-album">
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__2.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__3.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__4.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__5.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__6.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__7.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__8.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__9.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__10.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__11.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__12.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__13.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__14.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__15.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__16.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__17.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__18.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__19.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__20.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__21.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__22.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__23.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__24.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__25.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__26.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__27.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__28.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__29.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__30.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__31.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__32.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__33.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__34.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__35.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__1.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__37.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__38.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__39.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__40.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__41.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__42.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__43.jpg" />
+            </a>
+        </li>
+    </ul>
+</div>
 
 Gnamon está compuesto de 4 paquetes:
 
@@ -71,7 +176,7 @@ Luego de terminada la instalación, deberás abrir el `gnome-tweak-tool` (Menú 
 * Windows Overlay Icons.
 * Extend left box.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/b3d800c34d6b18562793d01cc4ba75ae.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/4103/b3d800c34d6b18562793d01cc4ba75ae.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__44.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__44.jpg"></span>
 
 Acá más abajo mostramos un video de la experiencia de usuario que además muestra otros elementos de Canaima 4.0. ¡Disfruten!
 

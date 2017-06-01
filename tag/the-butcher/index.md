@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [the butcher]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [the butcher] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: the-butcher
-title: !!python/unicode 'Etiqueta [the butcher]'
+slug: the-butcher
+title: '[the butcher] Tag'
 ---

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-11-13 14:30:19-04:30
 layout: post
 slug: agregando-autoridades-certificadoras-a-navegadores-web-derivados-de-firefox
 title: Agregando autoridades certificadoras a navegadores web derivados de Firefox
-wordpress_id: 2638
+article_id: 2638
 categories:
 - Desarrollo
 - Software Libre
@@ -14,7 +13,7 @@ tags:
 - certificados
 - firefox
 - mozilla
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2638/e710fb444d1ba94a195b7812f0222ef4.jpg
+image: http://huntingbears.com.ve/static/img/posts/2638/agregando-autoridades-certificadoras-a-navegadores-web-derivados-de-firefox__1.jpg
 description: Este artículo explica como agregar autoridades certificadoras a navegadores web derivados de Firefox.
 ---
 
@@ -26,8 +25,6 @@ Sin embargo, agregar una ACR a un navegador derivado de Firefox deja de ser una 
 
 El procedimiento se realiza principalmente dentro del código fuente de **NSS**. Si utilizamos los paquetes que distribuye Debian, Canaima o Ubuntu para Iceweasel, Cunaguaro o Firefox, no es necesario compilar todo el navegador desde cero debido a que en las mencionadas distribuciones, **NSS** es una librería que viene en un paquete por separado. En pocas palabras, lo que haremos será modificar **NSS** a través de parches para reempaquetarlo.
 
-<!-- more -->
-
 ### Preparando herramientas
 
 Necesitaremos hacer algunos procedimientos previos antes de hacer la modificación como tal. Necesitarás el Certificado Raíz de la ACR en formato x509 PEM (ASCII), el cual puedes obtener directamente de la Autoridad Certificadora. Para este ejemplo utilizaremos el certificado de **PROCERT**, quien hace los certificados de **SUSCERTE**, una institución que se encarga de dictar las políticas en materia de seguridad informática para el estado venezolano.
@@ -35,7 +32,7 @@ Necesitaremos hacer algunos procedimientos previos antes de hacer la modificaci�
 Para obtener el certificado de **PROCERT**, lo podemos descargar usando un Terminal de Usuario (Menú > Aplicaciones > Accesorios > Terminal) con el siguiente comando (o simplemente copia el enlace y pégalo en el navegador):
 
 {% highlight bash %}
-http://acraiz.suscerte.gob.ve/sites/default/files/certificados/CERTIFICADO-RAIZ-SHA384.crt
+wget http://acraiz.suscerte.gob.ve/sites/default/files/certificados/CERTIFICADO-RAIZ-SHA384.crt
 {% endhighlight %}
 
 **Tip:** Recuerda en cual carpeta descargaste el certificado con el comando `pwd`.
@@ -109,7 +106,7 @@ git add .
 git commit -a -m "Versión original del código fuente."
 {% endhighlight %}
 
-Esto nos permitirá devolvernos al estado inicial luego de que hayamos hecho las modificaciones correspondientes. Si deseas aprender más de git, puedes ampliar la información [acá](http://huntingbears.com.ve/guia-basica-de-desarrollo-con-git.html).
+Esto nos permitirá devolvernos al estado inicial luego de que hayamos hecho las modificaciones correspondientes. Si deseas aprender más de git, puedes ampliar la información [acá]({{ site.url }}/guia-basica-de-desarrollo-con-git.html).
 
 Bien, necesitaremos hacer un enlace simbólico al código fuente de NSPR dentro de la carpeta mozilla para que NSS pueda acceder a ciertos componentes durante la compilación. Lo hacemos así:
 
@@ -182,7 +179,9 @@ git clean -fd
 
 Seguidamente debemos decirle a `git-buildpackage` el número de la última versión-revisión del paquete que aparece en el archivo `debian/changelog` mediante un tag (etiqueta). Para ello debemos ejecutar el siguiente comando:
 
+{% highlight bash %}
 dpkg-parsechangelog | grep "Version:" | awk '{print $2}'
+{% endhighlight %}
 
 Lo que en nuestro caso arroja:
 

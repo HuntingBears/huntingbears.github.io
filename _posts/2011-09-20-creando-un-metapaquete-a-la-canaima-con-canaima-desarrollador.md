@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-09-20 13:50:12-04:30
 layout: post
 slug: creando-un-metapaquete-a-la-canaima-con-canaima-desarrollador
 title: Creando un metapaquete 'a la canaima' con Canaima Desarrollador
-wordpress_id: 1794
+article_id: 1794
 categories:
 - Canaima
 - Debian
@@ -15,7 +14,7 @@ tags:
 - canaima desarrollador
 - empaquetamiento
 - metapaquetes
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1794/417fc1e6d23200fc66dfd6842c4a7925.jpg
+image: http://huntingbears.com.ve/static/img/posts/1794/creando-un-metapaquete-a-la-canaima-con-canaima-desarrollador__1.jpg
 description: Canaima Desarrollador permite realizar Metapaquetes muy fácilmente.
 ---
 
@@ -24,8 +23,6 @@ Como usuario de alguna distribución GNU/Linux, seguramente has oído/leído ace
 Por ejemplo, imagínate por un instante que queremos incorporar una nueva línea de ensamblaje de computadores a nuestra fábrica "_Bien Barato Electrónica_". Si pudieras de alguna forma comprar la línea completa a través de un nombre o marca, en vez de comprar los tornillos, las tuercas, las cintas rodantes, los rodillos, los tubos, los brazos robóticos, los cables, etc. y armarla tu mismo, entonces eso sería instalar un metapaquete dentro de tu distribución "_Bien Barato Electrónica_".
 
 En definitiva, un metapaquete es un paquete que sirve para instalar otro conjunto de paquetes a través de sus dependencias. Generalmente está **casi** vacío (es decir, no se copian archivos al sistema cuando se instala); sin embargo, si está bien construido, siempre se incluye una pequeña documentación (changelog, copyright, entre otros).
-
-<!-- more -->
 
 ### Estructura de un metapaquete
 
@@ -78,7 +75,7 @@ Los siguientes son archivos opcionales que pueden o no ser incluidos a gusto del
 
 ### Empaquetando 'a la canaima'
 
-[Canaima Desarrollador](http://huntingbears.com.ve/canaima-desarrollador-herramienta-para-el-desarrollo-y-empaquetamiento-de-software-libre.html) es una herramienta relativamente nueva, introducida en la versión 3.0 de Canaima, orientada a facilitar la apropiación del conocimiento relacionado con la creación de paquetes. Es bastante versátil y en éste artículo la utilizaremos para crear un metapaquete 'a la canaima'.
+[Canaima Desarrollador]({{ site.url }}/canaima-desarrollador-herramienta-para-el-desarrollo-y-empaquetamiento-de-software-libre.html) es una herramienta relativamente nueva, introducida en la versión 3.0 de Canaima, orientada a facilitar la apropiación del conocimiento relacionado con la creación de paquetes. Es bastante versátil y en éste artículo la utilizaremos para crear un metapaquete 'a la canaima'.
 
 Para instalarlo nos vamos a una terminal con permisos de root (Aplicaciones > Accesorios > Terminal de Root) y ejecutamos el siguiente comando:
 
@@ -86,7 +83,7 @@ Para instalarlo nos vamos a una terminal con permisos de root (Aplicaciones > Ac
 aptitude install canaima-desarrollador
 {% endhighlight %}
 
-Una vez instalado, hay que configurarlo tal cual se explica [en este artículo](http://huntingbears.com.ve/canaima-desarrollador-herramienta-para-el-desarrollo-y-empaquetamiento-de-software-libre.html) (sección "_Configurando Canaima Desarrollador_").
+Una vez instalado, hay que configurarlo tal cual se explica [en este artículo]({{ site.url }}/canaima-desarrollador-herramienta-para-el-desarrollo-y-empaquetamiento-de-software-libre.html) (sección "_Configurando Canaima Desarrollador_").
 
 Para crear nuestro metapaquete utilizaremos el ayudante `crear-proyecto`, para ello nos ubicamos en la carpeta del desarrollador (la que especificamos en la variable `DEV_DIR` de la configuración) y ejecutamos el siguiente comando:
 
@@ -101,7 +98,7 @@ En donde:
 * `--destino`: puede ser _personal_ (el mantenedor del paquete serás tu) o _canaima_ (el mantenedor será el equipo de desarrollo de Canaima).
 * `--licencia`: puede ser apache, artistic, bsd, gpl, gpl2, gpl3, lgpl, lgpl2 ó lgpl3.
 
-Al presionar _enter_ se desplegará la siguiente información, indicando que se ha creado el paquete fuente con los datos proporcionados, y además se ha hecho el primer _commit_ bajo el [sistema de versionamiento git](http://huntingbears.com.ve/guia-basica-de-desarrollo-con-git.html).
+Al presionar _enter_ se desplegará la siguiente información, indicando que se ha creado el paquete fuente con los datos proporcionados, y además se ha hecho el primer _commit_ bajo el [sistema de versionamiento git]({{ site.url }}/guia-basica-de-desarrollo-con-git.html).
 
 {% highlight text %}
 Iniciando Canaima Desarrollador ...

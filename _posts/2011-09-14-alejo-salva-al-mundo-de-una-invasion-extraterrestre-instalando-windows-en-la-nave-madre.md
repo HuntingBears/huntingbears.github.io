@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-09-14 23:09:12-04:30
 layout: post
 slug: alejo-salva-al-mundo-de-una-invasion-extraterrestre-instalando-windows-en-la-nave-madre
 title: Alejo salva al mundo de una invasión extraterrestre instalando Windows en la nave madre
-wordpress_id: 1903
+article_id: 1903
 categories:
 - Humor
 - Minipost
@@ -14,7 +13,7 @@ tags:
 - alejo y valentina
 - invasion extraterrestre
 - windows
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1903/baabacae0492677a2787f5ac8f93ef4c.jpg
+image: http://huntingbears.com.ve/static/img/posts/1903/alejo-salva-al-mundo-de-una-invasion-extraterrestre-instalando-windows-en-la-nave-madre__1.jpg
 description: Alejo (de Alejo y Valentina) salva al mundo de un terrible final
 ---
 

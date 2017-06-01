@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-08-25 14:15:50-04:30
 layout: post
 slug: los-cuatro-tipos-de-programador
 title: Los cuatro tipos de programador
-wordpress_id: 1880
+article_id: 1880
 categories:
 - Desarrollo
 - Software Libre
@@ -13,7 +12,7 @@ tags:
 - desarrollo
 - software
 - tipos de programador
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1880/b928f4b91e2d9abaeeee63e9bb6c369d.jpg
+image: http://huntingbears.com.ve/static/img/posts/1880/los-cuatro-tipos-de-programador__1.jpg
 description: ¿Tienes idea de que tipo de programador eres?
 ---
 
@@ -23,8 +22,8 @@ Al pensar en esto, me di cuenta de que hay diferentes maneras en que un programa
 
 ### El Filósofo
 
-<a title="{{ page.title }}" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1880/2b91692be2f93e9eb0afd6865af2d28a.jpg">
-    <img class="alignright" alt="{{ page.title }}" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1880/2b91692be2f93e9eb0afd6865af2d28a.jpg" />
+<a title="{{ page.title }}" href="http://huntingbears.com.ve/static/img/posts/1880/los-cuatro-tipos-de-programador__2.jpg">
+    <img class="alignright" alt="{{ page.title }}" src="http://huntingbears.com.ve/static/img/posts/1880/los-cuatro-tipos-de-programador__2.jpg" />
 </a>El filósofo le encanta escribir código bonito, bien definido y bien estructurado. No gasta tiempo decidiendo cuanto tiempo invertirá: la elegancia, robustez y flexibilidad de la solución es en lo que se gasta la energía del filósofo. El filósofo no puede vivir una semana sin mencionar las "mejores prácticas".
 
 * **Motivación**:
@@ -41,8 +40,8 @@ Al pensar en esto, me di cuenta de que hay diferentes maneras en que un programa
 
 ### El Inventor
 
-<a title="{{ page.title }}" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1880/bd104f946f23d06d9d061da576eae9ab.jpg">
-    <img class="alignright" alt="{{ page.title }}" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1880/bd104f946f23d06d9d061da576eae9ab.jpg" />
+<a title="{{ page.title }}" href="http://huntingbears.com.ve/static/img/posts/1880/los-cuatro-tipos-de-programador__4.jpg">
+    <img class="alignright" alt="{{ page.title }}" src="http://huntingbears.com.ve/static/img/posts/1880/los-cuatro-tipos-de-programador__4.jpg" />
 </a>Algo nuevo e interesante siempre está saliendo del laboratorio del inventor. Nadie lo pidió, pero eso no impidió que el inventor lo hiciera.
 
 * **Motivación**:
@@ -56,8 +55,8 @@ Al pensar en esto, me di cuenta de que hay diferentes maneras en que un programa
 
 ### El Conquistador
 
-<a title="{{ page.title }}" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1880/802ce5c4dd490f4e6e1cb59a71343415.jpg">
-    <img class="alignright" alt="{{ page.title }}" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1880/802ce5c4dd490f4e6e1cb59a71343415.jpg" />
+<a title="{{ page.title }}" href="http://huntingbears.com.ve/static/img/posts/1880/los-cuatro-tipos-de-programador__6.jpg">
+    <img class="alignright" alt="{{ page.title }}" src="http://huntingbears.com.ve/static/img/posts/1880/los-cuatro-tipos-de-programador__6.jpg" />
 </a>Ningún problema es demasiado difícil para el conquistador. Para ellos, la programación es una odisea de retos cada vez más difíciles de superar. El conquistador es dinámico y competitivo, pero no necesariamente competitivo con otras personas.
 
 * **Motivación**:
@@ -72,8 +71,8 @@ Al pensar en esto, me di cuenta de que hay diferentes maneras en que un programa
 
 ### El Solucionador de Problemas
 
-<a title="{{ page.title }}" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1880/841c37cc95fe1c2d126ed6dcefdc3eb3.jpg">
-    <img class="alignright" alt="{{ page.title }}" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1880/841c37cc95fe1c2d126ed6dcefdc3eb3.jpg" />
+<a title="{{ page.title }}" href="http://huntingbears.com.ve/static/img/posts/1880/los-cuatro-tipos-de-programador__8.jpg">
+    <img class="alignright" alt="{{ page.title }}" src="http://huntingbears.com.ve/static/img/posts/1880/los-cuatro-tipos-de-programador__8.jpg" />
 </a>El solucionador de problemas es violentamente pragmático y orientado a objetivos. Un problema bien definido lo resolverá, y debe hacerse rápidamente por todos los medios necesarios.
 
 * **Motivación**:

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-05-13 21:26:57-04:30
 layout: post
 slug: instalando-el-driver-privativo-de-nvidia-en-canaima-3-0debian-6-0
 title: Instalando el driver privativo de NVIDIA en Canaima 3.0/Debian 6.0
-wordpress_id: 1113
+article_id: 1113
 categories:
 - Canaima
 - Software Libre
@@ -14,7 +13,7 @@ tags:
 - howto
 - instalar
 - nvidia driver
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1113/ffd9fb501ded03730b87ae2127adea53.jpg
+image: http://huntingbears.com.ve/static/img/posts/1113/instalando-el-driver-privativo-de-nvidia-en-canaima-3-0debian-6-0__1.jpg
 description: Si el driver libre de nVidia no le da soporte a tu targeta gráfica, lamentablemente tendrás que utilizar el privativo.
 ---
 
@@ -22,7 +21,7 @@ Lamentablemente, el driver privativo para las tarjetas NVIDIA todavía sigue pre
 
 1. Primero averiguemos cuál es la versión del kernel que está corriendo en tu pc. En el menú Aplicaciones > Herramientas del Sistema > Monitor del Sistema, ubica la pestaña "Sistema". Allí verás algo como:
 
-    <span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1113/f84b970eec7b83ffd308b8f063349d82.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1113/f84b970eec7b83ffd308b8f063349d82.jpg"></span>
+    <span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1113/instalando-el-driver-privativo-de-nvidia-en-canaima-3-0debian-6-0__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1113/instalando-el-driver-privativo-de-nvidia-en-canaima-3-0debian-6-0__2.jpg"></span>
 
     Para éste ejemplo, la versión del kernel es `2.6.32-5-686`.
 

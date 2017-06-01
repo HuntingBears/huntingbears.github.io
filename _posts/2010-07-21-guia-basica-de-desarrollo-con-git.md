@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-07-21 20:18:57-04:30
 layout: post
 slug: guia-basica-de-desarrollo-con-git
 title: Guía básica de desarrollo con git
-wordpress_id: 196
+article_id: 196
 categories:
 - Desarrollo
 - Software Libre
@@ -13,7 +12,7 @@ tags:
 - desarrollo
 - git
 - versionamiento
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/196/606029e5648bf68576fb16f4b3913812.jpg
+image: http://huntingbears.com.ve/static/img/posts/196/guia-basica-de-desarrollo-con-git__1.jpg
 description: Git es un sistema de versionamiento distribuído utilizado en el desarrollo del Kernel Linux.
 ---
 
@@ -24,8 +23,6 @@ Git es una herramienta de desarrollo muy útil. Con ella cualquier persona podr�
 Muchas veces me ha pasado, -sobretodo a mi, una persona bastante torpe-, que quiero devolver uno o varios cambios en archivos que ya guardé y cerré y me he encontrado con que no tengo forma de hacerlo.
 
 Con el control de versiones o versionamiento, tenemos la facilidad de gestionar los diferentes cambios que se hacen en el contenido, configuración y propiedades de los archivos de un determinado proyecto. Ésta característica nos permite devolver cambios hacia versiones anteriores, además de facilitar el acceso y distribución de código fuente mediante la utilización de repositorios locales o remotos.
-
-<!-- more -->
 
 ### ¿Y por qué GIT?
 

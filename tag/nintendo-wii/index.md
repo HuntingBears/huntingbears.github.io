@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [nintendo wii]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [nintendo wii] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: nintendo-wii
-title: !!python/unicode 'Etiqueta [nintendo wii]'
+slug: nintendo-wii
+title: '[nintendo wii] Tag'
 ---

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-03-18 00:02:48-04:30
 layout: post
 slug: la-3ra-cayapa-canaima-se-va-a-barquisimeto
 title: ¡La 3ra Cayapa Canaima se va a Barquisimeto!
-wordpress_id: 149
+article_id: 149
 categories:
 - Canaima
 - Eventos
@@ -14,17 +13,38 @@ tags:
 - Canaima
 - cayapa
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/149/9a2bf25444962d420c496b918de149d9.jpg
+image: http://huntingbears.com.ve/static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__1.jpg
 description: La Cayapa es un evento socio-tecnológico enfocado a mejorar la distribución Canaima GNU/Linux.
 ---
 
 La cayapa Canaima es un evento socio-tecnológico enfocado a tratar una gran variedad de temas relacionados con el desarrollo de nuevas aplicaciones para la distribución, corrección de errores, pruebas de nuevos desarrollos de software, así como también la discusión de aspectos sociales y tecnológicos involucrados alrededor de la comunidad de Software Libre.
 
-<span class="picasa" data-picasa-id="5772983582757678529"><ul class="picasa-album"><li class="picasa-image"><a class="picasa-image-large" title="453809.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/149/a5efdaca024e43bf06e309eaabb82d13.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/149/f938b050f389c7595e4db87a4f075b05.jpg" alt="453809.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="7581123.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/149/b89ff5d6e85b7bd273d6ed81f8326858.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/149/41684c4be89f6cb60b1196e0c164237d.jpg" alt="7581123.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Flor_de_venezuela_barquisimeto_lara_3.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/149/9a2bf25444962d420c496b918de149d9.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/149/5ea2916f55b8ff9e0a3ca2ae0833bbd0.jpg" alt="Flor_de_venezuela_barquisimeto_lara_3.jpg"></a></li><li class="picasa-image"><a class="picasa-image-large" title="centro14dv0.jpg" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/149/299afb8295657b48abaab473471ef359.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/149/dfbb3ddb852b579e965ebe3ed79bef2b.jpg" alt="centro14dv0.jpg"></a></li></ul></span>
+<div class="picasa">
+    <ul class="picasa-album">
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__2.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__3.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__4.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__5.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__1.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__7.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__8.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__9.jpg" />
+            </a>
+        </li>
+    </ul>
+</div>
 
 En ese sentido, se está organizando la 3ra Cayapa Canaima en Barquisimeto - Edo. Lara para las fechas comprendidas entre el 8 y el 10 de abril, bajo el patrocinio de Instituciones del estado como el CNTI y FUNDACITE (Lara). Eres libre de participar bajo cualquier rol (patrocinios, organización, logística, enlaces institucionales, organización local barquisimeto, ponente y participante). Puedes encontrar mayor información [aquí](http://cayapa.canaima.softwarelibre.gob.ve).
-
-<!-- more -->
 
 Hasta ahora se han propuesto 6 actividades de tipo técnico y 7 del tipo divulgativa, sin embargo todavía estás a tiempo de proponer tu ponencia.
 

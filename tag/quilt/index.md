@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [quilt]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [quilt] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: quilt
-title: !!python/unicode 'Etiqueta [quilt]'
+slug: quilt
+title: '[quilt] Tag'
 ---

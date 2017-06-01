@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-12-31 05:49:57-04:30
 layout: post
 slug: el-famoso-script-de-lennart-poettering-mejorado-en-hunting-bears
 title: El famoso script de Lennart Poettering, mejorado en Hunting Bears
-wordpress_id: 586
+article_id: 586
 categories:
 - Desarrollo
 - Software Libre
@@ -13,7 +12,7 @@ tags:
 - 200 lineas
 - lennart script
 - rendimiento
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/586/3b1e58941a008647bede01ade386a732.jpg
+image: http://huntingbears.com.ve/static/img/posts/586/el-famoso-script-de-lennart-poettering-mejorado-en-hunting-bears__1.jpg
 description: El script de Lennart Poettering permite mejorar el rendimiento del equipo.
 ---
 
@@ -24,8 +23,6 @@ Unos días más tarde y en la misma discusión a través de las listas, [Lennart
 En ese sentido, me dediqué a estudiar el contenido del [script publicado en Ubuntu Life](http://ubuntulife.wordpress.com/2010/11/22/el-parche-milagro-de-linux-ahora-con-script-de-instalacion/), que automatiza la aplicación de la propuesta de Lennart. En la primera inspección pude darme cuenta de un error fatal: el script sólo se activa para el usuario root; el usuario común no podrá aprovecharlo. El error anterior implica otro: el script no se aplica recursivamente a todos los usuarios de sistema. El script tampoco reestablece los permisos al usuario sobre el archivo .bashrc, por lo que nunca se ejecuta. Por último y no menos importante, el script no está muy documentado que digamos (cosa indispensable para promover el software libre y la libertad del conocimiento).
 
 A continuación presento el script mejorado y disponible para su descarga. Puedes copiarlo y guardarlo en un archivo de texto o descargarlo directamente del link que está más abajo.
-
-<!-- more -->
 
 {% highlight bash %}
 #!/bin/bash -e
@@ -209,7 +206,7 @@ esac
 exit 0
 {% endhighlight %}
 
-[Descargar huntingbears-cgroups.sh](http://blog-luisalejandro.rhcloud.com/static/files/huntingbears-cgroups.sh)
+[Descargar huntingbears-cgroups.sh](http://huntingbears.com.ve/static/files/huntingbears-cgroups.sh)
 
 Una vez descargado el script, ejecutar con permisos de superusuario (root) los siguientes comandos:
 

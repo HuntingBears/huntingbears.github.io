@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-03-19 14:54:28-04:30
 layout: post
 slug: street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado
 title: 'Street Spirit (Fade Out): Un video de Radiohead altamente subestimado'
-wordpress_id: 162
+article_id: 162
 categories:
 - Opinión
 - Radiohead
@@ -14,19 +13,70 @@ tags:
 - Radiohead
 - street spirit
 - Video
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/162/ff35cd70e91f4edfc4f2eebe5d8e1316.jpg
+image: http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__1.jpg
 description: Street Spirit es una canción hermosa, con un video realmente bueno.
 ---
 
 Éste video es uno de los mejores en la carrera musical de radiohead; sin embargo, no ha sido nominado para ningún premio hasta ahora. Se estrenó en febrero de 1996 y fue dirigido por [Jonathan Glazer](http://en.wikipedia.org/wiki/Jonathan_Glazer), quien dirigió posteriormente el vídeo de "[Karma Police](http://www.youtube.com/watch?v=IBH97ma9YiI)".
 
-<span class="youtube" data-youtube-id="BrZTNhW44-o"></span>
+<span class="youtube" data-youtube-id="IrTB-iiecqk"></span>
 
 El vídeo, grabado totalmente en blanco y negro, no es una historia fluída. Está compuesta por diferentes retazos sin conexión que van de lo trivial a lo intrincado, incluyendo escenas inéditas de los integrantes del grupo cayéndose, saltando y corriendo. En una de ellas, se puede apreciar un Ed O'Brien cayéndose hacia atrás y dándose un tremendo tortazo (Ouch!).
 
-<span class="picasa" data-picasa-id="5772987799028149905"><ul class="picasa-album"><li class="picasa-image"><a class="picasa-image-large" title="Captura-de-pantalla-210310-143929.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/203eed576c82d5d1be95f7d37bb08c8f.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/5798299548001873aaca4f3bc9cc2709.jpg" alt="Captura-de-pantalla-210310-143929.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura-de-pantalla-210310-144052.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/e825de7e44bf37edba23c858d9419310.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/0963f855c846b9dd93808ee466a3b377.jpg" alt="Captura-de-pantalla-210310-144052.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura-de-pantalla-210310-144122.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/f8e8e632ebcec8c0bb49a53594e5b4a4.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/deefed68a1061082408df490ce8f3d0a.jpg" alt="Captura-de-pantalla-210310-144122.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura-de-pantalla-210310-144227.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/4adf293171ddae7997932c8912b3fc72.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/047dd66304bbaad50be09c0064e1c658.jpg" alt="Captura-de-pantalla-210310-144227.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura-de-pantalla-210310-144259.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/70e17b8c0a085cc61c69a027361b0911.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/a5ad75fc6962b299588f1ce89158d995.jpg" alt="Captura-de-pantalla-210310-144259.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura-de-pantalla-210310-144345.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/c5db4b426579e271f70412a1a9529ebe.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/f64612b9347ed658ff1fd566b7e19e10.jpg" alt="Captura-de-pantalla-210310-144345.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura-de-pantalla-210310-144555.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/e527421bfa0bd21fa2404e3e1464e24f.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/2ce876e4fbdd0b3fa217a817b5608bf3.jpg" alt="Captura-de-pantalla-210310-144555.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura-de-pantalla-210310-145122.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/1ff0e191a63166616ef9df4bff0703a8.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/ca6d3a09d243298abfc3c8268a1b6b0c.jpg" alt="Captura-de-pantalla-210310-145122.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura-de-pantalla-210310-145229.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/11891753f24d8c1d75f38ea6c6601463.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/f27c57124ea5425213979c81d7dee2ed.jpg" alt="Captura-de-pantalla-210310-145229.png"></a></li><li class="picasa-image"><a class="picasa-image-large" title="Captura-de-pantalla-210310-145306.png" href="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/ff35cd70e91f4edfc4f2eebe5d8e1316.jpg"><img class="picasa-image-thumb" src="http://blog-luisalejandro.rhcloud.com/static/img/posts/162/1e1c9213d94c89fcab8e0895193d8193.jpg" alt="Captura-de-pantalla-210310-145306.png"></a></li></ul></span>
-
-<!-- more -->
+<div class="picasa">
+    <ul class="picasa-album">
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__2.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__3.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__4.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__5.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__6.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__7.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__8.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__9.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__10.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__11.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__12.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__13.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__14.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__15.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__16.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__17.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__18.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__19.jpg" />
+            </a>
+        </li>
+        <li class="picasa-image">
+            <a class="picasa-image-large" href="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__1.jpg">
+                <img class="picasa-image-thumb" src="http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__21.jpg" />
+            </a>
+        </li>
+    </ul>
+</div>
 
 Varias escenas de este vídeo fueron filmadas usando diferentes frecuencias de marco, haciendo que varios objetos se moviesen a diferentes velocidades en la misma escena. Una cámara especial de alta velocidad, empleada normalmente para propósitos científicos, se usó en este caso para los efectos muy lentos.
 

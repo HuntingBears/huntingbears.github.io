@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [disco corrupto]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [disco corrupto] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: disco-corrupto
-title: !!python/unicode 'Etiqueta [disco corrupto]'
+slug: disco-corrupto
+title: '[disco corrupto] Tag'
 ---

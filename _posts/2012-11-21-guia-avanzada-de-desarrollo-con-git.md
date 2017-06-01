@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-11-21 16:28:28-04:30
 layout: post
 slug: guia-avanzada-de-desarrollo-con-git
 title: Guía avanzada de desarrollo con git
-wordpress_id: 1881
+article_id: 1881
 categories:
 - Canaima
 - Debian
@@ -15,11 +14,11 @@ tags:
 - código
 - compartir
 - desarrollo con git
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1881/606029e5648bf68576fb16f4b3913812.jpg
+image: http://huntingbears.com.ve/static/img/posts/1881/guia-avanzada-de-desarrollo-con-git__1.jpg
 description: Git es un sistema de versionamiento distribuído utilizado en el desarrollo del Kernel Linux.
 ---
 
-Este artículo asume que ya conoces el propósito y las funciones fundamentales de git y que estás preparado para entender tareas más complejas. Si lo deseas, puedes leer la [Guía básica de desarrollo con git](http://huntingbears.com.ve/guia-basica-de-desarrollo-con-git.html) antes de continuar.
+Este artículo asume que ya conoces el propósito y las funciones fundamentales de git y que estás preparado para entender tareas más complejas. Si lo deseas, puedes leer la [Guía básica de desarrollo con git]({{ site.url }}/guia-basica-de-desarrollo-con-git.html) antes de continuar.
 
 Comenzar a trabajar en un proyecto de programación es relativamente fácil: simplemente comienza por donde más te guste y será suficiente.
 
@@ -48,8 +47,6 @@ git clone http://git.gitorious.org/canaima-gnu-linux/canaima-desarrollador.git
 {% endhighlight %}
 
 Cualquiera que sea el caso, ahora el árbol del proyecto está oficialmente versionado con git. Hay que notar que no importa cuántos subdirectorios tenga el proyecto, todo el sistema de versionamiento está guardado en una carpeta `.git` en el directorio raíz del proyecto (a diferencia de subversion, por ejemplo).
-
-<!-- more -->
 
 ¡Ahora es tiempo de que hagamos algunas modificaciones! Edita algunos archivos dentro del proyecto canaima-desarrollador que acabas de clonar.
 

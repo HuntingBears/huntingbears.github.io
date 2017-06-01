@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [windows]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [windows] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: windows
-title: !!python/unicode 'Etiqueta [windows]'
+slug: windows
+title: '[windows] Tag'
 ---

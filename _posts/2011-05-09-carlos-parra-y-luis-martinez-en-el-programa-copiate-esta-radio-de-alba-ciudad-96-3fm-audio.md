@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-05-09 22:57:56-04:30
 layout: post
 slug: carlos-parra-y-luis-martinez-en-el-programa-copiate-esta-radio-de-alba-ciudad-96-3fm-audio
 title: Carlos Parra y Luis Martínez en el programa "Copiate ésta Radio" de Alba Ciudad 96.3FM [AUDIO]
-wordpress_id: 1043
+article_id: 1043
 categories:
 - Canaima
 - Noticias
@@ -14,7 +13,7 @@ tags:
 - canaima gnu linux 3.0
 - programa de radio
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1043/6bd4bf88d59678ee286bc47f7c4b4bd1.jpg
+image: http://huntingbears.com.ve/static/img/posts/1043/carlos-parra-y-luis-martinez-en-el-programa-copiate-esta-radio-de-alba-ciudad-96-3fm-audio__1.jpg
 description: Fui entrevistado en el programa "Copiate ésta radio" de Alba Ciudad para hablar de Canaima GNU/Linux.
 ---
 

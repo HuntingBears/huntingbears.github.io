@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-07-19 18:48:02-04:30
 layout: post
 slug: canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos
 title: 'Canaima 3 vs Windows 7: Una comparación detallada de ambos Sistemas Operativos'
-wordpress_id: 802
+article_id: 802
 categories:
 - Canaima
 - Estudios
@@ -14,7 +13,7 @@ tags:
 - canaima gnu linux
 - canaima vs windows
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/802/c0a501db1ebe644a651b50ea0b45a152.jpg
+image: http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__16.jpg
 description: Acá hacemos un estudio profundo acerca de las diferencias y similitudes de Windows y Canaima.
 ---
 
@@ -39,31 +38,29 @@ Usaré un mismo entorno de pruebas para ambos sistemas operativos, y empezaré d
 * **Otros dispositivos:** CA0106 Soundblaster (Tarjeta de Sonido PCI).
 * **Otros dispositivos:** SAA7131/SAA7133/SAA7135 Video Broadcast Decoder (Tarjeta Receptora de TV PCI).
 
-<!-- more -->
-
 ### **Instalación**
 
 ### Microsoft Windows 7
 
-Acá empecé introduciendo un **DVD (~7GB)** de la última versión de Windows 7, que llegó a mis manos a través de una sucursal [Microsoft Pirateishon](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/ca8363cd77da1d748e5c8f3a0d4ee946.jpg) (no voy a pagar los [320$](http://www.microsoftstore.com/store/msstore/en_US/pd/productID.216647200/categoryID.50726100/list.true) para hacer ésta prueba, lo siento). Una vez dentro, me encontré con una interfaz bonita y agradable que sólo me permite Instalar Windows, y acceder a algunas opciones de restauración de datos y reparación para Sistemas Windows corruptos. Cabe destacar que en esa interfaz noté que había un procesamiento de video de muy bajo nivel, puesto que la GUI tardaba en responder al activar el menú desplegable de los idiomas disponibles, a pesar de que la PC tenía una tarjeta gráfica GeForce 8500 GT de 1GB.
+Acá empecé introduciendo un **DVD (~7GB)** de la última versión de Windows 7, que llegó a mis manos a través de una sucursal [Microsoft Pirateishon](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__1.jpg) (no voy a pagar los [320$](http://www.microsoftstore.com/store/msstore/en_US/pd/productID.216647200/categoryID.50726100/list.true) para hacer ésta prueba, lo siento). Una vez dentro, me encontré con una interfaz bonita y agradable que sólo me permite Instalar Windows, y acceder a algunas opciones de restauración de datos y reparación para Sistemas Windows corruptos. Cabe destacar que en esa interfaz noté que había un procesamiento de video de muy bajo nivel, puesto que la GUI tardaba en responder al activar el menú desplegable de los idiomas disponibles, a pesar de que la PC tenía una tarjeta gráfica GeForce 8500 GT de 1GB.
 
-El primer paso de la instalación es la aceptación de la licencia EULA (End User License Agreement), en donde se especifican una serie de [limitaciones al usuario](http://huntingbears.com.ve/has-leido-la-licencia-de-microsoft-windows-esa-que-todo-el-mundo-acepta-con-los-ojos-cerrados.html). Seguidamente, aparece la pantalla de selección de la partición donde deseamos instalar. Previamente había hecho una partición NTFS para no tener que utilizar el particionador que trae el instalador. Sin embargo, no reconoció la partición y tuve que formatearla desde allí. Después de eso tampoco funcionó, ni siquiera seleccionando y formateando el disco entero.
+El primer paso de la instalación es la aceptación de la licencia EULA (End User License Agreement), en donde se especifican una serie de [limitaciones al usuario]({{ site.url }}/has-leido-la-licencia-de-microsoft-windows-esa-que-todo-el-mundo-acepta-con-los-ojos-cerrados.html). Seguidamente, aparece la pantalla de selección de la partición donde deseamos instalar. Previamente había hecho una partición NTFS para no tener que utilizar el particionador que trae el instalador. Sin embargo, no reconoció la partición y tuve que formatearla desde allí. Después de eso tampoco funcionó, ni siquiera seleccionando y formateando el disco entero.
 
 Investigando en internet, luego de hacer unas 3 o 4 cosas aleatorias que recomiendan en los foros de Windows, di con la solución: Desconecté los 2 discos duros SATA en donde NO iba a instalar y dejé conectado el tercero. [Windows 7 no reconoce](http://social.technet.microsoft.com/Forums/en-US/w7itproinstall/thread/8c26780a-78ba-4113-994b-a0ef2c117c76/) [arreglos de discos](http://social.technet.microsoft.com/Forums/en/w7itproinstall/thread/8c2c1ac9-dc18-40af-a2b1-88dfaf9c2e70) [duros SATA](http://www.google.com/search?q=Setup+couldn%27t+create+a+new+system+partition+or+couldn%27t+find+an+existing).
 
 Finalmente, comenzó el proceso de instalación. En resumen, puedo decirles que el proceso **reinició la PC 3 veces** y duró aproximadamente **30minutos**.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/802/40f13bc35ed89f99144f361508abcc83.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/802/9b3acde76be87f145f70e555ba3f4b00.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__17.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__18.jpg"></span>
 
 ### Canaima GNU/Linux 3.0
 
 Ésta versión de Canaima cabe en un **CD (~700MB)**, lo descargué gratuitamente de la página oficial del proyecto y al parecer no tengo restricciones como las que establece la EULA, más bien me incitan a compartir el software.
 
-La instalación comenzó preguntando la distribución de teclado a utilizar ([imagen](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/3d4102afa8136d7c50ccea534e1aa163.jpg)) y los datos del nuevo usuario (usuario, nombre y contraseña)([imagen](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/663066349563112cd0fae7f18ce500f6.jpg)), así como los datos del usuario administrador. Preguntó de qué forma quería particionar el disco, pero aunque existe la opción "Guiado" (que hace las cosas por ti), yo seleccioné manual para cambiar un poco las cosas que vienen por defecto ([imagen](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/220869794a8c073e8ed32c0ffe221b5a.jpg)).
+La instalación comenzó preguntando la distribución de teclado a utilizar ([imagen](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__2.jpg)) y los datos del nuevo usuario (usuario, nombre y contraseña)([imagen](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__3.jpg)), así como los datos del usuario administrador. Preguntó de qué forma quería particionar el disco, pero aunque existe la opción "Guiado" (que hace las cosas por ti), yo seleccioné manual para cambiar un poco las cosas que vienen por defecto ([imagen](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__4.jpg)).
 
 La instalación duró **14 minutos** y **nunca reinició**, sino al final cuando pidió extraer el CD de instalación y pulsar ENTER para reiniciar.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/802/b620cf3eb35db0b4e56a8452d8c2841d.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/802/c2454ce39c2984e12e4e378dc2315314.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__19.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__20.jpg"></span>
 
 ### **Primer booteo**
 
@@ -73,26 +70,26 @@ Lo primero que me di cuenta es que no me reconoció los otros sistemas operativo
 
 Seguidamente, examiné aspectos básicos:
 
-* Muy buen [fondo de escritorio](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/eb479cb9142ddf4f2e7a148fc22d0fa5.jpg), bastante agradable.
-* Me di cuenta que el ícono de "Problemas" mostraba [2 problemas](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/775fca2c3de56bf915d91449a865df0e.jpg) relacionados con la falta de un antivirus y que no se ha configurado Windows Update, apenas inicia.
-* La tarjeta de sonido [no fué reconocida](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/eb479cb9142ddf4f2e7a148fc22d0fa5.jpg).
+* Muy buen [fondo de escritorio](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__5.jpg), bastante agradable.
+* Me di cuenta que el ícono de "Problemas" mostraba [2 problemas](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__6.jpg) relacionados con la falta de un antivirus y que no se ha configurado Windows Update, apenas inicia.
+* La tarjeta de sonido [no fué reconocida](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__5.jpg).
 
-Realizando mayores indagaciones, me di cuenta de que una serie de dispositivos no fueron reconocidos al inicio, como muestra la [captura de pantalla](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/9bbbfbaf63584fbcecd9857b34619914.jpg) del "Administrador de Dispositivos".
+Realizando mayores indagaciones, me di cuenta de que una serie de dispositivos no fueron reconocidos al inicio, como muestra la [captura de pantalla](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__8.jpg) del "Administrador de Dispositivos".
 
-Sin ningún programa abierto, el consumo de memoria RAM es de unos **853MB** ([imagen](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/3b53b9af657760f621dc84700306a0a0.jpg)), y cuando abrí el Administrador de Recursos, dejó de responder por casi 1 minuto ([imagen](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/3771245476a1e41052ff2c4acfeaae12.jpg)).
+Sin ningún programa abierto, el consumo de memoria RAM es de unos **853MB** ([imagen](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__9.jpg)), y cuando abrí el Administrador de Recursos, dejó de responder por casi 1 minuto ([imagen](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__10.jpg)).
 
-Por otro lado, el sistema recién instalado ocupa **14,47GB** en disco ([imagen](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/aaca3b1054d336536fe66a9cc0655990.jpg)).
+Por otro lado, el sistema recién instalado ocupa **14,47GB** en disco ([imagen](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__11.jpg)).
 
 ### Canaima GNU/Linux 3.0
 
-Canaima GNU/Linux sí reconoció los otros sistemas operativos presentes en otras particiones (tenía Windows, Debian y Canaima) y me presentó un bonito menú en donde podía escoger entre ellos ([imagen](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/e0be12293d14ea3ba2705a550d2f7d26.jpg)). Canaima 3.0 inició en **14 segundos**.
+Canaima GNU/Linux sí reconoció los otros sistemas operativos presentes en otras particiones (tenía Windows, Debian y Canaima) y me presentó un bonito menú en donde podía escoger entre ellos ([imagen](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__12.jpg)). Canaima 3.0 inició en **14 segundos**.
 
 Al iniciar me di cuenta que:
 
-* También tenía un muy bonito [fondo de pantalla](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/4135fc44f9bf307bfb9690d8c437cf63.jpg).
+* También tenía un muy bonito [fondo de pantalla](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__13.jpg).
 * La tarjeta de sonido fué reconocida, pero entraba en conflictos con la salida de sonido de la tarjeta capturadora de video, lo que inhabilitaba la salida de sonido.
 
-El sistema sin ningún programa abierto, consume **116,4MB** ([imagen](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/be374971a2702fe15c3177c178bbaf1e.jpg)) de memoria RAM y ocupa **4,21GB** ([imagen](http://blog-luisalejandro.rhcloud.com/static/img/posts/802/aaca3b1054d336536fe66a9cc0655990.jpg)).
+El sistema sin ningún programa abierto, consume **116,4MB** ([imagen](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__14.jpg)) de memoria RAM y ocupa **4,21GB** ([imagen](http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__11.jpg)).
 
 ### **Eficiencia**
 
@@ -100,7 +97,7 @@ Bueno, acá hice unas cuantas pruebas de rendimiento basándome en un benchmark 
 
 |**Microsoft Windows 7**|**Canaima GNU/Linux 3.0**
 |---|---|
-|<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/802/7b4f7a95f9140d0a353a1af35fb3b594.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/802/0c893b1e436ba8da3ea29523f52be92b.jpg"></span>|
+|<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__21.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__22.jpg"></span>|
 |Puntuación|Puntuación|
 |3971|4811 (Mejor)|
 |[Enlace a los resultados](http://browse.geekbench.ca/geekbench2/view/423602)|[Enlace a los resultados](http://browse.geekbench.ca/geekbench2/view/419480)|

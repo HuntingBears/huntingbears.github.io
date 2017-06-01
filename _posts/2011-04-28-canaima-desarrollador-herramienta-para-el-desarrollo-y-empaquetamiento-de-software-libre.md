@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-04-28 20:54:01-04:30
 layout: post
 slug: canaima-desarrollador-herramienta-para-el-desarrollo-y-empaquetamiento-de-software-libre
 title: 'Canaima Desarrollador: Herramienta para el desarrollo y empaquetamiento de Software Libre'
-wordpress_id: 676
+article_id: 676
 categories:
 - Canaima
 - Desarrollo
@@ -14,7 +13,7 @@ tags:
 - canaima desarrollador
 - empaquetar
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/676/417fc1e6d23200fc66dfd6842c4a7925.jpg
+image: http://huntingbears.com.ve/static/img/posts/676/canaima-desarrollador-herramienta-para-el-desarrollo-y-empaquetamiento-de-software-libre__1.jpg
 description: Canaima Desarrollador es un asistente de empaquetamiento y desarrollo.
 ---
 
@@ -51,8 +50,6 @@ En el otro aspecto, el formativo, C-D incluye:
 * El [Manual del Desarrollador](http://wiki.canaima.softwarelibre.gob.ve/wiki/Manual_del_Desarrollador), resumen técnico-práctico de las herramientas cognitivas necesarias para desarrollar paquetes funcionales para Canaima GNU/Linux.
 * La [Guía de Referencia para el Desarrollador](http://wiki.canaima.softwarelibre.gob.ve/wiki/Gu%C3%ADa_de_Referencia_para_el_Desarrollador), compendio extenso y detallado que extiende y complementa el contenido del Manual del Desarrollador.
 * Un Manual de Uso para la herramienta Canaima Desarrollador.
-
-<!-- more -->
 
 ### Configurando Canaima Desarrollador
 

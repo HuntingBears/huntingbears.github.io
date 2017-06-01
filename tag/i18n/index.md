@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [i18n]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [i18n] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: i18n
-title: !!python/unicode 'Etiqueta [i18n]'
+slug: i18n
+title: '[i18n] Tag'
 ---

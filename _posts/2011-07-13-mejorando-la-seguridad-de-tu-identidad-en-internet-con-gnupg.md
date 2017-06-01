@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-07-13 12:30:58-04:30
 layout: post
 slug: mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg
 title: Mejorando la seguridad de tu identidad en internet con GnuPG
-wordpress_id: 1595
+article_id: 1595
 categories:
 - Canaima
 - Educativo
@@ -14,7 +13,7 @@ tags:
 - canaima gnu linux
 - seguridad
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/7daf63d07da8828324c39d40976f955b.jpg
+image: http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__1.jpg
 description: GnuPG permite resguardar tus datos e identidad en internet mediante técnicas de encriptado y firma electrónica.
 ---
 
@@ -27,8 +26,6 @@ Una de las formas de mejorar la seguridad de tu identidad en internet es a trav�
 
 El Software [GnuPG](http://www.gnupg.org/index.es.html) facilita al usuario común realizar éstas operaciones. A continuación explicaré su principio de funcionamiento y su uso a través de la línea de comandos. ¡No os desesperes! Si no te interesa saber todo ese gamelote, adelántate hasta donde dice "Usando GnuPG con tu cliente de correo electrónico".
 
-<!-- more -->
-
 ### ¿Y cómo funciona?
 
 El usuario de GnuPG, posee una llave pública y una privada asociadas a su identidad en internet (normalmente su nombre completo y uno o varios correos electrónicos). Con ayuda del par de llaves puede firmar, cifrar y descifrar los datos que comúnmente comparte en internet o en cualquier otro medio público.
@@ -37,11 +34,11 @@ El par de llaves es generado una sola vez. La llave pública debe ser expuesta p
 
 Por ejemplo, al firmar un documento, el usuario lo hace con su llave pública, pero sólo puede hacerlo si posee la privada y conoce su contraseña. Quien recibe el documento entonces puede estar seguro de que quien lo envía es quien dice ser.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/a484857ee6d1fb94457694d14ffef595.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/0a92b5139203db8416005ba7ff764b93.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__3.jpg"></span>
 
 La cosa es un poco más complicada en el cifrado y descifrado de documentos. Pensemos por un momento que una clave pública es como una caja fuerte de seguridad. Cuando un usuario cifra un documento, lo hace utilizando la llave pública perteneciente al destinatario, entonces ese documento se pone en la caja fuerte, la caja se cierra, y el bloqueo de la combinación de ésta se gira varias veces. La parte correspondiente a la clave privada, es decir, el destinatario, es la combinación que puede volver a abrir la caja y retirar el documento. Dicho de otro modo, sólo la persona que posee la clave privada puede recuperar un documento que ha sido cifrado utilizando la llave pública asociada a esa clave privada.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/308f923770e3017c456b848d8292e3b6.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/f3bda75c3ac26f2acc4e259c16f279ed.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__4.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__5.jpg"></span>
 
 Si sólo tienes tu clave privada y pública no puedes cifrar mensajes, sólo firmarlos, ya que necesitas la clave pública del usuario al que quieres enviar el mensaje o documento cifrado para poder hacerlo. Si el usuario al que quieres enviar mensajes cifrados ya tiene clave pública, pídele que te la proporcione para que puedas establecer comunicaciones cifradas con él.
 
@@ -220,17 +217,17 @@ Una vez firmada, debemos subir la llave a un servidor de llaves.
 
 ### Usando GnuPG con tu cliente de correo electrónico
 
-Una de las aplicaciones de usuario más comunes en donde se puede utilizar GnuPG es el correo electrónico. Existe un plugin para Thunderbird (y sus derivados: Icedove en Debian y [Guácharo en Canaima](http://huntingbears.com.ve/cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0.html)) llamado [enigmail](http://www.enigmail.net/download/index.php), que permite integrar todas las funcionalidades de GnuPG a través de una interfaz gráfica bastante amigable.
+Una de las aplicaciones de usuario más comunes en donde se puede utilizar GnuPG es el correo electrónico. Existe un plugin para Thunderbird (y sus derivados: Icedove en Debian y [Guácharo en Canaima]({{ site.url }}/cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0.html)) llamado [enigmail](http://www.enigmail.net/download/index.php), que permite integrar todas las funcionalidades de GnuPG a través de una interfaz gráfica bastante amigable.
 
 Para instalarlo sólo debemos buscar en la [página de descargas del plugin](http://enigmail.mozdev.org/download/index.html) la versión necesaria según nuestro sistema operativo y versión de Thunderbird, para luego "guardar el enlace como" haciendo click derecho sobre el enlace de descarga. Finalmente en Thunderbird nos vamos a Herramientas > Complementos, y en la pestaña "Extensiones" hacemos click en el botón "Instalar...", lo cual nos llevará a un diálogo en donde debemos seleccionar el plugin (un archivo de extensión xpi).
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/36156535929b7d4c8ceb6b16e567bdd3.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/c0dcd35f375ffb0d2578e0af7c195fde.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__6.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__7.jpg"></span>
 
 ### Generación del par de llaves
 
 Abre Thunderbird y verás una nueva opción en el menú superior a la izquierda de Herramientas titulado "OpenPGP". Selecciona OpenPGP > Administración de claves. Se abrirá una ventana; selecciona en el menú Generar > Nuevo par de claves.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/8d077313052cbed1a9407c01a34a3a80.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/77835ad4da34bd5e5d0f08ab957778ae.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__8.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__9.jpg"></span>
 
 En el diálogo que aparece puedes especificar varias preferencias de la clave:
 
@@ -245,7 +242,7 @@ Haz clic en el botón "Generar clave". El proceso puede llegar a tardar varios m
 
 Puedes utilizar tu nueva clave para firmar los correos que envíes. Para ello, abre el diálogo de configuración de las cuentas (Editar > Configuración de las Cuentas) y en la sección "Seguridad OpenPGP" de la cuenta de correo para la que generaste la llave, selecciona "Activar el soporte OpenGPG (Enigmail) para esta identidad".
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/35ba915c3232e11cec7c7704a7fb0ef2.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/8ec279b61bb04e2e22a0e75f3b0a3bfc.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__10.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__11.jpg"></span>
 
 Si sólo tienes la clave que acabas de generar, utiliza la opción "Usar la dirección de correo de esta identidad para identificar la clave OpenPGP", pero, si tienes más de una, puedes utilizar la opción "Usar un ID de clave OpenPGP específico" para elegir la que quieres usar.
 
@@ -255,7 +252,7 @@ Más abajo puedes activar el firmado y/o cifrado de los mensajes por defecto. Si
 
 Para publicar tu clave en uno de estos servidores, no tienes más que hacer clic derecho en ella en la ventana de administración de claves de Enigmail (OpenPGP > Administración de Claves) y seleccionar la opción "Subir claves públicas al servidor de claves". En la lista de servidores que aparece, selecciona uno (por ejemplo pgp.mit.edu) y pulsa el botón Aceptar.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/e58f75c5449bc002b36c7f5befc3ce96.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/1595/a6faba34f85a563f1d2c44a65d1f6107.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__12.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__13.jpg"></span>
 
 ### Firmar y/o cifrar mensajes
 

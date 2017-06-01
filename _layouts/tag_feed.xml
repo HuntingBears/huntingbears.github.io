@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>{{ site.name | xml_escape }}</title>
-        <description>{{ site.description_es | xml_escape }}</description>
+        <description>{{ site.description | xml_escape }}</description>
         <link>{{ site.url }}</link>
         <atom:link href="{{ site.url }}/feed/" rel="self" type="application/rss+xml" />
-        <language>es-ve</language>
+        <language>en-us</language>
         <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
         <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
         {% for post in site.posts offset: 0 limit: 25 %}
         {% for post_tag in post.tags %}
         {% capture tag_slug %}{{ post_tag | append: '' | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | uri_escape }}{% endcapture %}
-        {% if tag_slug == page.tag_name %}
+        {% if tag_slug == page.slug %}
         <item>
             <title>{{ post.title | xml_escape }}</title>
             <description>

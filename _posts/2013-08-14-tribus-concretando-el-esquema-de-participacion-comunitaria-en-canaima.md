@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2013-08-14 16:14:04-04:30
 layout: post
 slug: tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima
 title: 'Tribus: Concretando el esquema de participación comunitaria en Canaima'
-wordpress_id: 2859
+article_id: 2859
 categories:
 - Canaima
 - Desarrollo
@@ -14,7 +13,7 @@ tags:
 - colaborativo
 - comunidad
 - tribus
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2859/ef0bfdd4d9aa2f64c65c795a0572b274.jpg
+image: http://huntingbears.com.ve/static/img/posts/2859/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima__1.jpg
 description: Tribus es un intento para automatizar las actividades de una Comunidad de Software Libre.
 ---
 
@@ -24,12 +23,12 @@ El [Proyecto Canaima](http://canaima.softwarelibre.gob.ve) nació a finales del 
 
 La segunda versión de Canaima (2008), estuvo determinada a abrir las puertas para el desarrollo comunitario en Canaima. [José Parella](http://twitter.com/bureado), [Nehomar Barragán](http://twitter.com/n3h0), [Carlos Marrero](http://twitter.com/cdmarrero), entre otros, lograron poner las bases fundacionales a través de un esquema de construcción de paquetes y una plataforma de servicios capaz de articular el flujo de desarrollo, gestionar la comunicación a través de listas de correo, impulsar la documentación a través de una enciclopedia colaborativa, entre otras funcionalidades. Sin embargo, la historia demostraría que sería necesario un estudio más profundo de las interacciones comunitarias.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2859/df1033ebfc9fa740646f2174bab0dd9e.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2859/13c26cb61c2c0764afb29caee11580d5.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2859/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2859/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima__3.jpg"></span>
 6ta Cayapa Canaima. [Imagen de David Hernández](http://www.flickr.com/photos/davidhdz/) ([by-nc-sa](http://creativecommons.org/licenses/by-nc-sa/2.0/)).
 
 El enfoque de la tercera versión de Canaima (2011), estuvo centralizado en impulsar las herramientas de colaboración desde el ámbito del usuario. La creación de herramientas como Canaima Semilla, para facilitar la creación de distribuciones derivadas y aclarar el proceso de construcción de imágenes; y Canaima Desarrollador, para facilitar la creación de paquetes, estuvieron enfocadas en esa dirección.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2859/59871407a520014c937e125d2a67d182.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2859/7cd21e34bdb703b4365036ee4fc32b90.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2859/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima__4.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2859/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima__5.jpg"></span>
 Mini Cayapa de Sabores Canaima. [Imagen de David Hernández](http://www.flickr.com/photos/davidhdz/) ([by-nc-sa](http://creativecommons.org/licenses/by-nc-sa/2.0/)).
 
 Durante el año 2011, 2012 y lo que ha transcurrido del 2013, la dinámica comunitaria ha venido gestando espacios de construcción y organización de los procesos internos de la Metadistribución Canaima. A través de Cayapas y Mini Cayapas, se han planteado diferentes procedimientos y estructuras para optimizar la participación comunitaria en Canaima. Es preciso destacar las siguientes ideas:
@@ -41,12 +40,10 @@ Durante el año 2011, 2012 y lo que ha transcurrido del 2013, la dinámica comun
 * Esquema de desarrolladores, aprendices y mentores "Chamanes": Héctor Colina, Joaquín Muñoz, entre otros.
 * Estructura organizacional de los "Caimancitos": Canaima Universitario.
 
-<span class="figure figure-100" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/2859/c45e63228d62f88d23903d0015e392e2.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/2859/bc6334a0f20b965f740b907617235523.jpg"></span>
+<span class="figure figure-100" data-figure-src="http://huntingbears.com.ve/static/img/posts/2859/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima__6.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/2859/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima__7.jpg"></span>
 Esquema de Chamanes, por [Héctor Colina](http://twitter.com/e1th0r)/Joaquín Muñoz. [Imagen de David Hernández](http://www.flickr.com/photos/davidhdz/) ([by-nc-sa](http://creativecommons.org/licenses/by-nc-sa/2.0/)).
 
 Basándose en éstas ideas, el equipo de desarrollo de Canaima en CNTI ha decidido componer una aplicación integral que conjugue todos estos elementos para que finalmente se materialice una plataforma que realmente permita potenciar la participación comunitaria.
-
-<!-- more -->
 
 ### ¿Qué es Tribus?
 

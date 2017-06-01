@@ -1,12 +1,11 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-02-20 18:02:18-04:30
 layout: post
 slug: contrasenas-de-usuario-administrador-root-para-las-canaimitas-de-1ro-a-6to-grado
 title: Contraseñas de usuario administrador (root) para las canaimitas de 1ro a 6to
   grado
-wordpress_id: 749
+article_id: 749
 categories:
 - Canaima
 - Minipost
@@ -14,7 +13,7 @@ tags:
 - administrador
 - canaimitas
 - contraseña
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/749/3b1e58941a008647bede01ade386a732.jpg
+image: http://huntingbears.com.ve/static/img/posts/749/contrasenas-de-usuario-administrador-root-para-las-canaimitas-de-1ro-a-6to-grado__1.jpg
 description: Las contraseñas de administrador de las canaimitas permiten desbloquear funcionalidades adicionales.
 ---
 

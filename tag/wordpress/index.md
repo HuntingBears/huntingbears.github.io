@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [wordpress]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [wordpress] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: wordpress
-title: !!python/unicode 'Etiqueta [wordpress]'
+slug: wordpress
+title: '[wordpress] Tag'
 ---

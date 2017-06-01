@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [gnome shell]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [gnome shell] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: gnome-shell
-title: !!python/unicode 'Etiqueta [gnome shell]'
+slug: gnome-shell
+title: '[gnome shell] Tag'
 ---

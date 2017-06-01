@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [ignorancia]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [ignorancia] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: ignorancia
-title: !!python/unicode 'Etiqueta [ignorancia]'
+slug: ignorancia
+title: '[ignorancia] Tag'
 ---

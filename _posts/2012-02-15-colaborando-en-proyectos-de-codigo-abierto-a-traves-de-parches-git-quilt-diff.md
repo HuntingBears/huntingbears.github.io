@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-02-15 22:53:23-04:30
 layout: post
 slug: colaborando-en-proyectos-de-codigo-abierto-a-traves-de-parches-git-quilt-diff
 title: Colaborando en proyectos de código abierto a través de parches [git, quilt, diff]
-wordpress_id: 2101
+article_id: 2101
 categories:
 - Desarrollo
 - Software Libre
@@ -13,7 +12,7 @@ tags:
 - colaborar
 - diff
 - parches
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2101/8dbd70b4e814df1e552d7f7c42302222.jpg
+image: http://huntingbears.com.ve/static/img/posts/2101/colaborando-en-proyectos-de-codigo-abierto-a-traves-de-parches-git-quilt-diff__1.jpg
 description: Los parches nos permiten compilar una serie de cambios en un archivo. Ideal para trabajar colaborativamente.
 ---
 
@@ -42,8 +41,6 @@ index 585dcea..b06d9d6 100644
 
 Para este ejemplo, en la parte superior se especifica el nombre del archivo que está siendo afectado. Las líneas adicionales se muestran con un '`+`', las líneas eliminadas se muestran con un '`-`', y las líneas sustituidas muestran como la antigua línea se elimina y se añade la nueva. Un mismo parche puede contener cambios a uno o más archivos.
 
-<!-- more -->
-
 ### Primeros pasos
 
 Para efectos de este tutorial, necesitaremos instalar git para poder realizar las prácticas. En un Terminal de Root (Aplicaciones > Accesorios > Terminal de Root) ejecutamos:
@@ -52,7 +49,7 @@ Para efectos de este tutorial, necesitaremos instalar git para poder realizar la
 aptitude install git-core diffutils quilt
 {% endhighlight %}
 
-Bien, supongamos que deseas colaborar con el [Proyecto Aguilas](http://huntingbears.com.ve/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap.html) para corregir un error presente en alguno de sus archivos. Lo primero que debemos hacer es bajar el código fuente de la aplicación. La forma de realizar esta tarea dependerá de la forma en que el autor distribuye el código fuente; es decir, podrías tener que descargar un archivo comprimido, clonarlo desde un repositorio de versionamiento o cualquier otra cosa. No te preocupes: un proyecto de código abierto siempre informa como se debe hacer para descargar el código fuente.
+Bien, supongamos que deseas colaborar con el [Proyecto Aguilas]({{ site.url }}/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap.html) para corregir un error presente en alguno de sus archivos. Lo primero que debemos hacer es bajar el código fuente de la aplicación. La forma de realizar esta tarea dependerá de la forma en que el autor distribuye el código fuente; es decir, podrías tener que descargar un archivo comprimido, clonarlo desde un repositorio de versionamiento o cualquier otra cosa. No te preocupes: un proyecto de código abierto siempre informa como se debe hacer para descargar el código fuente.
 
 Para el caso de Aguilas, clonaremos el repositorio git con el siguiente comando en un Terminal de Usuario (Aplicaciones > Accesorios > Terminal):
 
@@ -99,7 +96,7 @@ Developers:
 
  * Luis Alejandro Martínez Faneyth (aka HuntingBears)
     - E-Mail: luis@huntingbears.com.ve
-    - Blog: http://huntingbears.com.ve
+    - Blog: {{ site.url }}
     - Twitter/identi.ca: @LuisAlejandro
 {% endhighlight %}
 
@@ -136,7 +133,7 @@ index 9c21371..6bc709c 100644
 
 - * Luis Alejandro Martínez Faneyth (aka HuntingBears)
 -       - E-Mail: luis@huntingbears.com.ve
--       - Blog: http://huntingbears.com.ve
+-       - Blog: {{ site.url }}
 -       - Twitter/identi.ca: @LuisAlejandro
 + * El Chiguire Bipolar
 {% endhighlight %}
@@ -184,7 +181,7 @@ Developers:
 
 - * Luis Alejandro Martínez Faneyth (aka HuntingBears)
 -       - E-Mail: luis@huntingbears.com.ve
--       - Blog: http://huntingbears.com.ve
+-       - Blog: {{ site.url }}
 -       - Twitter/identi.ca: @LuisAlejandro
 + * El Chiguire Bipolar
 {% endhighlight %}
@@ -218,7 +215,7 @@ Developers:
 
 - * Luis Alejandro Martínez Faneyth (aka HuntingBears)
 -    - E-Mail: luis@huntingbears.com.ve
--    - Blog: http://huntingbears.com.ve
+-    - Blog: {{ site.url }}
 -    - Twitter/identi.ca: @LuisAlejandro
 + * El Chiguire Bipolar
 {% endhighlight %}

@@ -1,12 +1,11 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-07-26 13:02:06-04:30
 layout: post
 published: false
 slug: 5ta-cayapa-canaima-bloopers
 title: '5ta Cayapa Canaima: Bloopers'
-wordpress_id: 1363
+article_id: 1363
 categories:
 - Canaima
 - Humor
@@ -15,11 +14,11 @@ tags:
 - bloopers
 - canaima gnu linux
 - cayapa canaima
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1363/ee8f2a9cfc9ee246fee782512aaaf8d3.jpg
+image: http://huntingbears.com.ve/static/img/posts/1363/5ta-cayapa-canaima-bloopers__1.jpg
 description: Los Bloopers de la 5ta Cayapa Canaima ocurrieron durante los espacios de entretenimiento.
 ---
 
-Aunque la 5ta Cayapa Canaima fue una [excelente jornada de trabajo colaborativo](http://huntingbears.com.ve/5ta-cayapa-canaima-exitos-totales.html), en comunidad, que arrojó satisfactorios resultados, también nos divertimos en el tiempo libre (la madrugada).
+Aunque la 5ta Cayapa Canaima fue una [excelente jornada de trabajo colaborativo]({{ site.url }}/5ta-cayapa-canaima-exitos-totales.html), en comunidad, que arrojó satisfactorios resultados, también nos divertimos en el tiempo libre (la madrugada).
 
 Acá les presento una recopilación de los bloopers más divertidos de la jornada.
 

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-03-15 15:31:51-04:30
 layout: post
 slug: el-decreto-3390-tiene-una-nueva-aliada-la-gaceta-39633
 title: 'El Decreto 3390 tiene una nueva aliada: la gaceta 39633'
-wordpress_id: 884
+article_id: 884
 categories:
 - Canaima
 - Noticias
@@ -14,7 +13,7 @@ tags:
 - canaima gnu linux
 - decreto 3390
 - gaceta 39633
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/884/b63514236a19cfbd14c37d3b2ee99074.jpg
+image: http://huntingbears.com.ve/static/img/posts/884/el-decreto-3390-tiene-una-nueva-aliada-la-gaceta-39633__1.jpg
 description: La gaceta 39633 establece el uso de Canaima GNU/Linux como sistema operativo de la APN.
 ---
 

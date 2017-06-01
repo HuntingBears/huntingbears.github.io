@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-02-10 21:21:07-04:30
 layout: post
 slug: llego-canaima-3-0-se-ha-publicado-la-primera-version-candidata-vc1
 title: 'Llegó Canaima 3.0: Se ha publicado la primera Versión Candidata (VC1)'
-wordpress_id: 669
+article_id: 669
 categories:
 - Canaima
 - Desarrollo
@@ -14,15 +13,13 @@ tags:
 - canaima3
 - nueva versión
 - version candidata
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/669/95abb5f6294769d423ea90fe18a91053.jpg
+image: http://huntingbears.com.ve/static/img/posts/669/llego-canaima-3-0-se-ha-publicado-la-primera-version-candidata-vc1__1.jpg
 description: Canaima 3.0 representa un salto cuantitativo y cualitativo en la calidad del Sistema Operativo.
 ---
 
 Después de un largo período de desarrollo, que implicó entre otras cosas el desarrollo de nuevas aplicaciones, la apropiación de otras, y el mejoramiento de las ya existentes, el equipo de desarrollo Canaima GNU/Linux publica la primera Versión Candidata (VC1), de la tan esperada versión 3.0 "Roraima".
 
 La versión 3.0 supone un gran salto tecnológico y social. Las nuevas aplicaciones aplicaciones desarrolladas apuntan a fortalecer la apropiación social del conocimiento, y a que cada vez menos personas dependan de terceros para el complimiento de sus metas. Además, incluye una variada gama de aplicaciones innovadoras y gráficamente atractivas, que mejoran la experiencia real del usuario.
-
-<!-- more -->
 
 ### ¿Que hay de nuevo viejo?
 

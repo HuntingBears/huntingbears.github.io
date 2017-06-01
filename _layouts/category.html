@@ -10,8 +10,8 @@
                                 {% for post in site.posts %}
                                 {% for post_cat in post.categories %}
                                 {% capture category_slug %}{{ post_cat | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | uri_escape }}{% endcapture %}
-                                {% if category_slug == page.category_name %}
-                                <li>{{ post.date | date: '%b %Y' }} &dash; <a href="{{ site.url }}{{ post.url }}" id="post-{{ post.wordpress_id }}">{{ post.title }}</a></li>
+                                {% if category_slug == page.slug %}
+                                <li>{{ post.date | date: '%b %Y' }} &dash; <a href="{{ site.url }}{{ post.url }}" id="post-{{ post.article_id }}">{{ post.title }}</a></li>
                                 {% endif %}
                                 {% endfor %}
                                 {% endfor %}

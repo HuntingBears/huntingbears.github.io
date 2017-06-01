@@ -1,7 +1,8 @@
 ---
-category_name: viajes
-description: Lista de artículos bajo la categoría [Viajes]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [viajes] category.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: category
-title: Categoría [Viajes]
+slug: viajes
+title: '[viajes] Category'
 ---

@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [cubo de comandos]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [cubo de comandos] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: cubo-de-comandos
-title: !!python/unicode 'Etiqueta [cubo de comandos]'
+slug: cubo-de-comandos
+title: '[cubo de comandos] Tag'
 ---

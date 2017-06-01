@@ -1,2 +1,25 @@
-language: ruby
-script: "bundle exec jekyll build"
+language: python
+cache: pip
+python: 3.5
+env:
+    global:
+        - GITUSERNAME="Luis Alejandro Martínez Faneyth"
+        - GITUSERMAIL="luis@huntingbears.com.ve"
+        - GHREPO="https://github.com/LuisAlejandro/luisalejandro.github.io"
+        - secure: "Lv4qfPVW7XiNgl4SK+Rorr1AomH09cDhL505iwRxMKshVUbWg2RU9bTs8MGmVjCQc4pCQFHRNrZa8yBYW05Z3zXDz7y4FpyL9aaYAn58GpAvf5RxC1+8RH1OLwniM4yIPnJm5x5w8BHH23V4EbyEWxtw41QZds4inibrxQcurfQ="
+before_script:
+    - |
+        git config --global user.name "${GITUSERNAME}"
+        git config --global user.email "${GITUSERMAIL}"
+        git fetch origin master:master
+        git checkout master
+script:
+    - make process
+after_success:
+    - |
+        if [ "${TRAVIS_EVENT_TYPE}" == "cron" ]; then
+            git add --all .
+            git commit -a -m "Updating social data."
+            git pull --rebase origin master
+            git push -q "https://${GHTOKEN}@${GHREPO#*//}" master > /dev/null 2>&1
+        fi

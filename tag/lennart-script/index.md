@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [lennart script]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [lennart script] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: lennart-script
-title: !!python/unicode 'Etiqueta [lennart script]'
+slug: lennart-script
+title: '[lennart script] Tag'
 ---

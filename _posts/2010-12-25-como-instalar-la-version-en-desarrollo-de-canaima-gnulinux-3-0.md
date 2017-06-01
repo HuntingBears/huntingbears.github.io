@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-12-25 00:49:18-04:30
 layout: post
 slug: como-instalar-la-version-en-desarrollo-de-canaima-gnulinux-3-0
 title: Como instalar la versión en desarrollo de Canaima GNU/Linux 3.0
-wordpress_id: 396
+article_id: 396
 categories:
 - Canaima
 - Desarrollo
@@ -14,7 +13,7 @@ tags:
 - canaima 3.0
 - canaima gnu linux
 - desarrollo
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/396/8a4f7a20ea8f8f3eafc8793f83f8be06.jpg
+image: http://huntingbears.com.ve/static/img/posts/396/como-instalar-la-version-en-desarrollo-de-canaima-gnulinux-3-0__1.jpg
 description: La versión en desarrollo de Canaima 3.0 puede instalarse fácilmente.
 ---
 
@@ -35,7 +34,7 @@ Dentro de los beneficios específicos de ésta nueva versión tenemos:
 * [Turpial](http://turpial.org.ve): Cliente de Twitter/Identi.ca desarrollado por venezolanos.
 * Nuevo estilo visual basado en el tema Equinox, iconos Faenza, Plymouth como indicador de arranque y nuevos fondos de escritorio.
 * Nuevas aplicaciones preinstaladas: Deluge (Gestor de descargas por Torrent), emesene (cliente de mensajería instantánea), exaile (Reproductor de música), shotwell (visor de imágenes) y simple-scan (Gestor de escáneres).
-* Nuevo esquema de empaquetamiento, con las mejores prácticas existentes, basado en [git-buildpackage](http://huntingbears.com.ve/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu.html).
+* Nuevo esquema de empaquetamiento, con las mejores prácticas existentes, basado en [git-buildpackage]({{ site.url }}/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu.html).
 * Generación de imágenes ISO's con canaima-semilla, una herramienta propia basada en el proyecto Debian Live.
 * Medios vivos instalables con versiones para CD, DVD y dispositivos de almacenamiento extraíble.
 * Gestor de arranque BURG, una versión mejorada del GRUB.
@@ -46,8 +45,6 @@ Sin embargo, no está demás advertirtelo: **es una versión en desarrollo, cabe
 Todo eso se oye muy chévere, pero ... ¿Puedo echarle un vistazo antes de probarlo?
 
 ¡Por supuesto! Puedes ver algunas capturas de pantalla del [escritorio](http://twitpic.com/3it5u1), del [BURG](http://twitpic.com/3iex8z), del [plymouth](http://twitpic.com/3jltfa) y del [libreofice](http://twitpic.com/3jk8me) pa' que te vayas enamorando.
-
-<!-- more -->
 
 Para comenzar, te recomiendo que desinstales los paquetes que enumero a continuación, ya que causan conflictos con los paquetes de Canaima 3.0. Basta con hacer un aptitude purge "paquete".
 
@@ -149,7 +146,7 @@ Reinicia tu computador para que puedas notar todos los cambios de la nueva versi
 
 ### Método III: Descargando la imagen e instalándolo
 
-El jueves 05/05/11 se hicieron disponibles las ISO's de la [Versión Estable de Canaima 3.0](http://huntingbears.com.ve/lanzamiento-de-canaima-gnulinux-3-0-como-estable.html):
+El jueves 05/05/11 se hicieron disponibles las ISO's de la [Versión Estable de Canaima 3.0]({{ site.url }}/lanzamiento-de-canaima-gnulinux-3-0-como-estable.html):
 
 * [Imagen ISO para la arquitectura amd64 (~700MB)](http://descargas.canaima.softwarelibre.gob.ve/canaima-3.0~estable_amd64.iso)
 * [Imagen ISO para la arquitectura i386 (~700MB)](http://descargas.canaima.softwarelibre.gob.ve/canaima-3.0~estable_i386.iso)

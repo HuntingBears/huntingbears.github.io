@@ -1,26 +1,23 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-08-09 00:20:49-04:30
 layout: post
 slug: debian-squeeze-congelado-para-ser-pasado-a-estable
 title: 'Debian Squeeze congelado para ser pasado a estable'
-wordpress_id: 231
+article_id: 231
 categories:
 - Noticias
 tags:
 - congelado
 - debian
 - squeeze
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/231/0b3728071dc22b57282ae0c234e131ab.jpg
+image: http://huntingbears.com.ve/static/img/posts/231/debian-squeeze-congelado-para-ser-pasado-a-estable__1.jpg
 description: Debian 6.0 (squeeze) ha congelado todas sus nuevas funcionalidades para la versión estable.
 ---
 
 La comunidad de Software Libre ha incrementado sus expectativas en Debian GNU/Linux al recibir la noticia éste viernes de que la versión 6.0 (codename Squeeze) [ha sido congelada](http://lists.debian.org/debian-announce/2010/msg00009.html) para ser pasada a estable.
 
 Para aquellos que no conocen acerca del proyecto [Debian](http://debian.org/index.es.html), les explico. Debian es una de las metadistribuciones GNU/Linux más populares y bien organizadas en el mundo del Software Libre. Su ciclo de desarrollo es bastante robusto y actualmente es la base para otras distribuciones como [Ubuntu](http://www.ubuntu.com), [Canaima](http://canaima.softwarelibre.gob.ve), entre otras.
-
-<!-- more -->
 
 El ciclo de desarrollo de debian contempla 4 estados: experimental, inestable, pruebas y estable. Para que un paquete de software pueda ser pasado a estable, debe pasar por los otros 3 estados, cada uno con su respectivo período de desarrollo, prueba y aprobación.
 

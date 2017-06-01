@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-10-11 02:12:37-04:30
 layout: post
 slug: radiografia-de-una-sociedad-podrida-fitter-happier-por-radiohead
 title: Radiografía de una sociedad podrida (Fitter Happier, por Radiohead)
-wordpress_id: 2020
+article_id: 2020
 categories:
 - Radiohead
 - Reflexión
@@ -14,7 +13,7 @@ tags:
 - fitter happier
 - Radiohead
 - sociedad
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2020/086ac2b95cd30fbb05d0aeac818a56c6.jpg
+image: http://huntingbears.com.ve/static/img/posts/2020/radiografia-de-una-sociedad-podrida-fitter-happier-por-radiohead__1.jpg
 description: Fitter Happier es una especie de canción con un mensaje a la sociedad.
 ---
 

@@ -1,9 +1,7 @@
 name: 'Hunting Bears'
-app_name: 'Blog Hunting Bears'
-title_es: Un blog acerca de Software Libre y Sociedad
-title_en: A blog about Free Software and Society
-description_es: Un blog acerca de Software Libre y Sociedad.
-description_en: A blog about Free Software and Society.
+app_name: 'Hunting Bears Blog'
+title: A blog about Free Software and Society
+description: A blog about Free Software and Society.
 author:
   name: 'Luis Alejandro Martínez Faneyth'
   first_name: 'Luis Alejandro'
@@ -22,21 +20,12 @@ permalink: '/:title.html'
 paginate: 10
 paginate_path: 'page/:num'
 exclude:
-  - 'TODO'
-  - 'tools'
-  - 'categorize.py'
-  - 'compress.py'
-  - 'newdraft.py'
-  - 'publish.py'
-  - 'Gemfile'
+  - 'CNAME'
+  - 'Readme.md'
+  - 'requirements.txt'
+  - 'scripts'
   - 'Makefile'
-  - '.sublime'
-safe: true
-lsi: false
-highlighter: 'pygments'
-markdown: 'redcarpet'
-redcarpet:
- extensions:
-   - tables
 timezone: 'America/Caracas'
 generator: 'Jekyll - Github Pages'
+gems:
+  - 'github-pages'

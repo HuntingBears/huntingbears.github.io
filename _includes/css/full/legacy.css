@@ -1,4 +1,3 @@
-
 /*
 border-radius   |
 box-shadow      | http://css3pie.com/about/
@@ -20,20 +19,23 @@ inline-block         | http://blog.mozilla.org/webdev/2009/02/20/cross-browser-i
 font-awesome
 */
 
-#container > header {
-    -webkit-border-radius: 0 0 5px 5px;
-    -moz-border-radius: 0 0 5px 5px;
+#container > header > #logo > a {
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
 }
 
-#container > header > #logo {
-    background-image: url('http://blog-luisalejandro.rhcloud.com/static/img/site/sprite.png');
-    background-position: 10px 5px;
-    background-repeat: no-repeat;
+#container > header > nav > ul > li.portafolio > a > .sprite,
+#container > header > nav > ul > li.acerca > a > .sprite,
+#container > header > nav > ul > li.twitter > a > .sprite,
+#container > header > nav > ul > li.facebook > a > .sprite,
+#container > header > nav > ul > li.googleplus > a > .sprite,
+#container > header > nav > ul > li.rss > a > .sprite,
+#container > header > nav > ul > li.search > a > .sprite {
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
+    cursor: pointer;
 }
 
-#container > header > nav > ul > li > a {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+#container > header > nav > ul > li.search {
+    margin-right: -1%;
 }
 
 #container > #banner {
@@ -41,173 +43,135 @@ font-awesome
     width: 100%;
     padding: 0 0 22% 0;
     margin: 10px 0 30px 0;
-    background-image: url('http://blog-luisalejandro.rhcloud.com/static/img/site/banner.png');
+    border-radius: 5px;
+    background-image: url('http://huntingbears.com.ve/static/img/site/banner.png');
     background-position: center center;
     background-repeat: no-repeat;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    background-size: contain;
 }
 
-#container > #searchbar {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-}
-
-#container > #searchbar > #searchinput {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-}
-
-#container > #searchbar > #search_results {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-}
-
-#content > .pagination > span > a {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-}
-
-#container > footer {
-    -webkit-border-radius: 5px 5px 0 0;
-    -moz-border-radius: 5px 5px 0 0;
-}
-
-#container > footer > nav > ul > li > a {
-    -webkit-border-radius: 0 0 5px 5px;
-    -moz-border-radius: 0 0 5px 5px;
-}
-
-#sidebar > ul > li {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-}
-
-#sidebar > ul > .simple > form > #feedburner_mail {
-    -webkit-border-radius: 5px 5px 0 0;
-    -moz-border-radius: 5px 5px 0 0;
-}
-
-#sidebar > ul > .simple > form > #feedburner_button {
-    -webkit-border-radius: 0 0 5px 5px;
-    -moz-border-radius: 0 0 5px 5px;
+#sidebar > ul > .language > .globe > .sprite {
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
 }
 
 #sidebar > ul > .coffee {
-    background-image: url('http://blog-luisalejandro.rhcloud.com/static/img/site/sprite.png');
-    background-position: -70px -100px;
-    background-repeat: no-repeat;
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
 }
 
 #sidebar > ul > .list {
-    background: rgb(239, 235, 224) url('http://blog-luisalejandro.rhcloud.com/static/img/site/sprite.png') 0px -330px no-repeat;
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
 }
 
-#sidebar > ul > .list > ul > li {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+#content {
+    margin-right: -1%;
 }
 
-#sidebar > ul > .list > ul > li > a:hover {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-}
-
-#sidebar > ul > .tags > ul > li > a {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-}
-
-#content > .preview > .wrap > .data {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-}
-
-#content > .preview > .wrap > .data > .bg {
+#content > .preview > .data > .bg {
     float: left;
-    height: 160px;
+    transition: none;
 }
 
-#content > .preview > .wrap > .data > .header {
+#content > .preview > .data:hover > .bg {
+    height: 220px;
+}
+
+#content > .preview > .data > .header {
     float: left;
     background-color: rgb(239, 235, 224);
 }
 
-#content > .preview > .wrap > .data > .description {
+#content > .preview > .data > .description {
     float: left;
     background-color: rgb(239, 235, 224);
 }
 
-#content > .preview > .wrap > .data > .espacio {
-    float: left;
-    background-color: rgb(239, 235, 224);
+#content > .preview > .social {
+    margin-right: -1%;
 }
 
-#content > .post > .text .soundcloud,#content > .post > .text .youtube {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+#content > .preview > .social > .twitter > a > .sprite,
+#content > .preview > .social > .googleplus > a > .sprite,
+#content > .preview > .social > .facebook > a > .sprite {
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
+    cursor: pointer;
 }
 
-.figure-100,.figure-right-40,.figure-right-30,.figure-right-20,.figure-left-40,.figure-left-30,.figure-left-20 {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+#content > .preview > .social > .googleplus {
+    margin-right: -1%;
 }
 
-#content > .post > .text > p > .picasa > .picasa-album > .picasa-image {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+#content > .post > .social > .twitter > a > .sprite,
+#content > .post > .social > .googleplus > a > .sprite,
+#content > .post > .social > .pinterest > a > .sprite,
+#content > .post > .social > .tumblr > a > .sprite,
+#content > .post > .social > .linkedin > a > .sprite,
+#content > .post > .social > .facebook > a > .sprite {
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
+    cursor: pointer;
 }
 
-#content > .post > .text > p > .picasa > .picasa-album > .picasa-image > .picasa-image-large {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+#content > .post > .social > .linkedin {
+    margin-right: -1%;
 }
 
-#content > .meta > .keywords > li > a {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+#content > .post > .text .picasa > .picasa-album > .picasa-image {
+    margin: 10px 0.9%;
+    padding: 10px 0.9%;
 }
 
-#content > .meta > .relatedposts > li > a {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+#content > .meta > #relatedposts > li {
+    margin: 5px 0.9% 5px 0;
+}
+
+#content > .meta > #relatedposts > li > a {
+    cursor: pointer;
 }
 
 #modal-overlay {
     background-color: rgb(255, 255, 255);
 }
 
-#modal {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+#modal-close {
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
+    cursor: pointer;
 }
 
-#content > .post > .text > .behance-box-wrap > .behance-box,#content > .post > .text > .github-box-wrap > .github-box {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+#content > .pagination > .right {
+    margin-right: -1%;
 }
 
-#content > .post > .text > .behance-box-wrap > .behance-box > .behance-box-header > .behance-stats > .project-appreciations,#content > .post > .text > .github-box-wrap > .github-box > .github-box-header > .github-stats > .repo-stars {
-    -webkit-border-radius: 5px 0 0 5px;
-    -moz-border-radius: 5px 0 0 5px;
+#container > footer > .license > .icon > .sprite,
+#container > footer > .info > .icon > .sprite {
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
 }
 
-#content > .post > .text > .behance-box-wrap > .behance-box > .behance-box-header > .behance-stats > .project-views,#content > .post > .text > .github-box-wrap > .github-box > .github-box-header > .github-stats > .repo-forks {
-    -webkit-border-radius: 0 5px 5px 0;
-    -moz-border-radius: 0 5px 5px 0;
+#container > footer > .license > .text,
+#container > footer > .info > .text {
+    margin-right: -1%;
 }
 
-#content > .post > .text > .behance-box-wrap > .behance-box > .behance-box-download > .project-explore,#content > .post > .text > .github-box-wrap > .github-box > .github-box-download > .repo-download,#content > .post > .text > .github-box-wrap > .github-box > .github-box-download > .repo-explore {
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
+#container > footer > nav > ul > li {
+    margin-left: 0.9%;
+    margin-right: 0.9%;
 }
 
-pre {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+#content > .pagination > .left > a > .sprite,
+#content > .pagination > .right > a > .sprite {
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
+    cursor: pointer;
 }
 
-code {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+#behance-boxes > .behance-box > .behance-box-download > .project-explore > .icon > .sprite,
+#github-boxes > .github-box > .github-box-download > .repo-download > .icon > .sprite,
+#github-boxes > .github-box > .github-box-download > .repo-explore > .icon > .sprite  {
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
+    cursor: pointer;
+}
+
+#behance-boxes > .behance-box > .behance-box-header > .behance-stats > .project-appreciations > .icon > .sprite,
+#behance-boxes > .behance-box > .behance-box-header > .behance-stats > .project-views > .icon > .sprite,
+#github-boxes > .github-box > .github-box-header > .github-stats > .repo-stars > .icon > .sprite,
+#github-boxes > .github-box > .github-box-header > .github-stats > .repo-forks > .icon > .sprite {
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.png');
+    cursor: pointer;
 }

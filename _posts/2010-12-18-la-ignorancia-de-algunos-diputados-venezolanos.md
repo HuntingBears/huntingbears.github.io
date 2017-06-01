@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-12-18 04:39:18-04:30
 layout: post
 slug: la-ignorancia-de-algunos-diputados-venezolanos
 title: La ignorancia de algunos Diputados venezolanos
-wordpress_id: 505
+article_id: 505
 categories:
 - Política
 - Video
@@ -13,7 +12,7 @@ tags:
 - asamblea nacional
 - ignorancia
 - ley resorte
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/505/be4e4ff9809e813cfe226eb302d52783.jpg
+image: http://huntingbears.com.ve/static/img/posts/505/la-ignorancia-de-algunos-diputados-venezolanos__1.jpg
 description: Es una pena que los diputados de la Asamblea Nacional de Venezuela sepan tan poco de las leyes que están discutiendo.
 ---
 

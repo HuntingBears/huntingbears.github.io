@@ -1,7 +1,8 @@
 ---
-description: Lista de artículos bajo la etiqueta [ano nuevo 2011]
-image: http://blog-luisalejandro.rhcloud.com/static/img/site/mstile-310x310.png
+article_id: 0
+description: List of articles under [año nuevo 2011] tag.
+image: http://huntingbears.com.ve/static/img/site/mstile-310x310.png
 layout: tag
-tag_name: ano-nuevo-2011
-title: !!python/unicode 'Etiqueta [ano nuevo 2011]'
+slug: ano-nuevo-2011
+title: '[año nuevo 2011] Tag'
 ---

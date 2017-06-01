@@ -1,35 +1,52 @@
             <footer>
                 <nav>
                     <ul>
-                        {% if page.language == 'es' %}
-                        <li class="portafolio"><a href="{{ site.url }}/portafolio/" title="Ver todos los proyectos personales de {{ site.author.name }}">Portafolio</a></li><li class="acerca"><a href="{{ site.url }}/acerca/" title="Acerca de {{ site.author.name }}">Acerca</a></li><li class="twitter"><a href="http://twitter.com/{{ site.blog.twitter }}" title="Perfil de Twitter (abre nueva ventana)" target="_blank" rel="nofollow">Twitter</a></li><li class="facebook"><a href="http://facebook.com/{{ site.blog.facebook }}" title="Perfil de Facebook (abre nueva ventana)" target="_blank" rel="nofollow">Facebook</a></li><li class="googleplus"><a href="http://plus.google.com/+{{ site.blog.googleplus }}" title="Perfil de Google+ (abre nueva ventana)" target="_blank" rel="nofollow">Google+</a></li><li class="rss"><a href="http://feeds.feedburner.com/{{ site.blog.feed }}" title="Lee nuestro RSS en tu lector de sindicación preferido (abre nueva ventana)" target="_blank" rel="nofollow">RSS</a></li>
-                        {% else %}
-                        <li class="portafolio"><a href="{{ site.url }}/portfolio/" title="See all the work of {{ site.author.name }}">Portfolio</a></li><li class="acerca"><a href="{{ site.url }}/about/" title="About {{ site.author.name }}">About</a></li><li class="twitter"><a href="http://twitter.com/{{ site.blog.twitter }}" title="Twitter Profile (opens new window)" target="_blank" rel="nofollow">Twitter</a></li><li class="facebook"><a href="http://facebook.com/{{ site.blog.facebook }}" title="Facebook Profile (opens new window)" target="_blank" rel="nofollow">Facebook</a></li><li class="googleplus"><a href="http://plus.google.com/+{{ site.blog.googleplus }}" title="Google+ Profile (opens new window)" target="_blank" rel="nofollow">Google+</a></li><li class="rss"><a href="http://feeds.feedburner.com/{{ site.blog.feed }}" title="Read our RSS in your favorite feed reader (opens new window)" target="_blank" rel="nofollow">RSS</a></li>
-                        {% endif %}
+                        <li class="portafolio">
+                            <a href="{{ site.url }}/portfolio/" title="See all the work of {{ site.author.name }}">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="acerca">
+                            <a href="{{ site.url }}/about/" title="About {{ site.author.name }}">
+                                About
+                            </a>
+                        </li>
+                        <li class="twitter">
+                            <a href="http://twitter.com/{{ site.blog.twitter }}" title="Twitter Profile (opens new window)" target="_blank" rel="nofollow">
+                                Twitter
+                            </a>
+                        </li>
+                        <li class="facebook">
+                            <a href="http://facebook.com/{{ site.blog.facebook }}" title="Facebook Profile (opens new window)" target="_blank" rel="nofollow">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="googleplus">
+                            <a href="http://plus.google.com/+{{ site.blog.googleplus }}" title="Google+ Profile (opens new window)" target="_blank" rel="nofollow">
+                                Google+
+                            </a>
+                        </li>
+                        <li class="rss">
+                            <a href="http://feeds.feedburner.com/{{ site.blog.feed }}" title="Read our RSS in your favorite feed reader (opens new window)" target="_blank" rel="nofollow">
+                                RSS
+                            </a>
+                        </li>
                     </ul>
                 </nav>
                 <span class="license">
                     <span class="icon">
-                        <span class="fa fa-legal"></span>
+                        <span class="sprite"></span>
                     </span>
                     <span class="text">
-                        {% if page.language == 'es' %}
-                        El contenido de este blog se distribuye bajo una licencia Creative Commons de tipo <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" title="(abre nueva ventana)" target="_blank" rel="license nofollow" itemprop="license"><em>Atribución - No Comercial - Compartir Obras Derivadas Igual</em></a>. Las porciones de código se distribuyen bajo licencia <a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html" title="(abre nueva ventana)" target="_blank" rel="license nofollow" itemprop="license"><em>GPLv3</em></a>.
-                        {% else %}
                         The content of this blog is distributed under a Creative Commons license of type <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" title="(opens new window)" target="_blank" rel="license nofollow" itemprop="license"><em>Attribution - Non Commercial - Share Alike</em></a>. The code parts are distributed under the <a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html" title="(opens new window)" target="_blank" rel="license nofollow" itemprop="license"><em>GPLv3</em></a> license.
-                        {% endif %}
                     </span>
                 </span>
                 <span class="info">
                     <span class="icon">
-                        <span class="fa fa-code"></span>
+                        <span class="sprite"></span>
                     </span>
                     <span class="text">
-                        {% if page.language == 'es' %}
-                        Este blog cumple con los estándares <a href="http://validator.w3.org/check?uri=referer&amp;charset=utf-8&amp;doctype=HTML5" title="(abre nueva ventana)" target="_blank" rel="nofollow"><em>HTML5</em></a> y <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="(abre nueva ventana)" target="_blank" rel="nofollow"><em>CSS3</em></a>. Está hecho con dedicación, usando: <a href="http://jekyllrb.com" title="(abre nueva ventana)" target="_blank" rel="nofollow"><em>Jekyll</em></a>, <a href="http://pages.github.com" title="(abre nueva ventana)" target="_blank" rel="nofollow"><em>Github Pages</em></a>, <a href="http://modernizr.com" title="(abre nueva ventana)" target="_blank" rel="nofollow"><em>Modernizr.js</em></a>, <a href="http://jquery.com" title="(abre nueva ventana)" target="_blank" rel="nofollow"><em>jQuery.js</em></a>, <a href="http://momentjs.com" title="(abre nueva ventana)" target="_blank" rel="nofollow"><em>Moment.js</em></a>, <a href="https://github.com/scottjehl/Respond" title="(abre nueva ventana)" target="_blank" rel="nofollow"><em>Respond.js</em></a> y <a href="http://svgjs.com" title="(abre nueva ventana)" target="_blank" rel="nofollow"><em>SVG.js</em></a>.
-                        {% else %}
                         This blog follows the <a href="http://validator.w3.org/check?uri=referer&amp;charset=utf-8&amp;doctype=HTML5" title="(opens new window)" target="_blank" rel="nofollow"><em>HTML5</em></a> and <a href="http://validator.w3.org/check?uri=referer&amp;charset=utf-8&amp;doctype=HTML5" title="(opens new window)" target="_blank" rel="nofollow"><em>CSS3</em></a> standards. It is made with dedication, using: <a href="http://jekyllrb.com" title="(opens new window)" target="_blank" rel="nofollow"><em>Jekyll</em></a>, <a href="http://pages.github.com" title="(opens new window)" target="_blank" rel="nofollow"><em>Github Pages</em></a>, <a href="http://modernizr.com" title="(opens new window)" target="_blank" rel="nofollow"><em>Modernizr.js</em></a>, <a href="http://jquery.com" title="(opens new window)" target="_blank" rel="nofollow"><em>jQuery.js</em></a>, <a href="http://momentjs.com" title="(opens new window)" target="_blank" rel="nofollow"><em>Moment.js</em></a>, <a href="https://github.com/scottjehl/Respond" title="(opens new window)" target="_blank" rel="nofollow"><em>Respond.js</em></a> and <a href="http://svgjs.com" title="(opens new window)" target="_blank" rel="nofollow"><em>SVG.js</em></a>.
-                        {% endif %}
                     </span>
                 </span>
             </footer>
@@ -40,7 +57,7 @@
                 <div id="modal-vertical-offset">
                     <div id="modal">
                         <div id="modal-close">
-                            <strong class="fa fa-times"></strong>
+                            <span class="sprite"></span>
                         </div>
                         <div id="modal-content"></div>
                     </div>
@@ -48,5 +65,8 @@
             </div>
         </div>
         {% endif %}
+        <script type="text/javascript">
+        {% include js/min/index.js %}
+        </script>
     </body>
 </html>

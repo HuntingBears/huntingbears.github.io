@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2012-12-02 17:30:41-04:30
 layout: post
 slug: utilizando-quilt-para-gestionar-parches-en-un-paquete-debian
 title: Utilizando quilt para gestionar parches en un paquete debian
-wordpress_id: 2138
+article_id: 2138
 categories:
 - Canaima
 - Debian
@@ -15,7 +14,7 @@ tags:
 - debian
 - parches
 - quilt
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/2138/a2de776484d4a02ba0f7bf12208d50ab.jpg
+image: http://huntingbears.com.ve/static/img/posts/2138/utilizando-quilt-para-gestionar-parches-en-un-paquete-debian__1.jpg
 description: Quilt es una herramienta para generar parches de código en los programas.
 ---
 
@@ -26,7 +25,7 @@ Una de las normas de calidad de Debian establece que no se debe tocar directamen
 1. El conjunto de cambios reflejados en el parche pueden ser enviados a los desarrolladores originales para corregir errores o mejorar procesos.
 2. Los cambios pueden ser aplicados a las sucesivas versiones del software, siempre y cuando las líneas afectadas no hayan sido modificadas por los desarrolladores originales.
 
-Para mayor información puedes consultar la [Guía para la creación de parches](http://huntingbears.com.ve/colaborando-en-proyectos-de-codigo-abierto-a-traves-de-parches-git-quilt-diff.html).
+Para mayor información puedes consultar la [Guía para la creación de parches]({{ site.url }}/colaborando-en-proyectos-de-codigo-abierto-a-traves-de-parches-git-quilt-diff.html).
 
 En líneas generales, quilt es una herramienta que asiste a un mantenedor de paquetes Debian, ayudando en la gestión de cambios y diferencias con respecto a los desarrolladores originales del software que contiene el paquete en mantenimiento. Permite crear y modificar parches, así como también aplicarlos o desaplicarlos.
 
@@ -37,8 +36,6 @@ Para instalarlo, debemos introducir el siguiente comando desde una Terminal de R
 {% highlight bash %}
 aptitude install quilt
 {% endhighlight %}
-
-<!-- more -->
 
 Antes de comenzar a usar quilt, debemos configurarlo para que utilice siempre la carpeta `debian/patches` que se encuentra dentro de cada paquete. Para hacer esto, desde una Terminal de Usuario (Menú > Aplicaciones > Accesorios > Terminal) ejecuta el siguiente comando:
 

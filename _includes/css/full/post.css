@@ -13,7 +13,6 @@
 
 #content > .post > .header > h2 {
     font-size: 3em;
-    text-align: justify;
 }
 
 #content > .post > .header > h2 > a {
@@ -37,23 +36,22 @@
 #content > .post > .social > .description {
     float: left;
     width: 100%;
-    margin: 5px 0 0 0;
+    margin: 5px 0;
     padding: 0;
     color: rgb(102, 102, 102);
     font-size: 1.2em;
-    font-weight: 300;
     line-height: 1em;
     text-align: justify;
 }
 
 #content > .post > .social > .description > strong {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #content > .post > .social > .description > a {
     text-decoration: none;
     color: rgb(26, 188, 156);
-    font-weight: 900;
+    font-weight: 400;
 }
 
 #content > .post > .social > .description > a:hover {
@@ -63,7 +61,8 @@
 #content > .post > .social > .espacio {
     float: left;
     width: 40%;
-    height: 60px;
+    height: 70px;
+    margin: 20px 0;
 }
 
 #content > .post > .social > .compartidos,
@@ -71,6 +70,7 @@
     float: left;
     width: 12%;
     color: rgb(153, 153, 153);
+    margin: 20px 0;
 }
 
 #content > .post > .social > .compartidos > .n_compartidos,
@@ -80,9 +80,9 @@
     width: 100%;
     height: 50px;
     font-size: 3em;
-    line-height: 1em;
+    line-height: 50px;
     text-align: center;
-    word-break: break-word;
+    word-wrap: break-word;
 }
 
 #content > .post > .social > .compartidos > .t_compartidos,
@@ -92,10 +92,10 @@
     width: 100%;
     height: 20px;
     font-size: 0.7em;
-    line-height: 1em;
+    line-height: 20px;
     text-align: center;
     text-transform: uppercase;
-    word-break: break-word;
+    word-wrap: break-word;
 }
 
 #content > .post > .social > .twitter,
@@ -117,21 +117,8 @@
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    height: 60px;
-    color: rgb(153, 153, 153);
-    font-size: 1.8em;
-    font-weight: 300;
-    line-height: 60px;
-    text-align: center;
-}
-
-#content > .post > .social > .twitter > a:hover,
-#content > .post > .social > .googleplus > a:hover,
-#content > .post > .social > .pinterest > a:hover,
-#content > .post > .social > .tumblr > a:hover,
-#content > .post > .social > .linkedin > a:hover,
-#content > .post > .social > .facebook > a:hover {
-    color: rgb(102, 102, 102);
+    height: 30px;
+    margin: 40px 0;
 }
 
 #content > .post > .social > .twitter > a > .hide,
@@ -143,22 +130,83 @@
     display: none;
 }
 
+#content > .post > .social > .twitter > a > .sprite,
+#content > .post > .social > .googleplus > a > .sprite,
+#content > .post > .social > .pinterest > a > .sprite,
+#content > .post > .social > .tumblr > a > .sprite,
+#content > .post > .social > .linkedin > a > .sprite,
+#content > .post > .social > .facebook > a > .sprite {
+    display: block;
+    width: 40px;
+    height: 30px;
+    margin: 0 auto;
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.svg');
+    background-repeat: no-repeat;
+}
+
+#content > .post > .social > .twitter > a > .sprite {
+    background-position: -250px -30px;
+}
+
+#content > .post > .social > .facebook > a > .sprite {
+    background-position: -290px -30px;
+}
+
+#content > .post > .social > .googleplus > a > .sprite {
+    background-position: -330px -30px;
+}
+
+#content > .post > .social > .tumblr > a > .sprite {
+    background-position: -370px -30px;
+}
+
+#content > .post > .social > .pinterest > a > .sprite {
+    background-position: -410px -30px;
+}
+
+#content > .post > .social > .linkedin > a > .sprite {
+    background-position: -450px -30px;
+}
+
+#content > .post > .social > .twitter > a:hover > .sprite {
+    background-position: -250px 0;
+}
+
+#content > .post > .social > .facebook > a:hover > .sprite {
+    background-position: -290px 0;
+}
+
+#content > .post > .social > .googleplus > a:hover > .sprite {
+    background-position: -330px 0;
+}
+
+#content > .post > .social > .tumblr > a:hover > .sprite {
+    background-position: -370px 0;
+}
+
+#content > .post > .social > .pinterest > a:hover > .sprite {
+    background-position: -410px 0;
+}
+
+#content > .post > .social > .linkedin > a:hover > .sprite {
+    background-position: -450px 0;
+}
+
 #content > .post > .text {
     display: inline-block;
     vertical-align: top;
     width: 100%;
     font-size: 1.3em;
     line-height: 1.5em;
-    font-weight: 300;
     text-align: justify;
-    word-break: break-word;
+    word-wrap: break-word;
 }
 
 #content > .post > .text h4,
 #content > .post > .text h3,
 #content > .post > .text h2,
 #content > .post > .text h1 {
-    display: inline-block;
+    display: block;
     vertical-align: top;
     width: 100%;
     margin: 20px 0;
@@ -171,13 +219,13 @@
 }
 
 #content > .post > .text strong {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #content > .post > .text a {
     text-decoration: none;
     color: rgb(26, 188, 156);
-    font-weight: 900;
+    font-weight: 400;
 }
 
 #content > .post > .text a:hover {
@@ -200,23 +248,22 @@
     margin: 0 0 30px 5%;
 }
 
-#content > .post > .text iframe {
-    display: inline-block;
-    vertical-align: top;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+#content > .post > .text ol > li,
+#content > .post > .text ul > li {
+    margin: 0 0 0 30px;
 }
 
 #content > .post > .text blockquote {
     display: inline-block;
     vertical-align: top;
-    width: 80%;
-    margin: 30px 10%;
-    padding: 0;
+    width: 88%;
+    margin: 30px 5%;
+    padding: 10px 1%;
     font-style: italic;
     font-size: 1.5em;
     line-height: 1.5em;
+    background-color: #f9f6ed;
+    border-radius: 20px;
 }
 
 #content > .post > .text blockquote p,
@@ -226,12 +273,16 @@
 }
 
 #content > .post > .text blockquote:before {
-    content: "\201C";
-    margin: 40px 20px 0 0;
-    font-size: 10em;
-    line-height: .4em;
+    float: left;
+    margin: 0;
+    width: 20%;
+    height: 100px;
+    line-height: 150px;
     font-family: serif;
-    font-weight: 300;
+    font-size: 10em;
+    font-weight: 900;
+    content: "\201C";
+    color: #888;
 }
 
 #content > .post > .text table,
@@ -291,6 +342,16 @@
     height: 100%;
     top: 0;
     left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#content > .post > .text iframe.pdfviewer,
+#content > .post > .text iframe.svgviewer {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 600px;
     margin: 0;
     padding: 0;
 }
@@ -397,7 +458,6 @@
     width: 98%;
     padding: 5px 1%;
     font-size: 1em;
-    font-weight: 300;
     line-height: 1em;
     text-align: left;
     color: rgb(68, 68, 68);
@@ -416,14 +476,14 @@
     opacity: 0.8;
 }
 
-#content > .post > .text > p > .picasa {
+#content > .post > .text .picasa {
     display: inline-block;
     vertical-align: top;
     width: 100%;
     margin: 15px 0;
 }
 
-#content > .post > .text > p > .picasa > .picasa-album {
+#content > .post > .text .picasa > .picasa-album {
     display: inline-block;
     vertical-align: top;
     width: 100%;
@@ -431,23 +491,22 @@
     padding: 0;
 }
 
-#content > .post > .text > p > .picasa > .picasa-album > .picasa-image {
-    display: inline-block;
-    vertical-align: top;
+#content > .post > .text .picasa > .picasa-album > .picasa-image {
+    float: left;
     list-style: none;
-    width: 12.66%;
-    margin: 1%;
-    padding: 1%;
+    width: 16%;
+    margin: 10px 1%;
+    padding: 10px 1%;
     border-radius: 5px;
     background-color: rgb(239, 235, 224);
     transition: background-color 500ms ease-out;
 }
 
-#content > .post > .text > p > .picasa > .picasa-album > .picasa-image:hover {
+#content > .post > .text .picasa > .picasa-album > .picasa-image:hover {
     background-color: rgb(26, 188, 156);
 }
 
-#content > .post > .text > p > .picasa > .picasa-album > .picasa-image > .picasa-image-large {
+#content > .post > .text .picasa > .picasa-album > .picasa-image > .picasa-image-large {
     display: inline-block;
     vertical-align: top;
     width: 100%;
@@ -455,7 +514,7 @@
     border-radius: 5px;
 }
 
-#content > .post > .text > p > .picasa > .picasa-album > .picasa-image > .picasa-image-large > .picasa-image-thumb {
+#content > .post > .text .picasa > .picasa-album > .picasa-image > .picasa-image-large > .picasa-image-thumb {
     display: inline-block;
     vertical-align: top;
     width: 100%;
@@ -487,7 +546,6 @@
     padding: 5px;
     line-height: 1.5em;
     font-size: 1.2em;
-    font-weight: 300;
     border-radius: 10px;
     background-color: rgb(249, 246, 237);
 }
@@ -497,14 +555,14 @@
     text-decoration: none;
 }
 
-#content > .meta > .relatedposts {
+#content > .meta > #relatedposts {
     display: inline-block;
     vertical-align: top;
     width: 100%;
     margin: 0 0 70px 0;
 }
 
-#content > .meta > .relatedposts > li {
+#content > .meta > #relatedposts > li {
     float: left;
     padding: 5px 0;
     margin: 5px 1% 5px 0;
@@ -513,7 +571,7 @@
     color: rgb(68, 68, 68);
 }
 
-#content > .meta > .relatedposts > li > a {
+#content > .meta > #relatedposts > li > a {
     display: inline-block;
     vertical-align: top;
     width: 100%;
@@ -522,12 +580,12 @@
     overflow: hidden;
 }
 
-#content > .meta > .relatedposts > li > a:hover {
+#content > .meta > #relatedposts > li > a:hover {
     text-decoration: none;
     background-color: rgb(204, 204, 193);
 }
 
-#content > .meta > .relatedposts > li > a > .thumbnail {
+#content > .meta > #relatedposts > li > a > .thumbnail {
     display: inline-block;
     vertical-align: top;
     width: 100%;
@@ -535,14 +593,13 @@
     background-size: cover;
 }
 
-#content > .meta > .relatedposts > li > a > .title {
+#content > .meta > #relatedposts > li > a > .title {
     display: inline-block;
     vertical-align: top;
     width: 98%;
     height: 110px;
     margin: 5px 1%;
     font-size: 1.4em;
-    font-weight: 300;
     line-height: 1em;
 }
 
@@ -576,21 +633,7 @@
     height: 80%;
     margin: auto;
     z-index: 99998;
-}
-
-#modal-close {
-    display: inline-block;
-    position: absolute;
-    right: -30px;
-    width: 100%;
-    font-size: 1.5em;
-    text-align: right;
-    color: rgb(145, 145, 145);
     cursor: pointer;
-}
-
-#modal-close:hover {
-    color: rgb(50, 50, 50);
 }
 
 #modal {
@@ -598,11 +641,27 @@
     position: relative;
     width: 100%;
     height: 100%;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    border-radius: 5px;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#modal-close {
+    display: inline-block;
+    position: absolute;
+    right: -40px;
+    width: 30px;
+    height: 30px;
+    background-image: url('http://huntingbears.com.ve/static/img/site/sprite.svg');
+    background-repeat: no-repeat;
+    background-position: -585px -30px;
+    cursor: pointer;
+}
+
+#modal-close:hover {
+    background-position: -615px -30px;
 }
 
 /*-- Comentarios [single] ---------------------------------------------------*/

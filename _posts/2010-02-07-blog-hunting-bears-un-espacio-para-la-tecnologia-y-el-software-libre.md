@@ -1,26 +1,23 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-02-07 22:11:01-04:30
 layout: post
 slug: blog-hunting-bears-un-espacio-para-la-tecnologia-y-el-software-libre
 title: 'Blog Hunting Bears: un espacio para la tecnología y el software libre'
-wordpress_id: 14
+article_id: 14
 categories:
 - Misceláneas
 tags:
 - desarrollo
 - Radiohead
 - Software Libre
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/14/aa861ea334bd8d34b4e31c06642cdae9.jpg
+image: http://huntingbears.com.ve/static/img/posts/14/blog-hunting-bears-un-espacio-para-la-tecnologia-y-el-software-libre__1.jpg
 description: Blog Hunting Bears es un espacio para la tecnología y el software libre.
 ---
 
 Bienvenido a Hunting Bears, un blog dedicado a la tecnología, el [software libre](http://www.gnu.org/philosophy/free-sw.es.html), [Radiohead](http://es.wikipedia.org/wiki/Radiohead), trivialidades y cualquier otra cosa que se me ocurra poner aquí. Éste blog representa para mi la continuación de un trabajo previo, dedicado a perfeccionar las técnicas de Eficiencia de Contenidos mediante PHP, la búsqueda de un estilo fresco, la implementación de funcionalidades javascript que enriquezcan la _user expirience_, entre otras técnicas y métodos que buscan hacer lo mejor, consumiendo la menor cantidad de recursos posible.
 
 Aparte de el montón de monte seco que acaban de leer, mi objetivo es divertirme, divirtiéndolos.
-
-<!-- more -->
 
 ### Orígenes
 

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-03-20 16:33:27-04:30
 layout: post
 slug: publicado-el-kernel-linux-2-6-38-con-el-parche-de-mike-galbraith-en-debian-sid
 title: ¡Publicado el Kernel Linux 2.6.38 con el parche de Mike Galbraith en Debian Sid!
-wordpress_id: 905
+article_id: 905
 categories:
 - Desarrollo
 - Software Libre
@@ -13,11 +12,11 @@ tags:
 - debian sid
 - linux 2.6.38
 - parche milagroso
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/905/61df5d9ed60c4421b3dbea9126bff8d6.jpg
+image: http://huntingbears.com.ve/static/img/posts/905/publicado-el-kernel-linux-2-6-38-con-el-parche-de-mike-galbraith-en-debian-sid__1.jpg
 description: Este nuevo kernel contiene varias mejoras de rendimiento.
 ---
 
-Todo el mundo ha hablado del milagroso parche de Mike Galbraith en el mundo Linux. Incluso ha salido la alternativa (pero no equivalencia) en el userspace de [Lennart Poettering](http://huntingbears.com.ve/el-famoso-script-de-lennart-poettering-mejorado-en-hunting-bears.html).
+Todo el mundo ha hablado del milagroso parche de Mike Galbraith en el mundo Linux. Incluso ha salido la alternativa (pero no equivalencia) en el userspace de [Lennart Poettering]({{ site.url }}/el-famoso-script-de-lennart-poettering-mejorado-en-hunting-bears.html).
 
 El día de hoy, Debian GNU/Linux [ha incorporado](http://packages.qa.debian.org/l/linux-2.6/news/20110316T160359Z.html) en su rama experimental (Sid) el Kernel 2.6.38 con los impactantes beneficios del parche de Mike Galbraith, que ya fué [incorporado en el Upstream](http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=5091faa449ee0b7d73bc296a93bca9540fc51d0a) por la gente del Kernel Team y adaptado por los mantenedores del [paquete linux-2.6](http://packages.debian.org/changelogs/pool/main/l/linux-2.6/current/changelog) en Debian. Otra interesante característica añadida a éste kernel es la remoción del [Big Kernel Lock](http://kernelnewbies.org/BigKernelLock), aumentando aún más el rendimiento del sistema en casos específicos.
 
@@ -28,8 +27,6 @@ Bueno, para empezar... el nombre mediático que se le dió fué éste, **pero es
 Está claro que lo más impactante de éste release es el llamado "Parche Milagroso", éste parche cambia sustancialmente la manera en que el Manejador de Procesos (el que determina el orden en que se van a ejecutar las tareas de sistema) asigna porcentajes de procesamiento de CPU a cada proceso. Con ésta mejora, el Manejador agrupará todos los procesos con la misma ID de Sesión para convertirlos en una misma entidad reconocible para el.
 
 El ID de Sesión es una propiedad de los procesos en Sistemas UNIX que identifica cada "rama de procesos" dentro del árbol de procesos. Es decir, en UNIX existen procesos Líderes y procesos Hijos, todos los procesos hijos derivados de un proceso líder, comparten el mismo ID de Sesión.
-
-<!-- more -->
 
 Por ejemplo, listemos todos los procesos de sistema, listemos las columnas "ID de Sesión" (Procesos líderes), "ID de Proceso" (Procesos hijos) y el comando utilizado para iniciar el proceso; además, ordenemoslo por ID de Sesión:
 

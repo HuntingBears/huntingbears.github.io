@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-03-06 02:10:42-04:30
 layout: post
 slug: yo-no-quiero-salud-yo-quiero-alcoholismo
 title: Yo no quiero salud, yo quiero alcoholismo
-wordpress_id: 789
+article_id: 789
 categories:
 - Opinión
 - Reflexión
@@ -13,7 +12,7 @@ tags:
 - aberracion
 - porquería
 - reggaeton
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/789/26cebb59471d15231a19f147ef4ea365.jpg
+image: http://huntingbears.com.ve/static/img/posts/789/yo-no-quiero-salud-yo-quiero-alcoholismo__1.jpg
 description: El reaggueton es una moda que está haciendo mucho daño en nuestra sociedad.
 ---
 
@@ -24,8 +23,6 @@ description: El reaggueton es una moda que está haciendo mucho daño en nuestra
 ¿En que demonios pensamos cuando bailamos canciones de _ese estilo_? (Ni hablar si las cantamos o las ponemos en los altavoces del celular en público). Piensa por un momento en una canción de Death Metal ... Si no fueras Metalero ¿Te pondrías en el medio de una fiesta a hacer [headbanging](http://es.wikipedia.org/wiki/Headbanging)? No, ¿verdad? Te da como pena, vergüenza ¿Entonces por qué no te da pena bailar/cantar/promover canciones que incitan al alcoholismo, la prostitución y la delincuencia?.
 
 Yo no le veo el problema a que un montón de melenudos muevan la cabeza desenfrenadamente: es su forma de disfrutar la música y no dañan a nadie expresándolo. ¿Y que pasa si todo el mundo empieza a ser metalero? Nada relevante, seguramente habrán más melenudos en la calle. ¿Pero y que pasa si todo el mundo empieza a ser reggueatonero (es decir, tuki)?
-
-<!-- more -->
 
 ### La Programación Neuro-Lingüistica (PNL)
 
@@ -41,7 +38,7 @@ Entonces, cuando escuchamos reggaeton, estamos aprendiendo lentamente a ser corr
 
 ### Nuestros niños y la sociedad del futuro
 
-<span class="figure figure-right-30" data-figure-src="http://blog-luisalejandro.rhcloud.com/static/img/posts/789/5264824516481de5be7dd5987bde0985.jpg" data-figure-href="http://blog-luisalejandro.rhcloud.com/static/img/posts/789/5264824516481de5be7dd5987bde0985.jpg"></span>
+<span class="figure figure-right-30" data-figure-src="http://huntingbears.com.ve/static/img/posts/789/yo-no-quiero-salud-yo-quiero-alcoholismo__2.jpg" data-figure-href="http://huntingbears.com.ve/static/img/posts/789/yo-no-quiero-salud-yo-quiero-alcoholismo__2.jpg"></span>
 
 "No seas aburrido/amargado, déjalo que se divierta"
 

@@ -1,11 +1,10 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-09-23 15:45:03-04:30
 layout: post
 slug: los-backports-y-sus-riesgos
 title: Los backports y sus riesgos
-wordpress_id: 1899
+article_id: 1899
 categories:
 - Debian
 - Desarrollo
@@ -15,7 +14,7 @@ tags:
 - backports
 - estudio
 - riesgos
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1899/a6578058bfd2be68b1caa9548aa0aacd.jpg
+image: http://huntingbears.com.ve/static/img/posts/1899/los-backports-y-sus-riesgos__1.jpg
 description: Los backports permiten traer software nuevo a distribuciones viejas, corriendo algunos riesgos.
 ---
 

@@ -1,18 +1,17 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2011-05-12 22:14:52-04:30
 layout: post
 slug: has-leido-la-licencia-de-microsoft-windows-esa-que-todo-el-mundo-acepta-con-los-ojos-cerrados
 title: ¿Has leído la licencia de Microsoft Windows? (Esa que todo el mundo acepta con los ojos cerrados)
-wordpress_id: 1080
+article_id: 1080
 categories:
 - Software Libre
 tags:
 - EULA
 - Licencia
 - Microsoft
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/1080/81163fe51f5f4a72b7e3c0dde6c6c2b8.jpg
+image: http://huntingbears.com.ve/static/img/posts/1080/has-leido-la-licencia-de-microsoft-windows-esa-que-todo-el-mundo-acepta-con-los-ojos-cerrados__1.jpg
 description: La licencia de Microsoft Windows dice muchas cosas que la mayoría de la gente no lee.
 ---
 

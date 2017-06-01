@@ -1,18 +1,17 @@
 ---
 author: martinezfaneyth
-language: es
 date: 2010-10-28 23:41:41-04:30
 layout: post
 slug: la-desesperacion-de-querer
 title: La desesperación del querer
-wordpress_id: 374
+article_id: 374
 categories:
 - Reflexión
 tags:
 - opinión
 - querer
 - reflexión
-image: http://blog-luisalejandro.rhcloud.com/static/img/posts/374/cfb9cd26fa28d96031a63ffdf8746056.jpg
+image: http://huntingbears.com.ve/static/img/posts/374/la-desesperacion-de-querer__1.jpg
 description: Esto es un artículo de reflexión acerca de las cosas que uno quiere en la vida.
 ---
 
