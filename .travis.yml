@@ -5,8 +5,8 @@ env:
     global:
         - GITUSERNAME="Luis Alejandro Martínez Faneyth"
         - GITUSERMAIL="luis@huntingbears.com.ve"
-        - GHREPO="https://github.com/LuisAlejandro/luisalejandro.github.io"
-        - secure: "Lv4qfPVW7XiNgl4SK+Rorr1AomH09cDhL505iwRxMKshVUbWg2RU9bTs8MGmVjCQc4pCQFHRNrZa8yBYW05Z3zXDz7y4FpyL9aaYAn58GpAvf5RxC1+8RH1OLwniM4yIPnJm5x5w8BHH23V4EbyEWxtw41QZds4inibrxQcurfQ="
+        - GHREPO="https://github.com/HuntingBears/huntingbears.github.io"
+        - secure: "UbiiToc2TzQGwpvEVwGBWloHFnbvpGB58uzPqAIuPMSJdi/qUTzeDRbqwnPyz2N8YMKbE8LRDm+2eDgLoLhJjd0iwc4TxtOhrWVBIfsMv/um1tVOeg9B+z3OdUTLPuF00hFeAKqEqXVGsaPOdMEEhkerCixoY2/sL9+GmB1DQhx2xNspQZF85DRB3TyFnT2sstHfCfCCgd4wHvOvaJx2+qcavtx/refYb7W6nE9qfPf5xEm/q3fQXPyZ7qV3wlptSQOm5/hBPgw/qK64vQCUhl2MNjGpGskvCXDhmIWCMW5jiLdmJpBR7bj10of3BctZWM4iUWVyTEc2AygM2oTU65a5cSbijrxrgoJi0lLlZs+rDE75qgU3mo5RBQvClyEwIhbF8/KNRgC9XbPGNT2Ev3bTsm/7E+UsCD2ELU52FymAvJvTeOtPANSByQkPxflFGvruX557C79LwYAE95ztxmp+Lm8pNBWkh4xKgUTsnREyWdEPw6D9hrzjr9r5w95IbT81yV/tTGaHhYGF6eIH6613wSHmmwNA5zqF/AOiwRRyU0R0jEPL4oW/oPioGiclXpKMiCkq8McMyH6SfYpq0uaGkxyKoA5oA+l/QpgPAdcP6IHouPoYKe5gus8hg16yrXONkYWz0jEu9jaQ7vjLes76QqBMJ639f5zRdx1Coks="
 before_script:
     - |
         git config --global user.name "${GITUSERNAME}"
