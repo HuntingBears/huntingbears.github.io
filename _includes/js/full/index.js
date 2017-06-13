@@ -390,7 +390,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/maquetofilia-de-los-arquitectos.html"
     },
     "1900": {
-        "comment_count": 8,
+        "comment_count": 9,
         "date": "2011-12-18T23:10:15-04:30",
         "description": "Si no tienes un servicio privado de env\u00edo de correos, puedes utilizar postfix y GMail para lograr el mismo cometido.",
         "image": "http://huntingbears.com.ve/static/img/posts/1900/utilizando-postfix-para-enviar-correos-a-traves-de-gmail__1.jpg",
