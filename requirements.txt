@@ -1,5 +1,5 @@
 pyyaml
-wand
+pillow
 cssmin
 slimit
-ply==3.4
+ply

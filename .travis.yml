@@ -1,5 +1,8 @@
+sudo: required
+services: docker
+dist: trusty
+group: edge
 language: python
-cache: pip
 python: 3.5
 env:
     global:
@@ -13,6 +16,7 @@ before_script:
         git config --global user.email "${GITUSERMAIL}"
         git fetch origin master:master
         git checkout master
+        make image
 script:
     - make process
 after_success:

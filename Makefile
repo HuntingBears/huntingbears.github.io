@@ -3,6 +3,22 @@
 #
 
 SHELL = bash -e
+BASEDIR = $(shell pwd)
+
+
+# This command builds the docker image
+
+image:
+
+	@docker build --rm -t luisalejandro/huntingbears.com.ve:latest .
+
+
+# This command opens a terminal inside the docker image
+
+console:
+
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest bash
 
 # This command searches for image files inside the local _posts folder
 # Then, it downloads it if the image is hosted in a different domain
@@ -13,7 +29,8 @@ SHELL = bash -e
 
 import:
 
-	@python3 scripts/import.py
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/import.py
 
 
 # This command regenerates the json index of data from the articles
@@ -23,7 +40,8 @@ import:
 
 index:
 
-	@python3 scripts/index.py
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/index.py
 
 
 # This command compresses assets files
@@ -31,14 +49,16 @@ index:
 
 compress:
 
-	@python3 scripts/compress.py
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/compress.py
 
 # This command explores all posts inside the _posts folder and creates
 # all the files necessary to display categories and tags
 
 categorize:
 
-	@python3 scripts/categorize.py
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/categorize.py
 
 
 # This command groups all other commands that updates all assets
@@ -59,7 +79,8 @@ generate:
 
 draft:
 
-	@python3 scripts/draft.py "$(TITLE)"
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/draft.py "$(TITLE)"
 
 
 # This command publishes a draft
@@ -68,11 +89,16 @@ draft:
 
 publish: clean
 
-	@python3 scripts/publish.py "$(DRAFT)"
-	@python3 scripts/import.py
-	@python3 scripts/index.py
-	@python3 scripts/compress.py
-	@python3 scripts/categorize.py
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/publish.py "$(DRAFT)"
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/import.py
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/index.py
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/compress.py
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/categorize.py
 
 
 # This command deletes all assets
@@ -86,5 +112,7 @@ clean:
 
 test:
 
-	@python3 scripts/test_links.py
-	@python3 scripts/test_images.py
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/test_links.py
+	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+		luisalejandro/huntingbears.com.ve:latest python scripts/test_images.py

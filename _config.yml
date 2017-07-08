@@ -25,6 +25,7 @@ exclude:
   - 'requirements.txt'
   - 'scripts'
   - 'Makefile'
+  - 'Dockerfile'
 timezone: 'America/Caracas'
 generator: 'Jekyll - Github Pages'
 gems:

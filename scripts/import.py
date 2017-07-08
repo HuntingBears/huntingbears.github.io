@@ -6,7 +6,7 @@ import re
 import yaml
 from urllib.request import urlopen
 from urllib.parse import urlparse
-from wand.image import Image
+from PIL import Image
 
 from util import find_files, get_path, is_valid_url
 from config import BASEDIR
@@ -58,15 +58,10 @@ for md in find_files(get_path([BASEDIR, '_posts']), '*.md'):
                                        new_name)
                 new_url = 'http://huntingbears.com.ve'+new_url
                 print(url)
-                blob = urlopen(url).read()
-                img = Image(blob=blob)
-                img.format = 'pjpeg'
-                img.compression_quality = 80
-
-                if img.width >= 1000:
-                    img.transform(resize='1000x1000>')
-
-                img.save(filename=new_path)
+                blob = urlopen(url)
+                img = Image.open(blob)
+                img.thumbnail((1000, 1000), Image.LANCZOS)
+                img.save(new_path, optimize=True, progressive=True)
                 print('Saving '+new_url)
 
                 md_content = md_content.replace(url, new_url)
