@@ -17,7 +17,7 @@ image:
 
 console:
 
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest bash
 
 # This command searches for image files inside the local _posts folder
@@ -29,7 +29,7 @@ console:
 
 import:
 
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/import.py
 
 
@@ -40,7 +40,7 @@ import:
 
 index:
 
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/index.py
 
 
@@ -49,7 +49,7 @@ index:
 
 compress:
 
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/compress.py
 
 # This command explores all posts inside the _posts folder and creates
@@ -57,7 +57,7 @@ compress:
 
 categorize:
 
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/categorize.py
 
 
@@ -79,7 +79,7 @@ generate:
 
 draft:
 
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/draft.py "$(TITLE)"
 
 
@@ -89,15 +89,15 @@ draft:
 
 publish: clean
 
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/publish.py "$(DRAFT)"
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/import.py
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/index.py
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/compress.py
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/categorize.py
 
 
@@ -112,7 +112,7 @@ clean:
 
 test:
 
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/test_links.py
-	@docker run --rm -it -v $(BASEDIR):/home/huntingbears/app \
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
 		luisalejandro/huntingbears.com.ve:latest python scripts/test_images.py

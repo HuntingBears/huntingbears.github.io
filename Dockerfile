@@ -4,16 +4,18 @@ MAINTAINER Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>
 RUN apt-get update && \
     apt-get install sudo
 
-RUN useradd -ms /bin/bash huntingbears
+RUN useradd --create-home --shell /bin/bash --uid 2000 travis
 
-RUN echo "huntingbears ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/huntingbears
+RUN echo "travis ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/travis
 
-ADD requirements.txt /home/huntingbears/app/
+ADD requirements.txt /home/travis/app/
 
-RUN pip install -r /home/huntingbears/app/requirements.txt
+RUN pip install -r /home/travis/app/requirements.txt
 
-RUN rm /home/huntingbears/app/requirements.txt
+RUN rm /home/travis/app/requirements.txt
 
-USER huntingbears
+RUN chown -R travis:travis /home/travis/app
 
-WORKDIR /home/huntingbears/app
+USER travis
+
+WORKDIR /home/travis/app
