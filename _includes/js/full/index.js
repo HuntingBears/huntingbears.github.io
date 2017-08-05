@@ -915,7 +915,7 @@ var posts_index = {
         "description": "Gnamon es un conjunto de temas y extensiones para Gnome Shell.",
         "image": "http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__1.jpg",
         "keywords": "cinnamon, gnamon, gnome-shell, canaima, diseno-grafico, software-libre",
-        "share_count": 50,
+        "share_count": 18,
         "title": "Gnamon: un tema de Gnome Shell con aires de Cinnamon para Canaima 4.0",
         "url": "http://huntingbears.com.ve/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0.html"
     },
