@@ -915,7 +915,7 @@ var posts_index = {
         "description": "Gnamon es un conjunto de temas y extensiones para Gnome Shell.",
         "image": "http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__1.jpg",
         "keywords": "cinnamon, gnamon, gnome-shell, canaima, diseno-grafico, software-libre",
-        "share_count": 18,
+        "share_count": 50,
         "title": "Gnamon: un tema de Gnome Shell con aires de Cinnamon para Canaima 4.0",
         "url": "http://huntingbears.com.ve/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0.html"
     },
@@ -1340,7 +1340,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0.html"
     },
     "917": {
-        "comment_count": 14,
+        "comment_count": 15,
         "date": "2011-04-03T02:51:18-04:30",
         "description": "Mi opini\u00f3n personal acerca de la discusi\u00f3n sobre la inclusi\u00f3n del logo &quot;Hecho en Socialismo&quot; en Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/917/sobre-el-porque-canaima-gnulinux-no-deberia-tener-el-logo-hecho-en-socialismo__1.jpg",
