@@ -1145,7 +1145,7 @@ var posts_index = {
         "description": "Descripci\u00f3n del procedimiento para instalar Windows en una laptop Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/618/como-instalar-windows-en-una-laptop-canaima__1.jpg",
         "keywords": "instalar, laptop-canaima, windows, opinion, software-libre",
-        "share_count": 179,
+        "share_count": 178,
         "title": "C\u00f3mo instalar Windows en una laptop Canaima",
         "url": "http://huntingbears.com.ve/como-instalar-windows-en-una-laptop-canaima.html"
     },
