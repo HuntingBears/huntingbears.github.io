@@ -205,7 +205,7 @@ var posts_index = {
         "description": "GnuPG permite resguardar tus datos e identidad en internet mediante t\u00e9cnicas de encriptado y firma electr\u00f3nica.",
         "image": "http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__1.jpg",
         "keywords": "canaima-gnu-linux, seguridad, software-libre, canaima, educativo, software-libre",
-        "share_count": 19,
+        "share_count": 34,
         "title": "Mejorando la seguridad de tu identidad en internet con GnuPG",
         "url": "http://huntingbears.com.ve/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg.html"
     },
