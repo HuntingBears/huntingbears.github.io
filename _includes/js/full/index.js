@@ -505,7 +505,7 @@ var posts_index = {
         "description": "Reprepro es una herramienta que permite generar repositorios de paquetes de forma local.",
         "image": "http://huntingbears.com.ve/static/img/posts/2037/haciendo-repositorios-de-paquetes-binarios-con-reprepro__1.jpg",
         "keywords": "canaima-gnu-linux, repositorios, reprepro, canaima, debian, desarrollo, software-libre",
-        "share_count": 41,
+        "share_count": 40,
         "title": "Haciendo repositorios de paquetes binarios con reprepro",
         "url": "http://huntingbears.com.ve/haciendo-repositorios-de-paquetes-binarios-con-reprepro.html"
     },
@@ -1205,7 +1205,7 @@ var posts_index = {
         "description": "Canaima Desarrollador es un asistente de empaquetamiento y desarrollo.",
         "image": "http://huntingbears.com.ve/static/img/posts/676/canaima-desarrollador-herramienta-para-el-desarrollo-y-empaquetamiento-de-software-libre__1.jpg",
         "keywords": "canaima-desarrollador, empaquetar, software-libre, canaima, desarrollo, software-libre",
-        "share_count": 43,
+        "share_count": 41,
         "title": "Canaima Desarrollador: Herramienta para el desarrollo y empaquetamiento de Software Libre",
         "url": "http://huntingbears.com.ve/canaima-desarrollador-herramienta-para-el-desarrollo-y-empaquetamiento-de-software-libre.html"
     },
