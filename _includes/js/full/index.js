@@ -195,7 +195,7 @@ var posts_index = {
         "description": "Show en vivo &quot;Desde el s\u00f3tano&quot; de Radiohead.",
         "image": "http://huntingbears.com.ve/static/img/posts/1588/the-king-of-limbs-live-from-the-basement__1.jpg",
         "keywords": "live-from-the-basement, radiohead, the-king-of-limbs, radiohead, video",
-        "share_count": 33,
+        "share_count": 18,
         "title": "The King of Limbs: Live From The Basement",
         "url": "http://huntingbears.com.ve/the-king-of-limbs-live-from-the-basement.html"
     },
@@ -305,7 +305,7 @@ var posts_index = {
         "description": "El d\u00eda debian es un evento para difundir las bondades del Software Libre.",
         "image": "http://huntingbears.com.ve/static/img/posts/1864/nos-vemos-en-el-7mo-dia-debian-caracas__1.jpg",
         "keywords": "canaima-gnu-linux, debian-day, software-libre, canaima, debian, eventos, software-libre",
-        "share_count": 15,
+        "share_count": 43,
         "title": "Nos vemos en el 7mo D\u00eda Debian Caracas",
         "url": "http://huntingbears.com.ve/nos-vemos-en-el-7mo-dia-debian-caracas.html"
     },
@@ -545,7 +545,7 @@ var posts_index = {
         "description": "El presidente Ch\u00e1vez le estampa un \u00c1guila no caza mosca a Maria Corina Machado y nosotros capturamos su cara.",
         "image": "http://huntingbears.com.ve/static/img/posts/2091/aguila-no-caza-mosca-foto__1.jpg",
         "keywords": "aguila-no-caza-mosca, chavez-asamblea, maria-corina-machado, humor, politica",
-        "share_count": 15,
+        "share_count": 29,
         "title": "\u00c1guila no caza mosca [FOTO]",
         "url": "http://huntingbears.com.ve/aguila-no-caza-mosca-foto.html"
     },
@@ -675,7 +675,7 @@ var posts_index = {
         "description": "Esta es una recopilaci\u00f3n de conciertos de Radiohead en alta definici\u00f3n.",
         "image": "http://huntingbears.com.ve/static/img/posts/243/recopilacion-de-conciertos-de-radiohead-hd__1.jpg",
         "keywords": "high-definition, radiohead, video, radiohead, video",
-        "share_count": 37,
+        "share_count": 22,
         "title": "Recopilaci\u00f3n de Conciertos de Radiohead [HD]",
         "url": "http://huntingbears.com.ve/recopilacion-de-conciertos-de-radiohead-hd.html"
     },
@@ -1075,7 +1075,7 @@ var posts_index = {
         "description": "Presento algunos fondos de pantalla para Canaima de mi autor\u00eda.",
         "image": "http://huntingbears.com.ve/static/img/posts/488/nuevos-fondos-de-pantalla-para-canaima-gnulinux__1.jpg",
         "keywords": "canaima-gnu-linux, svg, wallpapers, canaima, diseno-grafico, software-libre",
-        "share_count": 15,
+        "share_count": 36,
         "title": "Nuevos Fondos de pantalla para Canaima GNU/Linux",
         "url": "http://huntingbears.com.ve/nuevos-fondos-de-pantalla-para-canaima-gnulinux.html"
     },
