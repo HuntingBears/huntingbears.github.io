@@ -685,7 +685,7 @@ var posts_index = {
         "description": "Con esta gu\u00eda podr\u00e1s entender los elementos b\u00e1sicos para producir paquetes compatibles con Canaima, Debian o Ubuntu.",
         "image": "http://huntingbears.com.ve/static/img/posts/261/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu__1.jpg",
         "keywords": "desarrollo, empaquetamiento, git-buidpackage, desarrollo, software-libre",
-        "share_count": 15,
+        "share_count": 39,
         "title": "Gu\u00eda de empaquetamiento con git-buildpackage para Canaima, Debian o Ubuntu",
         "url": "http://huntingbears.com.ve/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu.html"
     },
