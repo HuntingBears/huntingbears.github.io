@@ -20,7 +20,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/carlos-parra-y-luis-martinez-en-el-programa-copiate-esta-radio-de-alba-ciudad-96-3fm-audio.html"
     },
     "1050": {
-        "comment_count": 0,
+        "comment_count": 1,
         "date": "2011-05-11T15:28:52-04:30",
         "description": "Un reportaje acerca del equipo de desarrollo de Canaima GNU/Linux.",
         "image": "http://huntingbears.com.ve/static/img/posts/1050/el-equipo-de-desarrollo-canaima-un-reportaje-desde-adentro__1.jpg",
@@ -50,7 +50,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/has-leido-la-licencia-de-microsoft-windows-esa-que-todo-el-mundo-acepta-con-los-ojos-cerrados.html"
     },
     "1113": {
-        "comment_count": 0,
+        "comment_count": 16,
         "date": "2011-05-13T21:26:57-04:30",
         "description": "Si el driver libre de nVidia no le da soporte a tu targeta gr\u00e1fica, lamentablemente tendr\u00e1s que utilizar el privativo.",
         "image": "http://huntingbears.com.ve/static/img/posts/1113/instalando-el-driver-privativo-de-nvidia-en-canaima-3-0debian-6-0__1.jpg",
@@ -60,7 +60,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/instalando-el-driver-privativo-de-nvidia-en-canaima-3-0debian-6-0.html"
     },
     "1131": {
-        "comment_count": 0,
+        "comment_count": 4,
         "date": "2011-05-20T21:25:13-04:30",
         "description": "La actualizaci\u00f3n de Canaima 2.1 a Canaima 3.0 no es trivial. Aqu\u00ed te lo explicamos.",
         "image": "http://huntingbears.com.ve/static/img/posts/1131/tutorial-como-actualizar-a-canaima-3-0-desde-canaima-2-1__1.jpg",
@@ -140,7 +140,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/hijo-er-diablo-5ta-cayapa-canaima-en-cumana.html"
     },
     "1349": {
-        "comment_count": 0,
+        "comment_count": 12,
         "date": "2011-06-10T15:07:24-04:30",
         "description": "Esta gu\u00eda permite instalar el driver privativo de ATI.",
         "image": "http://huntingbears.com.ve/static/img/posts/1349/instalando-el-driver-privativo-de-ati-radeon-en-canaima-3-0debian-6-0__1.jpg",
@@ -150,7 +150,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/instalando-el-driver-privativo-de-ati-radeon-en-canaima-3-0debian-6-0.html"
     },
     "14": {
-        "comment_count": 0,
+        "comment_count": 3,
         "date": "2010-02-07T22:11:01-04:30",
         "description": "Blog Hunting Bears es un espacio para la tecnolog\u00eda y el software libre.",
         "image": "http://huntingbears.com.ve/static/img/posts/14/blog-hunting-bears-un-espacio-para-la-tecnologia-y-el-software-libre__1.jpg",
@@ -180,7 +180,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/emulando-el-nintendo-wii-en-canaima-3-0debian-6-0.html"
     },
     "1587": {
-        "comment_count": 0,
+        "comment_count": 23,
         "date": "2011-07-17T20:40:15-04:30",
         "description": "Maria Corina Machado es un personaje particular. Ac\u00e1 la analizamos.",
         "image": "http://huntingbears.com.ve/static/img/posts/1587/lo-que-usted-no-sabia-acerca-de-maria-corina-machado__8.jpg",
@@ -260,7 +260,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/creando-un-metapaquete-a-la-canaima-con-canaima-desarrollador.html"
     },
     "1797": {
-        "comment_count": 0,
+        "comment_count": 5,
         "date": "2011-08-14T00:09:58-04:30",
         "description": "Los procesadores modernos soportan un ancho de palabra de 64Bits. Averigua si tu procesador lo soporta.",
         "image": "http://huntingbears.com.ve/static/img/posts/1797/tip-como-identificar-si-un-procesador-soporta-64bits__1.jpg",
@@ -310,7 +310,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/nos-vemos-en-el-7mo-dia-debian-caracas.html"
     },
     "1865": {
-        "comment_count": 0,
+        "comment_count": 5,
         "date": "2012-03-10T15:18:08-04:30",
         "description": "Presentamos una lista de comandos de git que pueden ser \u00fatiles en diversos casos.",
         "image": "http://huntingbears.com.ve/static/img/posts/1865/el-oraculo-git-del-desarrollador__1.jpg",
@@ -340,7 +340,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/los-cuatro-tipos-de-programador.html"
     },
     "1881": {
-        "comment_count": 0,
+        "comment_count": 5,
         "date": "2012-11-21T16:28:28-04:30",
         "description": "Git es un sistema de versionamiento distribu\u00eddo utilizado en el desarrollo del Kernel Linux.",
         "image": "http://huntingbears.com.ve/static/img/posts/1881/guia-avanzada-de-desarrollo-con-git__1.jpg",
@@ -390,7 +390,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/maquetofilia-de-los-arquitectos.html"
     },
     "1900": {
-        "comment_count": 0,
+        "comment_count": 9,
         "date": "2011-12-18T23:10:15-04:30",
         "description": "Si no tienes un servicio privado de env\u00edo de correos, puedes utilizar postfix y GMail para lograr el mismo cometido.",
         "image": "http://huntingbears.com.ve/static/img/posts/1900/utilizando-postfix-para-enviar-correos-a-traves-de-gmail__1.jpg",
@@ -410,7 +410,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/alejo-salva-al-mundo-de-una-invasion-extraterrestre-instalando-windows-en-la-nave-madre.html"
     },
     "1905": {
-        "comment_count": 0,
+        "comment_count": 1,
         "date": "2012-11-27T01:08:32-04:30",
         "description": "Los subm\u00f3dulos en git permiten dividir o combinar un proyecto en varios repositorios separados.",
         "image": "http://huntingbears.com.ve/static/img/posts/1905/trabajando-con-submodulos-en-git__1.jpg",
@@ -420,7 +420,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/trabajando-con-submodulos-en-git.html"
     },
     "1906": {
-        "comment_count": 0,
+        "comment_count": 6,
         "date": "2011-12-18T16:46:15-04:30",
         "description": "Existen diversas formas de involucrarse en el desarrollo de Canaima GNU/Linux.",
         "image": "http://huntingbears.com.ve/static/img/posts/1906/fundamentos-del-desarrollo-en-canaima-gnulinux__1.jpg",
@@ -510,7 +510,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/haciendo-repositorios-de-paquetes-binarios-con-reprepro.html"
     },
     "2040": {
-        "comment_count": 0,
+        "comment_count": 1,
         "date": "2012-02-20T02:50:27-04:30",
         "description": "Presentamos algunos &quot;demo&quot; que Radiohead (On a Friday) grab\u00f3 en el a\u00f1o 1985.",
         "image": "http://huntingbears.com.ve/static/img/posts/2040/asi-se-escuchaba-radiohead-en-1985-cuando-se-llamaban-on-a-friday__1.jpg",
@@ -590,7 +590,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/canaima-popular-3-1-conocimiento-libre-para-todos.html"
     },
     "2202": {
-        "comment_count": 0,
+        "comment_count": 3,
         "date": "2012-03-12T20:13:28-04:30",
         "description": "Algunos prototipos para el banner rotativo de la p\u00e1gina de Canaima GNU/Linux.",
         "image": "http://huntingbears.com.ve/static/img/posts/2202/propuestas-para-banners-del-portal-canaima__1.jpg",
@@ -740,7 +740,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/en-un-viernes-la-historia-de-radiohead-documental.html"
     },
     "2723": {
-        "comment_count": 0,
+        "comment_count": 6,
         "date": "2012-10-01T20:01:28-04:30",
         "description": "Estamos trabajando en un nuevo estilo visual para el instalador de Canaima. \u00c9chale un vistazo.",
         "image": "http://huntingbears.com.ve/static/img/posts/2723/un-pequeno-vistazo-al-estilo-visual-del-nuevo-instalador-de-canaima__1.jpg",
@@ -780,7 +780,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/ayudanos-a-probar-el-nuevo-instalador-de-canaima-popular-3-1.html"
     },
     "2774": {
-        "comment_count": 0,
+        "comment_count": 3,
         "date": "2012-11-03T18:54:28-04:30",
         "description": "Luigino Bracci entrevista a Luis Mart\u00ednez en Alba Ciudad 96.3FM acerca del nuevo instalador de Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/2774/entrevista-con-motivo-del-nuevo-instalador-de-canaima-en-alba-ciudad-96-3fm__1.jpg",
@@ -810,7 +810,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/la-ley-de-infogobierno-comienzos-tortuosos-desenlaces-prometedores.html"
     },
     "301": {
-        "comment_count": 0,
+        "comment_count": 2,
         "date": "2010-10-08T09:47:27-04:30",
         "description": "El ciclo de desarrollo de Canaima GNU/Linux permite definir un flujo de trabajo para los integrantes del proyecto.",
         "image": "http://huntingbears.com.ve/static/img/posts/301/describiendo-el-ciclo-de-desarrollo-de-canaima-gnulinux__1.jpg",
@@ -820,7 +820,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/describiendo-el-ciclo-de-desarrollo-de-canaima-gnulinux.html"
     },
     "310": {
-        "comment_count": 0,
+        "comment_count": 3,
         "date": "2010-10-08T04:17:36-04:30",
         "description": "Finalmente, el c\u00f3digo fuente de Windows Vista se ha colado en la red.",
         "image": "http://huntingbears.com.ve/static/img/posts/310/finalmente-el-codigo-fuente-de-windows-vista-se-ha-colado-en-la-red__1.jpg",
@@ -880,7 +880,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/jugando-0ad-en-canaima-4-0-un-juego-de-estrategia-con-muy-buenos-graficos.html"
     },
     "4087": {
-        "comment_count": 0,
+        "comment_count": 2,
         "date": "2013-09-09T19:10:10-04:30",
         "description": "Utiliza patrones de b\u00fasqueda en aptitude para encontrar las cosas que buscas m\u00e1s r\u00e1pido.",
         "image": "http://huntingbears.com.ve/static/img/posts/4087/haciendo-busquedas-de-paquetes-con-ayuda-de-patrones-de-aptitude__1.jpg",
@@ -980,7 +980,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/algunas-reflexiones-acerca-del-manejo-de-proyectos-de-software-libre.html"
     },
     "4328": {
-        "comment_count": 0,
+        "comment_count": 2,
         "date": "2015-08-22T21:22:45-04:30",
         "description": "Para algunas actividades particulares, a veces es necesario husmear un poco en la base de datos de WhatsApp para obtener los datos de acceso de nuestro usuario en la plataforma. Aqu\u00ed te mostramos como.",
         "image": "http://huntingbears.com.ve/static/img/posts/4328/utilizando-yowsup-para-obtener-las-credenciales-de-tu-usuario-en-whatsapp__1.jpg",
@@ -1060,7 +1060,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/paranormal-activity-no-la-veas-en-casa.html"
     },
     "485": {
-        "comment_count": 0,
+        "comment_count": 1,
         "date": "2010-12-13T19:13:54-04:30",
         "description": "Esta es una reflexi\u00f3n acerca del rumbo que tomamos en nuestras vidas.",
         "image": "http://huntingbears.com.ve/static/img/posts/485/encuentrate-a-ti-mismo__1.jpg",
@@ -1140,7 +1140,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/la-chica-mas-sexy-experimento.html"
     },
     "618": {
-        "comment_count": 0,
+        "comment_count": 678,
         "date": "2010-12-31T19:43:14-04:30",
         "description": "Descripci\u00f3n del procedimiento para instalar Windows en una laptop Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/618/como-instalar-windows-en-una-laptop-canaima__1.jpg",
@@ -1160,7 +1160,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/feliz-ano-2011.html"
     },
     "643": {
-        "comment_count": 0,
+        "comment_count": 5,
         "date": "2011-02-23T14:13:18-04:30",
         "description": "Jorge Amor\u00edn hace un reconocimiento al Software Libre, luego de la metida de pata de Mario Silva.",
         "image": "http://huntingbears.com.ve/static/img/posts/643/me-echaron-a-perder-el-changahojilla-jorge-amorin-hace-reconocimiento-al-software-libre__1.jpg",
@@ -1190,7 +1190,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/avatars-en-hunting-bears.html"
     },
     "669": {
-        "comment_count": 0,
+        "comment_count": 2,
         "date": "2011-02-10T21:21:07-04:30",
         "description": "Canaima 3.0 representa un salto cuantitativo y cualitativo en la calidad del Sistema Operativo.",
         "image": "http://huntingbears.com.ve/static/img/posts/669/llego-canaima-3-0-se-ha-publicado-la-primera-version-candidata-vc1__1.jpg",
@@ -1210,7 +1210,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/canaima-desarrollador-herramienta-para-el-desarrollo-y-empaquetamiento-de-software-libre.html"
     },
     "687": {
-        "comment_count": 0,
+        "comment_count": 37,
         "date": "2011-02-13T23:18:33-04:30",
         "description": "Mario Silva recomienda usar Microsoft Windows en televisi\u00f3n p\u00fablica.",
         "image": "http://huntingbears.com.ve/static/img/posts/687/sobre-como-mario-silva-violo-el-decreto-presidencial-n3390__1.jpg",
@@ -1270,7 +1270,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/mas-fondos-de-pantalla-para-canaima-3-0.html"
     },
     "789": {
-        "comment_count": 0,
+        "comment_count": 17,
         "date": "2011-03-06T02:10:42-04:30",
         "description": "El reaggueton es una moda que est\u00e1 haciendo mucho da\u00f1o en nuestra sociedad.",
         "image": "http://huntingbears.com.ve/static/img/posts/789/yo-no-quiero-salud-yo-quiero-alcoholismo__1.jpg",
@@ -1280,7 +1280,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/yo-no-quiero-salud-yo-quiero-alcoholismo.html"
     },
     "802": {
-        "comment_count": 0,
+        "comment_count": 141,
         "date": "2011-07-19T18:48:02-04:30",
         "description": "Ac\u00e1 hacemos un estudio profundo acerca de las diferencias y similitudes de Windows y Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__16.jpg",
@@ -1290,7 +1290,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos.html"
     },
     "814": {
-        "comment_count": 0,
+        "comment_count": 27,
         "date": "2011-03-18T19:58:34-04:30",
         "description": "Canaima Semilla es una herramienta para generar distribuciones derivadas de Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/814/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima__1.jpg",
@@ -1300,7 +1300,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima.html"
     },
     "884": {
-        "comment_count": 0,
+        "comment_count": 11,
         "date": "2011-03-15T15:31:51-04:30",
         "description": "La gaceta 39633 establece el uso de Canaima GNU/Linux como sistema operativo de la APN.",
         "image": "http://huntingbears.com.ve/static/img/posts/884/el-decreto-3390-tiene-una-nueva-aliada-la-gaceta-39633__1.jpg",
@@ -1330,7 +1330,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/canaima-una-distribucion-con-sabor-venezolano.html"
     },
     "912": {
-        "comment_count": 0,
+        "comment_count": 11,
         "date": "2011-03-21T16:17:10-04:30",
         "description": "Cunaguaro y Gu\u00e1charo son el nuevo navegador web y cliente de correo de Canaima 3.0",
         "image": "http://huntingbears.com.ve/static/img/posts/912/cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0__1.jpg",
