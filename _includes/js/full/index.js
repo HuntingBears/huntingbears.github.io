@@ -260,7 +260,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/creando-un-metapaquete-a-la-canaima-con-canaima-desarrollador.html"
     },
     "1797": {
-        "comment_count": 0,
+        "comment_count": 5,
         "date": "2011-08-14T00:09:58-04:30",
         "description": "Los procesadores modernos soportan un ancho de palabra de 64Bits. Averigua si tu procesador lo soporta.",
         "image": "http://huntingbears.com.ve/static/img/posts/1797/tip-como-identificar-si-un-procesador-soporta-64bits__1.jpg",
@@ -510,7 +510,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/haciendo-repositorios-de-paquetes-binarios-con-reprepro.html"
     },
     "2040": {
-        "comment_count": 0,
+        "comment_count": 1,
         "date": "2012-02-20T02:50:27-04:30",
         "description": "Presentamos algunos &quot;demo&quot; que Radiohead (On a Friday) grab\u00f3 en el a\u00f1o 1985.",
         "image": "http://huntingbears.com.ve/static/img/posts/2040/asi-se-escuchaba-radiohead-en-1985-cuando-se-llamaban-on-a-friday__1.jpg",
@@ -710,7 +710,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/agregando-autoridades-certificadoras-a-navegadores-web-derivados-de-firefox.html"
     },
     "2640": {
-        "comment_count": 0,
+        "comment_count": 13,
         "date": "2012-08-24T18:37:31-04:30",
         "description": "Presentaci\u00f3n acerca de como desarrollar con ayuda de git en Fedora.",
         "image": "http://huntingbears.com.ve/static/img/posts/2640/desarrollando-con-ayuda-de-git-fudcon-valencia__1.jpg",
@@ -1100,7 +1100,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/cuidado-estamos-en-temporada-de-zombies-navidenos-hipnotizadores.html"
     },
     "563": {
-        "comment_count": 0,
+        "comment_count": 1,
         "date": "2011-02-23T13:52:17-04:30",
         "description": "El Diputado William D\u00e1vila cuestiona sobre el Decreto 3390 al Ministro Ricardo Men\u00e9ndez.",
         "image": "http://huntingbears.com.ve/static/img/posts/563/si-la-pregunta-de-william-davila-hubiese-estado-bien-hecha__1.jpg",
