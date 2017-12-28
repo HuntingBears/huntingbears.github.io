@@ -980,7 +980,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/algunas-reflexiones-acerca-del-manejo-de-proyectos-de-software-libre.html"
     },
     "4328": {
-        "comment_count": 2,
+        "comment_count": 3,
         "date": "2015-08-22T21:22:45-04:30",
         "description": "Para algunas actividades particulares, a veces es necesario husmear un poco en la base de datos de WhatsApp para obtener los datos de acceso de nuestro usuario en la plataforma. Aqu\u00ed te mostramos como.",
         "image": "http://huntingbears.com.ve/static/img/posts/4328/utilizando-yowsup-para-obtener-las-credenciales-de-tu-usuario-en-whatsapp__1.jpg",
