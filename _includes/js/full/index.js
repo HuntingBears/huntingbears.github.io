@@ -1140,7 +1140,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/la-chica-mas-sexy-experimento.html"
     },
     "618": {
-        "comment_count": 678,
+        "comment_count": 679,
         "date": "2010-12-31T19:43:14-04:30",
         "description": "Descripci\u00f3n del procedimiento para instalar Windows en una laptop Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/618/como-instalar-windows-en-una-laptop-canaima__1.jpg",
