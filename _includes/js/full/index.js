@@ -80,7 +80,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/como-instalar-canaima-3-0-desde-una-memoria-usb.html"
     },
     "1146": {
-        "comment_count": 0,
+        "comment_count": 54,
         "date": "2011-05-21T16:44:45-04:30",
         "description": "A veces, cuando un disco duro no finaliza sesi\u00f3n apropiadamente, algunos datos se corrompen moment\u00e1neamente. Aqu\u00ed se explica como resolver esta falla.",
         "image": "http://huntingbears.com.ve/static/img/posts/1146/como-solucionar-una-corrupcion-del-disco-en-canaima-3-0debian-6-0-run-fsck-manually__1.jpg",
@@ -160,7 +160,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/blog-hunting-bears-un-espacio-para-la-tecnologia-y-el-software-libre.html"
     },
     "149": {
-        "comment_count": 0,
+        "comment_count": 2,
         "date": "2010-03-18T00:02:48-04:30",
         "description": "La Cayapa es un evento socio-tecnol\u00f3gico enfocado a mejorar la distribuci\u00f3n Canaima GNU/Linux.",
         "image": "http://huntingbears.com.ve/static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__1.jpg",
@@ -230,7 +230,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado.html"
     },
     "1663": {
-        "comment_count": 0,
+        "comment_count": 6,
         "date": "2011-07-28T13:59:20-04:30",
         "description": "El equipode desarrollo de Canaima GNU/Linux ha desarrollado un asistente para la actualizaci\u00f3n de Canaima 2.1 a Canaima 3.0.",
         "image": "http://huntingbears.com.ve/static/img/posts/1663/asistente-de-actualizacion-de-canaima-2-1-a-canaima-3-0__1.jpg",
@@ -550,7 +550,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/aguila-no-caza-mosca-foto.html"
     },
     "2101": {
-        "comment_count": 0,
+        "comment_count": 2,
         "date": "2012-02-15T22:53:23-04:30",
         "description": "Los parches nos permiten compilar una serie de cambios en un archivo. Ideal para trabajar colaborativamente.",
         "image": "http://huntingbears.com.ve/static/img/posts/2101/colaborando-en-proyectos-de-codigo-abierto-a-traves-de-parches-git-quilt-diff__1.jpg",
@@ -650,7 +650,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/debconf12-una-experiencia-unica-en-managua-nicaragua.html"
     },
     "231": {
-        "comment_count": 0,
+        "comment_count": 1,
         "date": "2010-08-09T00:20:49-04:30",
         "description": "Debian 6.0 (squeeze) ha congelado todas sus nuevas funcionalidades para la versi\u00f3n estable.",
         "image": "http://huntingbears.com.ve/static/img/posts/231/debian-squeeze-congelado-para-ser-pasado-a-estable__1.jpg",
@@ -910,7 +910,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/canaima-4-0-un-cambio-de-paradigma-en-el-escritorio.html"
     },
     "4103": {
-        "comment_count": 0,
+        "comment_count": 18,
         "date": "2013-05-19T01:22:00-04:30",
         "description": "Gnamon es un conjunto de temas y extensiones para Gnome Shell.",
         "image": "http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__1.jpg",
@@ -1050,7 +1050,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/how-to-use-fake-gps-to-teletransport-anywhere-in-pokemon-go.html"
     },
     "46": {
-        "comment_count": 0,
+        "comment_count": 3,
         "date": "2010-02-14T21:13:11-04:30",
         "description": "Paranormal Activity es una pel\u00edcula de suspenso que te parar\u00e1 los pelos de punta.",
         "image": "http://huntingbears.com.ve/static/img/posts/46/paranormal-activity-no-la-veas-en-casa__1.jpg",
@@ -1290,7 +1290,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos.html"
     },
     "814": {
-        "comment_count": 0,
+        "comment_count": 27,
         "date": "2011-03-18T19:58:34-04:30",
         "description": "Canaima Semilla es una herramienta para generar distribuciones derivadas de Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/814/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima__1.jpg",
