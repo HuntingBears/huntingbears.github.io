@@ -310,7 +310,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/nos-vemos-en-el-7mo-dia-debian-caracas.html"
     },
     "1865": {
-        "comment_count": 0,
+        "comment_count": 5,
         "date": "2012-03-10T15:18:08-04:30",
         "description": "Presentamos una lista de comandos de git que pueden ser \u00fatiles en diversos casos.",
         "image": "http://huntingbears.com.ve/static/img/posts/1865/el-oraculo-git-del-desarrollador__1.jpg",
@@ -420,7 +420,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/trabajando-con-submodulos-en-git.html"
     },
     "1906": {
-        "comment_count": 0,
+        "comment_count": 6,
         "date": "2011-12-18T16:46:15-04:30",
         "description": "Existen diversas formas de involucrarse en el desarrollo de Canaima GNU/Linux.",
         "image": "http://huntingbears.com.ve/static/img/posts/1906/fundamentos-del-desarrollo-en-canaima-gnulinux__1.jpg",
@@ -530,7 +530,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/haciendo-mirrors-de-debian-con-ftpsync-y-de-canaima-con-debmirror.html"
     },
     "2069": {
-        "comment_count": 0,
+        "comment_count": 1,
         "date": "2012-02-13T19:41:57-04:30",
         "description": "\u00c1guilas es un sistema de gesti\u00f3n de usuariows basado en LDAP y desarrollado en PHP.",
         "image": "http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__1.jpg",
@@ -1140,7 +1140,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/la-chica-mas-sexy-experimento.html"
     },
     "618": {
-        "comment_count": 0,
+        "comment_count": 679,
         "date": "2010-12-31T19:43:14-04:30",
         "description": "Descripci\u00f3n del procedimiento para instalar Windows en una laptop Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/618/como-instalar-windows-en-una-laptop-canaima__1.jpg",
