@@ -1240,7 +1240,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/dancing-thom-la-revolucion-en-internet-del-video-lotus-flower.html"
     },
     "749": {
-        "comment_count": 186,
+        "comment_count": 187,
         "date": "2011-02-20T18:02:18-04:30",
         "description": "Las contrase\u00f1as de administrador de las canaimitas permiten desbloquear funcionalidades adicionales.",
         "image": "http://huntingbears.com.ve/static/img/posts/749/contrasenas-de-usuario-administrador-root-para-las-canaimitas-de-1ro-a-6to-grado__1.jpg",
