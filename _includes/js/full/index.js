@@ -790,7 +790,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/entrevista-con-motivo-del-nuevo-instalador-de-canaima-en-alba-ciudad-96-3fm.html"
     },
     "2859": {
-        "comment_count": 0,
+        "comment_count": 7,
         "date": "2013-08-14T16:14:04-04:30",
         "description": "Tribus es un intento para automatizar las actividades de una Comunidad de Software Libre.",
         "image": "http://huntingbears.com.ve/static/img/posts/2859/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima__1.jpg",
