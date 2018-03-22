@@ -2,7 +2,7 @@
 layout: null
 ---
 
-luisalejandro.github.io
+huntingbears.github.io
 =======================
 
 ### Steps to configure jekyll-pystarter
