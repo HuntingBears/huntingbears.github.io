@@ -1025,7 +1025,7 @@ var posts_index = {
         "description": "With KingRoot you can gain root priviledges in your phone and do whatever you want with it!",
         "image": "http://huntingbears.com.ve/static/img/posts/4352/how-to-root-your-android-phone-using-kingroot__6.jpg",
         "keywords": "root, kingroot, android, android, development",
-        "share_count": 16,
+        "share_count": 19,
         "title": "How to root your android phone using KingRoot",
         "url": "http://huntingbears.com.ve/how-to-root-your-android-phone-using-kingroot.html"
     },
@@ -1045,7 +1045,7 @@ var posts_index = {
         "description": "You can use Fake GPS to be anywhere, anytime and use a false location on Pokemon Go.",
         "image": "http://huntingbears.com.ve/static/img/posts/4354/how-to-use-fake-gps-to-teletransport-anywhere-in-pokemon-go__1.jpg",
         "keywords": "fake-gps, pokemon-go, cheat, android, development, games",
-        "share_count": 21,
+        "share_count": 22,
         "title": "How to use Fake GPS to teletransport anywhere in Pokemon Go",
         "url": "http://huntingbears.com.ve/how-to-use-fake-gps-to-teletransport-anywhere-in-pokemon-go.html"
     },
