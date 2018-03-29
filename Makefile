@@ -68,9 +68,11 @@ process: clean import index compress categorize
 
 # This command generates the last 12 posts with jekyll
 
-generate:
+generate: clean compress
 
-	@bundler exec jekyll build --limit_posts 12
+	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
+		luisalejandro/huntingbears.com.ve:latest \
+		bundler exec jekyll build --limit_posts 20 --watch
 
 
 # This command generates a new draft

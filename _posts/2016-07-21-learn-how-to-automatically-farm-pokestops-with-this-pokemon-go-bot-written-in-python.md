@@ -8,7 +8,7 @@ image: http://huntingbears.com.ve/static/img/posts/4349/learn-how-to-automatical
 layout: post
 slug: learn-how-to-automatically-farm-pokestops-with-this-pokemon-go-bot-written-in-python
 tags: [Pokemon Go, pokestop, Cheat]
-title: Learn how to automatically farm pokestops with this Pokemon Go bot written
+title: How to automatically farm pokestops with this Pokemon Go bot written
   in Python
 ---
 

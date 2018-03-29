@@ -26,11 +26,6 @@ LG Optimus One: 320, 1.5
         font-size: 2.3em;
     }
 
-    #container > header > #heading > .subtitle,
-    #container > header > #heading > .author {
-        display: none;
-    }
-
     #container > header > nav {
         width: 100%;
         margin: 5px 0;
@@ -38,18 +33,9 @@ LG Optimus One: 320, 1.5
         border-radius: 5px;
     }
 
-    #container > header > nav > ul > li.portafolio {
-        width: 98%;
-        margin: 0 1%;
-    }
-
-    #container > header > nav > ul > li.acerca {
-        width: 98%;
-        margin: 0 1%;
-    }
-
     #container > header > nav > ul > li.twitter,
     #container > header > nav > ul > li.facebook,
+    #container > header > nav > ul > li.instagram,
     #container > header > nav > ul > li.googleplus,
     #container > header > nav > ul > li.rss,
     #container > header > nav > ul > li.search {
@@ -265,11 +251,6 @@ Nokia C5, C6, C7, N97, N8, X7: 360, 1
         font-size: 2.3em;
     }
 
-    #container > header > #heading > .subtitle,
-    #container > header > #heading > .author {
-        display: none;
-    }
-
     #container > header > nav {
         width: 100%;
         margin: 5px 0;
@@ -277,18 +258,9 @@ Nokia C5, C6, C7, N97, N8, X7: 360, 1
         border-radius: 5px;
     }
 
-    #container > header > nav > ul > li.portafolio {
-        width: 98%;
-        margin: 0 1%;
-    }
-
-    #container > header > nav > ul > li.acerca {
-        width: 98%;
-        margin: 0 1%;
-    }
-
     #container > header > nav > ul > li.twitter,
     #container > header > nav > ul > li.facebook,
+    #container > header > nav > ul > li.instagram,
     #container > header > nav > ul > li.googleplus,
     #container > header > nav > ul > li.rss,
     #container > header > nav > ul > li.search {
@@ -520,11 +492,6 @@ Sony Xperia Sola / U: 480, 1
         font-size: 2.3em;
     }
 
-    #container > header > #heading > .subtitle,
-    #container > header > #heading > .author {
-        font-size: 0.9em;
-    }
-
     #container > header > nav {
         width: 100%;
         margin: 5px 0;
@@ -532,18 +499,9 @@ Sony Xperia Sola / U: 480, 1
         border-radius: 5px;
     }
 
-    #container > header > nav > ul > li.portafolio {
-        width: 98%;
-        margin: 0 1%;
-    }
-
-    #container > header > nav > ul > li.acerca {
-        width: 98%;
-        margin: 0 1%;
-    }
-
     #container > header > nav > ul > li.twitter,
     #container > header > nav > ul > li.facebook,
+    #container > header > nav > ul > li.instagram,
     #container > header > nav > ul > li.googleplus,
     #container > header > nav > ul > li.rss,
     #container > header > nav > ul > li.search {
@@ -765,18 +723,9 @@ Motorola Droid 3 / Droid 4 / Droid Razr / Atrix 4G / Atrix 2: 540, 1
         border-radius: 5px;
     }
 
-    #container > header > nav > ul > li.portafolio {
-        width: 98%;
-        margin: 0 1%;
-    }
-
-    #container > header > nav > ul > li.acerca {
-        width: 98%;
-        margin: 0 1%;
-    }
-
     #container > header > nav > ul > li.twitter,
     #container > header > nav > ul > li.facebook,
+    #container > header > nav > ul > li.instagram,
     #container > header > nav > ul > li.googleplus,
     #container > header > nav > ul > li.rss,
     #container > header > nav > ul > li.search {
@@ -974,16 +923,9 @@ Apple iPhone 4/5: 640, 2
         width: 85%;
     }
 
-    #container > header > nav > ul > li.portafolio {
-        width: 34%;
-    }
-
-    #container > header > nav > ul > li.acerca {
-        width: 24%;
-    }
-
     #container > header > nav > ul > li.twitter,
     #container > header > nav > ul > li.facebook,
+    #container > header > nav > ul > li.instagram,
     #container > header > nav > ul > li.googleplus,
     #container > header > nav > ul > li.rss,
     #container > header > nav > ul > li.search {
@@ -1534,11 +1476,11 @@ Sony Xperia Z, Z1: 1080, 3
         width: 35%;
     }
 
-    #container > header > #heading > .subtitle,
+/*    #container > header > #heading > .subtitle,
     #container > header > #heading > .author {
         font-size: 0.8em;
         line-height: 1.5em;
-    }
+    }*/
 
     #container > header > nav {
         width: 56%;

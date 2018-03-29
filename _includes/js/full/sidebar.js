@@ -7,30 +7,19 @@
                                                             'limit': 10,
                                                             'interval': '90d'});
 
-        var disqus_forums_listposts_api_end = 'https://disqus.com/api/3.0/forums/listPosts.jsonp';
-        var disqus_forums_listposts_api_param = $.param({'api_key': disqus_api_key,
-                                                         'forum': disqus_shortname,
-                                                         'limit': 10,
-                                                         'related': 'thread'});
-
         window.parse_poparts = function(results){
             var poparts_html = [];
 
             for(var i = 0; i < results.response.length; i++){
-                poparts_html.push('<li><a href="'+results.response[i].link+'" title="'+results.response[i].title+'">'+results.response[i].title+'</a></li>');
+                poparts_html.push(
+                    '<li>'+
+                    '<a href="'+results.response[i].link+'" title="'+results.response[i].title+'">'+
+                    results.response[i].title+
+                    '</a>'+
+                    '</li>');
             }
 
             $('#poparts').html(poparts_html.join(''));
-        }
-
-        window.parse_lastcomms = function(results){
-            var lastcomms_html = [];
-
-            for(var i = 0; i < results.response.length; i++){
-                lastcomms_html.push('<li><a href="'+results.response[i].url+'" title="'+results.response[i].thread.title+'"><strong>'+results.response[i].author.name+'</strong>: '+results.response[i].thread.title+'</a></li>');
-            }
-
-            $('#lastcomms').html(lastcomms_html.join(''));
         }
 
         $.ajax({
@@ -39,15 +28,6 @@
             dataType: 'jsonp',
             jsonp: 'callback',
             jsonpCallback: 'parse_poparts',
-            timeout: 5000
-        });
-
-        $.ajax({
-            type: 'GET',
-            url: disqus_forums_listposts_api_end+'?'+disqus_forums_listposts_api_param,
-            dataType: 'jsonp',
-            jsonp: 'callback',
-            jsonpCallback: 'parse_lastcomms',
             timeout: 5000
         });
 

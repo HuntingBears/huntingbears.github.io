@@ -2,4 +2,4 @@ pyyaml
 pillow
 cssmin
 slimit
-ply
+ply==3.4

@@ -21,12 +21,12 @@ if(page_layout == 'frontpage'){
                 ga('send', 'social', 'Google+', 'Share', disqus_url);
             });
 
-            $('.n_compartidos').each(function(index, element){
+            $('.shares > .qty').each(function(index, element){
                 var self = $(element);
                 self.text(posts_index[self.attr('data-ident')]['share_count']);
             });
 
-            $('.n_comentarios').each(function(index, element){
+            $('.comments > .qty').each(function(index, element){
                 var self = $(element);
                 self.text(posts_index[self.attr('data-ident')]['comment_count']);
             });

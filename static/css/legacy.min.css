@@ -1,8 +1,0 @@
----
-layout: null
----
-{% include css/min/fonts.css %}
-{% raw %}@media screen {{% endraw %}{% include css/min/header.css %}{% include css/min/common.css %}{% include css/min/sidebar.css %}{% include css/min/frontpage.css %}{% include css/min/post.css %}{% include css/min/page.css %}{% include css/min/highlight.css %}{% include css/min/ads.css %}{% raw %}}{% endraw %}
-{% include css/min/responsive.css %}
-{% include css/min/print.css %}
-{% raw %}@media screen {{% endraw %}{% include css/min/legacy.css %}{% raw %}}{% endraw %}

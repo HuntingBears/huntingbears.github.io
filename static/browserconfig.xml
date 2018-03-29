@@ -5,10 +5,10 @@ layout: null
 <browserconfig>
     <msapplication>
         <tile>
-            <square70x70logo src="http://huntingbears.com.ve/static/img/site/mstile-70x70.png" />
-            <square150x150logo src="http://huntingbears.com.ve/static/img/site/mstile-150x150.png" />
-            <square310x310logo src="http://huntingbears.com.ve/static/img/site/mstile-310x310.png" />
-            <wide310x150logo src="http://huntingbears.com.ve/static/img/site/mstile-310x150.png" />
+            <square70x70logo src="{{ site.url }}/static/img/site/mstile-70x70.png" />
+            <square150x150logo src="{{ site.url }}/static/img/site/mstile-150x150.png" />
+            <square310x310logo src="{{ site.url }}/static/img/site/mstile-310x310.png" />
+            <wide310x150logo src="{{ site.url }}/static/img/site/mstile-310x150.png" />
             <TileColor>#ffffff</TileColor>
         </tile>
     </msapplication>

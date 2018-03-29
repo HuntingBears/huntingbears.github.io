@@ -5,7 +5,7 @@
                     </div>
                     <ul>
                         <li class="coffee">
-                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=B8LPXHQY8QE8Y" title="(opens new window)" target="_blank" rel="nofollow">
+                            <a href="https://www.paypal.me/martinezfaneyth" title="(opens new window)" target="_blank" rel="nofollow">
                                 Buy me a Coffee!
                             </a>
                         </li>
@@ -21,7 +21,7 @@
                         </li>
                         {% if page.layout == 'post' %}
                         <li class="list">
-                            <h3>Last Posts</h3>
+                            <h3>LATEST</h3>
                             <ul>
                                 {% for last_post in site.posts offset: 0 limit: 10 %}
                                 <li>
@@ -34,26 +34,9 @@
                         </li>
                         {% else %}
                         <li class="list">
-                            <h3>Last Comments</h3>
-                            <ul id="lastcomms"></ul>
-                        </li>
-                        {% endif %}
-                        <li class="list">
-                            <h3>Popular Posts</h3>
+                            <h3>TRENDING</h3>
                             <ul id="poparts"></ul>
                         </li>
-                        <li class="tags">
-                            <h3>Category Cloud</h3>
-                            <ul>
-                                {% for side_cat in site.categories %}
-                                {% capture side_cat_slug %}{{ side_cat | first | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | uri_escape }}{% endcapture %}
-                                <li>
-                                    <a href="{{ site.url }}/cat/{{ side_cat_slug }}/" title='List all posts under the category "{{ side_cat | first }}".' rel="tag">
-                                        {{ side_cat | first }}
-                                    </a>
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </li>
+                        {% endif %}
                     </ul>
                 </aside>
