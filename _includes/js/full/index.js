@@ -1005,7 +1005,7 @@ var posts_index = {
         "description": "Tribus GNU/Linux es un intento por rescatar el hist\u00f3rico perdido del Proyecto Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/4330/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux__1.jpg",
         "keywords": "tribus, proyecto, canaima, software-libre, desarrollo, canaima",
-        "share_count": 39,
+        "share_count": 40,
         "title": "Rescatando la memoria t\u00e9cnica del proyecto Canaima GNU/Linux",
         "url": "http://huntingbears.com.ve/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux.html"
     },
@@ -1015,7 +1015,7 @@ var posts_index = {
         "description": "This script helps you to farm objects from pokestops very easily.",
         "image": "http://huntingbears.com.ve/static/img/posts/4349/learn-how-to-automatically-farm-pokestops-with-this-pokemon-go-bot-written-in-python__1.jpg",
         "keywords": "pokemon-go, pokestop, cheat, games, free-software, development",
-        "share_count": 32,
+        "share_count": 34,
         "title": "Learn how to automatically farm pokestops with this Pokemon Go bot written in Python",
         "url": "http://huntingbears.com.ve/learn-how-to-automatically-farm-pokestops-with-this-pokemon-go-bot-written-in-python.html"
     },
@@ -1035,7 +1035,7 @@ var posts_index = {
         "description": "You can use this python script to know the exact coordinates of the pokemon around you.",
         "image": "http://huntingbears.com.ve/static/img/posts/4353/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script__1.jpg",
         "keywords": "pokemon-go, catching, cheat, games, free-software, development",
-        "share_count": 27,
+        "share_count": 28,
         "title": "How to catch pokemon near you with the help of this python script",
         "url": "http://huntingbears.com.ve/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script.html"
     },
