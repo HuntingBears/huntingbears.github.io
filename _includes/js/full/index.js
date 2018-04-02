@@ -1005,7 +1005,7 @@ var posts_index = {
         "description": "Tribus GNU/Linux es un intento por rescatar el hist\u00f3rico perdido del Proyecto Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/4330/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux__1.jpg",
         "keywords": "tribus, proyecto, canaima, software-libre, desarrollo, canaima",
-        "share_count": 40,
+        "share_count": 41,
         "title": "Rescatando la memoria t\u00e9cnica del proyecto Canaima GNU/Linux",
         "url": "http://huntingbears.com.ve/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux.html"
     },
@@ -1025,7 +1025,7 @@ var posts_index = {
         "description": "With KingRoot you can gain root priviledges in your phone and do whatever you want with it!",
         "image": "http://huntingbears.com.ve/static/img/posts/4352/how-to-root-your-android-phone-using-kingroot__6.jpg",
         "keywords": "root, kingroot, android, android, development",
-        "share_count": 23,
+        "share_count": 24,
         "title": "How to root your android phone using KingRoot",
         "url": "http://huntingbears.com.ve/how-to-root-your-android-phone-using-kingroot.html"
     },
@@ -1045,7 +1045,7 @@ var posts_index = {
         "description": "You can use Fake GPS to be anywhere, anytime and use a false location on Pokemon Go.",
         "image": "http://huntingbears.com.ve/static/img/posts/4354/how-to-use-fake-gps-to-teletransport-anywhere-in-pokemon-go__1.jpg",
         "keywords": "fake-gps, pokemon-go, cheat, android, development, games",
-        "share_count": 31,
+        "share_count": 33,
         "title": "How to use Fake GPS to teletransport anywhere in Pokemon Go",
         "url": "http://huntingbears.com.ve/how-to-use-fake-gps-to-teletransport-anywhere-in-pokemon-go.html"
     },
