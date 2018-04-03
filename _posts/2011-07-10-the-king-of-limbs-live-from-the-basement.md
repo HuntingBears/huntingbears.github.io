@@ -12,7 +12,7 @@ tags:
 - live from the basement
 - Radiohead
 - the king of limbs
-image: http://huntingbears.com.ve/static/img/posts/1588/the-king-of-limbs-live-from-the-basement__1.jpg
+image: /static/img/posts/1588/the-king-of-limbs-live-from-the-basement__1.jpg
 description: Show en vivo "Desde el sótano" de Radiohead.
 ---
 

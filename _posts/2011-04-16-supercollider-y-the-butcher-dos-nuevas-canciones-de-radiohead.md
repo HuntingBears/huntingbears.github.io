@@ -11,7 +11,7 @@ tags:
 - Radiohead
 - supercollider
 - the butcher
-image: http://huntingbears.com.ve/static/img/posts/585/supercollider-y-the-butcher-dos-nuevas-canciones-de-radiohead__1.jpg
+image: /static/img/posts/585/supercollider-y-the-butcher-dos-nuevas-canciones-de-radiohead__1.jpg
 description: Super Collider y The Butcher son dos nuevas canciones de Radiohead.
 ---
 

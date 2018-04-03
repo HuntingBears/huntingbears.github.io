@@ -13,7 +13,7 @@ tags:
 - chroot
 - debootstrap
 - jaula
-image: http://huntingbears.com.ve/static/img/posts/4082/usando-jaulas-interoperables-como-alternativa-a-la-virtualizacion-por-hardware__1.jpg
+image: /static/img/posts/4082/usando-jaulas-interoperables-como-alternativa-a-la-virtualizacion-por-hardware__1.jpg
 description: Hacer jaulas interoperables permite aislar las operaciones de desarrollo y pruebas de tu ambiente para uso personal.
 ---
 

@@ -12,7 +12,7 @@ tags:
 - humor
 - maria corina machado
 - plastica
-image: http://huntingbears.com.ve/static/img/posts/1587/lo-que-usted-no-sabia-acerca-de-maria-corina-machado__8.jpg
+image: /static/img/posts/1587/lo-que-usted-no-sabia-acerca-de-maria-corina-machado__8.jpg
 description: Maria Corina Machado es un personaje particular. Acá la analizamos.
 ---
 

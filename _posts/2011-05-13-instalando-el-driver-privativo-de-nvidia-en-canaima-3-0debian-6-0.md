@@ -13,7 +13,7 @@ tags:
 - howto
 - instalar
 - nvidia driver
-image: http://huntingbears.com.ve/static/img/posts/1113/instalando-el-driver-privativo-de-nvidia-en-canaima-3-0debian-6-0__1.jpg
+image: /static/img/posts/1113/instalando-el-driver-privativo-de-nvidia-en-canaima-3-0debian-6-0__1.jpg
 description: Si el driver libre de nVidia no le da soporte a tu targeta gráfica, lamentablemente tendrás que utilizar el privativo.
 ---
 

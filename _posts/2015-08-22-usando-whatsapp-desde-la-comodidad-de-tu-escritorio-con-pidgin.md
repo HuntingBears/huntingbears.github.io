@@ -4,7 +4,7 @@ author: martinezfaneyth
 categories: [Software Libre, Aplicaciones]
 date: 2015-08-22 21:48:07-0430
 description: Podemos utilizar WhatsApp a través de pidgin utilizando un plugin de código abierto. Aquí te explicamos.
-image: http://huntingbears.com.ve/static/img/posts/4329/usando-whatsapp-desde-la-comodidad-de-tu-escritorio-con-pidgin__1.jpg
+image: /static/img/posts/4329/usando-whatsapp-desde-la-comodidad-de-tu-escritorio-con-pidgin__1.jpg
 layout: post
 slug: usando-whatsapp-desde-la-comodidad-de-tu-escritorio-con-pidgin
 tags: [mensajería, im, pidgin]

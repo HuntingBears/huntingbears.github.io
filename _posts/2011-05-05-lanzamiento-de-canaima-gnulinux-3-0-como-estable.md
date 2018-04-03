@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - estable
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__1.jpg
+image: /static/img/posts/987/lanzamiento-de-canaima-gnulinux-3-0-como-estable__1.jpg
 description: Canaima GNU/Linux 3.0 fué lanzado en la Torre el Chorro este 5 de Mayo
 ---
 

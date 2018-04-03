@@ -13,7 +13,7 @@ tags:
 - interpelacion
 - ricardo menendez
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/563/si-la-pregunta-de-william-davila-hubiese-estado-bien-hecha__1.jpg
+image: /static/img/posts/563/si-la-pregunta-de-william-davila-hubiese-estado-bien-hecha__1.jpg
 description: El Diputado William Dávila cuestiona sobre el Decreto 3390 al Ministro Ricardo Menéndez.
 ---
 

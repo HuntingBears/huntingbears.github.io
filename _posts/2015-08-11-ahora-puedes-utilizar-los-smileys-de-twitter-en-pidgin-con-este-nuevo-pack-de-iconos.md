@@ -4,7 +4,7 @@ author: martinezfaneyth
 categories: [Minipost, Software Libre, Tips]
 date: 2015-08-11 20:07:45-0430
 description: Un colorido y moderno pack de íconos hechos por twitter y adaptados para pidgin.
-image: http://huntingbears.com.ve/static/img/posts/4313/ahora-puedes-utilizar-los-smileys-de-twitter-en-pidgin-con-este-nuevo-pack-de-iconos__1.jpg
+image: /static/img/posts/4313/ahora-puedes-utilizar-los-smileys-de-twitter-en-pidgin-con-este-nuevo-pack-de-iconos__1.jpg
 layout: post
 slug: ahora-puedes-utilizar-los-smileys-de-twitter-en-pidgin-con-este-nuevo-pack-de-iconos
 tags: [twitter, smileys, redes sociales]

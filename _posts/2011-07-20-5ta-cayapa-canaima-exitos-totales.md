@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - cayapa canaima
 - cumana
-image: http://huntingbears.com.ve/static/img/posts/1733/5ta-cayapa-canaima-exitos-totales__1.jpg
+image: /static/img/posts/1733/5ta-cayapa-canaima-exitos-totales__1.jpg
 description: La 5ta Cayapa Canaima se celebró en Cumaná con una participación masiva de la comunidad.
 ---
 

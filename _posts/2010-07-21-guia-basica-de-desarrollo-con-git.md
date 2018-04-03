@@ -12,7 +12,7 @@ tags:
 - desarrollo
 - git
 - versionamiento
-image: http://huntingbears.com.ve/static/img/posts/196/guia-basica-de-desarrollo-con-git__1.jpg
+image: /static/img/posts/196/guia-basica-de-desarrollo-con-git__1.jpg
 description: Git es un sistema de versionamiento distribuído utilizado en el desarrollo del Kernel Linux.
 ---
 

@@ -13,7 +13,7 @@ tags:
 - quemar iso en USB
 - Software Libre
 - tips
-image: http://huntingbears.com.ve/static/img/posts/1822/tip-como-quemar-una-imagen-iso-en-un-pendrive__1.jpg
+image: /static/img/posts/1822/tip-como-quemar-una-imagen-iso-en-un-pendrive__1.jpg
 description: Una imagen ISO puede ser grabada en un dispositivo óptico (CD, DVD) o un pendrive.
 ---
 

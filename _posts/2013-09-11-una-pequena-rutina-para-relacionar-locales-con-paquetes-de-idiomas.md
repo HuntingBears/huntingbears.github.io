@@ -13,7 +13,7 @@ tags:
 - i18n
 - internationalization
 - locales
-image: http://huntingbears.com.ve/static/img/posts/4088/una-pequena-rutina-para-relacionar-locales-con-paquetes-de-idiomas__1.jpg
+image: /static/img/posts/4088/una-pequena-rutina-para-relacionar-locales-con-paquetes-de-idiomas__1.jpg
 description: La idea de este script es generar una base de datos que asocie los códigos de locales con los paquetes de traducciones.
 ---
 

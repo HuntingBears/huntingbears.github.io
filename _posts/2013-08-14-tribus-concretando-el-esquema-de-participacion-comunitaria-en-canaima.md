@@ -13,7 +13,7 @@ tags:
 - colaborativo
 - comunidad
 - tribus
-image: http://huntingbears.com.ve/static/img/posts/2859/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima__1.jpg
+image: /static/img/posts/2859/tribus-concretando-el-esquema-de-participacion-comunitaria-en-canaima__1.jpg
 description: Tribus es un intento para automatizar las actividades de una Comunidad de Software Libre.
 ---
 

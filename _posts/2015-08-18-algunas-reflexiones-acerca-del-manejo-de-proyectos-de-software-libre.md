@@ -5,7 +5,7 @@ categories: [Software Libre, Desarrollo, Reflexión]
 date: 2015-08-18 10:28:19-0430
 description: A veces no queda tan claro como debe gestionarse la colaboración en los
   proyectos de Software Libre. Acá trato de explicarlo.
-image: http://huntingbears.com.ve/static/img/posts/4325/algunas-reflexiones-acerca-del-manejo-de-proyectos-de-software-libre__1.jpg
+image: /static/img/posts/4325/algunas-reflexiones-acerca-del-manejo-de-proyectos-de-software-libre__1.jpg
 layout: post
 slug: algunas-reflexiones-acerca-del-manejo-de-proyectos-de-software-libre
 tags: [colaborativo, proyectos, software libre]

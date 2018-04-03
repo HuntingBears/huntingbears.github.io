@@ -5,7 +5,7 @@ categories: [Software Libre, Desarrollo, Canaima]
 date: 2016-02-05 22:55:54-0430
 description: Tribus GNU/Linux es un intento por rescatar el histórico perdido del
   Proyecto Canaima.
-image: http://huntingbears.com.ve/static/img/posts/4330/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux__1.jpg
+image: /static/img/posts/4330/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux__1.jpg
 layout: post
 slug: rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux
 tags: [tribus, proyecto, canaima]

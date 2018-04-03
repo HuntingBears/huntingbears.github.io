@@ -11,7 +11,7 @@ tags:
 - congelado
 - debian
 - squeeze
-image: http://huntingbears.com.ve/static/img/posts/231/debian-squeeze-congelado-para-ser-pasado-a-estable__1.jpg
+image: /static/img/posts/231/debian-squeeze-congelado-para-ser-pasado-a-estable__1.jpg
 description: Debian 6.0 (squeeze) ha congelado todas sus nuevas funcionalidades para la versión estable.
 ---
 

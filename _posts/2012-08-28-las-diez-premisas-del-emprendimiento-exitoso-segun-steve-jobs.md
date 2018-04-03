@@ -12,7 +12,7 @@ tags:
 - emprendedor
 - mandamientos
 - steve jobs
-image: http://huntingbears.com.ve/static/img/posts/2217/las-diez-premisas-del-emprendimiento-exitoso-segun-steve-jobs__1.jpg
+image: /static/img/posts/2217/las-diez-premisas-del-emprendimiento-exitoso-segun-steve-jobs__1.jpg
 description: Steve Jobs nos devela sus secretos de emprendedor.
 ---
 

@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - nintendo wii
 - zelda twilight princess
-image: http://huntingbears.com.ve/static/img/posts/1586/emulando-el-nintendo-wii-en-canaima-3-0debian-6-0__1.jpg
+image: /static/img/posts/1586/emulando-el-nintendo-wii-en-canaima-3-0debian-6-0__1.jpg
 description: El emulador Dolphin permite emular Nintendo Wii y Gamecube en un sistema operativo basado en Debian.
 ---
 

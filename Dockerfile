@@ -4,24 +4,20 @@ MAINTAINER Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>
 RUN apt-get update && \
     apt-get install sudo ruby ruby-dev build-essential zlib1g-dev
 
-RUN gem install bundler
+RUN gem install github-pages
 
-RUN useradd --create-home --shell /bin/bash --uid 1000 travis
+RUN useradd --create-home --shell /bin/bash --uid 1000 huntingbears
 
-RUN echo "travis ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/travis
+RUN echo "huntingbears ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/huntingbears
 
-ADD requirements.txt Gemfile /home/travis/app/
+ADD requirements.txt /home/huntingbears/
 
-RUN pip install -r /home/travis/app/requirements.txt
-
-RUN bundle install --gemfile /home/travis/app/Gemfile
+RUN pip install -r /home/huntingbears/requirements.txt
 
 RUN apt-get purge ruby-dev build-essential zlib1g-dev && apt-get autoremove
 
-RUN rm /home/travis/app/requirements.txt /home/travis/app/Gemfile
+RUN rm /home/huntingbears/requirements.txt
 
-RUN chown -R travis:travis /home/travis/app
+USER huntingbears
 
-USER travis
-
-WORKDIR /home/travis/app
+WORKDIR /home/huntingbears

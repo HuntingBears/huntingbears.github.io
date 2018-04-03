@@ -49,12 +49,6 @@ for h, i in enumerate(JSON_CONTENT.keys()):
     GOOGLE_COUNT = [{}]
     JSON_ITEM['comment_count'] = 0
     JSON_ITEM['share_count'] = 0
-    JSON_ITEM['title'] = utfize(JSON_CONTENT[i]['title'])
-    JSON_ITEM['description'] = utfize(JSON_CONTENT[i]['description'])
-    JSON_ITEM['keywords'] = utfize(JSON_CONTENT[i]['keywords'])
-    JSON_ITEM['image'] = utfize(JSON_CONTENT[i]['image'])
-    JSON_ITEM['date'] = utfize(JSON_CONTENT[i]['date'])
-    JSON_ITEM['url'] = utfize(JSON_CONTENT[i]['url'])
 
     DISQUS_COUNT_REQUEST = Request(
         url='%s?%s' % (DISQUS_API_END,
@@ -63,15 +57,17 @@ for h, i in enumerate(JSON_CONTENT.keys()):
                                   'thread:ident': i}, doseq=True)))
 
     FACEBOOK_COUNT_REQUEST = Request(
-        url='%s?%s' % (FACEBOOK_API_END, urlencode({'id': JSON_ITEM['url']})))
+        url='%s?%s' % (FACEBOOK_API_END,
+                       urlencode({'id': JSON_CONTENT[i]['url']})))
 
     TWITTER_COUNT_REQUEST = Request(
-        url='%s?%s' % (TWITTER_API_END, urlencode({'q': JSON_ITEM['url']})),
+        url='%s?%s' % (TWITTER_API_END,
+                       urlencode({'q': JSON_CONTENT[i]['url']})),
         headers={
             'Authorization': get_twitter_oauth_header(
                 method='GET',
                 url=TWITTER_API_END,
-                params={'q': JSON_ITEM['url']},
+                params={'q': JSON_CONTENT[i]['url']},
                 consumer_key=TWITTER_CONSUMER_KEY,
                 consumer_secret=TWITTER_CONSUMER_SECRET,
                 token=TWITTER_OAUTH_TOKEN,
@@ -86,7 +82,7 @@ for h, i in enumerate(JSON_CONTENT.keys()):
             'id': 'p',
             'params': {
                 'nolog': True,
-                'id': JSON_ITEM['url'],
+                'id': JSON_CONTENT[i]['url'],
                 'source': 'widget',
                 'userId': '@viewer',
                 'groupId': '@self'
@@ -131,9 +127,10 @@ for h, i in enumerate(JSON_CONTENT.keys()):
 
     INDEX_OBJECT[utfize(i)] = JSON_ITEM
 
-    print(JSON_ITEM['url'])
+    print(JSON_CONTENT[i]['url'])
 
-f = open(os.path.join(BASEDIR, '_includes', 'js', 'full', 'index.js'), 'w')
-f.write('var posts_index = ' + json.dumps(INDEX_OBJECT, separators=(',', ': '),
-                                          sort_keys=True, indent=4) + ';')
+f = open(os.path.join(BASEDIR, '_includes', 'js', 'full', 'social.js'), 'w')
+f.write('var social_index = ' + json.dumps(INDEX_OBJECT,
+                                           separators=(',', ': '),
+                                           sort_keys=True, indent=4) + ';')
 f.close()

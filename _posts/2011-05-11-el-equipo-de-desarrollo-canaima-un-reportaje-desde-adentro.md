@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - canaima3
 - lanzamiento
-image: http://huntingbears.com.ve/static/img/posts/1050/el-equipo-de-desarrollo-canaima-un-reportaje-desde-adentro__1.jpg
+image: /static/img/posts/1050/el-equipo-de-desarrollo-canaima-un-reportaje-desde-adentro__1.jpg
 description: Un reportaje acerca del equipo de desarrollo de Canaima GNU/Linux.
 ---
 

@@ -12,7 +12,7 @@ tags:
 - desarrollo
 - software
 - tipos de programador
-image: http://huntingbears.com.ve/static/img/posts/1880/los-cuatro-tipos-de-programador__1.jpg
+image: /static/img/posts/1880/los-cuatro-tipos-de-programador__1.jpg
 description: ¿Tienes idea de que tipo de programador eres?
 ---
 

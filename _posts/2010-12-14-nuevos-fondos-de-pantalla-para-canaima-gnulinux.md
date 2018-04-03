@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - svg
 - wallpapers
-image: http://huntingbears.com.ve/static/img/posts/488/nuevos-fondos-de-pantalla-para-canaima-gnulinux__1.jpg
+image: /static/img/posts/488/nuevos-fondos-de-pantalla-para-canaima-gnulinux__1.jpg
 description: Presento algunos fondos de pantalla para Canaima de mi autoría.
 ---
 

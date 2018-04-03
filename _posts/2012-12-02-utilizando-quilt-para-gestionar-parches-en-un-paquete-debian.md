@@ -14,7 +14,7 @@ tags:
 - debian
 - parches
 - quilt
-image: http://huntingbears.com.ve/static/img/posts/2138/utilizando-quilt-para-gestionar-parches-en-un-paquete-debian__1.jpg
+image: /static/img/posts/2138/utilizando-quilt-para-gestionar-parches-en-un-paquete-debian__1.jpg
 description: Quilt es una herramienta para generar parches de código en los programas.
 ---
 

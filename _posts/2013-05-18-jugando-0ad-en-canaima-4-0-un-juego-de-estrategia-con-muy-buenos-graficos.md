@@ -13,7 +13,7 @@ tags:
 - 0AD
 - canaima4
 - juegos
-image: http://huntingbears.com.ve/static/img/posts/4086/jugando-0ad-en-canaima-4-0-un-juego-de-estrategia-con-muy-buenos-graficos__1.jpg
+image: /static/img/posts/4086/jugando-0ad-en-canaima-4-0-un-juego-de-estrategia-con-muy-buenos-graficos__1.jpg
 description: 0AD es un juego multijugador de estrategia de muy buenos gráficos y que funciona perfectamente en Canaima 4.0.
 ---
 

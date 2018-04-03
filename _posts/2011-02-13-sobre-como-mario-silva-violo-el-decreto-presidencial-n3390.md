@@ -13,7 +13,7 @@ tags:
 - la hojilla
 - mario silva
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/687/sobre-como-mario-silva-violo-el-decreto-presidencial-n3390__1.jpg
+image: /static/img/posts/687/sobre-como-mario-silva-violo-el-decreto-presidencial-n3390__1.jpg
 description: Mario Silva recomienda usar Microsoft Windows en televisión pública.
 ---
 

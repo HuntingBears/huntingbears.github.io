@@ -7,7 +7,7 @@ categories:
 - Python
 date: 2015-08-14 21:04:55-0430
 description: ''
-image: http://huntingbears.com.ve/static/img/posts/2727/operaciones-de-lectura-y-escritura-de-particiones-con-python-parted__1.jpg
+image: /static/img/posts/2727/operaciones-de-lectura-y-escritura-de-particiones-con-python-parted__1.jpg
 layout: post
 slug: read-and-write-operations-with-disk-partitions-using-python-parted
 tags:

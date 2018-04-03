@@ -13,7 +13,7 @@ tags:
 - lost
 - Radiohead
 - Video
-image: http://huntingbears.com.ve/static/img/posts/263/minipost-para-los-fans-de-radiohead-y-lost__1.jpg
+image: /static/img/posts/263/minipost-para-los-fans-de-radiohead-y-lost__1.jpg
 description: Un video para los fans de Radiohead y LOST.
 ---
 

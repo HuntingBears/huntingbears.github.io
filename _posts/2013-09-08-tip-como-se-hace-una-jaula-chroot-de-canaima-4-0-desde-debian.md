@@ -13,7 +13,7 @@ tags:
 - Canaima
 - chroot
 - debootstrap
-image: http://huntingbears.com.ve/static/img/posts/4194/tip-como-se-hace-una-jaula-chroot-de-canaima-4-0-desde-debian__1.jpg
+image: /static/img/posts/4194/tip-como-se-hace-una-jaula-chroot-de-canaima-4-0-desde-debian__1.jpg
 description: Hacer una jaula te permitirá trabajar con Canaima 4.0 incluso desde otro Sistema Operativo de otra versión.
 ---
 

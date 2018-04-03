@@ -11,7 +11,7 @@ tags:
 - opinión
 - querer
 - reflexión
-image: http://huntingbears.com.ve/static/img/posts/374/la-desesperacion-de-querer__1.jpg
+image: /static/img/posts/374/la-desesperacion-de-querer__1.jpg
 description: Esto es un artículo de reflexión acerca de las cosas que uno quiere en la vida.
 ---
 

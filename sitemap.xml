@@ -1,17 +1,23 @@
 ---
-layout: null
 ---
+{%- if site.develop -%}
+    {%- capture site_url -%}
+    file://{{- site.destination -}}
+    {%- endcapture -%}
+{%- else -%}
+    {%- assign site_url = site.url -%}
+{%- endif -%}
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>{{ site.url }}</loc>
+        <loc>{{ site_url }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <changefreq>daily</changefreq>
+        <changefreq>hourly</changefreq>
         <priority>1.0</priority>
     </url>
     {% for post in site.posts %}
     <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
+        <loc>{{ site_url }}{{ post.url }}</loc>
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

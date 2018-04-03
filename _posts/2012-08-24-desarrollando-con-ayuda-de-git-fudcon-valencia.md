@@ -13,7 +13,7 @@ tags:
 - fedora
 - fudcon
 - presentación
-image: http://huntingbears.com.ve/static/img/posts/2640/desarrollando-con-ayuda-de-git-fudcon-valencia__1.jpg
+image: /static/img/posts/2640/desarrollando-con-ayuda-de-git-fudcon-valencia__1.jpg
 description: Presentación acerca de como desarrollar con ayuda de git en Fedora.
 ---
 

@@ -12,7 +12,7 @@ tags:
 - empaquetar
 - kernel vainilla
 - make-kpkg
-image: http://huntingbears.com.ve/static/img/posts/371/empaquetando-un-kernel-vainilla-para-canaima-debian-o-ubuntu__1.jpg
+image: /static/img/posts/371/empaquetando-un-kernel-vainilla-para-canaima-debian-o-ubuntu__1.jpg
 description: El kernel Linux es el principal componente del sistema operativo. Aprende a generar uno actualizado para tu distribución con este artículo.
 ---
 

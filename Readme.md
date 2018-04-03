@@ -1,7 +1,3 @@
----
-layout: null
----
-
 huntingbears.github.io
 =======================
 
@@ -26,3 +22,9 @@ huntingbears.github.io
 3. When your post is ready, publish it.
 
     make publish DRAFT="path/to/draft.md"
+
+TODO
+====
+
+- Implement jekyll-feed
+- Implement jekyll-sitemaps

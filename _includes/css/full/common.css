@@ -53,7 +53,7 @@
     width: 40px;
     height: 30px;
     margin: 20px auto;
-    background-image: url('http://{{ site.url }}/static/img/site/sprite.svg');
+    background-image: url('{{ static_url }}/static/img/site/sprite.svg');
     background-repeat: no-repeat;
 }
 
@@ -132,7 +132,7 @@
     display: block;
     width: 140px;
     margin: 0 auto;
-    background-image: url('http://{{ site.url }}/static/img/site/sprite.svg');
+    background-image: url('{{ static_url }}/static/img/site/sprite.svg');
     background-repeat: no-repeat;
 }
 

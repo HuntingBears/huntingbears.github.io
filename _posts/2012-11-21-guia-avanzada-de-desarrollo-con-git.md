@@ -14,7 +14,7 @@ tags:
 - código
 - compartir
 - desarrollo con git
-image: http://huntingbears.com.ve/static/img/posts/1881/guia-avanzada-de-desarrollo-con-git__1.jpg
+image: /static/img/posts/1881/guia-avanzada-de-desarrollo-con-git__1.jpg
 description: Git es un sistema de versionamiento distribuído utilizado en el desarrollo del Kernel Linux.
 ---
 

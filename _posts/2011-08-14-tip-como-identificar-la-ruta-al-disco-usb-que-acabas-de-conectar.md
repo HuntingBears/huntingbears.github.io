@@ -13,7 +13,7 @@ tags:
 - disco usb
 - Software Libre
 - tips
-image: http://huntingbears.com.ve/static/img/posts/1823/tip-como-identificar-la-ruta-al-disco-usb-que-acabas-de-conectar__1.jpg
+image: /static/img/posts/1823/tip-como-identificar-la-ruta-al-disco-usb-que-acabas-de-conectar__1.jpg
 description: Acá te enseñamos como identificar la ruta en el sistema de un Disco USB.
 ---
 

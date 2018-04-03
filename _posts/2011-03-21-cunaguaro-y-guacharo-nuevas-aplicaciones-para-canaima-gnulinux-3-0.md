@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - cunaguaro
 - guacharo
-image: http://huntingbears.com.ve/static/img/posts/912/cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0__1.jpg
+image: /static/img/posts/912/cunaguaro-y-guacharo-nuevas-aplicaciones-para-canaima-gnulinux-3-0__1.jpg
 description: Cunaguaro y Guácharo son el nuevo navegador web y cliente de correo de Canaima 3.0
 ---
 

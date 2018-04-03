@@ -13,7 +13,7 @@ tags:
 - canaima 3.0
 - canaima gnu linux
 - desarrollo
-image: http://huntingbears.com.ve/static/img/posts/396/como-instalar-la-version-en-desarrollo-de-canaima-gnulinux-3-0__1.jpg
+image: /static/img/posts/396/como-instalar-la-version-en-desarrollo-de-canaima-gnulinux-3-0__1.jpg
 description: La versión en desarrollo de Canaima 3.0 puede instalarse fácilmente.
 ---
 

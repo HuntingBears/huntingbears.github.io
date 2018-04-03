@@ -13,7 +13,7 @@ tags:
 - dancing thom
 - lotus flower
 - thom yorke
-image: http://huntingbears.com.ve/static/img/posts/711/dancing-thom-la-revolucion-en-internet-del-video-lotus-flower__1.jpg
+image: /static/img/posts/711/dancing-thom-la-revolucion-en-internet-del-video-lotus-flower__1.jpg
 description: Lotus Flower se ha convertido en un meme de internet que ha revolucionado las redes sociales.
 ---
 

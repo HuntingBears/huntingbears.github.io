@@ -13,7 +13,7 @@ tags:
 - canaima 3.1
 - lanzamiento
 - merida
-image: http://huntingbears.com.ve/static/img/posts/2190/canaima-popular-3-1-conocimiento-libre-para-todos__1.jpg
+image: /static/img/posts/2190/canaima-popular-3-1-conocimiento-libre-para-todos__1.jpg
 description: Canaima Popular 3.1 es la nueva versión de Canaima que trae varias novedades.
 ---
 

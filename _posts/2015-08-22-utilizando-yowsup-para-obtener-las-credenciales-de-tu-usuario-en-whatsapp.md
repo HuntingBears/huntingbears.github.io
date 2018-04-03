@@ -6,7 +6,7 @@ date: 2015-08-22 21:22:45-0430
 description: Para algunas actividades particulares, a veces es necesario husmear un
   poco en la base de datos de WhatsApp para obtener los datos de acceso de nuestro
   usuario en la plataforma. Aquí te mostramos como.
-image: http://huntingbears.com.ve/static/img/posts/4328/utilizando-yowsup-para-obtener-las-credenciales-de-tu-usuario-en-whatsapp__1.jpg
+image: /static/img/posts/4328/utilizando-yowsup-para-obtener-las-credenciales-de-tu-usuario-en-whatsapp__1.jpg
 layout: post
 slug: utilizando-yowsup-para-obtener-las-credenciales-de-tu-usuario-en-whatsapp
 tags: [whatsapp, yowsup, pidgin]

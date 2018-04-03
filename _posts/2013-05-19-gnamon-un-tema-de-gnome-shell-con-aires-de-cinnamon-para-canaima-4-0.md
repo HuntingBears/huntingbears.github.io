@@ -13,7 +13,7 @@ tags:
 - cinnamon
 - gnamon
 - gnome shell
-image: http://huntingbears.com.ve/static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__1.jpg
+image: /static/img/posts/4103/gnamon-un-tema-de-gnome-shell-con-aires-de-cinnamon-para-canaima-4-0__1.jpg
 description: Gnamon es un conjunto de temas y extensiones para Gnome Shell.
 ---
 

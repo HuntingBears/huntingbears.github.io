@@ -17,7 +17,7 @@ image:
 
 console:
 
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
+	@docker run --rm -it -u huntingbears -w $(BASEDIR) -v $(BASEDIR):$(BASEDIR) \
 		luisalejandro/huntingbears.com.ve:latest bash
 
 # This command searches for image files inside the local _posts folder
@@ -29,7 +29,7 @@ console:
 
 import:
 
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
+	@docker run --rm -it -u huntingbears -w $(BASEDIR) -v $(BASEDIR):$(BASEDIR) \
 		luisalejandro/huntingbears.com.ve:latest python scripts/import.py
 
 
@@ -38,10 +38,10 @@ import:
 # for comments count.
 # It must be executed every time a new post is published
 
-index:
+social:
 
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
-		luisalejandro/huntingbears.com.ve:latest python scripts/index.py
+	@docker run --rm -it -u huntingbears -w $(BASEDIR) -v $(BASEDIR):$(BASEDIR) \
+		luisalejandro/huntingbears.com.ve:latest python scripts/social.py
 
 
 # This command compresses assets files
@@ -49,7 +49,7 @@ index:
 
 compress:
 
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
+	@docker run --rm -it -u huntingbears -w $(BASEDIR) -v $(BASEDIR):$(BASEDIR) \
 		luisalejandro/huntingbears.com.ve:latest python scripts/compress.py
 
 # This command explores all posts inside the _posts folder and creates
@@ -57,22 +57,24 @@ compress:
 
 categorize:
 
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
+	@docker run --rm -it -u huntingbears -w $(BASEDIR) -v $(BASEDIR):$(BASEDIR) \
 		luisalejandro/huntingbears.com.ve:latest python scripts/categorize.py
 
 
 # This command groups all other commands that updates all assets
 
-process: clean import index compress categorize
+# process: clean import compress categorize
+process: clean compress
+travis: clean import social compress categorize
 
 
 # This command generates the last 12 posts with jekyll
 
-generate: clean compress
+generate: process
 
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
+	@docker run --rm -it -u huntingbears -w $(BASEDIR) -v $(BASEDIR):$(BASEDIR) \
 		luisalejandro/huntingbears.com.ve:latest \
-		bundler exec jekyll build --limit_posts 20 --watch
+		jekyll build --limit_posts 20 --watch
 
 
 # This command generates a new draft
@@ -81,7 +83,7 @@ generate: clean compress
 
 draft:
 
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
+	@docker run --rm -it -u huntingbears -w $(BASEDIR) -v $(BASEDIR):$(BASEDIR) \
 		luisalejandro/huntingbears.com.ve:latest python scripts/draft.py "$(TITLE)"
 
 
@@ -89,18 +91,11 @@ draft:
 # Must be executed like this:
 # make publish DRAFT="[DRAFT]"
 
-publish: clean
+publish:
 
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
+	@docker run --rm -it -u huntingbears -w $(BASEDIR) -v $(BASEDIR):$(BASEDIR) \
 		luisalejandro/huntingbears.com.ve:latest python scripts/publish.py "$(DRAFT)"
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
-		luisalejandro/huntingbears.com.ve:latest python scripts/import.py
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
-		luisalejandro/huntingbears.com.ve:latest python scripts/index.py
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
-		luisalejandro/huntingbears.com.ve:latest python scripts/compress.py
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
-		luisalejandro/huntingbears.com.ve:latest python scripts/categorize.py
+	@make process
 
 
 # This command deletes all assets
@@ -114,7 +109,7 @@ clean:
 
 test:
 
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
+	@docker run --rm -it -u huntingbears -w $(BASEDIR) -v $(BASEDIR):$(BASEDIR) \
 		luisalejandro/huntingbears.com.ve:latest python scripts/test_links.py
-	@docker run --rm -it -v $(BASEDIR):/home/travis/app \
+	@docker run --rm -it -u huntingbears -w $(BASEDIR) -v $(BASEDIR):$(BASEDIR) \
 		luisalejandro/huntingbears.com.ve:latest python scripts/test_images.py

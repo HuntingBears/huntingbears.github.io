@@ -13,7 +13,7 @@ tags:
 - alba ciudad
 - Canaima
 - entrevista
-image: http://huntingbears.com.ve/static/img/posts/2774/entrevista-con-motivo-del-nuevo-instalador-de-canaima-en-alba-ciudad-96-3fm__1.jpg
+image: /static/img/posts/2774/entrevista-con-motivo-del-nuevo-instalador-de-canaima-en-alba-ciudad-96-3fm__1.jpg
 description: Luigino Bracci entrevista a Luis Martínez en Alba Ciudad 96.3FM acerca del nuevo instalador de Canaima.
 ---
 

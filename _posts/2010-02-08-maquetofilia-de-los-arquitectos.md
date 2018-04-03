@@ -11,7 +11,7 @@ tags:
 - arquitectura
 - fau
 - ucv
-image: http://huntingbears.com.ve/static/img/posts/19/maquetofilia-de-los-arquitectos__2.jpg
+image: /static/img/posts/19/maquetofilia-de-los-arquitectos__2.jpg
 description: Los Arquitectos tienen una obsesión con las maquetas.
 ---
 

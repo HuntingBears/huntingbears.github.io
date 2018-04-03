@@ -12,7 +12,7 @@ tags:
 - desarrollo
 - empaquetamiento
 - git-buidpackage
-image: http://huntingbears.com.ve/static/img/posts/261/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu__1.jpg
+image: /static/img/posts/261/guia-de-empaquetamiento-con-git-buildpackage-para-canaima-debian-o-ubuntu__1.jpg
 description: Con esta guía podrás entender los elementos básicos para producir paquetes compatibles con Canaima, Debian o Ubuntu.
 ---
 

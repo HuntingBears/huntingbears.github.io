@@ -13,7 +13,7 @@ tags:
 - radiohead venezuela
 - radioheadvzla
 - venezuelawantsradiohead
-image: http://huntingbears.com.ve/static/img/posts/1898/este-jueves-290911-usa-el-hashtag-venezuelawantsradiohead-en-twitter__1.jpg
+image: /static/img/posts/1898/este-jueves-290911-usa-el-hashtag-venezuelawantsradiohead-en-twitter__1.jpg
 description: Ayúdanos a promocionar un concierto de Radiohead en Venezuela.
 ---
 

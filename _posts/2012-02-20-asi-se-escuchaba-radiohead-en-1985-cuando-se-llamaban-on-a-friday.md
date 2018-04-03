@@ -12,7 +12,7 @@ tags:
 - demos
 - on a friday
 - Radiohead
-image: http://huntingbears.com.ve/static/img/posts/2040/asi-se-escuchaba-radiohead-en-1985-cuando-se-llamaban-on-a-friday__1.jpg
+image: /static/img/posts/2040/asi-se-escuchaba-radiohead-en-1985-cuando-se-llamaban-on-a-friday__1.jpg
 description: Presentamos algunos "demo" que Radiohead (On a Friday) grabó en el año 1985.
 ---
 

@@ -11,7 +11,7 @@ tags:
 - desarrollo
 - Radiohead
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/14/blog-hunting-bears-un-espacio-para-la-tecnologia-y-el-software-libre__1.jpg
+image: /static/img/posts/14/blog-hunting-bears-un-espacio-para-la-tecnologia-y-el-software-libre__1.jpg
 description: Blog Hunting Bears es un espacio para la tecnología y el software libre.
 ---
 

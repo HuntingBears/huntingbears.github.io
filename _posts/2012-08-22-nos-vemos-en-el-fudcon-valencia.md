@@ -13,7 +13,7 @@ tags:
 - fedora
 - fudcon
 - git
-image: http://huntingbears.com.ve/static/img/posts/2679/nos-vemos-en-el-fudcon-valencia__1.jpg
+image: /static/img/posts/2679/nos-vemos-en-el-fudcon-valencia__1.jpg
 description: El FUDCon Valencia es del 23 al 25 de Agosto en la Universidad José Antonio Páez.
 ---
 

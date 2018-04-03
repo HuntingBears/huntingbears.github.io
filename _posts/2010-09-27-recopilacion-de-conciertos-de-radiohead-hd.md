@@ -12,7 +12,7 @@ tags:
 - high definition
 - Radiohead
 - Video
-image: http://huntingbears.com.ve/static/img/posts/243/recopilacion-de-conciertos-de-radiohead-hd__1.jpg
+image: /static/img/posts/243/recopilacion-de-conciertos-de-radiohead-hd__1.jpg
 description: Esta es una recopilación de conciertos de Radiohead en alta definición.
 ---
 

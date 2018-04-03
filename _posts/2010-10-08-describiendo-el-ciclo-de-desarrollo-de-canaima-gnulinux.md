@@ -12,7 +12,7 @@ tags:
 - Canaima
 - ciclo
 - desarrollo
-image: http://huntingbears.com.ve/static/img/posts/301/describiendo-el-ciclo-de-desarrollo-de-canaima-gnulinux__1.jpg
+image: /static/img/posts/301/describiendo-el-ciclo-de-desarrollo-de-canaima-gnulinux__1.jpg
 description: El ciclo de desarrollo de Canaima GNU/Linux permite definir un flujo de trabajo para los integrantes del proyecto.
 ---
 

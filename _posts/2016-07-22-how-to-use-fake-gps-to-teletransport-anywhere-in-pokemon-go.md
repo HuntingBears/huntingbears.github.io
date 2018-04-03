@@ -5,7 +5,7 @@ categories: [Android, Development, Games]
 date: 2016-07-22 23:56:51-0430
 description: You can use Fake GPS to be anywhere, anytime and use a false location
   on Pokemon Go.
-image: http://huntingbears.com.ve/static/img/posts/4354/how-to-use-fake-gps-to-teletransport-anywhere-in-pokemon-go__1.jpg
+image: /static/img/posts/4354/how-to-use-fake-gps-to-teletransport-anywhere-in-pokemon-go__1.jpg
 layout: post
 slug: how-to-use-fake-gps-to-teletransport-anywhere-in-pokemon-go
 tags: [fake gps, pokemon go, cheat]

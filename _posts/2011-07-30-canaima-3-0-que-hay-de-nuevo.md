@@ -12,7 +12,7 @@ tags:
 - canaima gnu linux
 - cnsl flisol
 - ponencia
-image: http://huntingbears.com.ve/static/img/posts/1607/canaima-3-0-que-hay-de-nuevo__1.jpg
+image: /static/img/posts/1607/canaima-3-0-que-hay-de-nuevo__1.jpg
 description: Una presentación sobre las novedades de Canaima GNU/Linux 3.0.
 ---
 

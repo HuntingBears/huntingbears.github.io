@@ -13,7 +13,7 @@ tags:
 - canaima desarrollador
 - empaquetar
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/676/canaima-desarrollador-herramienta-para-el-desarrollo-y-empaquetamiento-de-software-libre__1.jpg
+image: /static/img/posts/676/canaima-desarrollador-herramienta-para-el-desarrollo-y-empaquetamiento-de-software-libre__1.jpg
 description: Canaima Desarrollador es un asistente de empaquetamiento y desarrollo.
 ---
 

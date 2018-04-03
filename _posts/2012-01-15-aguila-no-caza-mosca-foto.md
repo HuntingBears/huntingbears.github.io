@@ -12,7 +12,7 @@ tags:
 - aguila no caza mosca
 - chavez asamblea
 - maria corina machado
-image: http://huntingbears.com.ve/static/img/posts/2091/aguila-no-caza-mosca-foto__1.jpg
+image: /static/img/posts/2091/aguila-no-caza-mosca-foto__1.jpg
 description: El presidente Chávez le estampa un Águila no caza mosca a Maria Corina Machado y nosotros capturamos su cara.
 ---
 

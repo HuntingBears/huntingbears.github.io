@@ -11,7 +11,7 @@ tags:
 - autoayuda
 - encontrarse
 - reflexión
-image: http://huntingbears.com.ve/static/img/posts/485/encuentrate-a-ti-mismo__1.jpg
+image: /static/img/posts/485/encuentrate-a-ti-mismo__1.jpg
 description: Esta es una reflexión acerca del rumbo que tomamos en nuestras vidas.
 ---
 

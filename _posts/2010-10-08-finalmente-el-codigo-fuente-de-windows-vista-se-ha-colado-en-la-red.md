@@ -12,7 +12,7 @@ tags:
 - código fuente
 - publicado
 - windows vista
-image: http://huntingbears.com.ve/static/img/posts/310/finalmente-el-codigo-fuente-de-windows-vista-se-ha-colado-en-la-red__1.jpg
+image: /static/img/posts/310/finalmente-el-codigo-fuente-de-windows-vista-se-ha-colado-en-la-red__1.jpg
 description: Finalmente, el código fuente de Windows Vista se ha colado en la red.
 ---
 

@@ -4,7 +4,7 @@ author: martinezfaneyth
 categories: [Free Software]
 date: 2015-08-12 23:12:14-0430
 description: A colorful and modern icon pack made by twitter and adapted for pidgin.
-image: http://huntingbears.com.ve/static/img/posts/4315/now-you-can-use-twitter-smileys-in-pidgin-thanks-to-this-new-pack-of-icons__1.jpg
+image: /static/img/posts/4315/now-you-can-use-twitter-smileys-in-pidgin-thanks-to-this-new-pack-of-icons__1.jpg
 layout: post
 slug: now-you-can-use-twitter-smileys-in-pidgin-thanks-to-this-new-pack-of-icons
 tags: [free software]

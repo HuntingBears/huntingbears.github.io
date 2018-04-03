@@ -14,7 +14,7 @@ tags:
 - Canaima
 - debconf
 - debian
-image: http://huntingbears.com.ve/static/img/posts/2254/debconf12-una-experiencia-unica-en-managua-nicaragua__9.jpg
+image: /static/img/posts/2254/debconf12-una-experiencia-unica-en-managua-nicaragua__9.jpg
 description: La 12va Conferencia de Desarrolladores de Debian se realizó en Nicaragua.
 ---
 

@@ -12,7 +12,7 @@ tags:
 - asamblea nacional
 - ignorancia
 - ley resorte
-image: http://huntingbears.com.ve/static/img/posts/505/la-ignorancia-de-algunos-diputados-venezolanos__1.jpg
+image: /static/img/posts/505/la-ignorancia-de-algunos-diputados-venezolanos__1.jpg
 description: Es una pena que los diputados de la Asamblea Nacional de Venezuela sepan tan poco de las leyes que están discutiendo.
 ---
 

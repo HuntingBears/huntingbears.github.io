@@ -13,7 +13,7 @@ tags:
 - /proc/cpuinfo
 - identificar
 - procesador 64bits
-image: http://huntingbears.com.ve/static/img/posts/1797/tip-como-identificar-si-un-procesador-soporta-64bits__1.jpg
+image: /static/img/posts/1797/tip-como-identificar-si-un-procesador-soporta-64bits__1.jpg
 description: Los procesadores modernos soportan un ancho de palabra de 64Bits. Averigua si tu procesador lo soporta.
 ---
 

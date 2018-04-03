@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - cayapa canaima
 - cumana
-image: http://huntingbears.com.ve/static/img/posts/1302/hijo-er-diablo-5ta-cayapa-canaima-en-cumana__1.jpg
+image: /static/img/posts/1302/hijo-er-diablo-5ta-cayapa-canaima-en-cumana__1.jpg
 description: La 5ta Cayapa Canaima se realizará en Cumaná para que la Comunidad participe en la mejora de Canaima.
 ---
 

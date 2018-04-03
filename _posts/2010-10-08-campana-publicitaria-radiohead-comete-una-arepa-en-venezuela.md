@@ -12,7 +12,7 @@ tags:
 - concierto
 - Radiohead
 - venezuela
-image: http://huntingbears.com.ve/static/img/posts/239/campana-publicitaria-radiohead-comete-una-arepa-en-venezuela__10.jpg
+image: /static/img/posts/239/campana-publicitaria-radiohead-comete-una-arepa-en-venezuela__10.jpg
 description: La campaña "Radiohead, cómete una arepa en Venezuela" pretende generar interés por Radiohead en Venezuela.
 ---
 

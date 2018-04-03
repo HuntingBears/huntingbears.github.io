@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - canaima vs windows
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__16.jpg
+image: /static/img/posts/802/canaima-3-vs-windows-7-una-comparacion-detallada-de-ambos-sistemas-operativos__16.jpg
 description: Acá hacemos un estudio profundo acerca de las diferencias y similitudes de Windows y Canaima.
 ---
 

@@ -5,7 +5,7 @@ categories: [Games, Free Software, Development]
 date: 2016-07-22 23:52:00-0430
 description: You can use this python script to know the exact coordinates of the
     pokemon around you.
-image: http://huntingbears.com.ve/static/img/posts/4353/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script__1.jpg
+image: /static/img/posts/4353/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script__1.jpg
 layout: post
 slug: how-to-catch-pokemon-near-you-with-the-help-of-this-python-script
 tags: [Pokemon Go, catching, Cheat]

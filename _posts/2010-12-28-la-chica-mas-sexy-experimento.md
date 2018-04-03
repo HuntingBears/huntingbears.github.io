@@ -11,7 +11,7 @@ tags:
 - estadistica
 - estudio
 - mujeres sexy
-image: http://huntingbears.com.ve/static/img/posts/590/la-chica-mas-sexy-experimento__1.jpg
+image: /static/img/posts/590/la-chica-mas-sexy-experimento__1.jpg
 description: Según tu opinión, ¿Cuál es la chica más sexy?
 ---
 

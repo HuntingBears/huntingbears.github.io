@@ -12,7 +12,7 @@ tags:
 - canaima gnu linux
 - logo
 - socialismo
-image: http://huntingbears.com.ve/static/img/posts/917/sobre-el-porque-canaima-gnulinux-no-deberia-tener-el-logo-hecho-en-socialismo__1.jpg
+image: /static/img/posts/917/sobre-el-porque-canaima-gnulinux-no-deberia-tener-el-logo-hecho-en-socialismo__1.jpg
 description: Mi opinión personal acerca de la discusión sobre la inclusión del logo "Hecho en Socialismo" en Canaima.
 ---
 

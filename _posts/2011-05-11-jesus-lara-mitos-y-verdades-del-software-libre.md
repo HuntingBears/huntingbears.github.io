@@ -12,7 +12,7 @@ tags:
 - phenobarbital
 - ponencia
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/1069/jesus-lara-mitos-y-verdades-del-software-libre__1.jpg
+image: /static/img/posts/1069/jesus-lara-mitos-y-verdades-del-software-libre__1.jpg
 description: Jesús Lara desentraña los Mitos y verdades del Software Libre con su forma particular.
 ---
 

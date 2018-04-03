@@ -14,7 +14,7 @@ tags:
 - gmail
 - postfix
 - relayhost
-image: http://huntingbears.com.ve/static/img/posts/1900/utilizando-postfix-para-enviar-correos-a-traves-de-gmail__1.jpg
+image: /static/img/posts/1900/utilizando-postfix-para-enviar-correos-a-traves-de-gmail__1.jpg
 description: Si no tienes un servicio privado de envío de correos, puedes utilizar postfix y GMail para lograr el mismo cometido.
 ---
 

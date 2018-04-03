@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - fondos de pantalla
 - wallpapers
-image: http://huntingbears.com.ve/static/img/posts/1153/aun-mas-fondos-de-pantalla-para-canaima-3-0__1.jpg
+image: /static/img/posts/1153/aun-mas-fondos-de-pantalla-para-canaima-3-0__1.jpg
 description: Más fondos de pantalla para Canaima GNU/Linux 3.0.
 ---
 

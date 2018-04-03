@@ -13,7 +13,7 @@ tags:
 - fitter happier
 - Radiohead
 - sociedad
-image: http://huntingbears.com.ve/static/img/posts/2020/radiografia-de-una-sociedad-podrida-fitter-happier-por-radiohead__1.jpg
+image: /static/img/posts/2020/radiografia-de-una-sociedad-podrida-fitter-happier-por-radiohead__1.jpg
 description: Fitter Happier es una especie de canción con un mensaje a la sociedad.
 ---
 

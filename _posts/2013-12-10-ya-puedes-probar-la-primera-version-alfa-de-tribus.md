@@ -13,7 +13,7 @@ tags:
 - desarrollo
 - red social
 - tribus
-image: http://huntingbears.com.ve/static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__1.jpg
+image: /static/img/posts/4312/ya-puedes-probar-la-primera-version-alfa-de-tribus__1.jpg
 description: Tribus es una red social para la gestión de Comunidades de Software Libre.
 ---
 

@@ -76,8 +76,26 @@
             </div>
         </div>
         {% endif %}
+        {%- if page.layout == 'frontpage' -%}
+        <style type="text/css">
+            {%- for post in paginator.posts offset: 5 -%}
+                #post-{{ post.article_id }} > .bg {background-image: url('{{ static_url }}{{ post.image }}')}
+            {% endfor %}
+        </style>
+        {%- endif -%}
+        <link rel="stylesheet" type="text/css" href="{{ static_url }}/static/css/styles.css" />
         <script type="text/javascript">
-        {% include js/min/index.js %}
+            var HB = {};
+            {%- if site.develop -%}
+                {% include js/full/social.js %}
+            {%- else -%}
+                {%- include js/min/social.js -%}
+            {%- endif -%}
         </script>
+        <script type="text/javascript" src="{{ static_url }}/static/js/scripts.js"></script>
+        {%- unless site.develop -%}
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script type="text/javascript" src="http://www.google-analytics.com/analytics.js"></script>
+        {%- endunless -%}
     </body>
 </html>

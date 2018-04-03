@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - disco corrupto
 - run fsck manually
-image: http://huntingbears.com.ve/static/img/posts/1146/como-solucionar-una-corrupcion-del-disco-en-canaima-3-0debian-6-0-run-fsck-manually__1.jpg
+image: /static/img/posts/1146/como-solucionar-una-corrupcion-del-disco-en-canaima-3-0debian-6-0-run-fsck-manually__1.jpg
 description: A veces, cuando un disco duro no finaliza sesión apropiadamente, algunos datos se corrompen momentáneamente. Aquí se explica como resolver esta falla.
 ---
 

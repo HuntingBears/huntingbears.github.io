@@ -14,7 +14,7 @@ tags:
 - backports
 - estudio
 - riesgos
-image: http://huntingbears.com.ve/static/img/posts/1899/los-backports-y-sus-riesgos__1.jpg
+image: /static/img/posts/1899/los-backports-y-sus-riesgos__1.jpg
 description: Los backports permiten traer software nuevo a distribuciones viejas, corriendo algunos riesgos.
 ---
 

@@ -13,7 +13,7 @@ tags:
 - autenticacion
 - LDAP
 - usuarios
-image: http://huntingbears.com.ve/static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__1.jpg
+image: /static/img/posts/2069/aguilas-sistema-de-gestion-de-usuarios-basado-en-ldap__1.jpg
 description: Águilas es un sistema de gestión de usuariows basado en LDAP y desarrollado en PHP.
 ---
 

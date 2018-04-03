@@ -75,7 +75,7 @@
 }
 
 #sidebar > ul > .coffee {
-    background-image: url('{{ site.url }}/static/img/site/sprite.svg');
+    background-image: url('{{ static_url }}/static/img/site/sprite.svg');
     background-repeat: no-repeat;
     background-position: -70px -100px;
 }
@@ -95,7 +95,7 @@
 #sidebar > ul > .list {
     width: 78%;
     padding: 90px 1% 0 1%;
-    background-image: url('http://{{ site.url }}/static/img/site/sprite.svg');
+    background-image: url('{{ static_url }}/static/img/site/sprite.svg');
     background-repeat: no-repeat;
     background-position: 0px -330px;
     background-color: rgb(239, 235, 224);

@@ -13,7 +13,7 @@ tags:
 - barquisimeto
 - dia debian
 - tribus
-image: http://huntingbears.com.ve/static/img/posts/4205/tribus-en-el-dia-debian-barquisimeto__1.jpg
+image: /static/img/posts/4205/tribus-en-el-dia-debian-barquisimeto__1.jpg
 description: La Oficina de Operaciones Canaima estuvo en el Día Debian Barquisimeto mostrando varios de sus nuevos proyectos.
 ---
 

@@ -12,7 +12,7 @@ tags:
 - concierto
 - Radiohead
 - venezuela
-image: http://huntingbears.com.ve/static/img/posts/100/plan-para-traer-a-radiohead-a-venezuela-en-el-2011__1.jpg
+image: /static/img/posts/100/plan-para-traer-a-radiohead-a-venezuela-en-el-2011__1.jpg
 description: Esta es una Campaña para traer al grupo de rock británico Radiohead a Venezuela.
 ---
 

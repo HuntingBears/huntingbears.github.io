@@ -5,7 +5,7 @@ categories: [Android, Development]
 date: 2016-07-22 23:38:42-0430
 description: With KingRoot you can gain root priviledges in your phone and do whatever
   you want with it!
-image: http://huntingbears.com.ve/static/img/posts/4352/how-to-root-your-android-phone-using-kingroot__6.jpg
+image: /static/img/posts/4352/how-to-root-your-android-phone-using-kingroot__6.jpg
 layout: post
 slug: how-to-root-your-android-phone-using-kingroot
 tags: [root, kingroot, android]

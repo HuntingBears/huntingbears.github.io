@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - desarrollador
 - semilla
-image: http://huntingbears.com.ve/static/img/posts/1906/fundamentos-del-desarrollo-en-canaima-gnulinux__1.jpg
+image: /static/img/posts/1906/fundamentos-del-desarrollo-en-canaima-gnulinux__1.jpg
 description: Existen diversas formas de involucrarse en el desarrollo de Canaima GNU/Linux.
 ---
 

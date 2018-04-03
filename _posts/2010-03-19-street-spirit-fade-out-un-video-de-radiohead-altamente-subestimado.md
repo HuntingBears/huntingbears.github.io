@@ -13,7 +13,7 @@ tags:
 - Radiohead
 - street spirit
 - Video
-image: http://huntingbears.com.ve/static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__1.jpg
+image: /static/img/posts/162/street-spirit-fade-out-un-video-de-radiohead-altamente-subestimado__1.jpg
 description: Street Spirit es una canción hermosa, con un video realmente bueno.
 ---
 

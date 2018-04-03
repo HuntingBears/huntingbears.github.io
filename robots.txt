@@ -1,7 +1,13 @@
 ---
-layout: null
 ---
+{%- if site.develop -%}
+    {%- capture site_url -%}
+    file://{{- site.destination -}}
+    {%- endcapture -%}
+{%- else -%}
+    {%- assign site_url = site.url -%}
+{%- endif -%}
 User-agent: *
 Disallow: 
 
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site_url }}/sitemap.xml

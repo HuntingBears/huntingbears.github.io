@@ -12,7 +12,7 @@ tags:
 - instalar
 - laptop canaima
 - windows
-image: http://huntingbears.com.ve/static/img/posts/618/como-instalar-windows-en-una-laptop-canaima__1.jpg
+image: /static/img/posts/618/como-instalar-windows-en-una-laptop-canaima__1.jpg
 description: Descripción del procedimiento para instalar Windows en una laptop Canaima.
 ---
 

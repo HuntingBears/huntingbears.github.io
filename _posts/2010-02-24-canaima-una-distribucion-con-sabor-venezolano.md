@@ -12,7 +12,7 @@ tags:
 - canaima gnu linux
 - distribución
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/91/canaima-una-distribucion-con-sabor-venezolano__1.jpg
+image: /static/img/posts/91/canaima-una-distribucion-con-sabor-venezolano__1.jpg
 description: Canaima es una distribución GNU/Linux hecha en Venezuela.
 ---
 

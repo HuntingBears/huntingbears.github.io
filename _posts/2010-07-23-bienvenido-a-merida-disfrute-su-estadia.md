@@ -11,7 +11,7 @@ tags:
 - espectacular
 - merida
 - paraíso
-image: http://huntingbears.com.ve/static/img/posts/203/bienvenido-a-merida-disfrute-su-estadia__1.jpg
+image: /static/img/posts/203/bienvenido-a-merida-disfrute-su-estadia__1.jpg
 description: Mérida es parte de la región andina venezolana. Es uno de los lugares más hermosos, por su gente y sus paisajes.
 ---
 

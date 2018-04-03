@@ -13,7 +13,7 @@ tags:
 - diseño gráfico
 - flash
 - ieee unefa maracay
-image: http://huntingbears.com.ve/static/img/posts/1279/portafolio-propuesta-para-mejorar-la-imagen-de-la-ieee-unefa-maracay-2007__1.jpg
+image: /static/img/posts/1279/portafolio-propuesta-para-mejorar-la-imagen-de-la-ieee-unefa-maracay-2007__1.jpg
 description: Estuve haciendo el rediseño de la página web de la Rama Estudiantil de la IEEE en laUNEFA Maracay.
 ---
 

@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - debian
 - fedora
-image: http://huntingbears.com.ve/static/img/posts/1264/la-imagen-canaima-3-0-consume-menos-memoria-que-fedora-15-y-debian-6-0__1.jpg
+image: /static/img/posts/1264/la-imagen-canaima-3-0-consume-menos-memoria-que-fedora-15-y-debian-6-0__1.jpg
 description: ¿Quién habría imaginado que Canaima consumiría menos memoria RAM que Debian y Fedora?
 ---
 

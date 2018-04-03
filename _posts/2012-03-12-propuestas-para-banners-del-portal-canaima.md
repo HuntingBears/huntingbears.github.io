@@ -13,7 +13,7 @@ tags:
 - banner
 - diseño gráfico
 - inkscape
-image: http://huntingbears.com.ve/static/img/posts/2202/propuestas-para-banners-del-portal-canaima__1.jpg
+image: /static/img/posts/2202/propuestas-para-banners-del-portal-canaima__1.jpg
 description: Algunos prototipos para el banner rotativo de la página de Canaima GNU/Linux.
 ---
 

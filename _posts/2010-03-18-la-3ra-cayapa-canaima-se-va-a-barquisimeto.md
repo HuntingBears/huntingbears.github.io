@@ -13,7 +13,7 @@ tags:
 - Canaima
 - cayapa
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__1.jpg
+image: /static/img/posts/149/la-3ra-cayapa-canaima-se-va-a-barquisimeto__1.jpg
 description: La Cayapa es un evento socio-tecnológico enfocado a mejorar la distribución Canaima GNU/Linux.
 ---
 

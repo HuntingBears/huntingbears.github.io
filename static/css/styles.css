@@ -1,0 +1,38 @@
+---
+---
+{%- if site.develop -%}
+    {%- capture site_url -%}
+    file://{{- site.destination -}}
+    {%- endcapture -%}
+    {%- assign static_url = site_url -%}
+{%- else -%}
+    {%- assign site_url = site.url -%}
+    {%- assign static_url = site.static_url -%}
+{%- endif -%}
+
+{%- if site.develop -%}
+    {% include css/full/fonts.css %}
+    {% include css/full/print.css %}
+    {% include css/full/header.css %}
+    {% include css/full/searchbar.css %}
+    {% include css/full/loginbar.css %}
+    {% include css/full/common.css %}
+    {% include css/full/sidebar.css %}
+    {% include css/full/frontpage.css %}
+    {% include css/full/post.css %}
+    {% include css/full/page.css %}
+    {% include css/full/highlight.css %}
+{%- else -%}
+    {%- include css/min/fonts.css -%}
+    {%- include css/min/print.css -%}
+    {%- include css/min/header.css -%}
+    {%- include css/min/searchbar.css -%}
+    {%- include css/min/loginbar.css -%}
+    {%- include css/min/common.css -%}
+    {%- include css/min/sidebar.css -%}
+    {%- include css/min/frontpage.css -%}
+    {%- include css/min/post.css -%}
+    {%- include css/min/page.css -%}
+    {%- include css/min/highlight.css -%}
+    {%- include css/min/ads.css -%}
+{%- endif -%}

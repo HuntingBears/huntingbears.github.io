@@ -13,7 +13,7 @@ tags:
 - debconf
 - debian
 - venezuela
-image: http://huntingbears.com.ve/static/img/posts/2219/debconf14-en-puerto-la-cruz-venezuela__1.jpg
+image: /static/img/posts/2219/debconf14-en-puerto-la-cruz-venezuela__1.jpg
 description: El DebConf es la Conferencia Internacional de Desarrolladores de Debian, apóyanos para organizarla en Venezuela.
 ---
 

@@ -2,93 +2,16 @@
                 <section id="featured">
                     {%- for post in paginator.posts limit:5 -%}
 
-                    {%- capture processed_date -%}
-                        {{ post.date | date: "%B %-d, %Y" }}
-                    {%- endcapture -%}
-
-                    {%- capture escaped_title_twitter -%}
-                        {{ post.title | prepend: 'Reading "' | append: '"' | url_escape | cgi_escape }}
-                    {%- endcapture -%}
-
-                    {%- capture escaped_uri -%}
-                        {{ site.url | append: post.url | url_escape | cgi_escape }}
-                    {%- endcapture -%}
-
-                    {%- capture featured_style -%}
-                        {%- if forloop.index == 2 -%}
+                    {%- capture article_style -%}
+                        {%- if forloop.index == 1 -%}
                             big
                         {%- else -%}
                             small
                         {%- endif -%}
                     {%- endcapture -%}
 
-                    <article class="{{ featured_style }}" id="post-{{ post.article_id }}" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
-                        <ul class="data">
-                            <li class="category">
-                                {% for category in post.categories -%}
-                                    {%- capture cat_slug %}
-                                        {{- category | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | replace: '/', '' | uri_escape -}}
-                                    {%- endcapture -%}
-                                    <a href="{{ site.url }}/{{ cat_slug }}/" title='List all posts under the category "{{ category }}"' rel="tag">
-                                        {{ category }}
-                                    </a>{% unless forloop.last %}, {% endunless %}
-                                {%- endfor -%}.
-                            </li>
-                            <li class="social">
-                                <ul>
-                                    <li class="shares">
-                                        <span class="qty" data-ident="{{ post.article_id }}">0</span>
-                                    </li>
-                                    <li class="comments">
-                                        <span class="qty" data-ident="{{ post.article_id }}">0</span>
-                                    </li>
-                                    <li class="twitter">
-                                        <a href="http://twitter.com/intent/tweet?counturl={{ escaped_uri }}&amp;lang=es&amp;text={{ escaped_title_twitter }}&amp;url={{ escaped_uri }}&amp;via={{ site.blog.twitter }}&amp;related={{ site.author.twitter }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                            <span class="sprite"></span>
-                                            <span class="hide">Twitter</span>
-                                        </a>
-                                    </li>
-                                    <li class="facebook">
-                                        <a href="http://facebook.com/sharer/sharer.php?u={{ escaped_uri }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                            <span class="sprite"></span>
-                                            <span class="hide">Facebook</span>
-                                        </a>
-                                    </li>
-                                    <li class="googleplus">
-                                        <a href="http://plus.google.com/share?url={{ escaped_uri }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                            <span class="sprite"></span>
-                                            <span class="hide">Google+</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="bg"></li>
-                            <li class="header">
-                                <h2>
-                                    <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title='Permanent link to "{{ post.title }}"' itemprop="url">
-                                        <span itemprop="headline">
-                                            {{ post.title }}
-                                        </span>
-                                    </a>
-                                </h2>
-                            </li>
-                            <li class="description" itemprop="description">
-                                {{ post.description }}
-                            </li>
-                            <li class="date" itemprop="description">
-                                Written by 
-                                <a href="{{ site.url }}/about/" title="About the author" itemprop="author">
-                                    {{ site.author.first_name }}
-                                </a>, on 
-                                <time class="datetime" datetime="{{ post.date | date_to_xmlschema }}">
-                                {{ processed_date }}
-                                </time>
-                            </li>
-                        </ul>
-                        <div itemprop="articleBody" class="text">
-                            {{ post.content | truncatewords: 100 | strip_html }}
-                        </div>
-                    </article>
+                    {% include frontpage_article.html %}
+
                     {%- if forloop.index == 1 or forloop.index == 3 or forloop.index == 4 -%}
                     <div class="space"></div>
                     {%- endif -%}
@@ -96,92 +19,27 @@
                 </section>
                 <main id="content" role="main">
                     {% for post in paginator.posts offset: 5 %}
-                    {% capture processed_date %}{{ post.date | date: "%B %-d, %Y" }}{% endcapture %}
-                    {% capture escaped_title_twitter %}{{ post.title | prepend: 'Reading "' | append: '"' | url_escape | cgi_escape }}{% endcapture %}
-                    {% capture escaped_uri %}{{ site.url | append: post.url | url_escape | cgi_escape }}{% endcapture %}
+                    {% assign article_style = 'preview' %}
+
                     {% if forloop.index == 3 %}
                     <div class="ad_frontpage">
                         <ins class="adsbygoogle" data-ad-client="ca-pub-6592430305679345" data-ad-slot="5791960741" data-ad-format="horizontal"></ins>
                     </div>
                     {% endif %}
-                    <article class="preview" id="post-{{ post.article_id }}" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
-                        <ul class="data">
-                            <li class="category">
-                                {% for category in post.categories -%}
-                                    {%- capture cat_slug %}
-                                        {{- category | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | replace: '/', '' | uri_escape -}}
-                                    {%- endcapture -%}
-                                    <a href="{{ site.url }}/{{ cat_slug }}/" title='List all posts under the category "{{ category }}"' rel="tag">
-                                        {{ category }}
-                                    </a>{% unless forloop.last %}, {% endunless %}
-                                {%- endfor -%}.
-                            </li>
-                            <li class="social">
-                                <ul>
-                                    <li class="shares">
-                                        <span class="qty" data-ident="{{ post.article_id }}">0</span>
-                                    </li>
-                                    <li class="comments">
-                                        <span class="qty" data-ident="{{ post.article_id }}">0</span>
-                                    </li>
-                                    <li class="twitter">
-                                        <a href="http://twitter.com/intent/tweet?counturl={{ escaped_uri }}&amp;lang=es&amp;text={{ escaped_title_twitter }}&amp;url={{ escaped_uri }}&amp;via={{ site.blog.twitter }}&amp;related={{ site.author.twitter }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                            <span class="sprite"></span>
-                                            <span class="hide">Twitter</span>
-                                        </a>
-                                    </li>
-                                    <li class="facebook">
-                                        <a href="http://facebook.com/sharer/sharer.php?u={{ escaped_uri }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                            <span class="sprite"></span>
-                                            <span class="hide">Facebook</span>
-                                        </a>
-                                    </li>
-                                    <li class="googleplus">
-                                        <a href="http://plus.google.com/share?url={{ escaped_uri }}" title="(abre nueva ventana)" target="_blank" rel="nofollow">
-                                            <span class="sprite"></span>
-                                            <span class="hide">Google+</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="bg"></li>
-                            <li class="header">
-                                <h2>
-                                    <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title='Permanent link to "{{ post.title }}"' itemprop="url">
-                                        <span itemprop="headline">
-                                            {{ post.title }}
-                                        </span>
-                                    </a>
-                                </h2>
-                            </li>
-                            <li class="description" itemprop="description">
-                                {{ post.description }}
-                            </li>
-                            <li class="date" itemprop="description">
-                                Written by 
-                                <a href="{{ site.url }}/about/" title="About the author" itemprop="author">
-                                    {{ site.author.first_name }}
-                                </a>, on 
-                                <time class="datetime" datetime="{{ post.date | date_to_xmlschema }}">
-                                {{ processed_date }}
-                                </time>
-                            </li>
-                        </ul>
-                        <div itemprop="articleBody" class="text">
-                            {{ post.content | truncatewords: 100 | strip_html }}
-                        </div>
-                    </article>
+
+                    {% include frontpage_article.html %}
+
                     {% endfor %}
                     <nav class="pagination">
                         <span class="left">
                             {% if paginator.previous_page %}
                             {% if paginator.previous_page == 1 %}
-                            <a href="{{ site.url }}" title="Frontpage">
+                            <a href="{{ site_url }}" title="Frontpage">
                                 <span class="sprite"></span>
                                 <span class="hide">Frontpage</span>
                             </a>
                             {% else %}
-                            <a href="{{ site.url }}/page/{{ paginator.previous_page }}/" title="Previous page">
+                            <a href="{{ site_url }}/page/{{ paginator.previous_page }}/" title="Previous page">
                                 <span class="sprite"></span>
                                 <span class="hide">Previous page</span>
                             </a>
@@ -191,7 +49,7 @@
                         <span class="spacer">&nbsp;</span>
                         <span class="right">
                             {% if paginator.next_page %}
-                            <a href="{{ site.url }}/page/{{ paginator.next_page }}/" title="Next page">
+                            <a href="{{ site_url }}/page/{{ paginator.next_page }}/" title="Next page">
                                 <span class="sprite"></span>
                                 <span class="hide">Next page</span>
                             </a>

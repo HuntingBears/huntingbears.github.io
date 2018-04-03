@@ -2,6 +2,16 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#{% if page.layout == 'post' or page.layout == 'page' %} article: http://ogp.me/ns/article#{% endif %} dcterms: http://purl.org/dc/terms/#">
     <head>
 
+        {%- if site.develop -%}
+            {%- capture site_url -%}
+            file://{{- site.destination -}}
+            {%- endcapture -%}
+            {%- assign static_url = site_url -%}
+        {%- else -%}
+            {%- assign site_url = site.url -%}
+            {%- assign static_url = site.static_url -%}
+        {%- endif -%}
+
         {% capture head_title -%}
             {%- case page.layout -%}
             {%- when 'frontpage' -%}
@@ -29,12 +39,12 @@
             {%- case page.layout -%}
             {%- when 'frontpage' -%}
                 {%- if paginator.previous_page -%}
-                    {{ site.url }}/page/{{ paginator.page }}
+                    {{ site_url }}/page/{{ paginator.page }}
                 {%- else -%}
-                    {{ site.url }}
+                    {{ site_url }}
                 {%- endif -%}
             {%- else -%}
-                {{ site.url }}{{ page.url }}
+                {{ site_url }}{{ page.url }}
             {%- endcase -%}
         {%- endcapture -%}
 
@@ -73,14 +83,14 @@
             {%- when 'frontpage' -%}
                 {%- if paginator.previous_page -%}
                     {%- if paginator.previous_page == 1 -%}
-                        {{ site.url }}
+                        {{ site_url }}
                     {%- else -%}
-                        {{ site.url }}/page/{{ paginator.previous_page }}
+                        {{ site_url }}/page/{{ paginator.previous_page }}
                     {%- endif -%}
                 {%- endif -%}
             {%- when 'post' -%}
                 {%- if page.previous.url -%}
-                    {{ site.url }}{{ page.previous.url }}
+                    {{ site_url }}{{ page.previous.url }}
                 {%- endif -%}
             {%- endcase -%}
         {%- endcapture -%}
@@ -89,11 +99,11 @@
             {%- case page.layout -%}
             {%- when 'frontpage' -%}
                 {%- if paginator.next_page -%}
-                    {{ site.url }}/page/{{ paginator.next_page }}
+                    {{ site_url }}/page/{{ paginator.next_page }}
                 {%- endif -%}
             {%- when 'post' -%}
                 {%- if page.next.url -%}
-                    {{ site.url }}{{ page.next.url }}
+                    {{ site_url }}{{ page.next.url }}
                 {%- endif -%}
             {%- endcase -%}
         {%- endcapture -%}
@@ -175,62 +185,61 @@
         {%- endif %}
 
         <!-- Alternate presentations -->
-        <link rel="search" type="application/opensearchdescription+xml" href="{{ site.url }}/static/opensearch.xml" title="{{ site.app_name }}" />
+        <link rel="search" type="application/opensearchdescription+xml" href="{{ static_url }}/static/opensearch.xml" title="{{ site.app_name }}" />
         <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/{{ site.blog.feed }}" title="{{ site.app_name }}" />
-
-        <!-- DNS Prefetch -->
-        <link rel="dns-prefetch" href="//huntingbears.com.ve" />
-        <link rel="dns-prefetch" href="//disqus.com" />
-        <link rel="dns-prefetch" href="//huntingbears.disqus.com" />
-        <link rel="dns-prefetch" href="//referrer.disqus.com" />
-        <link rel="dns-prefetch" href="//a.disquscdn.com" />
-        <link rel="dns-prefetch" href="//google-analytics.com" />
-        <link rel="dns-prefetch" href="//www.google-analytics.com" />
-        <link rel="dns-prefetch" href="//ssl.google-analytics.com" />
 
         <!-- Browser & OS Layout -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="application-name" content="{{ site.app_name }}" />
-        <meta name="msapplication-starturl" content="{{ site.url }}" />
+        <meta name="msapplication-starturl" content="{{ site_url }}" />
         <meta name="msapplication-tooltip" content="{{ site.app_name }}" />
         <meta name="msapplication-window" content="width=1024;height=768" />
-        <meta name="msapplication-task" content="name={{ site.app_name }};action-uri={{ site.url }};icon-uri={{ site.url }}/static/img/site/favicon.ico" />
-        <meta name="msapplication-TileImage" content="{{ site.url }}/static/img/site/mstile-144x144.png" />
+        <meta name="msapplication-task" content="name={{ site.app_name }};action-uri={{ site_url }};icon-uri={{ static_url }}/static/img/site/icons/favicon.ico" />
+        <meta name="msapplication-TileImage" content="{{ static_url }}/static/img/site/icons/mstile-144x144.png" />
         <meta name="msapplication-TileColor" content="#FFFFFF" />
 
         <!-- Icons & Logos -->
-        <link rel="icon" type="image/x-icon" href="{{ site.url }}/static/img/site/favicon.ico" />
-        <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/static/img/site/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="196x196" href="{{ site.url }}/static/img/site/favicon-196x196.png" />
-        <link rel="icon" type="image/png" sizes="160x160" href="{{ site.url }}/static/img/site/favicon-160x160.png" />
-        <link rel="icon" type="image/png" sizes="96x96" href="{{ site.url }}/static/img/site/favicon-96x96.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/static/img/site/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/static/img/site/favicon-16x16.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="{{ site.url }}/static/img/site/apple-touch-icon-152x152.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="{{ site.url }}/static/img/site/apple-touch-icon-144x144.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="{{ site.url }}/static/img/site/apple-touch-icon-114x114.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="{{ site.url }}/static/img/site/apple-touch-icon-120x120.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="{{ site.url }}/static/img/site/apple-touch-icon-76x76.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="{{ site.url }}/static/img/site/apple-touch-icon-72x72.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="{{ site.url }}/static/img/site/apple-touch-icon-60x60.png" />
-        <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="{{ site.url }}/static/img/site/apple-touch-icon-57x57.png" />
-        <meta name="msapplication-square70x70logo" content="{{ site.url }}/static/img/site/mstile-70x70.png" />
-        <meta name="msapplication-square150x150logo" content="{{ site.url }}/static/img/site/mstile-150x150.png" />
-        <meta name="msapplication-square310x310logo" content="{{ site.url }}/static/img/site/mstile-310x310.png" />
-        <meta name="msapplication-wide310x150logo" content="{{ site.url }}/static/img/site/mstile-310x150.png" />
+        <link rel="icon" type="image/x-icon" href="{{ static_url }}/static/img/site/icons/favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="{{ static_url }}/static/img/site/icons/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="196x196" href="{{ static_url }}/static/img/site/icons/favicon-196x196.png" />
+        <link rel="icon" type="image/png" sizes="160x160" href="{{ static_url }}/static/img/site/icons/favicon-160x160.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="{{ static_url }}/static/img/site/icons/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ static_url }}/static/img/site/icons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ static_url }}/static/img/site/icons/favicon-16x16.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="{{ static_url }}/static/img/site/icons/apple-touch-icon-152x152.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="{{ static_url }}/static/img/site/icons/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="{{ static_url }}/static/img/site/icons/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="{{ static_url }}/static/img/site/icons/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="{{ static_url }}/static/img/site/icons/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="{{ static_url }}/static/img/site/icons/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="{{ static_url }}/static/img/site/icons/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="{{ static_url }}/static/img/site/icons/apple-touch-icon-57x57.png" />
+        <meta name="msapplication-square70x70logo" content="{{ static_url }}/static/img/site/icons/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="{{ static_url }}/static/img/site/icons/mstile-150x150.png" />
+        <meta name="msapplication-square310x310logo" content="{{ static_url }}/static/img/site/icons/mstile-310x310.png" />
+        <meta name="msapplication-wide310x150logo" content="{{ static_url }}/static/img/site/icons/mstile-310x150.png" />
 
-        <!-- Styles & Scripts -->
+        <!-- Critical path styles -->
         <style type="text/css">
-            #container{display: none}
-            {%- if page.layout == 'frontpage' -%}
-                {%- for post in paginator.posts -%}
-                #post-{{ post.article_id }}>.data{background-image: url('{{ post.image }}')}
-                {% endfor %}
+            {%- if site.develop -%}
+                {% include css/full/critical.css %}
+            {%- else -%}
+                {%- include css/min/critical.css -%}
             {%- endif -%}
+            {%- for post in paginator.posts limit:5 -%}
+                #post-{{ post.article_id }} > .bg {background-image: url('{{ static_url }}{{ post.image }}')}
+            {% endfor %}
         </style>
-        <script async type="text/javascript" src="{{ site.url }}/static/js/loader.min.js"></script>
+
+        <!-- Preloading -->
+        <link rel="preload" href="{{ static_url }}/static/css/styles.css" as="style" type="text/css" />
+        <link rel="preload" href="{{ static_url }}/static/js/scripts.js" as="script" type="text/javascript" />
+        {%- unless site.develop -%}    
+        <link rel="preload" href="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" as="script" type="text/javascript" />
+        <link rel="preload" href="http://www.google-analytics.com/analytics.js" as="script" type="text/javascript" />
+        {%- endunless -%}    
     </head>
     <body itemscope="" itemtype="http://schema.org/Blog">
         <meta itemprop="name" content="{{ site.name }}" />
@@ -243,13 +252,13 @@
         <div id="container">
             <header>
                 <div id="logo">
-                    <a href="{{ site.url }}" title="{{ site.app_name }}">
+                    <a href="{{ site_url }}" title="{{ site.app_name }}">
                         <span class="hide">{{ site.name }}</span>
                     </a>
                 </div>
                 <div id="heading">
                     <h1 class="title">
-                        <a href="{{ site.url }}" title="{{ site.app_name }}">
+                        <a href="{{ site_url }}" title="{{ site.app_name }}">
                             {{ site.name }}
                         </a>
                     </h1>
@@ -261,7 +270,7 @@
                         {{ topic | first | downcase | replace: 'ñ', 'n' | replace: 'á', 'a' | replace: 'é', 'e' | replace: 'í', 'i' | replace: 'ó', 'o' | replace: 'ú', 'u' | replace: ' ', '-' | replace: '.', '' | uri_escape }}
                         {%- endcapture -%}
                         <li class="topic" role="menuitem">
-                            <a href="{{ site.url }}/{{ topic_slug }}/" title='List all posts under the category "{{ topic | first }}".' rel="tag">
+                            <a href="{{ site_url }}/{{ topic_slug }}/" title='List all posts under the category "{{ topic | first }}".' rel="tag">
                                 <span class="text">{{ topic | first | upcase }}</span>
                             </a>
                         </li>
@@ -300,19 +309,36 @@
                                 <span class="hide">Search</span>
                             </a>
                         </li>
+                        <li class="login" role="menuitem">
+                            <a href="#" title="Login">
+                                <span class="sprite"></span>
+                                <span class="hide">Login</span>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </header>
-            <div id="searchbar">
-                <h3>Searchbar</h3>
-                <div class="search_input_container">
-                    <label for="search_input">Search</label>
-                    <input type="text" class="search_input" name="search_input" placeholder="Start typing to begin search" autocomplete="off" />
-                </div>
+            <div id="search_dialog">
+                <span class="tip1"></span>
+                <span class="tip2"></span>
+                <label for="search_input">Search</label>
+                <input type="text" class="search_input" name="search_input"
+                       placeholder="Start typing to begin search"
+                       autocomplete="off" disabled="disabled" />
+                <h3 class="info"></h3>
                 <div class="search_results">
                     <ul class="search_results_body"></ul>
                 </div>
             </div>
-            <div class="ad_header">
-                <ins class="adsbygoogle" data-ad-client="ca-pub-6592430305679345" data-ad-slot="3930106743" data-ad-format="horizontal"></ins>
+            <div id="login_dialog">
+                <span class="tip1"></span>
+                <span class="tip2"></span>
+                <h3>Social login</h3>
             </div>
+            {%- unless site.develop -%}
+            <div class="ad_header">
+                <ins class="adsbygoogle"
+                     data-ad-client="ca-pub-6592430305679345"
+                     data-ad-slot="3930106743" data-ad-format="horizontal"></ins>
+            </div>
+            {%- endunless -%}

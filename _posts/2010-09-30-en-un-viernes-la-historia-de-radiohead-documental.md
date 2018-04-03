@@ -12,7 +12,7 @@ tags:
 - documental
 - Radiohead
 - Video
-image: http://huntingbears.com.ve/static/img/posts/271/en-un-viernes-la-historia-de-radiohead-documental__1.jpg
+image: /static/img/posts/271/en-un-viernes-la-historia-de-radiohead-documental__1.jpg
 description: Un documental chileno acerca de Radiohead al estilo E! True Hollywood Story.
 ---
 

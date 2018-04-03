@@ -14,7 +14,7 @@ tags:
 - desarrollo
 - git
 - submódulos
-image: http://huntingbears.com.ve/static/img/posts/1905/trabajando-con-submodulos-en-git__1.jpg
+image: /static/img/posts/1905/trabajando-con-submodulos-en-git__1.jpg
 description: Los submódulos en git permiten dividir o combinar un proyecto en varios repositorios separados.
 ---
 

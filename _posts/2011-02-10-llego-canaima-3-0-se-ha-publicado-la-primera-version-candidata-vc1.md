@@ -13,7 +13,7 @@ tags:
 - canaima3
 - nueva versión
 - version candidata
-image: http://huntingbears.com.ve/static/img/posts/669/llego-canaima-3-0-se-ha-publicado-la-primera-version-candidata-vc1__1.jpg
+image: /static/img/posts/669/llego-canaima-3-0-se-ha-publicado-la-primera-version-candidata-vc1__1.jpg
 description: Canaima 3.0 representa un salto cuantitativo y cualitativo en la calidad del Sistema Operativo.
 ---
 

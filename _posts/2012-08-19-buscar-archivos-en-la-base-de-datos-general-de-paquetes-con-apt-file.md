@@ -14,7 +14,7 @@ tags:
 - apt-file
 - archivos
 - paquetes
-image: http://huntingbears.com.ve/static/img/posts/2186/buscar-archivos-en-la-base-de-datos-general-de-paquetes-con-apt-file__1.jpg
+image: /static/img/posts/2186/buscar-archivos-en-la-base-de-datos-general-de-paquetes-con-apt-file__1.jpg
 description: apt-file permite realizar búsquedas dentro de los archivos contenidos en el sistema de paquetes de Debian.
 ---
 

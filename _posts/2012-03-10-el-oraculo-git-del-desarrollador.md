@@ -14,7 +14,7 @@ tags:
 - comandos
 - git
 - glosario
-image: http://huntingbears.com.ve/static/img/posts/1865/el-oraculo-git-del-desarrollador__1.jpg
+image: /static/img/posts/1865/el-oraculo-git-del-desarrollador__1.jpg
 description: Presentamos una lista de comandos de git que pueden ser útiles en diversos casos.
 ---
 

@@ -14,7 +14,7 @@ tags:
 - canaima gnu linux
 - debian day
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/1864/nos-vemos-en-el-7mo-dia-debian-caracas__1.jpg
+image: /static/img/posts/1864/nos-vemos-en-el-7mo-dia-debian-caracas__1.jpg
 description: El día debian es un evento para difundir las bondades del Software Libre.
 ---
 

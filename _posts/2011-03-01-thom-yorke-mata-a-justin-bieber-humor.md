@@ -12,7 +12,7 @@ tags:
 - humor
 - justin bieber
 - thom yorke
-image: http://huntingbears.com.ve/static/img/posts/778/thom-yorke-mata-a-justin-bieber-humor__1.jpg
+image: /static/img/posts/778/thom-yorke-mata-a-justin-bieber-humor__1.jpg
 description: Thom Yorke mata a Justin Bieber.
 ---
 

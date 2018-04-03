@@ -13,7 +13,7 @@ tags:
 - parted
 - pyparted
 - python
-image: http://huntingbears.com.ve/static/img/posts/2727/operaciones-de-lectura-y-escritura-de-particiones-con-python-parted__1.jpg
+image: /static/img/posts/2727/operaciones-de-lectura-y-escritura-de-particiones-con-python-parted__1.jpg
 description: Parted es una librería que permite editar las particiones de un disco. Aquí te enseñamos como hacerlo en python.
 ---
 

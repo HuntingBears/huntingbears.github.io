@@ -13,7 +13,7 @@ tags:
 - aptitude
 - patterns
 - search
-image: http://huntingbears.com.ve/static/img/posts/4087/haciendo-busquedas-de-paquetes-con-ayuda-de-patrones-de-aptitude__1.jpg
+image: /static/img/posts/4087/haciendo-busquedas-de-paquetes-con-ayuda-de-patrones-de-aptitude__1.jpg
 description: Utiliza patrones de búsqueda en aptitude para encontrar las cosas que buscas más rápido.
 ---
 

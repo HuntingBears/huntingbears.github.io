@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - driver ATI
 - tutorial
-image: http://huntingbears.com.ve/static/img/posts/1349/instalando-el-driver-privativo-de-ati-radeon-en-canaima-3-0debian-6-0__1.jpg
+image: /static/img/posts/1349/instalando-el-driver-privativo-de-ati-radeon-en-canaima-3-0debian-6-0__1.jpg
 description: Esta guía permite instalar el driver privativo de ATI.
 ---
 

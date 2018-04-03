@@ -14,7 +14,7 @@ tags:
 - canaima desarrollador
 - empaquetamiento
 - metapaquetes
-image: http://huntingbears.com.ve/static/img/posts/1794/creando-un-metapaquete-a-la-canaima-con-canaima-desarrollador__1.jpg
+image: /static/img/posts/1794/creando-un-metapaquete-a-la-canaima-con-canaima-desarrollador__1.jpg
 description: Canaima Desarrollador permite realizar Metapaquetes muy fácilmente.
 ---
 

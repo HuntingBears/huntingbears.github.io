@@ -12,7 +12,7 @@ tags:
 - canaima gnu linux
 - cheat sheet
 - cubo de comandos
-image: http://huntingbears.com.ve/static/img/posts/953/cubo-de-comandos-basicos-para-familiarizarte-con-una-consola-en-canaima-gnulinux__2.jpg
+image: /static/img/posts/953/cubo-de-comandos-basicos-para-familiarizarte-con-una-consola-en-canaima-gnulinux__2.jpg
 description: Este cubo de comandos te permitirá memorizar los diferentes comandos que puedes utilizar en consola.
 ---
 

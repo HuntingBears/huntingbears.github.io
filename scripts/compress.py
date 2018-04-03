@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import os
-import cssmin
-import slimit
+from csscompressor import compress as csscompress
+from jsmin import jsmin as jscompress
 import shutil
 
 from config import BASEDIR
@@ -32,7 +32,7 @@ def compress_css(source=None, destination=None):
         try:
             with open(cssmin_file, 'w') as _file:
                 _file_content = open(cssfull_file).read()
-                _file_minified = cssmin.cssmin(_file_content)
+                _file_minified = csscompress(_file_content)
                 _file.write(_file_minified.replace('\xef\xbb\xbf', ''))
                 _file.close()
 
@@ -62,7 +62,7 @@ def compress_js(source=None, destination=None):
         try:
             with open(jsmin_file, 'w') as _file:
                 _file_content = open(jsfull_file).read()
-                _file_minified = slimit.minify(_file_content)
+                _file_minified = jscompress(_file_content)
                 _file.write(_file_minified.replace('\xef\xbb\xbf', ''))
                 _file.close()
 

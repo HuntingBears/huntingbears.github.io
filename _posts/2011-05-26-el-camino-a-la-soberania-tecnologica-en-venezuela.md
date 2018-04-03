@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - soberania tecnologica
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/1164/el-camino-a-la-soberania-tecnologica-en-venezuela__2.jpg
+image: /static/img/posts/1164/el-camino-a-la-soberania-tecnologica-en-venezuela__2.jpg
 description: La soberanía tecnológica es un camino intrincado. Entre los que extremistas y conservadores, ¿Qué camino debe seguirse?
 ---
 

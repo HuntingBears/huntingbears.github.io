@@ -13,7 +13,7 @@ tags:
 - alfa
 - Canaima
 - desarrollo
-image: http://huntingbears.com.ve/static/img/posts/4091/canaima-4-0-un-cambio-de-paradigma-en-el-escritorio__1.jpg
+image: /static/img/posts/4091/canaima-4-0-un-cambio-de-paradigma-en-el-escritorio__1.jpg
 description: Canaima 4.0 es una versión que promete revolucionar el escritorio del usuario tal como lo conocemos.
 ---
 

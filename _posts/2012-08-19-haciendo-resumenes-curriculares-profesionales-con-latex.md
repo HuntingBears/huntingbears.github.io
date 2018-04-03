@@ -12,7 +12,7 @@ tags:
 - curriculum
 - latex
 - vitae
-image: http://huntingbears.com.ve/static/img/posts/2222/haciendo-resumenes-curriculares-profesionales-con-latex__1.jpg
+image: /static/img/posts/2222/haciendo-resumenes-curriculares-profesionales-con-latex__1.jpg
 description: Aprende a hacer resúmenes curriculares únicos con LaTeX.
 ---
 

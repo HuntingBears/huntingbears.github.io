@@ -13,7 +13,7 @@ tags:
 - canaima 4.0
 - debian wheezy
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/1820/canaima-basado-en-debian-wheezy-por-aqui__1.jpg
+image: /static/img/posts/1820/canaima-basado-en-debian-wheezy-por-aqui__1.jpg
 description: Acá te explicamos como construir un Canaima basado en la versión en pruebas de Debian.
 ---
 

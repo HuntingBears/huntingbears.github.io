@@ -13,7 +13,7 @@ tags:
 - 2.1 a 3.0
 - actualizar canaima
 - tutorial
-image: http://huntingbears.com.ve/static/img/posts/1131/tutorial-como-actualizar-a-canaima-3-0-desde-canaima-2-1__1.jpg
+image: /static/img/posts/1131/tutorial-como-actualizar-a-canaima-3-0-desde-canaima-2-1__1.jpg
 description: La actualización de Canaima 2.1 a Canaima 3.0 no es trivial. Aquí te lo explicamos.
 ---
 

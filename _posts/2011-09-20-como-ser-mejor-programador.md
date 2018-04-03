@@ -13,7 +13,7 @@ tags:
 - buen programador
 - consejos
 - desarrollo
-image: http://huntingbears.com.ve/static/img/posts/1897/como-ser-mejor-programador__1.jpg
+image: /static/img/posts/1897/como-ser-mejor-programador__1.jpg
 description: ¿Te has preguntado alguna vez como mejorar tus destrezas como programador?
 ---
 

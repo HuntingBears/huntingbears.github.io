@@ -14,7 +14,7 @@ tags:
 - bloopers
 - canaima gnu linux
 - cayapa canaima
-image: http://huntingbears.com.ve/static/img/posts/1363/5ta-cayapa-canaima-bloopers__1.jpg
+image: /static/img/posts/1363/5ta-cayapa-canaima-bloopers__1.jpg
 description: Los Bloopers de la 5ta Cayapa Canaima ocurrieron durante los espacios de entretenimiento.
 ---
 

@@ -11,7 +11,7 @@ tags:
 - ana vacarella
 - navidad
 - zombie
-image: http://huntingbears.com.ve/static/img/posts/548/cuidado-estamos-en-temporada-de-zombies-navidenos-hipnotizadores__1.jpg
+image: /static/img/posts/548/cuidado-estamos-en-temporada-de-zombies-navidenos-hipnotizadores__1.jpg
 description: Cuando los zombies navideños hipnotizadores nos atacan.
 ---
 

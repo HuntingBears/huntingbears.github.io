@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - dia debian
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/1877/7-dia-debian-creando-tu-propia-distribucion-a-partir-de-canaima-semilla__1.jpg
+image: /static/img/posts/1877/7-dia-debian-creando-tu-propia-distribucion-a-partir-de-canaima-semilla__1.jpg
 description: El día debian es un evento para difundir las bondades del Software Libre.
 ---
 

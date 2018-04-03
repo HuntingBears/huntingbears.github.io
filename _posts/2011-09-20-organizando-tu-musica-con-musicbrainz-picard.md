@@ -12,7 +12,7 @@ tags:
 - música
 - musicbrainz picard
 - organizar
-image: http://huntingbears.com.ve/static/img/posts/1907/organizando-tu-musica-con-musicbrainz-picard__1.jpg
+image: /static/img/posts/1907/organizando-tu-musica-con-musicbrainz-picard__1.jpg
 description: MusicBrainz Picard permite completar la información faltante acerca de los archivos de música y organizarlos por carpetas.
 ---
 

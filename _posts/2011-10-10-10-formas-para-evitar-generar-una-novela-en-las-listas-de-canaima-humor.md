@@ -13,7 +13,7 @@ tags:
 - listas canaima
 - novela
 - troll
-image: http://huntingbears.com.ve/static/img/posts/2012/10-formas-para-evitar-generar-una-novela-en-las-listas-de-canaima-humor__1.jpg
+image: /static/img/posts/2012/10-formas-para-evitar-generar-una-novela-en-las-listas-de-canaima-humor__1.jpg
 description: La Comunidad Canaima está llena de personajes pintorescos que te harán pasar un mal rato si no tienes cuidado. Acá te dejamos una guía básica.
 ---
 

@@ -12,7 +12,7 @@ tags:
 - colaborar
 - diff
 - parches
-image: http://huntingbears.com.ve/static/img/posts/2101/colaborando-en-proyectos-de-codigo-abierto-a-traves-de-parches-git-quilt-diff__1.jpg
+image: /static/img/posts/2101/colaborando-en-proyectos-de-codigo-abierto-a-traves-de-parches-git-quilt-diff__1.jpg
 description: Los parches nos permiten compilar una serie de cambios en un archivo. Ideal para trabajar colaborativamente.
 ---
 

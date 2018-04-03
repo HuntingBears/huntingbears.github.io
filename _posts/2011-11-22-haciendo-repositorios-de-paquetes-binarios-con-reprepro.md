@@ -14,7 +14,7 @@ tags:
 - canaima gnu linux
 - repositorios
 - reprepro
-image: http://huntingbears.com.ve/static/img/posts/2037/haciendo-repositorios-de-paquetes-binarios-con-reprepro__1.jpg
+image: /static/img/posts/2037/haciendo-repositorios-de-paquetes-binarios-con-reprepro__1.jpg
 description: Reprepro es una herramienta que permite generar repositorios de paquetes de forma local.
 ---
 

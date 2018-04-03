@@ -1,13 +1,19 @@
 ---
-layout: null
 ---
+{%- if site.develop -%}
+    {%- capture site_url -%}
+    file://{{- site.destination -}}
+    {%- endcapture -%}
+{%- else -%}
+    {%- assign site_url = site.url -%}
+{%- endif -%}
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>{{ site.name | xml_escape }}</title>
         <description>{{ site.description | xml_escape }}</description>
-        <link>{{ site.url }}</link>
-        <atom:link href="{{ site.url }}/feed/" rel="self" type="application/rss+xml" />
+        <link>{{ site_url }}</link>
+        <atom:link href="{{ site_url }}/feed/" rel="self" type="application/rss+xml" />
         <language>en-us</language>
         <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
         <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
@@ -18,8 +24,8 @@ layout: null
                 {{ post.content | xml_escape }}
             </description>
             <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-            <link>{{ site.url }}{{ post.url }}</link>
-            <guid>{{ site.url }}{{ post.url }}</guid>
+            <link>{{ site_url }}{{ post.url }}</link>
+            <guid>{{ site_url }}{{ post.url }}</guid>
         </item>
         {% endfor %}
     </channel>

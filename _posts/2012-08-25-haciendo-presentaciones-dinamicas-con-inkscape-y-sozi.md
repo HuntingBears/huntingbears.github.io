@@ -13,7 +13,7 @@ tags:
 - inkscape
 - presentaciones
 - sozi
-image: http://huntingbears.com.ve/static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__1.jpg
+image: /static/img/posts/2223/haciendo-presentaciones-dinamicas-con-inkscape-y-sozi__1.jpg
 description: Sozi es una herramienta que permite realizar presentaciones basadas en el format SVG.
 ---
 

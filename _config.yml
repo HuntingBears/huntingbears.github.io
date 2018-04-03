@@ -17,8 +17,8 @@ blog:
   instagram: 'HuntingBearsWeb'
   googleplus: 'HuntingBearsVE'
   feed: 'HuntingBearsWeb'
-# url: 'http://huntingbears.com.ve'
-url: 'file:///home/huntingbears/Desarrollo/huntingbears.github.io/_site/'
+url: 'http://huntingbears.com.ve'
+static_url: 'http://static.huntingbears.com.ve'
 permalink: 'pretty'
 paginate: 20
 paginate_path: 'page/:num'
@@ -29,8 +29,10 @@ exclude:
   - 'scripts'
   - 'Makefile'
   - 'Dockerfile'
-  - 'Gemfile'
 timezone: 'America/Caracas'
 generator: 'Jekyll - Github Pages'
 plugins:
   - 'github-pages'
+  - 'jekyll-paginate'
+develop: true
+incremental: true

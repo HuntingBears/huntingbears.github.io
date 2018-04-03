@@ -4,7 +4,7 @@ author: martinezfaneyth
 categories: [Games, Free Software, Development]
 date: 2016-07-21 23:45:01-0430
 description: This script helps you to farm objects from pokestops very easily.
-image: http://huntingbears.com.ve/static/img/posts/4349/learn-how-to-automatically-farm-pokestops-with-this-pokemon-go-bot-written-in-python__1.jpg
+image: /static/img/posts/4349/learn-how-to-automatically-farm-pokestops-with-this-pokemon-go-bot-written-in-python__1.jpg
 layout: post
 slug: learn-how-to-automatically-farm-pokestops-with-this-pokemon-go-bot-written-in-python
 tags: [Pokemon Go, pokestop, Cheat]

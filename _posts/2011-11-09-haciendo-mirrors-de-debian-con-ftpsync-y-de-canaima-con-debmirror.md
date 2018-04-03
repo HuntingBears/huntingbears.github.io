@@ -14,7 +14,7 @@ tags:
 - debmirror
 - ftpsync
 - mirror
-image: http://huntingbears.com.ve/static/img/posts/2041/haciendo-mirrors-de-debian-con-ftpsync-y-de-canaima-con-debmirror__1.jpg
+image: /static/img/posts/2041/haciendo-mirrors-de-debian-con-ftpsync-y-de-canaima-con-debmirror__1.jpg
 description: Hacer mirrors locales de rus distribuciones favoritas permite agilizar los procesos de desarrollo, entre otros beneficios.
 ---
 

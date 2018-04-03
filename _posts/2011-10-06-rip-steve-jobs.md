@@ -12,7 +12,7 @@ tags:
 - connect the dots
 - inspiración
 - RIP Steve Jobs
-image: http://huntingbears.com.ve/static/img/posts/2001/rip-steve-jobs__2.jpg
+image: /static/img/posts/2001/rip-steve-jobs__2.jpg
 description: Steve Jobs murió a causa de una larga batalla con el cáncer.
 ---
 

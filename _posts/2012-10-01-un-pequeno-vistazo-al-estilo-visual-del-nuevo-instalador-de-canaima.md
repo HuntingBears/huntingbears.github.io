@@ -14,7 +14,7 @@ tags:
 - Canaima
 - sozi
 - webkit
-image: http://huntingbears.com.ve/static/img/posts/2723/un-pequeno-vistazo-al-estilo-visual-del-nuevo-instalador-de-canaima__1.jpg
+image: /static/img/posts/2723/un-pequeno-vistazo-al-estilo-visual-del-nuevo-instalador-de-canaima__1.jpg
 description: Estamos trabajando en un nuevo estilo visual para el instalador de Canaima. Échale un vistazo.
 ---
 

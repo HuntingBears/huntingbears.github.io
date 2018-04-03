@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - decreto 3390
 - gaceta 39633
-image: http://huntingbears.com.ve/static/img/posts/884/el-decreto-3390-tiene-una-nueva-aliada-la-gaceta-39633__1.jpg
+image: /static/img/posts/884/el-decreto-3390-tiene-una-nueva-aliada-la-gaceta-39633__1.jpg
 description: La gaceta 39633 establece el uso de Canaima GNU/Linux como sistema operativo de la APN.
 ---
 

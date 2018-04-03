@@ -14,7 +14,7 @@ tags:
 - bash
 - consola
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/1908/comandos-inteligentes-para-los-que-les-gusta-hacer-todo-por-consola__1.jpg
+image: /static/img/posts/1908/comandos-inteligentes-para-los-que-les-gusta-hacer-todo-por-consola__1.jpg
 description: Muchas veces nos gustaría tener comandos a la mano para hacer algún tipo de procesamiento de información.
 ---
 

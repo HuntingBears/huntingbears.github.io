@@ -14,7 +14,7 @@ tags:
 - la hojilla
 - mario silva
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/643/me-echaron-a-perder-el-changahojilla-jorge-amorin-hace-reconocimiento-al-software-libre__1.jpg
+image: /static/img/posts/643/me-echaron-a-perder-el-changahojilla-jorge-amorin-hace-reconocimiento-al-software-libre__1.jpg
 description: Jorge Amorín hace un reconocimiento al Software Libre, luego de la metida de pata de Mario Silva.
 ---
 

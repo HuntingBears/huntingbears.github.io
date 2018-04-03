@@ -12,7 +12,7 @@ tags:
 - 200 lineas
 - lennart script
 - rendimiento
-image: http://huntingbears.com.ve/static/img/posts/586/el-famoso-script-de-lennart-poettering-mejorado-en-hunting-bears__1.jpg
+image: /static/img/posts/586/el-famoso-script-de-lennart-poettering-mejorado-en-hunting-bears__1.jpg
 description: El script de Lennart Poettering permite mejorar el rendimiento del equipo.
 ---
 

@@ -13,7 +13,7 @@ tags:
 - certificados
 - firefox
 - mozilla
-image: http://huntingbears.com.ve/static/img/posts/2638/agregando-autoridades-certificadoras-a-navegadores-web-derivados-de-firefox__1.jpg
+image: /static/img/posts/2638/agregando-autoridades-certificadoras-a-navegadores-web-derivados-de-firefox__1.jpg
 description: Este artículo explica como agregar autoridades certificadoras a navegadores web derivados de Firefox.
 ---
 

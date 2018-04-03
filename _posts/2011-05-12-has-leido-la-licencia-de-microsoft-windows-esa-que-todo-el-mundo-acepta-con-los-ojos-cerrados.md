@@ -11,7 +11,7 @@ tags:
 - EULA
 - Licencia
 - Microsoft
-image: http://huntingbears.com.ve/static/img/posts/1080/has-leido-la-licencia-de-microsoft-windows-esa-que-todo-el-mundo-acepta-con-los-ojos-cerrados__1.jpg
+image: /static/img/posts/1080/has-leido-la-licencia-de-microsoft-windows-esa-que-todo-el-mundo-acepta-con-los-ojos-cerrados__1.jpg
 description: La licencia de Microsoft Windows dice muchas cosas que la mayoría de la gente no lee.
 ---
 

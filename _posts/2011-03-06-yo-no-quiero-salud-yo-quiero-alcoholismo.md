@@ -12,7 +12,7 @@ tags:
 - aberracion
 - porquería
 - reggaeton
-image: http://huntingbears.com.ve/static/img/posts/789/yo-no-quiero-salud-yo-quiero-alcoholismo__1.jpg
+image: /static/img/posts/789/yo-no-quiero-salud-yo-quiero-alcoholismo__1.jpg
 description: El reaggueton es una moda que está haciendo mucho daño en nuestra sociedad.
 ---
 

@@ -12,7 +12,7 @@ tags:
 - asamblea nacional
 - ley infogobierno
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/2870/la-ley-de-infogobierno-comienzos-tortuosos-desenlaces-prometedores__1.jpg
+image: /static/img/posts/2870/la-ley-de-infogobierno-comienzos-tortuosos-desenlaces-prometedores__1.jpg
 description: La Ley de Infogobierno regulará el acceso a la información de los ciudadanos a través de los medios electrónicos del estado.
 ---
 

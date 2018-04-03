@@ -12,7 +12,7 @@ tags:
 - debian sid
 - linux 2.6.38
 - parche milagroso
-image: http://huntingbears.com.ve/static/img/posts/905/publicado-el-kernel-linux-2-6-38-con-el-parche-de-mike-galbraith-en-debian-sid__1.jpg
+image: /static/img/posts/905/publicado-el-kernel-linux-2-6-38-con-el-parche-de-mike-galbraith-en-debian-sid__1.jpg
 description: Este nuevo kernel contiene varias mejoras de rendimiento.
 ---
 

@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - canaima semilla
 - creación distribución
-image: http://huntingbears.com.ve/static/img/posts/814/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima__1.jpg
+image: /static/img/posts/814/canaima-semilla-herramienta-para-la-creacion-y-distribucion-de-sabores-canaima__1.jpg
 description: Canaima Semilla es una herramienta para generar distribuciones derivadas de Canaima.
 ---
 

@@ -13,7 +13,7 @@ tags:
 - Radiohead
 - the king of limbs
 - venezuela
-image: http://huntingbears.com.ve/static/img/posts/710/asi-fue-como-se-recogio-en-la-prensa-venezolana-el-lanzamiento-del-nuevo-album-de-radiohead__1.jpg
+image: /static/img/posts/710/asi-fue-como-se-recogio-en-la-prensa-venezolana-el-lanzamiento-del-nuevo-album-de-radiohead__1.jpg
 description: La prensa venezolana dió muy buena cobertura al lanzamiento de "The King of Limbs".
 ---
 

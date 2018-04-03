@@ -1,14 +1,20 @@
 ---
-layout: null
 ---
+{%- if site.develop -%}
+    {%- capture static_url -%}
+    file://{{- site.destination -}}
+    {%- endcapture -%}
+{%- else -%}
+    {%- assign static_url = site.static_url -%}
+{%- endif -%}
 <?xml version="1.0" encoding="utf-8"?>
 <browserconfig>
     <msapplication>
         <tile>
-            <square70x70logo src="{{ site.url }}/static/img/site/mstile-70x70.png" />
-            <square150x150logo src="{{ site.url }}/static/img/site/mstile-150x150.png" />
-            <square310x310logo src="{{ site.url }}/static/img/site/mstile-310x310.png" />
-            <wide310x150logo src="{{ site.url }}/static/img/site/mstile-310x150.png" />
+            <square70x70logo src="{{ static_url }}/static/img/site/icons/mstile-70x70.png" />
+            <square150x150logo src="{{ static_url }}/static/img/site/icons/mstile-150x150.png" />
+            <square310x310logo src="{{ static_url }}/static/img/site/icons/mstile-310x310.png" />
+            <wide310x150logo src="{{ static_url }}/static/img/site/icons/mstile-310x150.png" />
             <TileColor>#ffffff</TileColor>
         </tile>
     </msapplication>

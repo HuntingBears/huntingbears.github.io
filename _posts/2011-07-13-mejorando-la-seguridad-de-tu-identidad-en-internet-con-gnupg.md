@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - seguridad
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__1.jpg
+image: /static/img/posts/1595/mejorando-la-seguridad-de-tu-identidad-en-internet-con-gnupg__1.jpg
 description: GnuPG permite resguardar tus datos e identidad en internet mediante técnicas de encriptado y firma electrónica.
 ---
 

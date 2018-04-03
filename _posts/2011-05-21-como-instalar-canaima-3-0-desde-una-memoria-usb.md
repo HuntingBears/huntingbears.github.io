@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux
 - grabar ISO en USB
 - instalar desde pen drive
-image: http://huntingbears.com.ve/static/img/posts/1135/como-instalar-canaima-3-0-desde-una-memoria-usb__1.jpg
+image: /static/img/posts/1135/como-instalar-canaima-3-0-desde-una-memoria-usb__1.jpg
 description: Puedes instalar Canaima 3.0 desde una memoria USB, Aquí te explicamos como.
 ---
 

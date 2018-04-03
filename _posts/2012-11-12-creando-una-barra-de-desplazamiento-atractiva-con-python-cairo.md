@@ -13,7 +13,7 @@ tags:
 - barra de desplazamiento
 - cairo
 - python
-image: http://huntingbears.com.ve/static/img/posts/2729/creando-una-barra-de-desplazamiento-atractiva-con-python-cairo__1.jpg
+image: /static/img/posts/2729/creando-una-barra-de-desplazamiento-atractiva-con-python-cairo__1.jpg
 description: Python Cairo es una librería que permite hacer dibujos en Python.
 ---
 

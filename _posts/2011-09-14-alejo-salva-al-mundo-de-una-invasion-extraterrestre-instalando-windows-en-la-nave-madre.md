@@ -13,7 +13,7 @@ tags:
 - alejo y valentina
 - invasion extraterrestre
 - windows
-image: http://huntingbears.com.ve/static/img/posts/1903/alejo-salva-al-mundo-de-una-invasion-extraterrestre-instalando-windows-en-la-nave-madre__1.jpg
+image: /static/img/posts/1903/alejo-salva-al-mundo-de-una-invasion-extraterrestre-instalando-windows-en-la-nave-madre__1.jpg
 description: Alejo (de Alejo y Valentina) salva al mundo de un terrible final
 ---
 

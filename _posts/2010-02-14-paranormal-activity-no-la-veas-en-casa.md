@@ -11,7 +11,7 @@ tags:
 - paranormal activity
 - pelicula
 - suspenso
-image: http://huntingbears.com.ve/static/img/posts/46/paranormal-activity-no-la-veas-en-casa__1.jpg
+image: /static/img/posts/46/paranormal-activity-no-la-veas-en-casa__1.jpg
 description: Paranormal Activity es una película de suspenso que te parará los pelos de punta.
 ---
 

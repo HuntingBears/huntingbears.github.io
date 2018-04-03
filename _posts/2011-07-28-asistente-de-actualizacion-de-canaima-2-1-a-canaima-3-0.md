@@ -13,7 +13,7 @@ tags:
 - asistente actualizacion
 - canaima gnu linux
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/1663/asistente-de-actualizacion-de-canaima-2-1-a-canaima-3-0__1.jpg
+image: /static/img/posts/1663/asistente-de-actualizacion-de-canaima-2-1-a-canaima-3-0__1.jpg
 description: El equipode desarrollo de Canaima GNU/Linux ha desarrollado un asistente para la actualización de Canaima 2.1 a Canaima 3.0.
 ---
 

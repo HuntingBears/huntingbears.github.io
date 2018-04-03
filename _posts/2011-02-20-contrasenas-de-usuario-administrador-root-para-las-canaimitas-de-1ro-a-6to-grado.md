@@ -13,7 +13,7 @@ tags:
 - administrador
 - canaimitas
 - contraseña
-image: http://huntingbears.com.ve/static/img/posts/749/contrasenas-de-usuario-administrador-root-para-las-canaimitas-de-1ro-a-6to-grado__1.jpg
+image: /static/img/posts/749/contrasenas-de-usuario-administrador-root-para-las-canaimitas-de-1ro-a-6to-grado__1.jpg
 description: Las contraseñas de administrador de las canaimitas permiten desbloquear funcionalidades adicionales.
 ---
 

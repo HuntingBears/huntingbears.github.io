@@ -13,7 +13,7 @@ tags:
 - canaima gnu linux 3.0
 - programa de radio
 - Software Libre
-image: http://huntingbears.com.ve/static/img/posts/1043/carlos-parra-y-luis-martinez-en-el-programa-copiate-esta-radio-de-alba-ciudad-96-3fm-audio__1.jpg
+image: /static/img/posts/1043/carlos-parra-y-luis-martinez-en-el-programa-copiate-esta-radio-de-alba-ciudad-96-3fm-audio__1.jpg
 description: Fui entrevistado en el programa "Copiate ésta radio" de Alba Ciudad para hablar de Canaima GNU/Linux.
 ---
 

@@ -13,7 +13,7 @@ tags:
 - Canaima
 - instalador
 - pruebas
-image: http://huntingbears.com.ve/static/img/posts/2730/ayudanos-a-probar-el-nuevo-instalador-de-canaima-popular-3-1__1.jpg
+image: /static/img/posts/2730/ayudanos-a-probar-el-nuevo-instalador-de-canaima-popular-3-1__1.jpg
 description: Hemos hecho un nuevo instalador más amigable, intuitivo y eficiente.
 ---
 
