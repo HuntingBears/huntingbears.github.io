@@ -1035,7 +1035,7 @@ var posts_index = {
         "description": "You can use this python script to know the exact coordinates of the pokemon around you.",
         "image": "http://huntingbears.com.ve/static/img/posts/4353/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script__1.jpg",
         "keywords": "pokemon-go, catching, cheat, games, free-software, development",
-        "share_count": 35,
+        "share_count": 36,
         "title": "How to catch pokemon near you with the help of this python script",
         "url": "http://huntingbears.com.ve/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script.html"
     },
@@ -1045,7 +1045,7 @@ var posts_index = {
         "description": "You can use Fake GPS to be anywhere, anytime and use a false location on Pokemon Go.",
         "image": "http://huntingbears.com.ve/static/img/posts/4354/how-to-use-fake-gps-to-teletransport-anywhere-in-pokemon-go__1.jpg",
         "keywords": "fake-gps, pokemon-go, cheat, android, development, games",
-        "share_count": 39,
+        "share_count": 42,
         "title": "How to use Fake GPS to teletransport anywhere in Pokemon Go",
         "url": "http://huntingbears.com.ve/how-to-use-fake-gps-to-teletransport-anywhere-in-pokemon-go.html"
     },
