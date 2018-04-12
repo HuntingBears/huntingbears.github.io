@@ -1005,7 +1005,7 @@ var posts_index = {
         "description": "Tribus GNU/Linux es un intento por rescatar el hist\u00f3rico perdido del Proyecto Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/4330/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux__1.jpg",
         "keywords": "tribus, proyecto, canaima, software-libre, desarrollo, canaima",
-        "share_count": 48,
+        "share_count": 49,
         "title": "Rescatando la memoria t\u00e9cnica del proyecto Canaima GNU/Linux",
         "url": "http://huntingbears.com.ve/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux.html"
     },
@@ -1015,7 +1015,7 @@ var posts_index = {
         "description": "This script helps you to farm objects from pokestops very easily.",
         "image": "http://huntingbears.com.ve/static/img/posts/4349/learn-how-to-automatically-farm-pokestops-with-this-pokemon-go-bot-written-in-python__1.jpg",
         "keywords": "pokemon-go, pokestop, cheat, games, free-software, development",
-        "share_count": 40,
+        "share_count": 42,
         "title": "Learn how to automatically farm pokestops with this Pokemon Go bot written in Python",
         "url": "http://huntingbears.com.ve/learn-how-to-automatically-farm-pokestops-with-this-pokemon-go-bot-written-in-python.html"
     },
@@ -1025,7 +1025,7 @@ var posts_index = {
         "description": "With KingRoot you can gain root priviledges in your phone and do whatever you want with it!",
         "image": "http://huntingbears.com.ve/static/img/posts/4352/how-to-root-your-android-phone-using-kingroot__6.jpg",
         "keywords": "root, kingroot, android, android, development",
-        "share_count": 32,
+        "share_count": 33,
         "title": "How to root your android phone using KingRoot",
         "url": "http://huntingbears.com.ve/how-to-root-your-android-phone-using-kingroot.html"
     },
