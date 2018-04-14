@@ -1005,7 +1005,7 @@ var posts_index = {
         "description": "Tribus GNU/Linux es un intento por rescatar el hist\u00f3rico perdido del Proyecto Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/4330/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux__1.jpg",
         "keywords": "tribus, proyecto, canaima, software-libre, desarrollo, canaima",
-        "share_count": 49,
+        "share_count": 51,
         "title": "Rescatando la memoria t\u00e9cnica del proyecto Canaima GNU/Linux",
         "url": "http://huntingbears.com.ve/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux.html"
     },
@@ -1035,7 +1035,7 @@ var posts_index = {
         "description": "You can use this python script to know the exact coordinates of the pokemon around you.",
         "image": "http://huntingbears.com.ve/static/img/posts/4353/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script__1.jpg",
         "keywords": "pokemon-go, catching, cheat, games, free-software, development",
-        "share_count": 37,
+        "share_count": 39,
         "title": "How to catch pokemon near you with the help of this python script",
         "url": "http://huntingbears.com.ve/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script.html"
     },
