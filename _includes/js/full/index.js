@@ -1005,7 +1005,7 @@ var posts_index = {
         "description": "Tribus GNU/Linux es un intento por rescatar el hist\u00f3rico perdido del Proyecto Canaima.",
         "image": "http://huntingbears.com.ve/static/img/posts/4330/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux__1.jpg",
         "keywords": "tribus, proyecto, canaima, software-libre, desarrollo, canaima",
-        "share_count": 51,
+        "share_count": 53,
         "title": "Rescatando la memoria t\u00e9cnica del proyecto Canaima GNU/Linux",
         "url": "http://huntingbears.com.ve/rescatando-la-memoria-tecnica-del-proyecto-canaima-gnulinux.html"
     },
@@ -1025,7 +1025,7 @@ var posts_index = {
         "description": "With KingRoot you can gain root priviledges in your phone and do whatever you want with it!",
         "image": "http://huntingbears.com.ve/static/img/posts/4352/how-to-root-your-android-phone-using-kingroot__6.jpg",
         "keywords": "root, kingroot, android, android, development",
-        "share_count": 33,
+        "share_count": 34,
         "title": "How to root your android phone using KingRoot",
         "url": "http://huntingbears.com.ve/how-to-root-your-android-phone-using-kingroot.html"
     },
@@ -1035,7 +1035,7 @@ var posts_index = {
         "description": "You can use this python script to know the exact coordinates of the pokemon around you.",
         "image": "http://huntingbears.com.ve/static/img/posts/4353/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script__1.jpg",
         "keywords": "pokemon-go, catching, cheat, games, free-software, development",
-        "share_count": 39,
+        "share_count": 40,
         "title": "How to catch pokemon near you with the help of this python script",
         "url": "http://huntingbears.com.ve/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script.html"
     },
