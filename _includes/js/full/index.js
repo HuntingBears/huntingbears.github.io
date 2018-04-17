@@ -1015,7 +1015,7 @@ var posts_index = {
         "description": "This script helps you to farm objects from pokestops very easily.",
         "image": "http://huntingbears.com.ve/static/img/posts/4349/learn-how-to-automatically-farm-pokestops-with-this-pokemon-go-bot-written-in-python__1.jpg",
         "keywords": "pokemon-go, pokestop, cheat, games, free-software, development",
-        "share_count": 44,
+        "share_count": 45,
         "title": "Learn how to automatically farm pokestops with this Pokemon Go bot written in Python",
         "url": "http://huntingbears.com.ve/learn-how-to-automatically-farm-pokestops-with-this-pokemon-go-bot-written-in-python.html"
     },
@@ -1025,7 +1025,7 @@ var posts_index = {
         "description": "With KingRoot you can gain root priviledges in your phone and do whatever you want with it!",
         "image": "http://huntingbears.com.ve/static/img/posts/4352/how-to-root-your-android-phone-using-kingroot__6.jpg",
         "keywords": "root, kingroot, android, android, development",
-        "share_count": 34,
+        "share_count": 35,
         "title": "How to root your android phone using KingRoot",
         "url": "http://huntingbears.com.ve/how-to-root-your-android-phone-using-kingroot.html"
     },
@@ -1035,7 +1035,7 @@ var posts_index = {
         "description": "You can use this python script to know the exact coordinates of the pokemon around you.",
         "image": "http://huntingbears.com.ve/static/img/posts/4353/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script__1.jpg",
         "keywords": "pokemon-go, catching, cheat, games, free-software, development",
-        "share_count": 40,
+        "share_count": 41,
         "title": "How to catch pokemon near you with the help of this python script",
         "url": "http://huntingbears.com.ve/how-to-catch-pokemon-near-you-with-the-help-of-this-python-script.html"
     },
