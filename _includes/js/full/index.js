@@ -1075,7 +1075,7 @@ var posts_index = {
         "description": "Presento algunos fondos de pantalla para Canaima de mi autor\u00eda.",
         "image": "http://huntingbears.com.ve/static/img/posts/488/nuevos-fondos-de-pantalla-para-canaima-gnulinux__1.jpg",
         "keywords": "canaima-gnu-linux, svg, wallpapers, canaima, diseno-grafico, software-libre",
-        "share_count": 36,
+        "share_count": 37,
         "title": "Nuevos Fondos de pantalla para Canaima GNU/Linux",
         "url": "http://huntingbears.com.ve/nuevos-fondos-de-pantalla-para-canaima-gnulinux.html"
     },
