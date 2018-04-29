@@ -1240,7 +1240,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/dancing-thom-la-revolucion-en-internet-del-video-lotus-flower.html"
     },
     "749": {
-        "comment_count": 0,
+        "comment_count": 187,
         "date": "2011-02-20T18:02:18-04:30",
         "description": "Las contrase\u00f1as de administrador de las canaimitas permiten desbloquear funcionalidades adicionales.",
         "image": "http://huntingbears.com.ve/static/img/posts/749/contrasenas-de-usuario-administrador-root-para-las-canaimitas-de-1ro-a-6to-grado__1.jpg",
@@ -1270,7 +1270,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/mas-fondos-de-pantalla-para-canaima-3-0.html"
     },
     "789": {
-        "comment_count": 0,
+        "comment_count": 17,
         "date": "2011-03-06T02:10:42-04:30",
         "description": "El reaggueton es una moda que est\u00e1 haciendo mucho da\u00f1o en nuestra sociedad.",
         "image": "http://huntingbears.com.ve/static/img/posts/789/yo-no-quiero-salud-yo-quiero-alcoholismo__1.jpg",
