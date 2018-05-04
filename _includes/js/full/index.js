@@ -1025,7 +1025,7 @@ var posts_index = {
         "description": "With KingRoot you can gain root priviledges in your phone and do whatever you want with it!",
         "image": "http://huntingbears.com.ve/static/img/posts/4352/how-to-root-your-android-phone-using-kingroot__6.jpg",
         "keywords": "root, kingroot, android, android, development",
-        "share_count": 15,
+        "share_count": 35,
         "title": "How to root your android phone using KingRoot",
         "url": "http://huntingbears.com.ve/how-to-root-your-android-phone-using-kingroot.html"
     },
@@ -1085,7 +1085,7 @@ var posts_index = {
         "description": "Es una pena que los diputados de la Asamblea Nacional de Venezuela sepan tan poco de las leyes que est\u00e1n discutiendo.",
         "image": "http://huntingbears.com.ve/static/img/posts/505/la-ignorancia-de-algunos-diputados-venezolanos__1.jpg",
         "keywords": "asamblea-nacional, ignorancia, ley-resorte, politica, video",
-        "share_count": 15,
+        "share_count": 45,
         "title": "La ignorancia de algunos Diputados venezolanos",
         "url": "http://huntingbears.com.ve/la-ignorancia-de-algunos-diputados-venezolanos.html"
     },
