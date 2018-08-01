@@ -1120,7 +1120,7 @@ var posts_index = {
         "url": "http://huntingbears.com.ve/supercollider-y-the-butcher-dos-nuevas-canciones-de-radiohead.html"
     },
     "586": {
-        "comment_count": 10,
+        "comment_count": 0,
         "date": "2010-12-31T05:49:57-04:30",
         "description": "El script de Lennart Poettering permite mejorar el rendimiento del equipo.",
         "image": "http://huntingbears.com.ve/static/img/posts/586/el-famoso-script-de-lennart-poettering-mejorado-en-hunting-bears__1.jpg",
