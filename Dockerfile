@@ -4,7 +4,7 @@ MAINTAINER Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>
 RUN apt-get update && \
     apt-get install sudo
 
-RUN useradd --create-home --shell /bin/bash --uid 2000 travis
+RUN useradd --create-home --shell /bin/bash --uid 1000 travis
 
 RUN echo "travis ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/travis
 
