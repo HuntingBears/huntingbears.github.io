@@ -19,9 +19,9 @@ Así que he decidido cerrar el ciclo de vida de este blog. Gracias a todas las p
 
 Las destrezas adquiridas serán puestas en uso en otro blog, un blog que va a formar parte de una estrategia de negocios y del cual estaré hablando muy pronto.
 
-La dirección web va a estar disponible al menos 1 año más, tiempo después del cual el contenido podrá consultarse de forma póstuma en http://huntingbears.github.io
+La dirección web va a estar disponible al menos 1 año más, tiempo después del cual el contenido podrá consultarse de forma póstuma en [http://huntingbears.github.io](http://huntingbears.github.io)
 
-Pueden seguirme la pista en mi cuenta de twitter: http://twitter.com/LuisAlejandro
+Pueden seguirme la pista en mi cuenta de twitter: [http://twitter.com/LuisAlejandro](http://twitter.com/LuisAlejandro)
 
 ¡Un gran abrazo a todos!
 
