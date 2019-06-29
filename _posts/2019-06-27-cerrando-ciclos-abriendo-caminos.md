@@ -4,7 +4,7 @@ author: martinezfaneyth
 categories: ['Free Software']
 date: 2019-06-27 23:08:40-0430
 description: ''
-image: https://lh3.googleusercontent.com/be1rbn-mh0KgJIEHg1RBAjBVZy8lpoB_-DrGqJVYGO8_PFTGlFxDagkakM_tQG4EhjKZuTFWG9MQWtiQMre0UgN7leLK_vqyakqjpSOYP4N9Ha1uvs-saJ7TUNUVTo5ip5nUcrvRiX1aWkdZajW0NRaUEeHRxHXR_9iZtz4YI4BvdusFCif35SCs0xk9dt1qos-_ifALk32hR5sKA1YxSOrHWOw5KMzsrUYFLULQ_9RcITDttRr6ZKhObSHTU9euQXqCspljdZlOJJRcMdhYeDMdpAMGIaXBKy7z6UITGXfnEUrA8XazRMQC-XjXXkIPG0jTodsGokdcvSktxWFW1XJD69ULw1DvvMK714C_cE9kAqWimn0NlyYNvHah1xS1--R7ewHgwjt8D5Na4MtOTJIPuUQ6ZSK_rzEt-1da413NO-7i4IEJUmW_CLnlDAT2WLzQNmUMHDKbJr6_enMAOxJVpixB1BG30G12FEgWmETd55U3iOP8SzrsVJorFfMFUPrqdGZuaq7oMl4thE8opLrmIMCxXZy5vF0Z8ORtVFFf989arRt7xabrVK5GfyvifXw7x9MY6czp7kN-qO71xuSqCYXWvrLfOsEgk4hLUKZy5sCot_3c2FcCCqHx0e7e2YxthgWxWxgO3mgS5nRXS-Ooqnxg-U0c=w1469-h826-no
+image: http://huntingbears.com.ve/static/img/posts/4357/cerrando-ciclos-abriendo-caminos__1.jpg
 layout: post
 slug: cerrando-ciclos-abriendo-caminos
 tags: ['Free Software']
